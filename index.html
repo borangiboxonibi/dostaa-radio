@@ -4,163 +4,363 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
 <title>ದೋಸ್ತಾ ರೇಡಿಯೋ — ಕನ್ನಡ ಹಾಡುಗಳು</title>
+<meta name="description" content="ಕನ್ನಡ ಹಾಡುಗಳು, ದಿನದ 24 ಗಂಟೆ."/>
 <meta name="theme-color" content="#1a0f05"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
-:root{--paper:#F6E7C8;--kesari:#E0451F;--haladi:#FFC24A;
---display:"Baloo Tamma 2",system-ui,sans-serif;--mono:"DM Mono",ui-monospace,monospace}
+:root{
+  --paper:#F6E7C8;
+  --kesari:#E0451F;
+  --haladi:#FFC24A;
+  --display:"Baloo Tamma 2",system-ui,sans-serif;
+  --mono:"DM Mono",ui-monospace,monospace;
+}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;padding:0}
 html,body{height:100%}
-body{font-family:var(--mono);color:var(--paper);overflow:hidden;display:flex;
-flex-direction:column;align-items:center;justify-content:space-between;
-background:#1a0f05 url("bg-mobile.png") center/cover no-repeat}
-@media(min-width:680px){body{background:#1a0f05 url("bg-desktop.png") center/cover no-repeat}}
-body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
-background:linear-gradient(to bottom,rgba(10,6,2,.18) 0%,rgba(10,6,2,.10) 30%,rgba(10,6,2,.55) 70%,rgba(10,6,2,.82) 100%)}
-.yt-wrap{position:fixed;bottom:-9999px;left:0;width:1px;height:1px;overflow:hidden;pointer-events:none}
-.badge{position:relative;z-index:2;margin-top:max(20px,env(safe-area-inset-top));
-display:inline-flex;align-items:center;gap:8px;background:rgba(10,6,2,.38);
-border:1px solid rgba(246,231,200,.2);backdrop-filter:blur(10px);border-radius:999px;
-padding:6px 14px;font-size:11px;letter-spacing:.18em;text-transform:uppercase}
-.dot{width:6px;height:6px;border-radius:50%;background:var(--kesari);animation:blip 2.6s ease-in-out infinite}
+body{
+  font-family:var(--mono);
+  color:var(--paper);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  /* mobile bg default */
+  background:#1a0f05 url("bg-mobile.png") center/cover no-repeat;
+}
+@media(min-width:680px){
+  body{background:#1a0f05 url("bg-desktop.png") center/cover no-repeat}
+}
+/* dark scrim — heavier at bottom where player sits, light at top */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    linear-gradient(to bottom,
+      rgba(10,6,2,.18) 0%,
+      rgba(10,6,2,.10) 30%,
+      rgba(10,6,2,.55) 70%,
+      rgba(10,6,2,.82) 100%);
+}
+
+/* ── hidden YT player — sits off-screen, still technically visible per ToS ── */
+.yt-wrap{
+  position:fixed;bottom:-9999px;left:0;width:1px;height:1px;overflow:hidden;
+  pointer-events:none;z-index:0;
+}
+
+/* ── top badge ── */
+.badge{
+  position:relative;z-index:2;
+  margin-top:max(20px,env(safe-area-inset-top));
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(10,6,2,.38);border:1px solid rgba(246,231,200,.2);
+  backdrop-filter:blur(10px);border-radius:999px;
+  padding:6px 14px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--kesari);
+  animation:blip 2.6s ease-in-out infinite}
 @keyframes blip{0%,100%{opacity:1}50%{opacity:.2}}
-.hero{position:relative;z-index:2;text-align:center;flex:1;display:flex;
-flex-direction:column;align-items:center;justify-content:center;padding:0 20px}
-.mark{font-family:var(--display);font-weight:800;font-size:clamp(52px,16vw,128px);
-line-height:.9;letter-spacing:-.015em;color:#FFF8EC;
-text-shadow:0 2px 0 rgba(100,24,8,.6),0 14px 40px rgba(0,0,0,.7)}
+
+/* ── wordmark ── */
+.hero{
+  position:relative;z-index:2;
+  text-align:center;flex:1;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:0 20px;
+}
+.mark{
+  font-family:var(--display);font-weight:800;
+  font-size:clamp(52px,16vw,128px);line-height:.9;letter-spacing:-.015em;
+  color:#FFF8EC;
+  text-shadow:0 2px 0 rgba(100,24,8,.6),0 14px 40px rgba(0,0,0,.7);
+}
 .mark em{font-style:normal;color:var(--haladi)}
-.sub{margin-top:16px;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:rgba(246,231,200,.65)}
-.pill{position:relative;z-index:2;width:min(620px,calc(100% - 24px));
-margin-bottom:max(22px,env(safe-area-inset-bottom));background:rgba(12,7,3,.48);
-border:1px solid rgba(246,231,200,.18);border-radius:60px;
-backdrop-filter:blur(22px) saturate(1.15);
-box-shadow:0 16px 50px rgba(0,0,0,.6),0 1px 0 rgba(255,255,255,.07) inset;padding:14px 16px}
+.sub{
+  margin-top:16px;font-size:11px;letter-spacing:.28em;
+  text-transform:uppercase;color:rgba(246,231,200,.65);
+}
+
+/* ── pill player — reference screenshot style ── */
+.pill{
+  position:relative;z-index:2;
+  width:min(620px,calc(100% - 24px));
+  margin-bottom:max(22px,env(safe-area-inset-bottom));
+  background:rgba(12,7,3,.48);
+  border:1px solid rgba(246,231,200,.18);
+  border-radius:60px;
+  backdrop-filter:blur(22px) saturate(1.15);
+  box-shadow:0 16px 50px rgba(0,0,0,.6),0 1px 0 rgba(255,255,255,.07) inset;
+  padding:14px 16px;
+}
+
+/* top row: artwork thumb + meta + controls */
 .pill-row{display:flex;align-items:center;gap:14px}
-.thumb{flex:0 0 50px;width:50px;height:50px;border-radius:50%;
-background:rgba(246,231,200,.12);border:1.5px solid rgba(246,231,200,.2);
-display:grid;place-items:center;font-size:20px}
+
+.thumb{
+  flex:0 0 50px;width:50px;height:50px;border-radius:50%;overflow:hidden;
+  background:rgba(246,231,200,.12);border:1.5px solid rgba(246,231,200,.2);
+  display:grid;place-items:center;font-size:20px;
+}
+
 .meta{flex:1;min-width:0}
-.song-title{font-family:var(--display);font-weight:700;font-size:16px;
-white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.2}
-.song-sub{font-size:11px;color:rgba(246,231,200,.55);white-space:nowrap;
-overflow:hidden;text-overflow:ellipsis;margin-top:3px}
+.song-title{
+  font-family:var(--display);font-weight:700;font-size:16px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.2;
+}
+.song-sub{
+  font-size:11px;color:rgba(246,231,200,.55);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  margin-top:3px;letter-spacing:.02em;
+}
+
 .ctrls{display:flex;align-items:center;gap:10px}
-.btn-prev,.btn-next{width:36px;height:36px;border-radius:50%;border:0;cursor:pointer;
-background:transparent;color:rgba(246,231,200,.7);display:grid;place-items:center}
+.btn-prev,.btn-next{
+  width:36px;height:36px;border-radius:50%;border:0;cursor:pointer;
+  background:transparent;color:rgba(246,231,200,.7);
+  display:grid;place-items:center;
+}
 .btn-prev:active,.btn-next:active{background:rgba(246,231,200,.1)}
 .btn-prev svg,.btn-next svg{width:16px;height:16px;fill:currentColor}
-.btn-play{width:50px;height:50px;border-radius:50%;border:0;cursor:pointer;
-background:rgba(246,231,200,.92);color:#1a0f05;display:grid;place-items:center;
-box-shadow:0 4px 16px rgba(0,0,0,.45);transition:transform .13s ease}
+.btn-play{
+  width:50px;height:50px;border-radius:50%;border:0;cursor:pointer;
+  background:rgba(246,231,200,.92);color:#1a0f05;
+  display:grid;place-items:center;
+  box-shadow:0 4px 16px rgba(0,0,0,.45);
+  transition:transform .13s ease,background .13s ease;
+}
 .btn-play:active{transform:scale(.9)}
 .btn-play svg{width:22px;height:22px;fill:currentColor}
+
+/* progress bar */
 .progress{margin-top:12px;display:flex;align-items:center;gap:10px;padding:0 4px}
-.bar-wrap{flex:1;height:3px;background:rgba(246,231,200,.2);border-radius:2px;cursor:pointer}
+.bar-wrap{flex:1;height:3px;background:rgba(246,231,200,.2);border-radius:2px;position:relative;cursor:pointer}
 .bar-fill{height:100%;background:var(--paper);border-radius:2px;width:0%;transition:width .8s linear}
-.time{font-size:10px;color:rgba(246,231,200,.5);white-space:nowrap}
-.wave{display:flex;align-items:flex-end;gap:2.5px;height:16px;margin:10px 4px 2px}
-.wave b{flex:1;border-radius:2px;height:15%;
-background:linear-gradient(to top,var(--kesari),var(--haladi));
-transform-origin:bottom;opacity:.35}
+.time{font-size:10px;color:rgba(246,231,200,.5);letter-spacing:.05em;white-space:nowrap}
+
+/* wave — lives between pill-row and progress */
+.wave{
+  display:flex;align-items:flex-end;gap:2.5px;height:16px;
+  margin:10px 4px 2px;
+}
+.wave b{
+  flex:1;border-radius:2px;height:15%;
+  background:linear-gradient(to top,var(--kesari),var(--haladi));
+  transform-origin:bottom;opacity:.35;
+}
 body.on-air .wave b{animation:eq .85s ease-in-out infinite alternate;opacity:1}
 @keyframes eq{0%{height:8%}100%{height:100%}}
-.genres{display:flex;gap:7px;overflow-x:auto;padding:12px 4px 0;
-scrollbar-width:none;justify-content:center}
+
+/* genre pills */
+.genres{
+  display:flex;gap:7px;overflow-x:auto;padding:12px 4px 0;
+  scrollbar-width:none;justify-content:center;flex-wrap:nowrap;
+}
 .genres::-webkit-scrollbar{display:none}
-.gp{flex:0 0 auto;cursor:pointer;font-size:12px;background:rgba(246,231,200,.1);
-border:1px solid rgba(246,231,200,.18);border-radius:999px;
-color:rgba(246,231,200,.7);padding:6px 14px;white-space:nowrap;font-family:var(--mono)}
-.gp[aria-pressed=true]{background:var(--haladi);border-color:var(--haladi);color:#2A1608}
-.foot{position:relative;z-index:2;text-align:center;font-size:10px;
-color:rgba(246,231,200,.38);padding:0 20px max(10px,env(safe-area-inset-bottom));line-height:1.7}
+.gp{
+  flex:0 0 auto;cursor:pointer;font-size:12px;
+  background:rgba(246,231,200,.1);border:1px solid rgba(246,231,200,.18);
+  border-radius:999px;color:rgba(246,231,200,.7);
+  padding:6px 14px;white-space:nowrap;font-family:var(--mono);
+}
+.gp[aria-pressed=true]{
+  background:var(--haladi);border-color:var(--haladi);
+  color:#2A1608;font-weight:500;
+}
+
+.foot{
+  position:relative;z-index:2;
+  text-align:center;font-size:10px;color:rgba(246,231,200,.38);
+  padding:0 20px max(10px,env(safe-area-inset-bottom));line-height:1.7;
+}
 .foot a{color:rgba(255,194,74,.6)}
-@media(prefers-reduced-motion:reduce){.wave b,.dot{animation:none!important}}
+
+@media(prefers-reduced-motion:reduce){
+  .wave b,.dot{animation:none!important}
+  .btn-play{transition:none}
+}
 </style>
 </head>
 <body>
+
 <div class="yt-wrap"><div id="yt"></div></div>
+
 <div class="badge"><span class="dot"></span><span id="cnt">on air</span></div>
+
 <div class="hero">
   <h1 class="mark">ದೋಸ್ತಾ<br><em>ರೇಡಿಯೋ</em></h1>
   <p class="sub">ಕನ್ನಡ ಹಾಡುಗಳು · 24×7</p>
 </div>
+
 <div class="pill">
   <div class="pill-row">
-    <div class="thumb">♪</div>
+    <div class="thumb" id="thumb">♪</div>
     <div class="meta">
       <div class="song-title" id="st">ಒತ್ತಿ ಪ್ಲೇ ಮಾಡಿ</div>
       <div class="song-sub" id="ss">ಕನ್ನಡ ಹಾಡುಗಳ ರೇಡಿಯೋ</div>
     </div>
     <div class="ctrls">
-      <button class="btn-prev" id="prev" aria-label="Previous"><svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg></button>
-      <button class="btn-play" id="play" aria-label="Play"><svg id="pi" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
-      <button class="btn-next" id="next" aria-label="Next"><svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
+      <button class="btn-prev" id="prev" aria-label="Previous">
+        <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
+      </button>
+      <button class="btn-play" id="play" aria-label="Play">
+        <svg id="pi" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <button class="btn-next" id="next" aria-label="Next">
+        <svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+      </button>
     </div>
   </div>
+
   <div class="wave" aria-hidden="true"></div>
+
   <div class="progress">
     <span class="time" id="t0">0:00</span>
     <div class="bar-wrap" id="bar"><div class="bar-fill" id="fill"></div></div>
     <span class="time" id="t1">0:00</span>
   </div>
+
   <div class="genres" id="genres"></div>
 </div>
-<div class="foot">YouTube ಮೂಲಕ ಪ್ಲೇ · ಹಕ್ಕುಗಳು ಸಂಬಂಧಿತ ಸಂಸ್ಥೆಗಳಿಗೆ · <a href="mailto:hello@dostaa.in">hello@dostaa.in</a> · Dostaa</div>
+
+<div class="foot">
+  YouTube ಮೂಲಕ ಪ್ಲೇ · ಹಕ್ಕುಗಳು ಸಂಬಂಧಿತ ಸಂಸ್ಥೆಗಳಿಗೆ ·
+  <a href="mailto:hello@dostaa.in">hello@dostaa.in</a> · Dostaa
+</div>
+
 <script>
-const R=[{id:"all",label:"ಎಲ್ಲಾ"},{id:"classic",label:"ಹಳೆಯ ಚಿನ್ನ",tag:"classic"},
-{id:"melody",label:"ಮಧುರ",tag:"melody"},{id:"dard",label:"ದುಃಖ",tag:"dard"},
-{id:"mass",label:"ಮಾಸ್",tag:"mass"},{id:"folk",label:"ಜಾನಪದ",tag:"folk"}];
+const R=[
+  {id:"all",   label:"ಎಲ್ಲಾ"},
+  {id:"classic",label:"ಹಳೆಯ ಚಿನ್ನ",tag:"classic"},
+  {id:"melody", label:"ಮಧುರ",      tag:"melody"},
+  {id:"dard",   label:"ದುಃಖ",      tag:"dard"},
+  {id:"mass",   label:"ಮಾಸ್",      tag:"mass"},
+  {id:"folk",   label:"ಜಾನಪದ",     tag:"folk"}
+];
 const $=s=>document.querySelector(s);
-let songs=[],q=[],idx=0,pl=null,rdy=false,live=false,rot="all",tick=null;
+let songs=[],q=[],idx=0,pl=null,rdy=false,live=false,rot="all";
+let dur=0,tick=null;
+
+/* wave */
 (()=>{const w=$(".wave");for(let k=0;k<32;k++){const b=document.createElement("b");
-b.style.cssText="animation-delay:"+((k%7)*.08)+"s;animation-duration:"+(.65+(k%5)*.13)+"s";w.append(b);}})();
-function renderGenres(){const el=$("#genres");el.innerHTML="";
-R.forEach(r=>{const b=document.createElement("button");b.className="gp";b.type="button";
-b.textContent=r.label;b.setAttribute("aria-pressed",String(r.id===rot));
-b.onclick=()=>{rot=r.id;renderGenres();build();if(live)go(0);};el.append(b);});}
+  b.style.cssText=`animation-delay:${(k%7)*.08}s;animation-duration:${.65+(k%5)*.13}s`;w.append(b);}})();
+
+/* genres */
+function renderGenres(){
+  const el=$("#genres");el.innerHTML="";
+  R.forEach(r=>{
+    const b=document.createElement("button");b.className="gp";b.type="button";
+    b.textContent=r.label;b.setAttribute("aria-pressed",String(r.id===rot));
+    b.onclick=()=>{rot=r.id;renderGenres();build();if(live)go(0);};
+    el.append(b);
+  });
+}
+
+/* catalogue */
 fetch("songs.json",{cache:"no-store"}).then(r=>r.json())
-.then(d=>{songs=(Array.isArray(d)?d:[]).filter(s=>s&&s.id);renderGenres();build();})
-.catch(()=>{renderGenres();build();});
-function build(){const r=R.find(x=>x.id===rot);
-q=r&&r.tag?songs.filter(s=>(s.tags||[]).includes(r.tag)):songs.slice();
-for(let k=q.length-1;k>0;k--){const j=Math.random()*(k+1)|0;const t=q[k];q[k]=q[j];q[j]=t;}
-idx=0;}
-window.onYouTubeIframeAPIReady=()=>{pl=new YT.Player("yt",{height:"1",width:"1",
-playerVars:{playsinline:1,rel:0,controls:0,disablekb:1,modestbranding:1},
-events:{onReady:()=>{rdy=true;if(live)go(idx);},
-onStateChange:e=>{const on=e.data===YT.PlayerState.PLAYING;
-document.body.classList.toggle("on-air",on);
-$("#pi").innerHTML=on?'<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>':'<path d="M8 5v14l11-7z"/>';
-if(on)startTick();else stopTick();
-if(e.data===YT.PlayerState.ENDED)go(idx+1);},
-onError:()=>go(idx+1)}});};
-(()=>{const s=document.createElement("script");s.src="https://www.youtube.com/iframe_api";document.head.append(s);})();
-function go(k){if(!q.length)return;idx=(k+q.length)%q.length;live=true;const s=q[idx];
-$("#st").textContent=s.title||"";
-$("#ss").textContent=[s.film,s.year,s.singers].filter(Boolean).join(" · ")||"";
-$("#fill").style.width="0%";$("#t0").textContent="0:00";$("#t1").textContent="0:00";
-if("mediaSession" in navigator)navigator.mediaSession.metadata=new MediaMetadata(
-{title:s.title||"",artist:s.singers||"ದೋಸ್ತಾ ರೇಡಿಯೋ",album:s.film||""});
-if(rdy&&pl)pl.loadVideoById(s.id);}
-function fmt(s){s=Math.floor(s||0);return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
-function startTick(){stopTick();tick=setInterval(()=>{if(!pl||!rdy)return;
-const c=pl.getCurrentTime()||0,d=pl.getDuration()||0;
-$("#fill").style.width=d?(c/d*100)+"%":"0%";
-$("#t0").textContent=fmt(c);$("#t1").textContent=fmt(d);},1000);}
+  .then(d=>{songs=(Array.isArray(d)?d:[]).filter(s=>s&&s.id);renderGenres();build();})
+  .catch(()=>{renderGenres();build();});
+
+function build(){
+  const r=R.find(x=>x.id===rot);
+  q=r&&r.tag?songs.filter(s=>(s.tags||[]).includes(r.tag)):songs.slice();
+  for(let k=q.length-1;k>0;k--){const j=Math.random()*(k+1)|0;[q[k],q[j]]=[q[j],q[k]];}
+  idx=0;
+}
+
+/* YT */
+window.onYouTubeIframeAPIReady=()=>{
+  pl=new YT.Player("yt",{
+    height:"1",width:"1",
+    playerVars:{playsinline:1,rel:0,controls:0,disablekb:1,modestbranding:1},
+    events:{
+      onReady:()=>{rdy=true;if(live)go(idx);},
+      onStateChange:e=>{
+        const on=e.data===YT.PlayerState.PLAYING;
+        document.body.classList.toggle("on-air",on);
+        $("#pi").innerHTML=on
+          ?'<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>'
+          :'<path d="M8 5v14l11-7z"/>';
+        if(on){dur=pl.getDuration()||0;startTick();}
+        else stopTick();
+        if(e.data===YT.PlayerState.ENDED)go(idx+1);
+      },
+      onError:()=>go(idx+1)
+    }
+  });
+};
+(()=>{const s=document.createElement("script");
+  s.src="https://www.youtube.com/iframe_api";document.head.append(s);})();
+
+function go(k){
+  if(!q.length)return;
+  idx=(k+q.length)%q.length;live=true;
+  const s=q[idx];
+  $("#st").textContent=s.title||"";
+  $("#ss").textContent=[s.film,s.year,s.singers].filter(Boolean).join(" · ")||"";
+  $("#thumb").textContent="♪";
+  $("#fill").style.width="0%";
+  $("#t0").textContent="0:00";$("#t1").textContent="0:00";
+  if("mediaSession" in navigator)navigator.mediaSession.metadata=new MediaMetadata(
+    {title:s.title||"",artist:s.singers||"ದೋಸ್ತಾ ರೇಡಿಯೋ",album:s.film||""});
+  if(rdy&&pl)pl.loadVideoById(s.id);
+}
+
+/* progress ticker */
+function fmt(s){s=Math.floor(s||0);return `${Math.floor(s/60)}:${String(s%60).padStart(2,"0")}`}
+function startTick(){
+  stopTick();
+  tick=setInterval(()=>{
+    if(!pl||!rdy)return;
+    const c=pl.getCurrentTime()||0,d=pl.getDuration()||0;
+    $("#fill").style.width=d?(c/d*100)+"%":"0%";
+    $("#t0").textContent=fmt(c);
+    $("#t1").textContent=fmt(d);
+  },1000);
+}
 function stopTick(){clearInterval(tick);tick=null;}
-$("#bar").onclick=e=>{if(!pl||!rdy||!live)return;
-const r=e.currentTarget.getBoundingClientRect();
-pl.seekTo((e.clientX-r.left)/r.width*(pl.getDuration()||0),true);};
-$("#play").onclick=()=>{if(!q.length)return;if(!live){go(idx);return;}
-pl.getPlayerState()===YT.PlayerState.PLAYING?pl.pauseVideo():pl.playVideo();};
+
+/* seek */
+$("#bar").onclick=e=>{
+  if(!pl||!rdy||!live)return;
+  const r=e.currentTarget.getBoundingClientRect();
+  pl.seekTo((e.clientX-r.left)/r.width*(pl.getDuration()||0),true);
+};
+
+/* controls */
+$("#play").onclick=()=>{
+  if(!q.length)return;
+  if(!live){go(idx);return;}
+  pl.getPlayerState()===YT.PlayerState.PLAYING?pl.pauseVideo():pl.playVideo();
+};
 $("#next").onclick=()=>go(idx+1);
 $("#prev").onclick=()=>go(idx-1);
-addEventListener("keydown",e=>{if(e.target.matches("button"))return;
-if(e.code==="Space"){e.preventDefault();$("#play").click();}
-if(e.code==="ArrowRight")go(idx+1);if(e.code==="ArrowLeft")go(idx-1);});
+
+/* keyboard */
+addEventListener("keydown",e=>{
+  if(e.target.matches("button"))return;
+  if(e.code==="Space"){e.preventDefault();$("#play").click();}
+  if(e.code==="ArrowRight")go(idx+1);
+  if(e.code==="ArrowLeft")go(idx-1);
+});
+
+/* presence */
+(function(){
+  const c=$("#cnt");
+  const SB_URL="",SB_KEY="";
+  if(!SB_URL||!SB_KEY)return;
+  const s=document.createElement("script");
+  s.src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js";
+  s.onload=()=>{try{
+    const sb=supabase.createClient(SB_URL,SB_KEY);
+    const ch=sb.channel("radio",{config:{presence:{key:Math.random().toString(36).slice(2)}}});
+    ch.on("presence",{event:"sync"},()=>{
+      c.textContent=Object.keys(ch.presenceState()).length+" ಕೇಳುತ್ತಿದ್ದಾರೆ";
+    }).subscribe(st=>{if(st==="SUBSCRIBED")ch.track({at:Date.now()});});
+  }catch(e){}};
+  document.head.append(s);
+})();
 </script>
 </body>
 </html>
