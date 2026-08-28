@@ -163,8 +163,9 @@ fetch("songs.json",{cache:"no-store"}).then(function(r){return r.json()})
 .catch(function(){tabs();build()});
 function build(){var r=R.filter(function(x){return x.id===rot})[0];
 q=r&&r.tag?songs.filter(function(s){return (s.tags||[]).indexOf(r.tag)>-1}):songs.slice();
-if(shuffle){for(var k=q.length-1;k>0;k--){var j=Math.random()*(k+1)|0;var t=q[k];q[k]=q[j];q[j]=t}}
-else{q.sort(function(a,b){return (a.year||0)-(b.year||0)})}
+for(var k=q.length-1;k>0;k--){var j=Math.random()*(k+1)|0;var t=q[k];q[k]=q[j];q[j]=t}
+var h=[];for(var z=0;z<q.length;z++){if(q[z].hot)h.push(z)}
+if(h.length){var p=h[Math.random()*h.length|0];var f=q[p];q.splice(p,1);q.unshift(f)}
 i=0}
 window.onYouTubeIframeAPIReady=function(){
 pl=new YT.Player("yt",{height:"1",width:"1",
