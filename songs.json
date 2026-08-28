@@ -1,26 +1,291 @@
 [
- {"id":"kS0_40chvrU","title":"Kareye Kogile","film":"Navajeevana","year":1964,"singers":"S. Janaki","tags":["classic","melody"]},
- {"id":"x-FW-SQCn-E","title":"Moodala Maneya","film":"Belli Moda","year":1967,"singers":"S. Janaki","tags":["classic","melody"]},
- {"id":"rsibELpXB7I","title":"Endendu Ninnanu Maretu","film":"Eradu Kanasu","year":1974,"singers":"P. B. Sreenivas, Vani Jairam","tags":["classic","dard"]},
- {"id":"1UKpmhCzNKE","title":"Neerabittu Nelada Mele","film":"Hombisilu","year":1978,"singers":"S. P. Balasubrahmanyam","tags":["classic","melody"]},
- {"id":"u2PidOShBkI","title":"Chinnada Mallige Hoove","film":"Huliya Haalina Mevu","year":1979,"singers":"Dr. Rajkumar, S. Janaki","tags":["classic","melody"]},
- {"id":"Jv04sFM3xM0","title":"Geethanjali Pushpanjali","film":"C.B.I. Shankar","year":1989,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["classic","mass"]},
- {"id":"_HFkfEjbchY","title":"Madikeri Sipayi","film":"Mutthina Haara","year":1990,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["classic","mass"]},
- {"id":"g74NYmt_UCs","title":"Aakashadaage Yaaro","film":"Ramachari","year":1991,"singers":"Mano, S. Janaki","tags":["classic","melody"]},
- {"id":"izMVVAc9KKE","title":"Huttidare Kannada Nadalli Huttabeku","film":"Aakasmika","year":1993,"singers":"Dr. Rajkumar","tags":["classic","mass"]},
- {"id":"cg2T_-AkWSE","title":"Karpoorada Gombeyali","film":"Karpoorada Gombe","year":1994,"singers":"Mano, K. S. Chithra","tags":["classic","melody"]},
- {"id":"MvXepmQHsuI","title":"O Male Bille","film":"Karpoorada Gombe","year":1994,"singers":"Mano, K. S. Chithra","tags":["classic","melody"]},
- {"id":"B5mVBt_CEUw","title":"Munjaaneya Manju","film":"Munjaneya Manju","year":1996,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["classic","melody"]},
- {"id":"2XHqRZZJPX4","title":"Dumbi Dumbi","film":"Munjaneya Manju","year":1996,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["classic","mass"]},
- {"id":"QdkVzbDIyPw","title":"Kaala Meeri Yaake Banthu","film":"Andamaan","year":1997,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["classic","dard"]},
- {"id":"QYgODsW3BHM","title":"O Malenaadina","film":"Chaitrada Premanjali","year":1998,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["classic","melody"]},
- {"id":"x_EYCUm8gO8","title":"Modala Prema Patrave","film":"Chandramukhi Pranasakhi","year":1999,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["melody"]},
- {"id":"sfyo9wcSVsM","title":"Nenapugala Maathu Madhura","film":"Chandramukhi Pranasakhi","year":1999,"singers":"S. P. Balasubrahmanyam, K. S. Chithra","tags":["melody","dard"]},
- {"id":"nlsLKA6hlVQ","title":"Anisuthide","film":"Mungaru Male","year":2006,"singers":"Sonu Nigam","tags":["melody"]},
- {"id":"U_n7sIGxYJI","title":"Yello Kulithiruve Sri Rama","film":"Mrugashira","year":2013,"singers":"Anuradha Bhat","tags":["melody","folk"]},
- {"id":"ebz20FHrT44","title":"Belageddu","film":"Kirik Party","year":2016,"singers":"Vijay Prakash","tags":["melody"]},
- {"id":"42vgx97trM4","title":"Salaam Rocky Bhai","film":"KGF Chapter 1","year":2018,"singers":"Vijay Prakash, Santhosh Venky","tags":["mass"]},
- {"id":"V3-Fd8wPuRA","title":"Tagaru Banthu Tagaru","film":"Tagaru","year":2018,"singers":"Anthony Daasan","tags":["mass"]},
- {"id":"san8kOdXRTY","title":"Neene Kaarana","film":"Aadyaa","year":2020,"singers":"Vijay Prakash","tags":["melody"]},
- {"id":"g8bfonrNGE4","title":"Yako Yako","film":"The Rise Of Ashoka","year":2025,"singers":"Pancham Jeeva, Prithwi Bhat","tags":["melody"]}
+ {
+  "id": "kS0_40chvrU",
+  "title": "Kareye Kogile",
+  "film": "Navajeevana",
+  "year": 1964,
+  "singers": "S. Janaki",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "x-FW-SQCn-E",
+  "title": "Moodala Maneya",
+  "film": "Belli Moda",
+  "year": 1967,
+  "singers": "S. Janaki",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "rsibELpXB7I",
+  "title": "Endendu Ninnanu Maretu",
+  "film": "Eradu Kanasu",
+  "year": 1974,
+  "singers": "P. B. Sreenivas, Vani Jairam",
+  "tags": [
+   "classic",
+   "dard"
+  ]
+ },
+ {
+  "id": "1UKpmhCzNKE",
+  "title": "Neerabittu Nelada Mele",
+  "film": "Hombisilu",
+  "year": 1978,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "u2PidOShBkI",
+  "title": "Chinnada Mallige Hoove",
+  "film": "Huliya Haalina Mevu",
+  "year": 1979,
+  "singers": "Dr. Rajkumar, S. Janaki",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "Jv04sFM3xM0",
+  "title": "Geethanjali Pushpanjali",
+  "film": "C.B.I. Shankar",
+  "year": 1989,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "classic",
+   "mass"
+  ]
+ },
+ {
+  "id": "_HFkfEjbchY",
+  "title": "Madikeri Sipayi",
+  "film": "Mutthina Haara",
+  "year": 1990,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "classic",
+   "mass"
+  ]
+ },
+ {
+  "id": "g74NYmt_UCs",
+  "title": "Aakashadaage Yaaro",
+  "film": "Ramachari",
+  "year": 1991,
+  "singers": "Mano, S. Janaki",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "izMVVAc9KKE",
+  "title": "Huttidare Kannada Nadalli Huttabeku",
+  "film": "Aakasmika",
+  "year": 1993,
+  "singers": "Dr. Rajkumar",
+  "tags": [
+   "classic",
+   "mass"
+  ]
+ },
+ {
+  "id": "cg2T_-AkWSE",
+  "title": "Karpoorada Gombeyali",
+  "film": "Karpoorada Gombe",
+  "year": 1994,
+  "singers": "Mano, K. S. Chithra",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "MvXepmQHsuI",
+  "title": "O Male Bille",
+  "film": "Karpoorada Gombe",
+  "year": 1994,
+  "singers": "Mano, K. S. Chithra",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "B5mVBt_CEUw",
+  "title": "Munjaaneya Manju",
+  "film": "Munjaneya Manju",
+  "year": 1996,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "2XHqRZZJPX4",
+  "title": "Dumbi Dumbi",
+  "film": "Munjaneya Manju",
+  "year": 1996,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "classic",
+   "mass"
+  ]
+ },
+ {
+  "id": "QdkVzbDIyPw",
+  "title": "Kaala Meeri Yaake Banthu",
+  "film": "Andamaan",
+  "year": 1997,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "classic",
+   "dard"
+  ]
+ },
+ {
+  "id": "QYgODsW3BHM",
+  "title": "O Malenaadina",
+  "film": "Chaitrada Premanjali",
+  "year": 1998,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "classic",
+   "melody"
+  ]
+ },
+ {
+  "id": "x_EYCUm8gO8",
+  "title": "Modala Prema Patrave",
+  "film": "Chandramukhi Pranasakhi",
+  "year": 1999,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "melody"
+  ]
+ },
+ {
+  "id": "sfyo9wcSVsM",
+  "title": "Nenapugala Maathu Madhura",
+  "film": "Chandramukhi Pranasakhi",
+  "year": 1999,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "melody",
+   "dard"
+  ]
+ },
+ {
+  "id": "nlsLKA6hlVQ",
+  "title": "Anisuthide",
+  "film": "Mungaru Male",
+  "year": 2006,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody",
+   "dard"
+  ]
+ },
+ {
+  "id": "U_n7sIGxYJI",
+  "title": "Yello Kulithiruve Sri Rama",
+  "film": "Mrugashira",
+  "year": 2013,
+  "singers": "Anuradha Bhat",
+  "tags": [
+   "melody"
+  ]
+ },
+ {
+  "id": "ebz20FHrT44",
+  "title": "Belageddu",
+  "film": "Kirik Party",
+  "year": 2016,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ]
+ },
+ {
+  "id": "fpGvB7AT1vA",
+  "title": "Bombe Heluthaithe",
+  "film": "Raajakumara",
+  "year": 2017,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody",
+   "dard"
+  ]
+ },
+ {
+  "id": "42vgx97trM4",
+  "title": "Salaam Rocky Bhai",
+  "film": "KGF Chapter 1",
+  "year": 2018,
+  "singers": "Vijay Prakash, Santhosh Venky",
+  "tags": [
+   "mass"
+  ]
+ },
+ {
+  "id": "V3-Fd8wPuRA",
+  "title": "Tagaru Banthu Tagaru",
+  "film": "Tagaru",
+  "year": 2018,
+  "singers": "Anthony Daasan",
+  "tags": [
+   "mass"
+  ]
+ },
+ {
+  "id": "san8kOdXRTY",
+  "title": "Neene Kaarana",
+  "film": "Aadyaa",
+  "year": 2020,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ]
+ },
+ {
+  "id": "yWmcMsI5dks",
+  "title": "Sojugada Sooju Mallige",
+  "film": "Janapada",
+  "year": 2021,
+  "singers": "Ananya Bhat",
+  "tags": [
+   "folk"
+  ]
+ },
+ {
+  "id": "m-5ck3BuT1o",
+  "title": "Varaha Roopam",
+  "film": "Kantara",
+  "year": 2022,
+  "singers": "Sai Vignesh",
+  "tags": [
+   "folk",
+   "mass"
+  ]
+ },
+ {
+  "id": "g8bfonrNGE4",
+  "title": "Yako Yako",
+  "film": "The Rise Of Ashoka",
+  "year": 2025,
+  "singers": "Pancham Jeeva, Prithwi Bhat",
+  "tags": [
+   "melody"
+  ]
+ }
 ]
