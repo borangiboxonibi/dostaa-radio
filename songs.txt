@@ -332,3 +332,61 @@ EcdswCLAIKU|Aakasha Deepavu|Modalasala|2010|Sonu Nigam|melody
 RisscgLRohA|Moodal Kunigal Kere Modalasala|Modalasala|2010|V. Harikrishna|folk
 0HTxAYOl-Bc|Moga Modala|Moggina Manasu|2008|Shreya Ghoshal|melody
 fGRhQEWHZZs|Male Baruva|Moggina Manasu|2008|Rajesh Krishnan|melody
+UwMB5VKfKP8|Mussanje Veleli|Mussanje Maatu|2008|Sonu Nigam|melody
+8CMxV1O5VHw|Oora Devru|Ranga SSLC|2004|Shankar Mahadevan|mass
+UK9BZMBz8Xo|Baanina Uyyale|Just Maath Maathalli|2010|Sonu Nigam|dard
+Ue6IkriyDBY|Bareyada Kavyavu|Veera Madakari|2009|Sonu Nigam, Shreya Ghoshal|melody
+lW0PGckEAHs|Veera Madakari Title|Veera Madakari|2009|Shankar Mahadevan|mass
+3kyWhpoHEHY|Huchcha Title|Huchcha|2001|Rajesh Krishnan|mass
+CPuPCxuZ6h0|Muddu Muddu|Kiccha|2003|Rajesh Krishnan|melody
+NQ1jeD4PaYo|Nanna Kanasina|My Autograph|2006|Vijay Prakash|melody
+DnAeqLLbrdY|Machan Machan|My Autograph|2006|Sudeep|mass
+loQoTzF69b0|O Nanna Manase|Swathi Muthu|2003|Rajesh Krishnan|melody
+6jQEwL3V5MI|Hulianna|Vishnuvardhana|2011|Vijay Prakash|mass
+MGnN-9wY-xs|Baaro Hey Hero|Manikya|2014|Jaspreet Jasz|mass
+hN-HBKbCjgc|Ranna Title|Ranna|2015|Devi Sri Prasad|mass
+3rCYrr5XnOI|Seereli Penne|Ranna|2015|Vijay Prakash|mass
+rHlb9cQdAO8|O Priyathama|Amrithadhare|2005|Sonu Nigam|melody
+cELmi-vv6H0|Huduga Huduga|Amrithadhare|2005|Shreya Ghoshal|melody
+HkjoYHTv69Y|Sonta Sonta|Excuse Me|2003|Rajesh Krishnan|mass
+35AkUNqq3X8|Preethi Bandhe|Aakash|2005|Sonu Nigam, Shreya Ghoshal|melody
+nmRGq8Zy7Eo|Kolumande Jangama|Jothe Jotheyali|2006|Vijay Prakash|folk,mass
+DHixrfLYKRI|O Gunavantha|Jothe Jotheyali|2006|Sonu Nigam, Shreya Ghoshal|melody
+QCoQ9-ABugU|Onde Ondu Aase Sidlingu|Sidlingu|2012|Sonu Nigam|melody
+_ebBMIsAFLM|Minchu Minchu|Lucky|2012|Vijay Prakash|mass
+NORO0x0V8oA|Baa Baaro Rasika|Appu|2002|Udit Narayan|melody
+d-Zm6QP4oMU|Vidhi Baraha|Abhi|2003|K. S. Chithra|dard
+kn9Sv7uaUDE|Veera Kannadiga Title|Veera Kannadiga|2004|Shankar Mahadevan|mass
+Wq1yTIgxK8g|Addadalli|Maurya|2004|Shankar Mahadevan|mass
+UoVZLIT_fbk|Usiraguve Hasiraguve|Maurya|2004|Shreya Ghoshal|melody
+hkDL67Wg5cc|Namma Basava Title|Namma Basava|2005|Tippu|mass
+-trQaAERmRo|Kaanada Kadalige|Vamshi|2008|C. Ashwath|folk
+9eShOnkYfUg|Yaare Yaare|Jackie|2010|Tippu|mass
+5zLloUGQLxc|Kannadle Karedaga|Jackie|2010|Puneeth Rajkumar, Shreya Ghoshal|melody
+jGGiWavu-hI|Kathlalli Karadige|Paramathma|2011|Vijay Prakash|mass
+heEbp0czSeA|Open Hairu Anna Bond|Anna Bond|2012|Tippu|mass
+-25APto46Po|Dham Power|Power|2014|Shankar Mahadevan|mass
+YlXkW8Mp8q0|Rana Vikrama Title|Rana Vikrama|2015|Kunal Ganjawala|mass
+hZl2POYtcbU|Lightagagi Dodmane|Dodmane Huduga|2016|Vijay Prakash|mass
+sunhfPfx6JE|Naguvina Hoogala|Dodmane Huduga|2016|Karthik|melody
+2Klrfe0fF94|Yaaro Naanu|Natasaarvabhowma|2019|Shreya Ghoshal|melody
+fSVZzsBTiZI|Anjani Putra Title|Anjani Putra|2017|Haricharan|mass
+GBwWunPvZ1M|Raajakumara Title|Raajakumara|2017|Vijay Prakash|mass
+3WT2yGrWKoc|Saagarada Aleye|Raajakumara|2017|Sonu Nigam|melody
+QLEC8hF7dQ4|Paatashala|Yuvarathnaa|2021|Vijay Prakash|dard
+h_gP1oPNKf4|Gubbachi Goodinalli|Ninnindale|2014|Arijit Singh|melody
+WD2MlG0Q4bI|Bettada Hoovu Kannadada Makkalella|Bettada Hoovu|1985|Master Puneeth|classic,dard
+OJLNNfsXVuM|Thirboki Jeevana|Kirik Party|2016|B. Ajaneesh Loknath|mass
+NVlYwUrmh1s|Katheyondu Shuruvaagide|Kirik Party|2016|Vijay Prakash|melody
+1VwZ1tnDZbs|Gatiya Ilidu|Ulidavaru Kandanthe|2014|Vijay Prakash|folk
+Xf-jk7kfexU|Kanna Mucchida|Ulidavaru Kandanthe|2014|Vijay Prakash|melody
+F_aL1IGzCSo|Chandrachooda|Garuda Gamana Vrishabha Vahana|2021|Midhun Mukundan|folk
+JzxSJORrPug|Sojugada Sooju Mallige Film|Garuda Gamana Vrishabha Vahana|2021|Chaithra J Achar|folk
+O2GUXU4hGuk|Ondu Motteya Kathe Title|Ondu Motteya Kathe|2017|Raghu Dixit|melody
+kXyzkyT3ePs|Horaata|Sapta Sagaradaache Ello|2023|MC Bijju|mass
+zOLIMUvbKm8|Usire Sapta Sagara|Sapta Sagaradaache Ello Side B|2023|Kapil Kapilan|dard
+oepLylgqSKU|Malenaada|Ricky|2016|Sonu Nigam|melody
+twcc3SiMuTs|Saayo Aata|Bell Bottom|2019|Raghu Dixit|mass
+lur8LpJ785I|Arere Avala Naguva|Sarkari Hi Pra Shaale|2018|Vasuki Vaibhav|melody
+7cBSr4dGRZY|Vismaya|Simple Agi Ondh Love Story|2013|BJ Bharat|melody
+WOuUEZVFqG8|Karagida Banalli|Simple Agi Ondh Love Story|2013|BJ Bharat|dard

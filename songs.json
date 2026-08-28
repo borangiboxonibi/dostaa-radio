@@ -466,6 +466,18 @@
   "hot": true
  },
  {
+  "id": "WD2MlG0Q4bI",
+  "title": "Bettada Hoovu Kannadada Makkalella",
+  "film": "Bettada Hoovu",
+  "year": 1985,
+  "singers": "Master Puneeth",
+  "tags": [
+   "classic",
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "nP43kDFLfn4",
   "title": "Malgudi Days Theme",
   "film": "Malgudi Days",
@@ -1441,6 +1453,17 @@
   "hot": true
  },
  {
+  "id": "3kyWhpoHEHY",
+  "title": "Huchcha Title",
+  "film": "Huchcha",
+  "year": 2001,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "DSJix00Lmkg",
   "title": "Banta Banta",
   "film": "Hollywood",
@@ -1551,6 +1574,17 @@
   "hot": true
  },
  {
+  "id": "NORO0x0V8oA",
+  "title": "Baa Baaro Rasika",
+  "film": "Appu",
+  "year": 2002,
+  "singers": "Udit Narayan",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "T6gMFzuxegI",
   "title": "Excuse Me",
   "film": "Kutumba",
@@ -1628,6 +1662,50 @@
   "hot": true
  },
  {
+  "id": "CPuPCxuZ6h0",
+  "title": "Muddu Muddu",
+  "film": "Kiccha",
+  "year": 2003,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "loQoTzF69b0",
+  "title": "O Nanna Manase",
+  "film": "Swathi Muthu",
+  "year": 2003,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "HkjoYHTv69Y",
+  "title": "Sonta Sonta",
+  "film": "Excuse Me",
+  "year": 2003,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "d-Zm6QP4oMU",
+  "title": "Vidhi Baraha",
+  "film": "Abhi",
+  "year": 2003,
+  "singers": "K. S. Chithra",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "yxOO0KQcVAs",
   "title": "Rakkamma",
   "film": "Aapthamitra",
@@ -1668,6 +1746,50 @@
   "singers": "Rajesh Krishnan",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "8CMxV1O5VHw",
+  "title": "Oora Devru",
+  "film": "Ranga SSLC",
+  "year": 2004,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "kn9Sv7uaUDE",
+  "title": "Veera Kannadiga Title",
+  "film": "Veera Kannadiga",
+  "year": 2004,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Wq1yTIgxK8g",
+  "title": "Addadalli",
+  "film": "Maurya",
+  "year": 2004,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "UoVZLIT_fbk",
+  "title": "Usiraguve Hasiraguve",
+  "film": "Maurya",
+  "year": 2004,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1746,6 +1868,50 @@
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "rHlb9cQdAO8",
+  "title": "O Priyathama",
+  "film": "Amrithadhare",
+  "year": 2005,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "cELmi-vv6H0",
+  "title": "Huduga Huduga",
+  "film": "Amrithadhare",
+  "year": 2005,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "35AkUNqq3X8",
+  "title": "Preethi Bandhe",
+  "film": "Aakash",
+  "year": 2005,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "hkDL67Wg5cc",
+  "title": "Namma Basava Title",
+  "film": "Namma Basava",
+  "year": 2005,
+  "singers": "Tippu",
+  "tags": [
+   "mass"
   ],
   "hot": true
  },
@@ -1835,6 +2001,51 @@
   "film": "My Autograph",
   "year": 2006,
   "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "NQ1jeD4PaYo",
+  "title": "Nanna Kanasina",
+  "film": "My Autograph",
+  "year": 2006,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "DnAeqLLbrdY",
+  "title": "Machan Machan",
+  "film": "My Autograph",
+  "year": 2006,
+  "singers": "Sudeep",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "nmRGq8Zy7Eo",
+  "title": "Kolumande Jangama",
+  "film": "Jothe Jotheyali",
+  "year": 2006,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "DHixrfLYKRI",
+  "title": "O Gunavantha",
+  "film": "Jothe Jotheyali",
+  "year": 2006,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
   "tags": [
    "melody"
   ],
@@ -2096,6 +2307,28 @@
   "hot": true
  },
  {
+  "id": "UwMB5VKfKP8",
+  "title": "Mussanje Veleli",
+  "film": "Mussanje Maatu",
+  "year": 2008,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "-trQaAERmRo",
+  "title": "Kaanada Kadalige",
+  "film": "Vamshi",
+  "year": 2008,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "UYsyUkg5fno",
   "title": "Ninna Kanda",
   "film": "Veera Madakari",
@@ -2125,6 +2358,28 @@
   "singers": "Shreya Ghoshal",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Ue6IkriyDBY",
+  "title": "Bareyada Kavyavu",
+  "film": "Veera Madakari",
+  "year": 2009,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "lW0PGckEAHs",
+  "title": "Veera Madakari Title",
+  "film": "Veera Madakari",
+  "year": 2009,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
   ],
   "hot": true
  },
@@ -2235,6 +2490,39 @@
   "singers": "V. Harikrishna",
   "tags": [
    "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "UK9BZMBz8Xo",
+  "title": "Baanina Uyyale",
+  "film": "Just Maath Maathalli",
+  "year": 2010,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "9eShOnkYfUg",
+  "title": "Yaare Yaare",
+  "film": "Jackie",
+  "year": 2010,
+  "singers": "Tippu",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "5zLloUGQLxc",
+  "title": "Kannadle Karedaga",
+  "film": "Jackie",
+  "year": 2010,
+  "singers": "Puneeth Rajkumar, Shreya Ghoshal",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -2407,6 +2695,28 @@
   "hot": true
  },
  {
+  "id": "6jQEwL3V5MI",
+  "title": "Hulianna",
+  "film": "Vishnuvardhana",
+  "year": 2011,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "jGGiWavu-hI",
+  "title": "Kathlalli Karadige",
+  "film": "Paramathma",
+  "year": 2011,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "otNb9dP61EE",
   "title": "Bombe Adsonu",
   "film": "Drama",
@@ -2467,6 +2777,39 @@
   "film": "Lucky",
   "year": 2012,
   "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "QCoQ9-ABugU",
+  "title": "Onde Ondu Aase Sidlingu",
+  "film": "Sidlingu",
+  "year": 2012,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "_ebBMIsAFLM",
+  "title": "Minchu Minchu",
+  "film": "Lucky",
+  "year": 2012,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "heEbp0czSeA",
+  "title": "Open Hairu Anna Bond",
+  "film": "Anna Bond",
+  "year": 2012,
+  "singers": "Tippu",
   "tags": [
    "mass"
   ],
@@ -2672,6 +3015,28 @@
   "hot": true
  },
  {
+  "id": "7cBSr4dGRZY",
+  "title": "Vismaya",
+  "film": "Simple Agi Ondh Love Story",
+  "year": 2013,
+  "singers": "BJ Bharat",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "WOuUEZVFqG8",
+  "title": "Karagida Banalli",
+  "film": "Simple Agi Ondh Love Story",
+  "year": 2013,
+  "singers": "BJ Bharat",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "lMTRge_hrX0",
   "title": "Sontada Visya",
   "film": "Brahma",
@@ -2827,6 +3192,61 @@
   "hot": true
  },
  {
+  "id": "MGnN-9wY-xs",
+  "title": "Baaro Hey Hero",
+  "film": "Manikya",
+  "year": 2014,
+  "singers": "Jaspreet Jasz",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "-25APto46Po",
+  "title": "Dham Power",
+  "film": "Power",
+  "year": 2014,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "h_gP1oPNKf4",
+  "title": "Gubbachi Goodinalli",
+  "film": "Ninnindale",
+  "year": 2014,
+  "singers": "Arijit Singh",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "1VwZ1tnDZbs",
+  "title": "Gatiya Ilidu",
+  "film": "Ulidavaru Kandanthe",
+  "year": 2014,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Xf-jk7kfexU",
+  "title": "Kanna Mucchida",
+  "film": "Ulidavaru Kandanthe",
+  "year": 2014,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "Ks2lxk9SjYo",
   "title": "Asaku Pasaku",
   "film": "Ranna",
@@ -2876,6 +3296,39 @@
   "film": "Uppi 2",
   "year": 2015,
   "singers": "Upendra",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "hN-HBKbCjgc",
+  "title": "Ranna Title",
+  "film": "Ranna",
+  "year": 2015,
+  "singers": "Devi Sri Prasad",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "3rCYrr5XnOI",
+  "title": "Seereli Penne",
+  "film": "Ranna",
+  "year": 2015,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "YlXkW8Mp8q0",
+  "title": "Rana Vikrama Title",
+  "film": "Rana Vikrama",
+  "year": 2015,
+  "singers": "Kunal Ganjawala",
   "tags": [
    "mass"
   ],
@@ -2966,6 +3419,61 @@
   "singers": "Armaan Malik",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "hZl2POYtcbU",
+  "title": "Lightagagi Dodmane",
+  "film": "Dodmane Huduga",
+  "year": 2016,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "sunhfPfx6JE",
+  "title": "Naguvina Hoogala",
+  "film": "Dodmane Huduga",
+  "year": 2016,
+  "singers": "Karthik",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "OJLNNfsXVuM",
+  "title": "Thirboki Jeevana",
+  "film": "Kirik Party",
+  "year": 2016,
+  "singers": "B. Ajaneesh Loknath",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "NVlYwUrmh1s",
+  "title": "Katheyondu Shuruvaagide",
+  "film": "Kirik Party",
+  "year": 2016,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "oepLylgqSKU",
+  "title": "Malenaada",
+  "film": "Ricky",
+  "year": 2016,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -3103,6 +3611,50 @@
   "hot": true
  },
  {
+  "id": "fSVZzsBTiZI",
+  "title": "Anjani Putra Title",
+  "film": "Anjani Putra",
+  "year": 2017,
+  "singers": "Haricharan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "GBwWunPvZ1M",
+  "title": "Raajakumara Title",
+  "film": "Raajakumara",
+  "year": 2017,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "3WT2yGrWKoc",
+  "title": "Saagarada Aleye",
+  "film": "Raajakumara",
+  "year": 2017,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "O2GUXU4hGuk",
+  "title": "Ondu Motteya Kathe Title",
+  "film": "Ondu Motteya Kathe",
+  "year": 2017,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "42vgx97trM4",
   "title": "Salaam Rocky Bhai",
   "film": "KGF Chapter 1",
@@ -3225,6 +3777,17 @@
   "hot": true
  },
  {
+  "id": "lur8LpJ785I",
+  "title": "Arere Avala Naguva",
+  "film": "Sarkari Hi Pra Shaale",
+  "year": 2018,
+  "singers": "Vasuki Vaibhav",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "qEJxvGmx1pA",
   "title": "Kanmaniye",
   "film": "Pailwaan",
@@ -3332,6 +3895,28 @@
   "singers": "Armaan Malik",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "2Klrfe0fF94",
+  "title": "Yaaro Naanu",
+  "film": "Natasaarvabhowma",
+  "year": 2019,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "twcc3SiMuTs",
+  "title": "Saayo Aata",
+  "film": "Bell Bottom",
+  "year": 2019,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "mass"
   ],
   "hot": true
  },
@@ -3475,6 +4060,39 @@
   "singers": "Armaan Malik",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "QLEC8hF7dQ4",
+  "title": "Paatashala",
+  "film": "Yuvarathnaa",
+  "year": 2021,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "F_aL1IGzCSo",
+  "title": "Chandrachooda",
+  "film": "Garuda Gamana Vrishabha Vahana",
+  "year": 2021,
+  "singers": "Midhun Mukundan",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "JzxSJORrPug",
+  "title": "Sojugada Sooju Mallige Film",
+  "film": "Garuda Gamana Vrishabha Vahana",
+  "year": 2021,
+  "singers": "Chaithra J Achar",
+  "tags": [
+   "folk"
   ],
   "hot": true
  },
@@ -3732,6 +4350,28 @@
   "singers": "Sid Sriram",
   "tags": [
    "melody",
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "kXyzkyT3ePs",
+  "title": "Horaata",
+  "film": "Sapta Sagaradaache Ello",
+  "year": 2023,
+  "singers": "MC Bijju",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "zOLIMUvbKm8",
+  "title": "Usire Sapta Sagara",
+  "film": "Sapta Sagaradaache Ello Side B",
+  "year": 2023,
+  "singers": "Kapil Kapilan",
+  "tags": [
    "dard"
   ],
   "hot": true
