@@ -69,13 +69,18 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#120B06}
  text-shadow:0 1px 16px rgba(0,0,0,.8)}
 .film{margin-top:5px;font-size:clamp(11px,2.8vw,13px);color:var(--w48);
  text-shadow:0 1px 12px rgba(0,0,0,.8)}
-.wave{width:min(560px,88%);display:flex;align-items:center;justify-content:center;
- gap:3px;height:34px;margin-top:26px}
-.wave i{width:2px;border-radius:2px;height:10%;background:var(--w26);
- transition:background .5s,opacity .5s}
-body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
- animation:eq 1.1s ease-in-out infinite alternate}
-@keyframes eq{from{height:10%}to{height:100%}}
+.wave{position:relative;width:min(600px,92%);height:72px;margin-top:24px;
+ display:flex;align-items:center;justify-content:center;gap:3px}
+.wave::before{content:"";position:absolute;left:8%;right:8%;top:26%;bottom:26%;
+ background:radial-gradient(60% 100% at 50% 50%,rgba(255,140,60,.30),transparent 72%);
+ filter:blur(22px);opacity:0;transition:opacity 1.1s ease;pointer-events:none}
+body.on-air .wave::before{opacity:1}
+.wave i{width:3px;height:8px;border-radius:99px;flex:0 0 auto;
+ transform:scaleY(1);will-change:transform;
+ transition:opacity .9s ease,background .9s ease}
+.wave i{opacity:.30;background:rgba(255,255,255,.4)}
+body.on-air .wave i{opacity:1}
+@media(max-width:420px){.wave{height:56px;gap:2px}.wave i{width:2px}}
 .deck{flex:0 0 auto;width:min(560px,100%)}
 .pg{padding:9px 0;cursor:pointer}
 .trk{position:relative;height:3px;background:var(--w14);border-radius:3px}
@@ -200,11 +205,40 @@ var $=function(q){return document.querySelector(q)};
 var IGW=/Instagram|FBAN|FBAV|Line\/|Twitter/i.test(navigator.userAgent);
 var songs=[],q=[],i=0,pl=null,rdy=false,live=false,rot="all",tick=null,bad=0,repeatOne=false;
 var PLAY='<path d="M8 5v14l11-7z"/>',PAUSE='<path d="M6.5 5h3.6v14H6.5zM13.9 5h3.6v14h-3.6z"/>';
-(function(){var w=$("#wave"),s="";
-for(var k=0;k<56;k++){var d=Math.abs(k-27.5)/27.5;
- s+='<i style="animation-delay:'+((k*0.045)%0.8).toFixed(2)+
- 's;animation-duration:'+(0.6+(1-d)*0.5).toFixed(2)+'s"></i>'}
-w.innerHTML=s})();
+var BARS=[],NB=0;
+(function(){
+ var w=$("#wave");
+ NB = innerWidth<420 ? 40 : (innerWidth<760 ? 52 : 68);
+ var frag=document.createDocumentFragment();
+ for(var k=0;k<NB;k++){
+  var b=document.createElement("i");
+  var d=Math.abs(k-(NB-1)/2)/((NB-1)/2);
+  /* ember at the edges, gold through the middle */
+  var r=255, g=Math.round(106+88*(1-d)), bl=Math.round(52+22*(1-d));
+  b.style.background="rgb("+r+","+g+","+bl+")";
+  b.dataset.d=d.toFixed(3);
+  frag.appendChild(b); BARS.push(b);
+ }
+ w.innerHTML=""; w.appendChild(frag);
+})();
+
+/* one travelling wave, three harmonics — neighbours stay related */
+var wavePhase=0, waveAmp=0;
+(function tick(){
+ var on=document.body.classList.contains("on-air");
+ waveAmp += ((on?1:0)-waveAmp)*0.05;          /* ease in and out */
+ wavePhase += on?0.055:0.012;
+ for(var k=0;k<NB;k++){
+  var d=+BARS[k].dataset.d;
+  var env=Math.pow(1-d,1.35);                  /* tall in the middle */
+  var v = Math.sin(wavePhase + k*0.36)*0.55
+        + Math.sin(wavePhase*1.73 + k*0.14)*0.30
+        + Math.sin(wavePhase*0.61 + k*0.72)*0.15;
+  var h = 1 + (0.6 + env*7.4) * ((v+1)/2) * waveAmp;
+  BARS[k].style.transform="scaleY("+h.toFixed(3)+")";
+ }
+ requestAnimationFrame(tick);
+})();
 function ist(){var n=new Date();return new Date(n.getTime()+n.getTimezoneOffset()*60000+19800000)}
 function clockTick(){
  var d=ist(),h=d.getHours(),m=d.getMinutes(),sec=d.getSeconds();
