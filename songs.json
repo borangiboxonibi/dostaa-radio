@@ -71,6 +71,18 @@
   "hot": true
  },
  {
+  "id": "_5TXsQ01TrU",
+  "title": "Bareyada Neena Kavyavu",
+  "film": "Nagarahavu",
+  "year": 1972,
+  "singers": "P. B. Sreenivas, S. Janaki",
+  "tags": [
+   "classic",
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "cScfvBT6LGU",
   "title": "Gandhada Gudi Title",
   "film": "Gandhada Gudi",
@@ -127,6 +139,18 @@
   "tags": [
    "melody",
    "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "vKTti4IA-YI",
+  "title": "Katheya Heluvenu",
+  "film": "Naa Ninna Mareyalare",
+  "year": 1976,
+  "singers": "P. B. Sreenivas",
+  "tags": [
+   "classic",
+   "dard"
   ],
   "hot": true
  },
@@ -359,6 +383,18 @@
   "hot": true
  },
  {
+  "id": "sU_CcNYXgNc",
+  "title": "Sahasa Simha Title",
+  "film": "Sahasa Simha",
+  "year": 1982,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "AJSeaFthdeE",
   "title": "Naguva Nayana",
   "film": "Pallavi Anupallavi",
@@ -513,6 +549,18 @@
   "hot": true
  },
  {
+  "id": "Pam6wyva1hc",
+  "title": "Olavina Udugore Title",
+  "film": "Olavina Udugore",
+  "year": 1987,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "2Vh3eDR37J4",
   "title": "Boy Friend",
   "film": "Ranadheera",
@@ -609,6 +657,18 @@
   "hot": true
  },
  {
+  "id": "Q08dgLjBAnw",
+  "title": "Jootathathi",
+  "film": "Sangliyana",
+  "year": 1988,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "Jv04sFM3xM0",
   "title": "Geethanjali Pushpanjali",
   "film": "C.B.I. Shankar",
@@ -685,6 +745,30 @@
   "singers": "Janapada",
   "tags": [
    "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "tC4L713i0L4",
+  "title": "Devaru Thorida Dhaari",
+  "film": "Muthina Haara",
+  "year": 1990,
+  "singers": "M. M. Keeravani",
+  "tags": [
+   "dard",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "5ohv8DLgOhI",
+  "title": "Kodagana Koli Nungitha",
+  "film": "Muthina Haara",
+  "year": 1990,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk",
+   "classic"
   ],
   "hot": true
  },
@@ -797,6 +881,18 @@
   "hot": true
  },
  {
+  "id": "p_BwsiRofXo",
+  "title": "Moodal Kunigal Kere",
+  "film": "Mysore Mallige",
+  "year": 1992,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "izMVVAc9KKE",
   "title": "Huttidare Kannada Nadalli Huttabeku",
   "film": "Aakasmika",
@@ -815,6 +911,18 @@
   "year": 1993,
   "singers": "Dr. Rajkumar",
   "tags": [
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "lppX6DuOX4M",
+  "title": "Rayaru Bandaru Mavana Manege",
+  "film": "Rayaru Bandaru Mavana Manege",
+  "year": 1993,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass",
    "classic"
   ],
   "hot": true
@@ -863,6 +971,17 @@
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "gi58clbPpWI",
+  "title": "Ee Bhoomi Bannada Buguri",
+  "film": "Mahakshatriya",
+  "year": 1994,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
    "classic"
   ],
   "hot": true
@@ -1178,6 +1297,50 @@
   "hot": true
  },
  {
+  "id": "rUeyfai1ddc",
+  "title": "Devaru Kotta Thangi",
+  "film": "Surya Vamsha",
+  "year": 1999,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "1eMDfmIjgzU",
+  "title": "Sevanthi Sevanthi",
+  "film": "Surya Vamsha",
+  "year": 1999,
+  "singers": "S. P. Balasubrahmanyam, K. S. Chithra",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "lpXum_Je05g",
+  "title": "Chukki Chukki",
+  "film": "Surya Vamsha",
+  "year": 1999,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "OeIiVhhqfVA",
+  "title": "Bharatambeya Makkalu",
+  "film": "Veerappa Nayaka",
+  "year": 1999,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "NzONsYZN5UA",
   "title": "Preethse Preethse Title",
   "film": "Preethse",
@@ -1252,6 +1415,28 @@
   "singers": "Dr. Rajkumar",
   "tags": [
    "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "50988PfIqZw",
+  "title": "Koti Koti Thara",
+  "film": "Kotigobba",
+  "year": 2001,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Z8ejNU-VCUg",
+  "title": "O Sona O Sona",
+  "film": "Kotigobba",
+  "year": 2001,
+  "singers": "Rajesh Krishnan, K. S. Chithra",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1340,6 +1525,28 @@
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "3OaClP6bYPw",
+  "title": "Simhadri Raya",
+  "film": "Simhadriya Simha",
+  "year": 2002,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "MLZgBI8eCSM",
+  "title": "Ondu Munjaane",
+  "film": "Jamindaru",
+  "year": 2002,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1454,6 +1661,17 @@
   "hot": true
  },
  {
+  "id": "3QUZ23Bv1Uc",
+  "title": "Parda Parda",
+  "film": "Aapthamitra",
+  "year": 2004,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "4Nadbr67aos",
   "title": "Neene Neene",
   "film": "Amrithadhare",
@@ -1506,6 +1724,28 @@
   "singers": "Shankar Mahadevan",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "p20oa3bHVO8",
+  "title": "Olithu Madu Manusa",
+  "film": "Nammanna",
+  "year": 2005,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "UcX-bU1SJGA",
+  "title": "Koti Janma",
+  "film": "Varsha",
+  "year": 2005,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "dard"
   ],
   "hot": true
  },
@@ -1646,6 +1886,61 @@
   "hot": true
  },
  {
+  "id": "OzAyFDk0h2U",
+  "title": "Matad Matadu Mallige",
+  "film": "Matad Matadu Mallige",
+  "year": 2007,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "FuQyhWKG944",
+  "title": "Ullasada Hoomale",
+  "film": "Cheluvina Chittara",
+  "year": 2007,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "2cp-Y26FgVw",
+  "title": "Kanaso Idu Cheluvina",
+  "film": "Cheluvina Chittara",
+  "year": 2007,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "nwgH8EqnZQY",
+  "title": "Mathadu Mathadu",
+  "film": "Krishna",
+  "year": 2007,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "z239O5CTYOY",
+  "title": "Hey Hudugi",
+  "film": "Krishna",
+  "year": 2007,
+  "singers": "Karthik",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "5S-lUl1TpdI",
   "title": "Kaddalu Manasanna",
   "film": "Mussanje Maatu",
@@ -1756,6 +2051,51 @@
   "hot": true
  },
  {
+  "id": "HfNtBJSkprk",
+  "title": "Gaalipata Title",
+  "film": "Gaalipata",
+  "year": 2008,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "HcQiqyhJwyk",
+  "title": "Dheem Dheem",
+  "film": "Gaalipata",
+  "year": 2008,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "0HTxAYOl-Bc",
+  "title": "Moga Modala",
+  "film": "Moggina Manasu",
+  "year": 2008,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "fGRhQEWHZZs",
+  "title": "Male Baruva",
+  "film": "Moggina Manasu",
+  "year": 2008,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "UYsyUkg5fno",
   "title": "Ninna Kanda",
   "film": "Veera Madakari",
@@ -1772,6 +2112,17 @@
   "film": "Maleyali Jotheyali",
   "year": 2009,
   "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "kuxJGCAgFvk",
+  "title": "Shuruvaagidhe",
+  "film": "Maleyali Jotheyali",
+  "year": 2009,
+  "singers": "Shreya Ghoshal",
   "tags": [
    "melody"
   ],
@@ -1851,6 +2202,39 @@
   "singers": "Raghu Dixit",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Cv3L2RJkoPs",
+  "title": "Garagasa Garagasa",
+  "film": "Aaptharakshaka",
+  "year": 2010,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "EcdswCLAIKU",
+  "title": "Aakasha Deepavu",
+  "film": "Modalasala",
+  "year": 2010,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "RisscgLRohA",
+  "title": "Moodal Kunigal Kere Modalasala",
+  "film": "Modalasala",
+  "year": 2010,
+  "singers": "V. Harikrishna",
+  "tags": [
+   "folk"
   ],
   "hot": true
  },
@@ -2000,6 +2384,29 @@
   "hot": true
  },
  {
+  "id": "COSIvzMURw8",
+  "title": "Dhool Maga Dhool",
+  "film": "Kirataka",
+  "year": 2011,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "qavhxgdMujo",
+  "title": "Avva Kana Kanda",
+  "film": "Kirataka",
+  "year": 2011,
+  "singers": "Kailash Kher",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "otNb9dP61EE",
   "title": "Bombe Adsonu",
   "film": "Drama",
@@ -2007,6 +2414,61 @@
   "singers": "Vijay Prakash",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "pDhHQsbZ820",
+  "title": "Nannavale Nannavale",
+  "film": "Romeo",
+  "year": 2012,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "-FXz8DTfaMw",
+  "title": "Aane Paki",
+  "film": "Romeo",
+  "year": 2012,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "PubWT2Eg51w",
+  "title": "Drama Title",
+  "film": "Drama",
+  "year": 2012,
+  "singers": "Tippu",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "ZnW2wBd8Vks",
+  "title": "Chendutiya Pakkadali",
+  "film": "Drama",
+  "year": 2012,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "lnVeVAvOojA",
+  "title": "Non Stop",
+  "film": "Lucky",
+  "year": 2012,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
   ],
   "hot": true
  },
@@ -2165,6 +2627,51 @@
   "hot": true
  },
  {
+  "id": "VbF5wouHThE",
+  "title": "Neeralli Sannage",
+  "film": "Googly",
+  "year": 2013,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "N4GFIkcp5Wo",
+  "title": "Bisilu Kudure",
+  "film": "Googly",
+  "year": 2013,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "ZsrKHTng3gc",
+  "title": "Varadha",
+  "film": "Raja Huli",
+  "year": 2013,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "yolzbJTQxTg",
+  "title": "Falling In Love",
+  "film": "Raja Huli",
+  "year": 2013,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "lMTRge_hrX0",
   "title": "Sontada Visya",
   "film": "Brahma",
@@ -2276,6 +2783,50 @@
   "hot": true
  },
  {
+  "id": "qdCwbryZbQU",
+  "title": "Yaarige Beku",
+  "film": "Mr and Mrs Ramachari",
+  "year": 2014,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "hYOXLwqviR8",
+  "title": "Kaarmoda",
+  "film": "Mr and Mrs Ramachari",
+  "year": 2014,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "labVkcSBX68",
+  "title": "Baite Baite",
+  "film": "Gajakesari",
+  "year": 2014,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "QWamO6sxLI8",
+  "title": "Kannada Mannina",
+  "film": "Gajakesari",
+  "year": 2014,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "Ks2lxk9SjYo",
   "title": "Asaku Pasaku",
   "film": "Ranna",
@@ -2369,6 +2920,50 @@
   "film": "U Turn",
   "year": 2016,
   "singers": "Anirudh Ravichander",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "QKSmMpnNDkk",
+  "title": "Style King Title",
+  "film": "Style King",
+  "year": 2016,
+  "singers": "Tippu",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "8Bt5MP4WEwQ",
+  "title": "Naa Board Irada",
+  "film": "Mungaru Male 2",
+  "year": 2016,
+  "singers": "Armaan Malik",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "fweYZ1GaRds",
+  "title": "Kendasampige",
+  "film": "Santhu Straight Forward",
+  "year": 2016,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "1a_iEAIEnso",
+  "title": "Self Made Shehzaada",
+  "film": "Santhu Straight Forward",
+  "year": 2016,
+  "singers": "Armaan Malik",
   "tags": [
    "mass"
   ],
@@ -2486,6 +3081,28 @@
   "hot": true
  },
  {
+  "id": "D1yAeW2OmDA",
+  "title": "Mugulu Nage Title",
+  "film": "Mugulu Nage",
+  "year": 2017,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "7TJN6kNDxQ8",
+  "title": "Roopa Thandiye",
+  "film": "Mugulu Nage",
+  "year": 2017,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "42vgx97trM4",
   "title": "Salaam Rocky Bhai",
   "film": "KGF Chapter 1",
@@ -2597,6 +3214,17 @@
   "hot": true
  },
  {
+  "id": "xu3IdW8Q6Yw",
+  "title": "Jokae Nannu",
+  "film": "K.G.F Chapter 1",
+  "year": 2018,
+  "singers": "Airaa Udupi",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "qEJxvGmx1pA",
   "title": "Kanmaniye",
   "film": "Pailwaan",
@@ -2682,6 +3310,28 @@
   "singers": "Vijay Prakash",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "w9082JWVhjQ",
+  "title": "Gamanisu",
+  "film": "Geetha",
+  "year": 2019,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "J08Bd35ofbk",
+  "title": "Kannu Kannu",
+  "film": "Geetha",
+  "year": 2019,
+  "singers": "Armaan Malik",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -2985,6 +3635,17 @@
   "hot": true
  },
  {
+  "id": "R4He_Gcn7cA",
+  "title": "Monster Song",
+  "film": "K.G.F Chapter 2",
+  "year": 2022,
+  "singers": "Adithi Sagar",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "SAKM73oQWv4",
   "title": "Pasandaagavne",
   "film": "Kaatera",
@@ -3060,6 +3721,18 @@
   "singers": "Raghu Dixit",
   "tags": [
    "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "keMpTLBzX50",
+  "title": "Jagave Neenu",
+  "film": "Baanadariyalli",
+  "year": 2023,
+  "singers": "Sid Sriram",
+  "tags": [
+   "melody",
+   "dard"
   ],
   "hot": true
  },

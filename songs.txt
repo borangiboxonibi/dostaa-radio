@@ -272,3 +272,63 @@ C3jlOlzSL8I|Hands Up|Avane Srimannarayana|2019|Vijay Prakash|mass
 2zbkKL556YY|Mysore Se Ayi|Ideas Above Ground|2008|Raghu Dixit|folk
 sp6-4hiRGVs|Jag Changa Title|Jag Changa|2014|Raghu Dixit|folk,mass
 63PTx_1WEq4|Parasiva|Jag Changa|2014|Raghu Dixit|folk
+_5TXsQ01TrU|Bareyada Neena Kavyavu|Nagarahavu|1972|P. B. Sreenivas, S. Janaki|classic,melody
+vKTti4IA-YI|Katheya Heluvenu|Naa Ninna Mareyalare|1976|P. B. Sreenivas|classic,dard
+sU_CcNYXgNc|Sahasa Simha Title|Sahasa Simha|1982|S. P. Balasubrahmanyam|mass,classic
+3OaClP6bYPw|Simhadri Raya|Simhadriya Simha|2002|S. P. Balasubrahmanyam|mass
+3QUZ23Bv1Uc|Parda Parda|Aapthamitra|2004|Rajesh Krishnan|mass
+Cv3L2RJkoPs|Garagasa Garagasa|Aaptharakshaka|2010|S. P. Balasubrahmanyam|mass
+50988PfIqZw|Koti Koti Thara|Kotigobba|2001|S. P. Balasubrahmanyam|mass
+Z8ejNU-VCUg|O Sona O Sona|Kotigobba|2001|Rajesh Krishnan, K. S. Chithra|melody
+rUeyfai1ddc|Devaru Kotta Thangi|Surya Vamsha|1999|S. P. Balasubrahmanyam|dard
+1eMDfmIjgzU|Sevanthi Sevanthi|Surya Vamsha|1999|S. P. Balasubrahmanyam, K. S. Chithra|melody
+lpXum_Je05g|Chukki Chukki|Surya Vamsha|1999|Rajesh Krishnan|mass
+tC4L713i0L4|Devaru Thorida Dhaari|Muthina Haara|1990|M. M. Keeravani|dard,classic
+5ohv8DLgOhI|Kodagana Koli Nungitha|Muthina Haara|1990|C. Ashwath|folk,classic
+gi58clbPpWI|Ee Bhoomi Bannada Buguri|Mahakshatriya|1994|S. P. Balasubrahmanyam|classic
+Q08dgLjBAnw|Jootathathi|Sangliyana|1988|S. P. Balasubrahmanyam|mass,classic
+OeIiVhhqfVA|Bharatambeya Makkalu|Veerappa Nayaka|1999|S. P. Balasubrahmanyam|mass
+Pam6wyva1hc|Olavina Udugore Title|Olavina Udugore|1987|S. P. Balasubrahmanyam|melody,classic
+MLZgBI8eCSM|Ondu Munjaane|Jamindaru|2002|S. P. Balasubrahmanyam|melody
+lppX6DuOX4M|Rayaru Bandaru Mavana Manege|Rayaru Bandaru Mavana Manege|1993|S. P. Balasubrahmanyam|mass,classic
+p_BwsiRofXo|Moodal Kunigal Kere|Mysore Mallige|1992|C. Ashwath|folk,classic
+p20oa3bHVO8|Olithu Madu Manusa|Nammanna|2005|S. P. Balasubrahmanyam|folk
+UcX-bU1SJGA|Koti Janma|Varsha|2005|S. P. Balasubrahmanyam|dard
+OzAyFDk0h2U|Matad Matadu Mallige|Matad Matadu Mallige|2007|C. Ashwath|folk
+FuQyhWKG944|Ullasada Hoomale|Cheluvina Chittara|2007|Rajesh Krishnan|melody
+2cp-Y26FgVw|Kanaso Idu Cheluvina|Cheluvina Chittara|2007|Sonu Nigam|dard
+HfNtBJSkprk|Gaalipata Title|Gaalipata|2008|Rajesh Krishnan|mass
+HcQiqyhJwyk|Dheem Dheem|Gaalipata|2008|Shankar Mahadevan|folk,mass
+nwgH8EqnZQY|Mathadu Mathadu|Krishna|2007|Sonu Nigam|melody
+z239O5CTYOY|Hey Hudugi|Krishna|2007|Karthik|mass
+kuxJGCAgFvk|Shuruvaagidhe|Maleyali Jotheyali|2009|Shreya Ghoshal|melody
+pDhHQsbZ820|Nannavale Nannavale|Romeo|2012|Sonu Nigam|melody
+-FXz8DTfaMw|Aane Paki|Romeo|2012|Vijay Prakash|mass
+D1yAeW2OmDA|Mugulu Nage Title|Mugulu Nage|2017|Sonu Nigam|melody
+7TJN6kNDxQ8|Roopa Thandiye|Mugulu Nage|2017|Shreya Ghoshal|melody
+QKSmMpnNDkk|Style King Title|Style King|2016|Tippu|mass
+keMpTLBzX50|Jagave Neenu|Baanadariyalli|2023|Sid Sriram|melody,dard
+8Bt5MP4WEwQ|Naa Board Irada|Mungaru Male 2|2016|Armaan Malik|mass
+w9082JWVhjQ|Gamanisu|Geetha|2019|Sonu Nigam|melody
+J08Bd35ofbk|Kannu Kannu|Geetha|2019|Armaan Malik|melody
+xu3IdW8Q6Yw|Jokae Nannu|K.G.F Chapter 1|2018|Airaa Udupi|mass
+R4He_Gcn7cA|Monster Song|K.G.F Chapter 2|2022|Adithi Sagar|mass
+qdCwbryZbQU|Yaarige Beku|Mr and Mrs Ramachari|2014|Rajesh Krishnan|dard
+hYOXLwqviR8|Kaarmoda|Mr and Mrs Ramachari|2014|Sonu Nigam|dard
+VbF5wouHThE|Neeralli Sannage|Googly|2013|Sonu Nigam, Shreya Ghoshal|melody
+N4GFIkcp5Wo|Bisilu Kudure|Googly|2013|Vijay Prakash|mass
+PubWT2Eg51w|Drama Title|Drama|2012|Tippu|mass
+ZnW2wBd8Vks|Chendutiya Pakkadali|Drama|2012|Sonu Nigam|melody
+labVkcSBX68|Baite Baite|Gajakesari|2014|Shankar Mahadevan|mass
+QWamO6sxLI8|Kannada Mannina|Gajakesari|2014|Shankar Mahadevan|mass
+fweYZ1GaRds|Kendasampige|Santhu Straight Forward|2016|Vijay Prakash|melody
+1a_iEAIEnso|Self Made Shehzaada|Santhu Straight Forward|2016|Armaan Malik|mass
+ZsrKHTng3gc|Varadha|Raja Huli|2013|Vijay Prakash|folk,mass
+yolzbJTQxTg|Falling In Love|Raja Huli|2013|Sonu Nigam|melody
+lnVeVAvOojA|Non Stop|Lucky|2012|Vijay Prakash|mass
+COSIvzMURw8|Dhool Maga Dhool|Kirataka|2011|Vijay Prakash|folk,mass
+qavhxgdMujo|Avva Kana Kanda|Kirataka|2011|Kailash Kher|dard
+EcdswCLAIKU|Aakasha Deepavu|Modalasala|2010|Sonu Nigam|melody
+RisscgLRohA|Moodal Kunigal Kere Modalasala|Modalasala|2010|V. Harikrishna|folk
+0HTxAYOl-Bc|Moga Modala|Moggina Manasu|2008|Shreya Ghoshal|melody
+fGRhQEWHZZs|Male Baruva|Moggina Manasu|2008|Rajesh Krishnan|melody
