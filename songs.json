@@ -1734,6 +1734,28 @@
   "hot": true
  },
  {
+  "id": "7GKYw1B48o8",
+  "title": "Hey Bhagwan",
+  "film": "Ideas Above Ground",
+  "year": 2008,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "2zbkKL556YY",
+  "title": "Mysore Se Ayi",
+  "film": "Ideas Above Ground",
+  "year": 2008,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "UYsyUkg5fno",
   "title": "Ninna Kanda",
   "film": "Veera Madakari",
@@ -1805,6 +1827,28 @@
   "film": "Just Maath Maathalli",
   "year": 2010,
   "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "xNR4FAEGxV4",
+  "title": "Kannalle",
+  "film": "Just Math Mathalli",
+  "year": 2010,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "lbz7JydNb_Y",
+  "title": "Munjaane Manalli",
+  "film": "Just Math Mathalli",
+  "year": 2010,
+  "singers": "Raghu Dixit",
   "tags": [
    "melody"
   ],
@@ -1927,6 +1971,40 @@
   "film": "Kool",
   "year": 2011,
   "singers": "V. Harikrishna",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "eccBCKBmJr0",
+  "title": "Pyarge Aagbittaadhde",
+  "film": "Govindaya Namaha",
+  "year": 2011,
+  "singers": "Chethan Sosca, Indu Nagaraj",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "oEZHQCA77pw",
+  "title": "Sanju Mattu Geetha",
+  "film": "Sanju Weds Geetha",
+  "year": 2011,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "otNb9dP61EE",
+  "title": "Bombe Adsonu",
+  "film": "Drama",
+  "year": 2012,
+  "singers": "Vijay Prakash",
   "tags": [
    "melody"
   ],
@@ -2076,6 +2154,17 @@
   "hot": true
  },
  {
+  "id": "LK7-_dgAVQE",
+  "title": "Yo Yo Hassena",
+  "film": "Googly",
+  "year": 2013,
+  "singers": "Pawan Wadeyar",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "lMTRge_hrX0",
   "title": "Sontada Visya",
   "film": "Brahma",
@@ -2153,11 +2242,89 @@
   "hot": true
  },
  {
+  "id": "mTuPDGFboNU",
+  "title": "Ninna Danigaagi",
+  "film": "Savari 2",
+  "year": 2014,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "sp6-4hiRGVs",
+  "title": "Jag Changa Title",
+  "film": "Jag Changa",
+  "year": 2014,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "63PTx_1WEq4",
+  "title": "Parasiva",
+  "film": "Jag Changa",
+  "year": 2014,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "Ks2lxk9SjYo",
   "title": "Asaku Pasaku",
   "film": "Ranna",
   "year": 2015,
   "singers": "Jaspreet Jasz",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "XuH-k-IE5yg",
+  "title": "Sanahasada",
+  "film": "RangiTaranga",
+  "year": 2015,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "cYwbndfAMCU",
+  "title": "Kareyole",
+  "film": "RangiTaranga",
+  "year": 2015,
+  "singers": "Inchara Rao",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "rf6-5k9bzmM",
+  "title": "Annange Love Aagide",
+  "film": "Masterpiece",
+  "year": 2015,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "wCzYdR8H_84",
+  "title": "No Excuse Me",
+  "film": "Uppi 2",
+  "year": 2015,
+  "singers": "Upendra",
   "tags": [
    "mass"
   ],
@@ -2193,6 +2360,17 @@
   "singers": "Armaan Malik",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "1himtoWeA_U",
+  "title": "Karma Song",
+  "film": "U Turn",
+  "year": 2016,
+  "singers": "Anirudh Ravichander",
+  "tags": [
+   "mass"
   ],
   "hot": true
  },
@@ -2286,6 +2464,28 @@
   "hot": true
  },
  {
+  "id": "KjLV0rn1z40",
+  "title": "Neene Bari Neene",
+  "film": "Chakravarthy",
+  "year": 2017,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "lkOuyF3Oo9A",
+  "title": "Appa I Love You",
+  "film": "Chowka",
+  "year": 2017,
+  "singers": "Anuradha Bhat",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "42vgx97trM4",
   "title": "Salaam Rocky Bhai",
   "film": "KGF Chapter 1",
@@ -2352,6 +2552,51 @@
   "hot": true
  },
  {
+  "id": "Q1Xg6Ghol1A",
+  "title": "Mental Ho Gawa",
+  "film": "Tagaru",
+  "year": 2018,
+  "singers": "Ananya Bhat",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "mK9C6wViwn4",
+  "title": "Chutu Chutu",
+  "film": "Raambo 2",
+  "year": 2018,
+  "singers": "Ravindra Soragavi, Shamitha Malnad",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "chLTOMbgLO0",
+  "title": "Yenammi Yenammi",
+  "film": "Ayogya",
+  "year": 2018,
+  "singers": "Vijay Prakash, Palak Muchhal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "m9PGvND2wh4",
+  "title": "Goli Maar",
+  "film": "Raambo 2",
+  "year": 2018,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "qEJxvGmx1pA",
   "title": "Kanmaniye",
   "film": "Pailwaan",
@@ -2396,11 +2641,89 @@
   "hot": true
  },
  {
+  "id": "Wdr7B4TtAu0",
+  "title": "Shaane Top Agavne",
+  "film": "Sinnga",
+  "year": 2019,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "50T6Ht7ITSM",
+  "title": "Bhavaloka",
+  "film": "Bell Bottom",
+  "year": 2019,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "rs76XO4XMxI",
+  "title": "Natasaarvabhowma Title",
+  "film": "Natasaarvabhowma",
+  "year": 2019,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "C3jlOlzSL8I",
+  "title": "Hands Up",
+  "film": "Avane Srimannarayana",
+  "year": 2019,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "san8kOdXRTY",
   "title": "Neene Kaarana",
   "film": "Aadyaa",
   "year": 2020,
   "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Ysf4QRrcLGM",
+  "title": "Kharabu",
+  "film": "Pogaru",
+  "year": 2020,
+  "singers": "Chandan Shetty",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "cO4eJxbCedc",
+  "title": "Soul of Dia",
+  "film": "Dia",
+  "year": 2020,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "01uRBlLAjFg",
+  "title": "Marali Manasagide",
+  "film": "Gentleman",
+  "year": 2020,
+  "singers": "Sanjith Hegde",
   "tags": [
    "melody"
   ],
@@ -2469,6 +2792,39 @@
   "singers": "Shreya Ghoshal",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "D9UkW3HoKv4",
+  "title": "Open Hairu",
+  "film": "Roberrt",
+  "year": 2021,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "IVYrwwUvzik",
+  "title": "Nee Sanihake Bandare",
+  "film": "Nee Sanihake",
+  "year": 2021,
+  "singers": "Vasuki Vaibhav",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "LLeNxfu2PFo",
+  "title": "Chinnamma Unna",
+  "film": "Rider",
+  "year": 2021,
+  "singers": "Armaan Malik",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -2573,6 +2929,62 @@
   "hot": true
  },
  {
+  "id": "3XShkcOze3s",
+  "title": "Singara Siriye",
+  "film": "Kantara",
+  "year": 2022,
+  "singers": "Vijay Prakash, Ananya Bhat",
+  "tags": [
+   "melody",
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "O_fUZHJ-X78",
+  "title": "Ra Ra Rakkamma",
+  "film": "Vikrant Rona",
+  "year": 2022,
+  "singers": "Nakash Aziz, Sunidhi Chauhan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "EHUnXT9eTHk",
+  "title": "Torture Song",
+  "film": "777 Charlie",
+  "year": 2022,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "tNs3PG0-V-Y",
+  "title": "Kanneerina",
+  "film": "Love Mocktail 2",
+  "year": 2022,
+  "singers": "Nakul Abhyankar",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "5CDpZWqJ32c",
+  "title": "Dheemtha",
+  "film": "Kantara",
+  "year": 2022,
+  "singers": "B. Ajaneesh Loknath",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "SAKM73oQWv4",
   "title": "Pasandaagavne",
   "film": "Kaatera",
@@ -2596,6 +3008,62 @@
   "hot": true
  },
  {
+  "id": "dDMXyQ6cwIc",
+  "title": "Saptasagaradaache Ello Title",
+  "film": "Saptasagaradaache Ello Side A",
+  "year": 2023,
+  "singers": "Kapil Kapilan",
+  "tags": [
+   "melody",
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "tgM0_HFN74w",
+  "title": "Kabzaa Title Track",
+  "film": "Kabzaa",
+  "year": 2023,
+  "singers": "Ravi Basrur",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "CkSkNY6snjY",
+  "title": "Hey Jhumke",
+  "film": "Kabzaa",
+  "year": 2023,
+  "singers": "Gurukiran",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "XkfzCgQKmbY",
+  "title": "Maadeva",
+  "film": "Maadeva",
+  "year": 2023,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "aTz3u9JvcwM",
+  "title": "Mahadeshwara",
+  "film": "Orchestra Mysuru",
+  "year": 2023,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "1D_CqonmZh8",
   "title": "Chinnamma",
   "film": "Krishnam Pranaya Sakhi",
@@ -2603,6 +3071,28 @@
   "singers": "Kailash Kher",
   "tags": [
    "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "hPOO8jfI9gA",
+  "title": "Dwapara",
+  "film": "Krishnam Pranaya Sakhi",
+  "year": 2024,
+  "singers": "Jassie Gift",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "JrrV4cwMb9Y",
+  "title": "Pushpa Pushpa Kannada",
+  "film": "Pushpa 2",
+  "year": 2024,
+  "singers": "Nakash Aziz",
+  "tags": [
    "mass"
   ],
   "hot": true
