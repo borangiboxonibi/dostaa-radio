@@ -36,6 +36,18 @@
   "hot": true
  },
  {
+  "id": "jSrDSslk1g8",
+  "title": "Aadisi Nodu Beelisi Nodu",
+  "film": "Kasturi Nivasa",
+  "year": 1971,
+  "singers": "P. B. Sreenivas",
+  "tags": [
+   "classic",
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "aV1kJ_XG84w",
   "title": "Tera Eri Ambarada",
   "film": "Naagarahaavu",
@@ -43,6 +55,18 @@
   "singers": "P. B. Sreenivas",
   "tags": [
    "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "-Oryie1c-gs",
+  "title": "Bangarada Manushya Aagadu Endu",
+  "film": "Bangarada Manushya",
+  "year": 1972,
+  "singers": "P. B. Sreenivas",
+  "tags": [
+   "classic",
+   "mass"
   ],
   "hot": true
  },
@@ -95,6 +119,18 @@
   "hot": true
  },
  {
+  "id": "FD3UN6dELZg",
+  "title": "Naa Ninna Mareyalare",
+  "film": "Naa Ninna Mareyalare",
+  "year": 1976,
+  "singers": "P. B. Sreenivas",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "2xD8KuArGlM",
   "title": "Baanallu Neene",
   "film": "Bayalu Daari",
@@ -103,6 +139,30 @@
   "tags": [
    "classic",
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "-3sjnr5ekIU",
+  "title": "Aaraadhisuve Madanari",
+  "film": "Babruvahana",
+  "year": 1977,
+  "singers": "Dr. Rajkumar",
+  "tags": [
+   "classic",
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "lb1VQNn3bAQ",
+  "title": "Karedaru Kelade",
+  "film": "Sanadi Appanna",
+  "year": 1977,
+  "singers": "Dr. Rajkumar",
+  "tags": [
+   "classic",
+   "folk"
   ],
   "hot": true
  },
@@ -127,6 +187,18 @@
   "tags": [
    "classic",
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "H_D1GBhlR1w",
+  "title": "Nanobba Kalla",
+  "film": "Nanobba Kalla",
+  "year": 1979,
+  "singers": "Dr. Rajkumar",
+  "tags": [
+   "mass",
+   "classic"
   ],
   "hot": true
  },
@@ -323,6 +395,18 @@
   "hot": true
  },
  {
+  "id": "QX9GMsztHcM",
+  "title": "Manikya Veena",
+  "film": "Kaviratna Kalidasa",
+  "year": 1983,
+  "singers": "Dr. Rajkumar",
+  "tags": [
+   "classic",
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "sEADCCqoA6I",
   "title": "Nannavaru Yaaru Illa",
   "film": "Accident",
@@ -335,6 +419,17 @@
   "hot": true
  },
  {
+  "id": "lnYptjdQbyo",
+  "title": "Jogada Siri Belakinalli",
+  "film": "Bhavageethe",
+  "year": 1985,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "nP43kDFLfn4",
   "title": "Malgudi Days Theme",
   "film": "Malgudi Days",
@@ -343,6 +438,18 @@
   "tags": [
    "classic",
    "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "zmHsP1CN_aA",
+  "title": "Bhagyada Lakshmi Baramma",
+  "film": "Bhagyaada Lakshmi Baramma",
+  "year": 1986,
+  "singers": "Dr. Rajkumar",
+  "tags": [
+   "folk",
+   "classic"
   ],
   "hot": true
  },
@@ -478,6 +585,30 @@
   "hot": true
  },
  {
+  "id": "YeP2HwIX7eQ",
+  "title": "Anjada Gandu Title",
+  "film": "Anjada Gandu",
+  "year": 1988,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "htONGTF-Fdw",
+  "title": "Preethiyalli Ero",
+  "film": "Anjada Gandu",
+  "year": 1988,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "Jv04sFM3xM0",
   "title": "Geethanjali Pushpanjali",
   "film": "C.B.I. Shankar",
@@ -510,6 +641,50 @@
   "tags": [
    "classic",
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "NxZEWwBPbYg",
+  "title": "Kodagana Koriya Nooreya",
+  "film": "Shishunala Sharif",
+  "year": 1990,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Y7dH2L5uy2E",
+  "title": "Tarakka Bindige",
+  "film": "Shishunala Sharif",
+  "year": 1990,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "XyI6hPU_GrM",
+  "title": "Sorutihudu Maneya Maalige",
+  "film": "Shishunala Sharif",
+  "year": 1990,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "KbjvbBckRIM",
+  "title": "Bhagyada Balegara",
+  "film": "Janapada",
+  "year": 1990,
+  "singers": "Janapada",
+  "tags": [
+   "folk"
   ],
   "hot": true
  },
@@ -574,6 +749,54 @@
   "hot": true
  },
  {
+  "id": "iZHDIQqD4ao",
+  "title": "Halli Meshtru Title",
+  "film": "Halli Meshtru",
+  "year": 1992,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "wYWx1pTRSYY",
+  "title": "Kaveri Theerada",
+  "film": "Halli Meshtru",
+  "year": 1992,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Y2u5WAntdu4",
+  "title": "O Maina O Maina",
+  "film": "Solillada Saradara",
+  "year": 1992,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "rDJXnFCB3z0",
+  "title": "Premada Poojari",
+  "film": "Solillada Saradara",
+  "year": 1992,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "izMVVAc9KKE",
   "title": "Huttidare Kannada Nadalli Huttabeku",
   "film": "Aakasmika",
@@ -621,12 +844,72 @@
   "hot": true
  },
  {
+  "id": "kz3_PI87A_M",
+  "title": "Thangali Thangali",
+  "film": "Rasika",
+  "year": 1994,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "-lKzsfnoZss",
+  "title": "O Priyathama",
+  "film": "Chinna",
+  "year": 1994,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
   "id": "-un3ih1geoQ",
   "title": "Hey Dinakara",
   "film": "Om",
   "year": 1995,
   "singers": "Dr. Rajkumar",
   "tags": [
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "uZIFHmIAoJQ",
+  "title": "Putta Putta Makkale",
+  "film": "Putnanja",
+  "year": 1995,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "dard",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "-ZVARK25T0Y",
+  "title": "Rangana Halliya",
+  "film": "Putnanja",
+  "year": 1995,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "mlkJKMYTfMw",
+  "title": "Dasara Habba",
+  "film": "Putnanja",
+  "year": 1995,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass",
    "classic"
   ],
   "hot": true
@@ -675,6 +958,53 @@
   "singers": "C. Ashwath",
   "tags": [
    "folk"
+  ],
+  "hot": true
+ },
+ {
+  "id": "uUHvnZfKmsY",
+  "title": "Chikku Chikku",
+  "film": "Sipayi",
+  "year": 1996,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "5qxH0t8cq_g",
+  "title": "O Nanna Cheluve",
+  "film": "Sipayi",
+  "year": 1996,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "hot": true
+ },
+ {
+  "id": "noK7dZfiwZU",
+  "title": "Snehithane",
+  "film": "Sipayi",
+  "year": 1996,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "MUbYGWXgLWA",
+  "title": "Nammoora Mandaara Hoove",
+  "film": "Nammoora Mandaara Hoove",
+  "year": 1996,
+  "singers": "C. Ashwath",
+  "tags": [
+   "folk",
+   "melody"
   ],
   "hot": true
  },
@@ -757,6 +1087,17 @@
   "hot": true
  },
  {
+  "id": "RosC7tWJcpI",
+  "title": "Sundari Sundari",
+  "film": "Kalavida",
+  "year": 1997,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "QYgODsW3BHM",
   "title": "O Malenaadina",
   "film": "Chaitrada Premanjali",
@@ -826,6 +1167,17 @@
   "hot": true
  },
  {
+  "id": "NT1IR7dmF1I",
+  "title": "Baaro Baaro",
+  "film": "Naanu Nanna Hendthi",
+  "year": 1999,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "NzONsYZN5UA",
   "title": "Preethse Preethse Title",
   "film": "Preethse",
@@ -889,6 +1241,17 @@
   "singers": "Hariharan",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "K-eMFiFSFRg",
+  "title": "Om Namah Shivaya",
+  "film": "Sri Manjunatha",
+  "year": 2001,
+  "singers": "Dr. Rajkumar",
+  "tags": [
+   "folk"
   ],
   "hot": true
  },
@@ -970,6 +1333,17 @@
   "hot": true
  },
  {
+  "id": "qWhZv9o7UHg",
+  "title": "Jogada Siri",
+  "film": "Ekangi",
+  "year": 2002,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "folk"
+  ],
+  "hot": true
+ },
+ {
   "id": "T6gMFzuxegI",
   "title": "Excuse Me",
   "film": "Kutumba",
@@ -1014,6 +1388,39 @@
   "hot": true
  },
  {
+  "id": "p5bXnFD4O4I",
+  "title": "Sriramachandrage",
+  "film": "Annavru",
+  "year": 2003,
+  "singers": "S. P. Balasubrahmanyam",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Tbk96O889hA",
+  "title": "Suntaragali",
+  "film": "Annavru",
+  "year": 2003,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "ICy1jUOgtws",
+  "title": "Kariyana Kariyani",
+  "film": "Kariya",
+  "year": 2003,
+  "singers": "Gurukiran",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
   "id": "yxOO0KQcVAs",
   "title": "Rakkamma",
   "film": "Aapthamitra",
@@ -1028,6 +1435,17 @@
   "id": "7LB26D4zlxg",
   "title": "Sakkathagide",
   "film": "Kalasipalya",
+  "year": 2004,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "d2X87-HU5bU",
+  "title": "Shanthi Shanthi",
+  "film": "Malla",
   "year": 2004,
   "singers": "Vijay Prakash",
   "tags": [
@@ -1161,6 +1579,28 @@
   "hot": true
  },
  {
+  "id": "TmPRyi-ckus",
+  "title": "Nannavalu Nannavalu",
+  "film": "My Autograph",
+  "year": 2006,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "k_SOuh3gILA",
+  "title": "Snehada Kadalalli",
+  "film": "My Autograph",
+  "year": 2006,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "PvLXLA8Dsns",
   "title": "Aaha Namma Kalyana",
   "film": "Cheluvina Chittara",
@@ -1261,6 +1701,39 @@
   "hot": true
  },
  {
+  "id": "bKOAOcuVdNA",
+  "title": "Ninna Nodalentho",
+  "film": "Mussanje Maatu",
+  "year": 2008,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "naKNouYsM40",
+  "title": "Gaja Hey Gaja",
+  "film": "Gaja",
+  "year": 2008,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "G0dZrjIzGCA",
+  "title": "Ninna Nodalentho",
+  "film": "Gaalipata",
+  "year": 2008,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "UYsyUkg5fno",
   "title": "Ninna Kanda",
   "film": "Veera Madakari",
@@ -1268,6 +1741,17 @@
   "singers": "M. M. Keeravani",
   "tags": [
    "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Q-Eeacn-7aI",
+  "title": "Neene Neene",
+  "film": "Maleyali Jotheyali",
+  "year": 2009,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1312,6 +1796,17 @@
   "singers": "Kailash Kher",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "30aU4Bvbu1Q",
+  "title": "O Hrudaya",
+  "film": "Just Maath Maathalli",
+  "year": 2010,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1379,6 +1874,61 @@
   "singers": "V. Harikrishna",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "AbTRlFmTCHs",
+  "title": "Kempe Gowda Title",
+  "film": "Kempe Gowda",
+  "year": 2011,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "QXDYRNguqA0",
+  "title": "Hale Radio",
+  "film": "Kempe Gowda",
+  "year": 2011,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "zpVZ6ydVpI0",
+  "title": "Yaare Neenu",
+  "film": "Saarathi",
+  "year": 2011,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Zu6z3qUPu1s",
+  "title": "Kirunage",
+  "film": "Kirataka",
+  "year": 2011,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "pnf7wukJoWA",
+  "title": "Neenendare",
+  "film": "Kool",
+  "year": 2011,
+  "singers": "V. Harikrishna",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1460,6 +2010,72 @@
   "hot": true
  },
  {
+  "id": "Z1JGdFmdP7U",
+  "title": "Bachchan Title Track",
+  "film": "Bachchan",
+  "year": 2013,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "oLMMgoug4Uk",
+  "title": "Hello Hello",
+  "film": "Bachchan",
+  "year": 2013,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "hJer2WycmZ0",
+  "title": "Nille Nille",
+  "film": "Bulbul",
+  "year": 2013,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Ja_uPaekDgY",
+  "title": "Baalali Jotheyagi",
+  "film": "Googly",
+  "year": 2013,
+  "singers": "Haricharan",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "T-upgqYnILk",
+  "title": "Googly Title Track",
+  "film": "Googly",
+  "year": 2013,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "sPde-5cnIDE",
+  "title": "Onde Ondu",
+  "film": "Raja Huli",
+  "year": 2013,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "lMTRge_hrX0",
   "title": "Sontada Visya",
   "film": "Brahma",
@@ -1504,6 +2120,39 @@
   "hot": true
  },
  {
+  "id": "oLU1TzvriNM",
+  "title": "Khel Khatam",
+  "film": "Ambareesha",
+  "year": 2014,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "iPOCZdhEf28",
+  "title": "Upavasa",
+  "film": "Mr and Mrs Ramachari",
+  "year": 2014,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "ENY1eIrnIwI",
+  "title": "Kannale Kannale",
+  "film": "Dil Rangeela",
+  "year": 2014,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
   "id": "Ks2lxk9SjYo",
   "title": "Asaku Pasaku",
   "film": "Ranna",
@@ -1533,6 +2182,17 @@
   "singers": "Mika Singh",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "mmyWqBkX-Bw",
+  "title": "Kinaare",
+  "film": "Santhu Straight Forward",
+  "year": 2016,
+  "singers": "Armaan Malik",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1604,6 +2264,28 @@
   "hot": true
  },
  {
+  "id": "_88Sxp1GW68",
+  "title": "Jigari",
+  "film": "Hebbuli",
+  "year": 2017,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "ObydPjLF4iM",
+  "title": "Devare",
+  "film": "Hebbuli",
+  "year": 2017,
+  "singers": "Armaan Malik",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "42vgx97trM4",
   "title": "Salaam Rocky Bhai",
   "film": "KGF Chapter 1",
@@ -1622,6 +2304,94 @@
   "singers": "Anthony Daasan",
   "tags": [
    "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "Vx8coSNsZ9Y",
+  "title": "Tick Tick Tick",
+  "film": "The Villain",
+  "year": 2018,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "o_Gark2BmoQ",
+  "title": "Garbadhi",
+  "film": "KGF Chapter 1",
+  "year": 2018,
+  "singers": "Ananya Bhat",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "itZimRsBW6I",
+  "title": "Sidila Bharava",
+  "film": "KGF Chapter 1",
+  "year": 2018,
+  "singers": "Ananya Bhat",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "IuS4LL_ALrU",
+  "title": "Dheera Dheera",
+  "film": "KGF Chapter 1",
+  "year": 2018,
+  "singers": "Ananya Bhat",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "qEJxvGmx1pA",
+  "title": "Kanmaniye",
+  "film": "Pailwaan",
+  "year": 2019,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "iBes9CgiO5M",
+  "title": "Ondu Munjane",
+  "film": "Yajamana",
+  "year": 2019,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "k5Y-WwpS6BU",
+  "title": "Sivanandi",
+  "film": "Yajamana",
+  "year": 2019,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "3j-LhFjaTmI",
+  "title": "Aakashake",
+  "film": "Geetha",
+  "year": 2019,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "melody"
   ],
   "hot": true
  },
@@ -1677,6 +2447,28 @@
   "singers": "Armaan Malik",
   "tags": [
    "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "msifD9mGibg",
+  "title": "Jai Sri Ram",
+  "film": "Roberrt",
+  "year": 2021,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "PyrbIANon98",
+  "title": "Kannu Hodiyaka",
+  "film": "Roberrt",
+  "year": 2021,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "mass"
   ],
   "hot": true
  },
@@ -1748,11 +2540,67 @@
   "hot": true
  },
  {
+  "id": "7rcZb-3KHCo",
+  "title": "Hey Fakira",
+  "film": "Vikrant Rona",
+  "year": 2022,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "melody"
+  ],
+  "hot": true
+ },
+ {
+  "id": "f2dTfaNm4n4",
+  "title": "Toofan",
+  "film": "KGF Chapter 2",
+  "year": 2022,
+  "singers": "Santhosh Venky",
+  "tags": [
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "ywnfyiu7c_k",
+  "title": "Gaganam Nee",
+  "film": "KGF Chapter 2",
+  "year": 2022,
+  "singers": "Suchetha Basrur",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
   "id": "SAKM73oQWv4",
   "title": "Pasandaagavne",
   "film": "Kaatera",
   "year": 2023,
   "singers": "Mangli, Vikas Badisa",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "hot": true
+ },
+ {
+  "id": "FwqTyzZJ7rY",
+  "title": "Yaava Janumada",
+  "film": "Kaatera",
+  "year": 2023,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "dard"
+  ],
+  "hot": true
+ },
+ {
+  "id": "1D_CqonmZh8",
+  "title": "Chinnamma",
+  "film": "Krishnam Pranaya Sakhi",
+  "year": 2024,
+  "singers": "Kailash Kher",
   "tags": [
    "folk",
    "mass"
