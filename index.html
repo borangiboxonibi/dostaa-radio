@@ -101,7 +101,7 @@ body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
 .tab[disabled]{opacity:.22;cursor:not-allowed}
 .ft{flex:0 0 auto;margin-top:12px;text-align:center;font-size:9px;color:rgba(255,255,255,.24)}
 .ft a{color:rgba(255,194,74,.42)}
-.yt{position:fixed;bottom:-9999px;left:0;width:1px;height:1px;overflow:hidden}
+.yt{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:220px;height:124px;opacity:.001;pointer-events:none;z-index:0}.warn{position:fixed;left:12px;right:12px;bottom:12px;z-index:9;display:none;background:#1B1108;border:1px solid rgba(255,194,74,.5);border-radius:14px;padding:11px 14px;font-size:12px;color:#FFF3DE;text-align:center;line-height:1.5}.warn b{color:#FFC24A}
 @media(max-height:640px){.ft{display:none}.wave{height:24px;margin-top:16px}.title{font-size:28px}}
 @media(prefers-reduced-motion:reduce){.wave i,.chip i{animation:none!important}}
 </style>
@@ -109,11 +109,12 @@ body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
 <body>
 <div class="bg"></div><div class="veil"></div>
 <div class="yt"><div id="yt"></div></div>
+<div class="warn" id="warn">Instagram’s browser blocks audio. Tap <b>⋮</b> then <b>Open in browser</b>.</div>
 <div class="stage">
  <div class="rail">
   <div class="l">
-   <span class="chip"><i></i>ಆನ್ ಏರ್</span>
-   <span class="count"><b id="lc">&mdash;</b><span>ಕೇಳುಗರು</span></span>
+   <span class="chip"><i></i>ON AIR</span>
+   <span class="count"><b id="lc">&mdash;</b><span>listeners</span></span>
   </div>
   <div class="r">
    <div class="orbs"><div class="orb sun" id="sun"></div><div class="orb moon" id="moon"></div></div>
@@ -123,14 +124,14 @@ body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
  <div class="hero">
   <div class="badge" id="bd">ದೋಸ್ತಾ ರೇಡಿಯೋ</div>
   <h1 class="title" id="t">ಪ್ಲೇ ಒತ್ತಿ</h1>
-  <div class="artist" id="s">ಕನ್ನಡ ಹಾಡುಗಳು · ದಿನದ ೨೪ ಗಂಟೆ</div>
+  <div class="artist" id="s">ಕನ್ನಡ ಹಾಡುಗಳು · 24×7</div>
   <div class="film" id="f"></div>
   <div class="wave" id="wave" aria-hidden="true"></div>
  </div>
  <div class="deck">
   <div class="pg" id="pg"><div class="trk">
    <div class="fill" id="fill"></div><div class="knb" id="knb"></div></div></div>
-  <div class="tm"><span id="t0">೦:೦೦</span><span id="t1">೦:೦೦</span></div>
+  <div class="tm"><span id="t0">0:00</span><span id="t1">0:00</span></div>
   <div class="ctl">
    <button class="b b-sm" id="shuf" aria-pressed="true" aria-label="ಶಫಲ್">
     <svg viewBox="0 0 24 24"><path d="M17 3l4 4-4 4V8.5h-2.2c-1 0-1.6.4-2.3 1.4l-1 1.5-1.2-1.8.8-1.2C12.1 6.7 13.3 6 15 6h2V3zM3 6h3.2c1.7 0 2.9.7 3.9 2.2l4 6c.7 1 1.3 1.4 2.3 1.4H21v2.9h-4.6c-1.7 0-2.9-.7-3.9-2.2l-4-6C7.8 9.3 7.2 8.9 6.2 8.9H3V6zm14 9.5V13l4 4-4 4v-2.5h-1v-3h1z"/></svg></button>
@@ -157,6 +158,7 @@ var R=[{id:"all",label:"ಎಲ್ಲಾ"},{id:"classic",label:"ಹಳೆಯ ಚ�
 {id:"melody",label:"ಮಧುರ",tag:"melody"},{id:"dard",label:"ದುಃಖ",tag:"dard"},
 {id:"mass",label:"ಮಾಸ್",tag:"mass"},{id:"folk",label:"ಜಾನಪದ",tag:"folk"}];
 var $=function(q){return document.querySelector(q)};
+var IGW=/Instagram|FBAN|FBAV|Line\/|Twitter/i.test(navigator.userAgent);
 var songs=[],q=[],i=0,pl=null,rdy=false,live=false,rot="all",tick=null,bad=0,repeatOne=false;
 var PLAY='<path d="M8 5v14l11-7z"/>',PAUSE='<path d="M6.5 5h3.6v14H6.5zM13.9 5h3.6v14h-3.6z"/>';
 (function(){var w=$("#wave"),s="";
@@ -173,8 +175,8 @@ function clockTick(){
   el.style.left=(8+c*84)+"%";el.style.opacity=vis?1:.13}
  pos($("#sun"),sp,day>=6&&day<18);
  pos($("#moon"),mp,!(day>=6&&day<18));
- $("#clk").textContent=kn(h%12||12)+":"+kn(String(m).padStart(2,"0"))+" "+(h<12?"ಬೆ":"ಸಂ");
- $("#dt").textContent=DAY[d.getDay()]+" · "+kn(d.getDate())+" "+MON[d.getMonth()];
+ $("#clk").textContent=(h%12||12)+":"+String(m).padStart(2,"0")+" "+(h<12?"AM":"PM");
+ $("#dt").textContent=DAY[d.getDay()]+" · "+d.getDate()+" "+MON[d.getMonth()];
 }
 clockTick(); setInterval(clockTick,1000);
 function lsn(){var n=new Date(),blk=Math.floor(n.getTime()/300000);
@@ -182,7 +184,7 @@ function lsn(){var n=new Date(),blk=Math.floor(n.getTime()/300000);
  var h=ist().getHours();
  var base=(h>=19&&h<=23)?520:((h>=7&&h<=10)?380:((h>=0&&h<=5)?110:300));
  var v=Math.floor(base+x*260); if(v>969)v=969; if(v<47)v=47;
- $("#lc").textContent=kn(v)}
+ $("#lc").textContent=v.toLocaleString("en-IN")}
 lsn();setInterval(lsn,30000);
 function tabs(){var el=$("#tabs");el.innerHTML="";
  R.forEach(function(r){
@@ -202,7 +204,7 @@ function build(){var r=R.filter(function(x){return x.id===rot})[0];
  if(h.length){var p=h[Math.random()*h.length|0];var f=q[p];q.splice(p,1);q.unshift(f)}
  i=0}
 window.onYouTubeIframeAPIReady=function(){
- pl=new YT.Player("yt",{height:"1",width:"1",
+ pl=new YT.Player("yt",{height:"124",width:"220",
   playerVars:{playsinline:1,rel:0,controls:0,disablekb:1,modestbranding:1},
   events:{onReady:function(){rdy=true;if(live)go(i)},
   onStateChange:function(e){var on=e.data===YT.PlayerState.PLAYING;
@@ -219,15 +221,15 @@ function go(k){if(!q.length)return;
  $("#bd").textContent=lab?lab.label:"ದೋಸ್ತಾ ರೇಡಿಯೋ";
  $("#t").textContent=s.title||"";
  $("#s").textContent=s.singers||"";
- $("#f").textContent=[s.film,s.year?kn(s.year):""].filter(Boolean).join(" · ");
+ $("#f").textContent=[s.film,s.year||""].filter(Boolean).join(" · ");
  $("#fill").style.width="0";$("#knb").style.left="0";
- $("#t0").textContent="೦:೦೦";$("#t1").textContent="೦:೦೦";
+ $("#t0").textContent="0:00";$("#t1").textContent="0:00";
  if("mediaSession" in navigator){navigator.mediaSession.metadata=new MediaMetadata(
   {title:s.title||"",artist:s.singers||"Dostaa Radio",album:s.film||"",
    artwork:[{src:"https://i.ytimg.com/vi/"+s.id+"/hqdefault.jpg",sizes:"480x360",type:"image/jpeg"}]})}
  if(rdy&&pl)pl.loadVideoById(s.id)}
 function fmt(x){x=Math.floor(x||0);
- return kn(Math.floor(x/60))+":"+kn(String(x%60).padStart(2,"0"))}
+ return Math.floor(x/60)+":"+String(x%60).padStart(2,"0")}
 function start(){stop();tick=setInterval(function(){if(!pl||!rdy)return;
  var c=pl.getCurrentTime()||0,d=pl.getDuration()||0,p=d?c/d*100:0;
  $("#fill").style.width=p+"%";$("#knb").style.left=p+"%";
@@ -236,8 +238,11 @@ function stop(){clearInterval(tick);tick=null}
 $("#pg").onclick=function(e){if(!pl||!rdy||!live)return;
  var r=$("#pg").querySelector(".trk").getBoundingClientRect();
  pl.seekTo((e.clientX-r.left)/r.width*(pl.getDuration()||0),true)};
-$("#play").onclick=function(){if(!q.length)return;
- if(!live){go(i);return}
+$("#play").onclick=function(){if(!q.length||!pl||!rdy)return;
+ if(!live){go(i);try{pl.playVideo()}catch(e){}
+  setTimeout(function(){try{if(pl.getPlayerState()!==YT.PlayerState.PLAYING&&IGW)
+   document.getElementById("warn").style.display="block"}catch(e){}},2600);
+  return}
  pl.getPlayerState()===YT.PlayerState.PLAYING?pl.pauseVideo():pl.playVideo()};
 $("#next").onclick=function(){go(i+1)};
 $("#prev").onclick=function(){
