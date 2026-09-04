@@ -88,6 +88,12 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#120B06}
  -webkit-box-orient:vertical;overflow:hidden}
 .artist{margin-top:14px;font-size:clamp(13px,3.4vw,17px);color:var(--w72);
  text-shadow:0 1px 16px rgba(0,0,0,.8)}
+.by{margin-top:11px;display:inline-flex;align-items:center;gap:6px;
+ font-family:var(--kn);font-weight:600;font-size:11px;color:var(--gold);
+ background:rgba(0,0,0,.3);border:1px solid rgba(255,194,74,.28);
+ border-radius:999px;padding:4px 12px;backdrop-filter:blur(8px);
+ text-shadow:none;opacity:.92}
+.by em{font-style:normal;color:rgba(255,255,255,.5);font-weight:500}
 .film{margin-top:5px;font-size:clamp(11px,2.8vw,13px);color:var(--w48);
  text-shadow:0 1px 12px rgba(0,0,0,.8)}
 .wave{position:relative;width:min(600px,92%);height:72px;margin-top:24px;
@@ -196,6 +202,7 @@ body.on-air .wave i{opacity:1}
   <h1 class="title" id="t">ಪ್ಲೇ ಒತ್ತಿ</h1>
   <div class="artist" id="s">ಕನ್ನಡ ಹಾಡುಗಳು · 24×7</div>
   <div class="film" id="f"></div>
+  <div class="by" id="by" style="display:none"></div>
   <div class="wave" id="wave" aria-hidden="true"></div>
  </div>
  <div class="deck">
@@ -333,6 +340,11 @@ function go(k){if(!q.length)return;
      return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]});
  $("#s").textContent=s.singers||"";
  $("#f").textContent=[s.film,s.year||""].filter(Boolean).join(" · ");
+ var byEl=$("#by");
+ if(s.by){byEl.style.display="inline-flex";
+  byEl.innerHTML='<em>ಸೂಚಿಸಿದವರು</em> '+String(s.by).replace(/[&<>]/g,function(c){
+   return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+ else{byEl.style.display="none"}
  $("#fill").style.width="0";$("#knb").style.left="0";
  $("#t0").textContent="0:00";$("#t1").textContent="0:00";
  if("mediaSession" in navigator){navigator.mediaSession.metadata=new MediaMetadata(
