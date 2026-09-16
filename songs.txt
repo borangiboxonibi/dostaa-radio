@@ -15,8 +15,8 @@ lsTCsgX_AKM|Nanna Aaseya Hoove|Auto Raja|1980|S. P. Balasubrahmanyam|melody,clas
 64P_2yNXL30|Kangalu Vandane Helide|Minchina Ota|1980|S. P. Balasubrahmanyam|melody,classic
 GUYUYdZbrfI|Preethi Maadabaardu|Minchina Ota|1980|S. P. Balasubrahmanyam|mass,classic
 ED2EgbsDXDc|Baana Dariyalli|Bhagyavantha|1981|Master Puneeth Rajkumar|dard,classic
-8HbwsAOfoRY|Jotheyali Jothe Jotheyali|Geetha|1981|S. P. Balasubrahmanyam|melody,classic
-neLfupVwObI|Santoshakke|Geetha|1981|S. P. Balasubrahmanyam|mass,classic
+8HbwsAOfoRY|Jotheyali Jothe Jotheyali|Geetha (1981)|1981|S. P. Balasubrahmanyam|melody,classic
+neLfupVwObI|Santoshakke|Geetha (1981)|1981|S. P. Balasubrahmanyam|mass,classic
 I9biAGVvbI0|Yare Koogadali|Antha|1981|S. P. Balasubrahmanyam|mass,classic
 whURfYcRgew|Nadada Navalokave|Geetha|1981|S. P. Balasubrahmanyam|melody,classic
 u2nyzSDoigw|Yee Haadu Santhoshada|Muniyana Madari|1981|S. P. Balasubrahmanyam|folk,classic
@@ -461,3 +461,17 @@ nQRPepaWCHM|Muddu Maadaki Muddama|Janapada|0|Balu Belagundi|folk
 PHBtywWdEww|Shanivar Diwas Namma Ura Santi|Janapada|0|Balu Belagundi|folk
 J6GXrvLRZr4|Yen Kunata Ninda Yen Kunata|Janapada|0|Balu Belagundi|folk
 HCGdf9OkLaY|Tractor Driver Byaadada|Janapada|0|Balu Belagundi|folk
+bPRCdOKFHr4|Kelade Nimageega|Geetha (1981)|1981|Various|melody
+Zg3IGmwUnT4|Yene Kelu Koduve|Geetha (1981)|1981|Various|dard
+2Q1MzQe3h30|Kaada Noda Hode|C.B.I. Shankar|1989|Hamsalekha|mass
+L9f5ITIAeVk|Ek Do Theen Chaar|C.B.I. Shankar|1989|Various|mass
+xrmJG0mTCj8|Preethiyinda|Sangliyana|1988|Various|melody
+x33ZZdN_89g|Dhool Maga Dhol|Kalasipalya|2004|Various|mass
+Xnafboih5aA|Suntara Gaali|Kalasipalya|2004|Various|mass
+-FmA7xFFXVs|O Kencha O Kencha|Kalasipalya|2004|Various|melody
+ODbTxvQJTAw|Muddu Manase Peddu Manase|Majestic|2002|Various|melody
+BxcEm4QCLE8|Naane Naane Rajadhi Raja|Majestic|2002|Various|mass
+0j7YXcADQwY|Majestic Title Track|Majestic|2002|Various|mass
+ce_8oho9AaA|Maathu Nannavalu|Gaja|2008|Various|melody
+_nYe47mFxEI|O Manase Manase|Gaja|2008|Various|melody
+TLYKOwgM9vU|Bangari Yare Nee|Gaja|2008|Various|melody
