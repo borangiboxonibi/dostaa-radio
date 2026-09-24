@@ -33,8 +33,10 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#120B06}
  background:linear-gradient(to bottom,rgba(10,6,2,.74) 0%,rgba(10,6,2,.46) 24%,
   rgba(10,6,2,.14) 46%,rgba(10,6,2,.55) 72%,rgba(8,5,2,.9) 100%)}
 .stage{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;
- align-items:center;padding:max(14px,env(safe-area-inset-top)) 20px max(14px,env(safe-area-inset-bottom));
+ align-items:center;padding:calc(env(safe-area-inset-top) + 14px) 18px calc(env(safe-area-inset-bottom) + 14px);
  perspective:900px}
+@media(max-width:380px){.rail{gap:6px}.acct{width:28px;height:28px}.orbs{width:38px}
+ .find input{width:52px}.when{font-size:9px}}
 
 .rail{width:min(720px,100%);display:flex;align-items:center;justify-content:space-between;gap:10px}
 .rail .l,.rail .r{display:flex;align-items:center;gap:9px;flex:0 0 auto}
@@ -99,6 +101,10 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#120B06}
 
 .artist{margin-top:14px;font-family:var(--en);font-size:clamp(12px,3vw,14.5px);
  color:var(--w48);text-shadow:0 1px 12px rgba(0,0,0,.8)}
+
+.dis-line{font-family:var(--nk);font-size:11px;color:var(--w48);margin-top:10px;
+ max-width:36ch;line-height:1.5;opacity:.85;transition:opacity .3s,max-height .3s;overflow:hidden}
+body.on-air .dis-line,body.live-started .dis-line{opacity:0;max-height:0;margin-top:0}
 
 .saverow{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px}
 .sv{width:34px;height:34px;border-radius:50%;border:1px solid var(--w14);
@@ -253,29 +259,23 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
 .pick h4{font-family:var(--en);font-size:13px;color:var(--w72);margin-bottom:10px}
 .pick .plrow{padding:10px}
 
-.vid-bg{position:fixed;inset:0;z-index:22;background:rgba(4,3,1,.9);display:none;
- align-items:center;justify-content:center;padding:16px}
+.vid-bg{position:fixed;inset:0;z-index:22;background:rgba(4,3,1,.92);display:none;
+ align-items:center;justify-content:center;padding:16px;flex-direction:column}
 .vid-bg.open{display:flex}
 .vid-box{width:min(720px,100%);position:relative}
-.vid-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;
- background:#000;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.vid-frame-holder{width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;
+ background:#000;box-shadow:0 20px 60px rgba(0,0,0,.6);position:relative}
 .vid-close{position:absolute;top:-42px;right:0;width:34px;height:34px;border-radius:50%;
  border:1px solid var(--w14);background:rgba(0,0,0,.5);color:var(--w);cursor:pointer;
- font-size:18px;line-height:1}
-.vid-cap{margin-top:10px;text-align:center;font-family:var(--en);font-size:12px;color:var(--w48)}
-
-.dis-bg{position:fixed;inset:0;z-index:40;background:rgba(4,3,1,.94);backdrop-filter:blur(8px);
- display:flex;align-items:center;justify-content:center;padding:20px}
-.dis-bg.hide{display:none}
-.dis{width:min(400px,100%);background:#17110a;border:1px solid var(--w14);
- border-radius:18px;padding:24px 22px;text-align:center}
-.dis .mark{font-family:var(--kn);font-weight:800;font-size:22px;color:var(--gold);margin-bottom:14px}
-.dis p{font-family:var(--en);font-size:12.5px;line-height:1.65;color:var(--w72);margin-bottom:8px}
-.dis p b{color:var(--w)}
-.dis button{margin-top:14px;width:100%;background:var(--gold);color:#140C05;border:0;
- border-radius:12px;padding:13px;font-family:var(--en);font-weight:600;font-size:14px;cursor:pointer;
- transition:transform .15s}
-.dis button:active{transform:scale(.97)}
+ font-size:18px;line-height:1;z-index:2}
+.vid-cap{margin-top:12px;text-align:center;font-family:var(--nk);font-size:13px;color:var(--w72)}
+.vid-ctl{display:flex;align-items:center;justify-content:center;gap:22px;margin-top:14px}
+.vc{border:0;background:transparent;color:var(--w);cursor:pointer;display:grid;place-items:center;
+ border-radius:50%;transition:transform .15s}
+.vc:active{transform:scale(.88)}
+.vc svg{fill:currentColor;width:20px;height:20px}
+.vc-play{width:52px;height:52px;background:var(--w);color:#140C05}
+.vc-play svg{width:22px;height:22px}
 
 @media(max-height:640px){.ft{display:none}.wave{height:22px;margin-top:16px}.title-kn{font-size:24px}}
 @media(prefers-reduced-motion:reduce){.wave i,.chip i,.glow-sweep,.fill::after{animation:none!important}
@@ -283,21 +283,19 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
 </style>
 </head>
 <body>
-<div class="dis-bg" id="disBg">
- <div class="dis">
-  <div class="mark">ದೋಸ್ತಾ ರೇಡಿಯೋ</div>
-  <p><b>All music here plays directly from YouTube.</b> Dostaa Radio does not host, store, download, or own any audio or video — every track streams straight from the original uploader's YouTube channel.</p>
-  <p>Copyright in every song remains with its respective label, artist, or rights holder. This site is a player, not a source.</p>
-  <button id="disOk" type="button">Got it, let's listen</button>
- </div>
-</div>
 <div class="bg"></div><div class="veil"></div>
 <div class="yt" id="ytWrap"><div id="yt"></div></div>
 <div class="vid-bg" id="vidBg">
  <div class="vid-box">
-  <button class="vid-close" id="vidClose">&times;</button>
-  <div class="vid-frame" id="vidFrame"></div>
+  <div class="vid-frame-holder" id="vidHolder">
+   <button class="vid-close" id="vidClose">&times;</button>
+  </div>
   <div class="vid-cap" id="vidCap"></div>
+  <div class="vid-ctl">
+   <button class="vc" id="vPrev" aria-label="previous"><svg viewBox="0 0 24 24"><path d="M7 6h2.2v12H7zM20 6v12l-9-6z"/></svg></button>
+   <button class="vc vc-play" id="vPlay" aria-label="play/pause"><svg id="vpi" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+   <button class="vc" id="vNext" aria-label="next"><svg viewBox="0 0 24 24"><path d="M14.8 6H17v12h-2.2zM4 6l9 6-9 6z"/></svg></button>
+  </div>
  </div>
 </div>
 
@@ -326,6 +324,7 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
   <h1 class="title-kn" id="tkn">Play to begin</h1>
   <div class="title-en" id="ten"></div>
   <div class="artist" id="s">Kannada songs &middot; 24&times;7</div>
+  <div class="dis-line" id="disLine">ಎಲ್ಲಾ ಹಾಡುಗಳು YouTube ಮೂಲಕ ಪ್ಲೇ ಆಗುತ್ತವೆ. ಹಕ್ಕುಗಳು ಆಯಾ ಮಾಲೀಕರಿಗೆ ಸೇರಿವೆ.</div>
   <div class="saverow">
    <button class="sv" id="heart" aria-label="Favorite" title="Favorite">
     <svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.8-10-9.3C.3 8.4 2 5 5.3 5c2 0 3.4 1 4.7 2.6C11.3 6 12.7 5 14.7 5 18 5 19.7 8.4 22 11.7 19.5 16.2 12 21 12 21z"/></svg>
@@ -402,16 +401,6 @@ var sb = null, user = null, favSet = new Set(), playlists = [];
 if (SUPABASE_URL.indexOf("YOUR_") !== 0 && window.supabase) {
   sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 }
-
-(function(){
- var KEY="dostaa_disclaimer_seen";
- var seen; try{ seen = localStorage.getItem(KEY) }catch(e){ seen = null }
- if(seen){ $("#disBg").classList.add("hide") }
- $("#disOk").onclick=function(){
-  $("#disBg").classList.add("hide");
-  try{ localStorage.setItem(KEY,"1") }catch(e){}
- };
-})();
 
 (function(){var w=$("#wave"),s="";
 for(var k=0;k<56;k++){var d=Math.abs(k-27.5)/27.5;
@@ -498,6 +487,7 @@ window.onYouTubeIframeAPIReady=function(){
   onStateChange:function(e){var on=e.data===YT.PlayerState.PLAYING;
    document.body.classList.toggle("on-air",on);
    $("#pi").innerHTML=on?PAUSE:PLAY;
+   var vpi=$("#vpi"); if(vpi)vpi.innerHTML=on?PAUSE:PLAY;
    if(on){bad=0;start()}else{stop()}
    if(e.data===YT.PlayerState.ENDED){repeatOne?go(i):go(i+1)}},
   onError:function(){if(++bad<15){go(i+1)}else{bad=0;$("#tkn").textContent="Song unavailable"}}}})};
@@ -520,6 +510,7 @@ function go(k){if(!q.length)return;
   $("#ten").style.display="none";
  }
  $("#s").textContent=[s.singers,s.film].filter(Boolean).join(" \u00b7 ");
+ document.body.classList.add("live-started");
  $("#fill").style.width="0";$("#knb").style.left="0";
  $("#t0").textContent="0:00";$("#t1").textContent="0:00";
  updateHeart();
@@ -772,36 +763,42 @@ $("#addpl").onclick=function(){
  openPicker();
 };
 
+/* watch video — the iframe NEVER moves in the DOM. It stays put and is
+   just repositioned with fixed CSS to visually line up with the modal box.
+   Moving a live iframe via appendChild is what caused autoplay-next to
+   silently stop working: some mobile browsers treat a reparented media
+   element as new and re-apply autoplay restrictions to it. This avoids
+   that entirely. */
 var videoMode = false;
+function syncVideoRect(){
+ if(!videoMode)return;
+ var r = $("#vidHolder").getBoundingClientRect();
+ $("#ytWrap").style.cssText =
+  "position:fixed;left:"+r.left+"px;top:"+r.top+"px;width:"+r.width+"px;height:"+r.height+"px;"+
+  "opacity:1;pointer-events:auto;z-index:23;overflow:hidden;border-radius:14px";
+ pl.setSize(Math.round(r.width), Math.round(r.height));
+}
 function enterVideo(){
  if(!pl||!rdy||!live)return;
  videoMode = true;
- $("#vidFrame").appendChild($("#ytWrap"));
- $("#ytWrap").style.cssText = "position:static;width:100%;height:100%;opacity:1;pointer-events:auto";
  var s=q[i]; if(s){ $("#vidCap").textContent = (s.kn||s.title) + (s.singers?" \u00b7 "+s.singers:"") }
  $("#vidBg").classList.add("open");
- requestAnimationFrame(function(){
-  pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
- });
+ requestAnimationFrame(syncVideoRect);
 }
 function exitVideo(){
  videoMode = false;
  $("#vidBg").classList.remove("open");
- document.body.appendChild($("#ytWrap"));
  $("#ytWrap").style.cssText = "position:fixed;bottom:-9999px;left:0;width:1px;height:1px;overflow:hidden";
  pl.setSize(1,1);
 }
 $("#watchBtn").onclick=function(){ videoMode?exitVideo():enterVideo() };
 $("#vidClose").onclick=exitVideo;
 $("#vidBg").onclick=function(e){ if(e.target===$("#vidBg"))exitVideo() };
-addEventListener("resize",function(){
- if(videoMode) pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
-});
-addEventListener("orientationchange",function(){
- if(videoMode) setTimeout(function(){
-  pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
- },200);
-});
+$("#vPlay").onclick=function(){ $("#play").click() };
+$("#vPrev").onclick=function(){ $("#prev").click() };
+$("#vNext").onclick=function(){ $("#next").click() };
+addEventListener("resize",syncVideoRect);
+addEventListener("orientationchange",function(){ setTimeout(syncVideoRect,200) });
 
 if(sb){
  sb.auth.onAuthStateChange(function(event,session){
