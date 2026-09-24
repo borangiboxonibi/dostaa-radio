@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <style>
 :root{
  --w:#FFFFFF;--w72:rgba(255,255,255,.72);--w48:rgba(255,255,255,.48);
@@ -57,7 +58,7 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#120B06}
  border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:5px 6px 5px 12px;
  backdrop-filter:blur(10px);transition:border-color .2s,box-shadow .2s}
 .find:focus-within{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,194,74,.15)}
-.find input{width:118px;border:0;outline:0;background:transparent;color:#fff;
+.find input{width:100px;border:0;outline:0;background:transparent;color:#fff;
  font-family:var(--en);font-weight:500;font-size:12.5px}
 .find input::placeholder{color:rgba(255,255,255,.32)}
 .find button{border:0;background:var(--gold);color:#140C05;cursor:pointer;
@@ -66,7 +67,16 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#120B06}
 .find button:active{transform:scale(.88)}
 .find.miss{border-color:var(--ember);animation:shake .32s}
 @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
-@media(max-width:480px){.find input{width:78px}}
+@media(max-width:480px){.find input{width:64px}}
+
+.acct{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--w14);
+ background:rgba(0,0,0,.3);cursor:pointer;display:grid;place-items:center;
+ color:var(--w72);flex:0 0 auto;transition:border-color .2s,transform .15s;overflow:hidden}
+.acct:hover{border-color:rgba(255,194,74,.6)}
+.acct:active{transform:scale(.9)}
+.acct svg{width:16px;height:16px;fill:currentColor}
+.acct img{width:100%;height:100%;object-fit:cover}
+.acct.signed-in{border-color:var(--gold)}
 
 .hero{flex:1 1 auto;min-height:0;width:min(760px,100%);
  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
@@ -89,6 +99,17 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#120B06}
 
 .artist{margin-top:14px;font-family:var(--en);font-size:clamp(12px,3vw,14.5px);
  color:var(--w48);text-shadow:0 1px 12px rgba(0,0,0,.8)}
+
+.saverow{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px}
+.sv{width:34px;height:34px;border-radius:50%;border:1px solid var(--w14);
+ background:rgba(0,0,0,.28);cursor:pointer;display:grid;place-items:center;
+ color:var(--w72);transition:all .18s;position:relative}
+.sv:hover{border-color:rgba(255,194,74,.5);color:var(--w)}
+.sv:active{transform:scale(.88)}
+.sv svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2}
+.sv.on{color:var(--ember);border-color:rgba(255,106,52,.5)}
+.sv.on svg{fill:var(--ember);stroke:var(--ember)}
+.sv.on:active{transform:scale(1.15)}
 
 .glow-sweep{position:absolute;left:50%;top:50%;width:280px;height:280px;
  transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;
@@ -158,6 +179,91 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
 .ft{flex:0 0 auto;margin-top:10px;text-align:center;font-family:var(--en);font-size:9px;color:rgba(255,255,255,.24)}
 .ft a{color:rgba(255,194,74,.42)}
 .yt{position:fixed;bottom:-9999px;left:0;width:1px;height:1px;overflow:hidden}
+
+.sheet-bg{position:fixed;inset:0;z-index:20;background:rgba(6,4,2,.78);backdrop-filter:blur(6px);
+ display:none;align-items:flex-end;justify-content:center}
+.sheet-bg.open{display:flex}
+@media(min-width:640px){.sheet-bg{align-items:center}}
+.sheet{width:100%;max-width:440px;max-height:82vh;background:#17110a;
+ border:1px solid var(--w14);border-radius:20px 20px 0 0;
+ box-shadow:0 -20px 60px rgba(0,0,0,.6);display:flex;flex-direction:column;overflow:hidden;
+ animation:sheet-up .3s cubic-bezier(.2,.9,.3,1)}
+@media(min-width:640px){.sheet{border-radius:20px}}
+@keyframes sheet-up{from{transform:translateY(24px);opacity:0}to{transform:translateY(0);opacity:1}}
+.sheet-head{display:flex;align-items:center;justify-content:space-between;
+ padding:16px 18px;border-bottom:1px solid var(--w14)}
+.sheet-title{font-family:var(--en);font-weight:600;font-size:15px;color:var(--w)}
+.sheet-close{width:28px;height:28px;border-radius:50%;border:0;background:rgba(255,255,255,.08);
+ color:var(--w72);cursor:pointer;font-size:16px;line-height:1}
+.sheet-body{padding:18px;overflow-y:auto;flex:1}
+.gsignin{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;
+ background:var(--w);color:#1a1a1a;border:0;border-radius:12px;padding:13px;
+ font-family:var(--en);font-weight:600;font-size:14px;cursor:pointer;transition:transform .15s}
+.gsignin:active{transform:scale(.97)}
+.gsignin svg{width:18px;height:18px}
+.note{margin-top:12px;font-family:var(--en);font-size:11.5px;color:var(--w48);text-align:center;line-height:1.5}
+
+.who{display:flex;align-items:center;gap:12px;padding-bottom:16px;margin-bottom:14px;border-bottom:1px solid var(--w14)}
+.who img{width:44px;height:44px;border-radius:50%}
+.who .n{font-family:var(--en);font-weight:600;font-size:14px;color:var(--w)}
+.who .e{font-family:var(--en);font-size:11.5px;color:var(--w48)}
+.signout{margin-left:auto;font-family:var(--en);font-size:12px;color:var(--ember);
+ background:none;border:0;cursor:pointer;font-weight:600}
+
+.tabs2{display:flex;gap:6px;margin-bottom:14px}
+.t2{flex:1;font-family:var(--en);font-weight:600;font-size:12.5px;color:var(--w48);
+ background:rgba(255,255,255,.05);border:1px solid var(--w14);border-radius:10px;
+ padding:9px;cursor:pointer;transition:all .18s}
+.t2[aria-pressed=true]{color:#140C05;background:var(--gold);border-color:var(--gold)}
+
+.slist{display:flex;flex-direction:column;gap:6px}
+.srow{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;
+ background:rgba(255,255,255,.04);cursor:pointer;transition:background .15s}
+.srow:hover{background:rgba(255,255,255,.08)}
+.srow .no{font-family:var(--en);font-weight:700;font-size:11px;color:var(--gold);flex:0 0 auto;width:30px}
+.srow .tt{flex:1;min-width:0}
+.srow .tt b{display:block;font-family:var(--nk);font-weight:600;font-size:13.5px;color:var(--w);
+ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srow .tt s{display:block;text-decoration:none;font-family:var(--en);font-size:10.5px;color:var(--w48)}
+.srow .rm{flex:0 0 auto;width:26px;height:26px;border-radius:50%;border:0;
+ background:transparent;color:var(--w26);font-size:16px;cursor:pointer}
+.srow .rm:hover{color:var(--ember)}
+.empty{text-align:center;padding:30px 10px;font-family:var(--en);font-size:12.5px;color:var(--w48)}
+
+.plrow{display:flex;align-items:center;gap:10px;padding:12px;border-radius:12px;
+ background:rgba(255,255,255,.04);cursor:pointer;margin-bottom:8px}
+.plrow:hover{background:rgba(255,255,255,.08)}
+.plrow b{font-family:var(--en);font-weight:600;font-size:13.5px;flex:1}
+.plrow span{font-family:var(--en);font-size:11px;color:var(--w48)}
+.newpl{display:flex;gap:8px;margin-bottom:14px}
+.newpl input{flex:1;background:rgba(255,255,255,.06);border:1px solid var(--w14);
+ border-radius:10px;padding:10px 12px;color:var(--w);font-family:var(--en);font-size:13px;outline:0}
+.newpl input:focus{border-color:var(--gold)}
+.newpl button{background:var(--gold);color:#140C05;border:0;border-radius:10px;
+ padding:0 16px;font-family:var(--en);font-weight:600;font-size:13px;cursor:pointer}
+.backrow{display:flex;align-items:center;gap:8px;margin-bottom:14px;cursor:pointer}
+.backrow svg{width:16px;height:16px;fill:var(--w72)}
+.backrow span{font-family:var(--en);font-weight:600;font-size:13.5px;color:var(--w)}
+
+.pick-bg{position:fixed;inset:0;z-index:25;background:rgba(6,4,2,.7);display:none;
+ align-items:center;justify-content:center}
+.pick-bg.open{display:flex}
+.pick{width:min(320px,90vw);background:#17110a;border:1px solid var(--w14);
+ border-radius:16px;padding:16px;max-height:70vh;overflow-y:auto}
+.pick h4{font-family:var(--en);font-size:13px;color:var(--w72);margin-bottom:10px}
+.pick .plrow{padding:10px}
+
+.vid-bg{position:fixed;inset:0;z-index:22;background:rgba(4,3,1,.9);display:none;
+ align-items:center;justify-content:center;padding:16px}
+.vid-bg.open{display:flex}
+.vid-box{width:min(720px,100%);position:relative}
+.vid-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;
+ background:#000;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.vid-close{position:absolute;top:-42px;right:0;width:34px;height:34px;border-radius:50%;
+ border:1px solid var(--w14);background:rgba(0,0,0,.5);color:var(--w);cursor:pointer;
+ font-size:18px;line-height:1}
+.vid-cap{margin-top:10px;text-align:center;font-family:var(--en);font-size:12px;color:var(--w48)}
+
 @media(max-height:640px){.ft{display:none}.wave{height:22px;margin-top:16px}.title-kn{font-size:24px}}
 @media(prefers-reduced-motion:reduce){.wave i,.chip i,.glow-sweep,.fill::after{animation:none!important}
  .hero{transition:none!important}}
@@ -165,7 +271,14 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
 </head>
 <body>
 <div class="bg"></div><div class="veil"></div>
-<div class="yt"><div id="yt"></div></div>
+<div class="yt" id="ytWrap"><div id="yt"></div></div>
+<div class="vid-bg" id="vidBg">
+ <div class="vid-box">
+  <button class="vid-close" id="vidClose">&times;</button>
+  <div class="vid-frame" id="vidFrame"></div>
+  <div class="vid-cap" id="vidCap"></div>
+ </div>
+</div>
 
 <div class="stage">
  <div class="rail">
@@ -180,6 +293,9 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
    </label>
    <div class="orbs"><div class="orb sun" id="sun"></div><div class="orb moon" id="moon"></div></div>
    <div class="when"><div id="clk">&mdash;</div><div id="dt" style="opacity:.7">&mdash;</div></div>
+   <button class="acct" id="acctBtn" aria-label="Account">
+    <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></svg>
+   </button>
   </div>
  </div>
 
@@ -189,6 +305,17 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
   <h1 class="title-kn" id="tkn">Play to begin</h1>
   <div class="title-en" id="ten"></div>
   <div class="artist" id="s">Kannada songs &middot; 24&times;7</div>
+  <div class="saverow">
+   <button class="sv" id="heart" aria-label="Favorite" title="Favorite">
+    <svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.8-10-9.3C.3 8.4 2 5 5.3 5c2 0 3.4 1 4.7 2.6C11.3 6 12.7 5 14.7 5 18 5 19.7 8.4 22 11.7 19.5 16.2 12 21 12 21z"/></svg>
+   </button>
+   <button class="sv" id="addpl" aria-label="Add to playlist" title="Add to playlist">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+   </button>
+   <button class="sv" id="watchBtn" aria-label="Watch video" title="Watch video">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h13a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/><path d="M19 10l3-2v8l-3-2"/></svg>
+   </button>
+  </div>
   <div class="wave" id="wave" aria-hidden="true"></div>
  </div>
 
@@ -213,6 +340,33 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
  <div class="ft">Played via YouTube &middot; <a href="mailto:hello@dostaa.in">hello@dostaa.in</a> &middot; Dostaa</div>
 </div>
 
+<div class="sheet-bg" id="sheetBg">
+ <div class="sheet">
+  <div class="sheet-head">
+   <span class="sheet-title" id="sheetTitle">Sign in</span>
+   <button class="sheet-close" id="sheetClose">&times;</button>
+  </div>
+  <div class="sheet-body" id="sheetBody">
+   <button class="gsignin" id="googleBtn">
+    <svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.7-2.4 3.6v3h3.9c2.3-2.1 3.5-5.2 3.5-8.8z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 7.9-2.9l-3.9-3c-1.1.7-2.4 1.2-4 1.2-3.1 0-5.7-2.1-6.6-4.9H1.4v3.1C3.3 21.3 7.3 24 12 24z"/><path fill="#FBBC05" d="M5.4 14.4c-.2-.7-.4-1.5-.4-2.4s.1-1.6.4-2.4V6.5H1.4C.5 8.2 0 10.1 0 12s.5 3.8 1.4 5.5l4-3.1z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.3.6 4.5 1.8l3.4-3.4C17.9 1.2 15.2 0 12 0 7.3 0 3.3 2.7 1.4 6.5l4 3.1c.9-2.8 3.5-4.8 6.6-4.8z"/></svg>
+    Continue with Google
+   </button>
+   <div class="note">Your account is only used to save favourites and playlists. No audio is ever stored — every song still plays straight from YouTube.</div>
+  </div>
+ </div>
+</div>
+
+<div class="pick-bg" id="pickBg">
+ <div class="pick">
+  <h4>Add to playlist</h4>
+  <div class="newpl">
+   <input id="pickNewName" placeholder="New playlist name"/>
+   <button id="pickNewGo">Add</button>
+  </div>
+  <div id="pickList"></div>
+ </div>
+</div>
+
 <script>
 var $=function(q){return document.querySelector(q)};
 var songs=[],q=[],i=0,pl=null,rdy=false,live=false,tick=null,bad=0,repeatOne=false;
@@ -220,6 +374,13 @@ var actorFilter=null;
 var PLAY='<path d="M8 5v14l11-7z"/>',PAUSE='<path d="M6.5 5h3.6v14H6.5zM13.9 5h3.6v14h-3.6z"/>';
 var MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 var DAY=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+var SUPABASE_URL = "YOUR_SUPABASE_URL";
+var SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+var sb = null, user = null, favSet = new Set(), playlists = [];
+if (SUPABASE_URL.indexOf("YOUR_") !== 0 && window.supabase) {
+  sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+}
 
 (function(){var w=$("#wave"),s="";
 for(var k=0;k<56;k++){var d=Math.abs(k-27.5)/27.5;
@@ -330,6 +491,7 @@ function go(k){if(!q.length)return;
  $("#s").textContent=[s.singers,s.film].filter(Boolean).join(" \u00b7 ");
  $("#fill").style.width="0";$("#knb").style.left="0";
  $("#t0").textContent="0:00";$("#t1").textContent="0:00";
+ updateHeart();
  if("mediaSession" in navigator){navigator.mediaSession.metadata=new MediaMetadata(
   {title:s.kn||s.title||"",artist:s.singers||"Dostaa Radio",album:s.film||"",
    artwork:[{src:"https://i.ytimg.com/vi/"+s.id+"/hqdefault.jpg",sizes:"480x360",type:"image/jpeg"}]})}
@@ -386,6 +548,240 @@ addEventListener("keydown",function(e){if(e.target.matches("button,input"))retur
  if(e.code==="Space"){e.preventDefault();$("#play").click()}
  if(e.code==="ArrowRight")go(i+1);
  if(e.code==="ArrowLeft")$("#prev").click()});
+
+function openSheet(){$("#sheetBg").classList.add("open")}
+function closeSheet(){$("#sheetBg").classList.remove("open")}
+$("#sheetClose").onclick=closeSheet;
+$("#sheetBg").onclick=function(e){if(e.target===$("#sheetBg"))closeSheet()};
+
+function needSupabase(){
+ if(!sb){ alert("Accounts aren't switched on yet — add your Supabase URL and key in index.html to enable sign-in, favourites and playlists."); return true; }
+ return false;
+}
+
+$("#acctBtn").onclick=function(){
+ if(needSupabase())return;
+ if(user){ renderAccountHome(); } else { renderSignIn(); }
+ openSheet();
+};
+
+function renderSignIn(){
+ $("#sheetTitle").textContent="Sign in";
+ $("#sheetBody").innerHTML =
+  '<button class="gsignin" id="googleBtn2"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.7-2.4 3.6v3h3.9c2.3-2.1 3.5-5.2 3.5-8.8z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 7.9-2.9l-3.9-3c-1.1.7-2.4 1.2-4 1.2-3.1 0-5.7-2.1-6.6-4.9H1.4v3.1C3.3 21.3 7.3 24 12 24z"/><path fill="#FBBC05" d="M5.4 14.4c-.2-.7-.4-1.5-.4-2.4s.1-1.6.4-2.4V6.5H1.4C.5 8.2 0 10.1 0 12s.5 3.8 1.4 5.5l4-3.1z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.3.6 4.5 1.8l3.4-3.4C17.9 1.2 15.2 0 12 0 7.3 0 3.3 2.7 1.4 6.5l4 3.1c.9-2.8 3.5-4.8 6.6-4.8z"/></svg>Continue with Google</button>'+
+  '<div class="note">Your account is only used to save favourites and playlists. No audio is ever stored — every song still plays straight from YouTube.</div>';
+ $("#googleBtn2").onclick=function(){
+  sb.auth.signInWithOAuth({provider:"google", options:{redirectTo: location.href}});
+ };
+}
+
+var homeTab = "fav";
+function renderAccountHome(){
+ $("#sheetTitle").textContent="My Music";
+ var head =
+  '<div class="who"><img src="'+(user.user_metadata.avatar_url||"")+'" onerror="this.style.display=\'none\'"/>'+
+  '<div><div class="n">'+esc(user.user_metadata.full_name||user.email)+'</div>'+
+  '<div class="e">'+esc(user.email)+'</div></div>'+
+  '<button class="signout" id="signoutBtn">Sign out</button></div>'+
+  '<div class="tabs2">'+
+   '<button class="t2" id="tabFav" aria-pressed="'+(homeTab==="fav")+'">Favourites</button>'+
+   '<button class="t2" id="tabPl" aria-pressed="'+(homeTab==="pl")+'">Playlists</button>'+
+  '</div><div id="tabBody"></div>';
+ $("#sheetBody").innerHTML = head;
+ $("#signoutBtn").onclick=function(){sb.auth.signOut()};
+ $("#tabFav").onclick=function(){homeTab="fav";renderAccountHome()};
+ $("#tabPl").onclick=function(){homeTab="pl";renderAccountHome()};
+ if(homeTab==="fav") renderFavTab(); else renderPlaylistsTab();
+}
+
+function esc(t){return String(t||"").replace(/[&<>]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+
+function songRowHtml(no,title,kn,removeFn){
+ return '<div class="srow" data-no="'+no+'"><span class="no">#'+no+'</span>'+
+  '<div class="tt"><b>'+esc(kn||title)+'</b>'+(kn?'<s>'+esc(title)+'</s>':'')+'</div>'+
+  (removeFn?'<button class="rm" data-act="'+removeFn+'">&times;</button>':'')+'</div>';
+}
+
+async function renderFavTab(){
+ var body=$("#tabBody");
+ body.innerHTML='<div class="empty">Loading&hellip;</div>';
+ var {data} = await sb.from("favorites").select("*").order("created_at",{ascending:false});
+ favSet = new Set((data||[]).map(function(r){return r.song_no}));
+ if(!data || !data.length){ body.innerHTML='<div class="empty">No favourites yet.<br/>Tap the heart on a playing song to save it here.</div>'; return; }
+ var html='<div class="slist">';
+ data.forEach(function(r){ html+=songRowHtml(r.song_no,r.song_title,r.song_kn,"rmfav") });
+ html+='</div>';
+ body.innerHTML=html;
+ body.querySelectorAll(".srow").forEach(function(row){
+  row.addEventListener("click",function(e){
+   if(e.target.dataset.act)return;
+   var no=+row.dataset.no, s=songs.find(function(x){return x.no===no});
+   if(s){ var at=-1; for(var y=0;y<q.length;y++){if(q[y].id===s.id){at=y;break}}
+    if(at<0){q.unshift(s);at=0} closeSheet(); go(at); }
+  });
+ });
+ body.querySelectorAll('[data-act="rmfav"]').forEach(function(btn){
+  btn.addEventListener("click",async function(e){
+   e.stopPropagation();
+   var no=+btn.closest(".srow").dataset.no;
+   await sb.from("favorites").delete().eq("user_id",user.id).eq("song_no",no);
+   renderFavTab(); if(q[i] && q[i].no===no) updateHeart();
+  });
+ });
+}
+
+var openPlaylistId = null;
+async function renderPlaylistsTab(){
+ var body=$("#tabBody");
+ body.innerHTML='<div class="empty">Loading&hellip;</div>';
+ var {data} = await sb.from("playlists").select("*, playlist_songs(count)").order("created_at",{ascending:false});
+ playlists = data||[];
+ var html='<div class="newpl"><input id="newPlName" placeholder="New playlist name"/><button id="newPlGo">Add</button></div>';
+ if(!playlists.length){ html+='<div class="empty">No playlists yet. Create one above.</div>'; }
+ playlists.forEach(function(p){
+  var count=(p.playlist_songs&&p.playlist_songs[0])?p.playlist_songs[0].count:0;
+  html+='<div class="plrow" data-id="'+p.id+'"><b>'+esc(p.name)+'</b><span>'+count+'</span></div>';
+ });
+ body.innerHTML=html;
+ $("#newPlGo").onclick=async function(){
+  var name=$("#newPlName").value.trim(); if(!name)return;
+  await sb.from("playlists").insert({user_id:user.id,name:name});
+  renderPlaylistsTab();
+ };
+ body.querySelectorAll(".plrow").forEach(function(row){
+  row.addEventListener("click",function(){ openPlaylist(row.dataset.id) });
+ });
+}
+
+async function openPlaylist(id){
+ openPlaylistId=id;
+ var p=playlists.find(function(x){return x.id===id});
+ var body=$("#tabBody");
+ body.innerHTML='<div class="backrow" id="backBtn"><svg viewBox="0 0 24 24"><path d="M15 4l-8 8 8 8"/></svg><span>'+esc(p?p.name:"")+'</span></div><div class="empty">Loading&hellip;</div>';
+ $("#backBtn").onclick=function(){renderPlaylistsTab()};
+ var {data} = await sb.from("playlist_songs").select("*").eq("playlist_id",id).order("position");
+ if(!data || !data.length){ body.innerHTML='<div class="backrow" id="backBtn2"><svg viewBox="0 0 24 24"><path d="M15 4l-8 8 8 8"/></svg><span>'+esc(p?p.name:"")+'</span></div><div class="empty">Empty. Use the + button on a playing song to add tracks.</div>';
+  $("#backBtn2").onclick=function(){renderPlaylistsTab()}; return; }
+ var html='<div class="backrow" id="backBtn3"><svg viewBox="0 0 24 24"><path d="M15 4l-8 8 8 8"/></svg><span>'+esc(p?p.name:"")+'</span></div><div class="slist">';
+ data.forEach(function(r){ html+=songRowHtml(r.song_no,r.song_title,r.song_kn,"rmpl") });
+ html+='</div>';
+ body.innerHTML=html;
+ $("#backBtn3").onclick=function(){renderPlaylistsTab()};
+ body.querySelectorAll(".srow").forEach(function(row){
+  row.addEventListener("click",function(e){
+   if(e.target.dataset.act)return;
+   var no=+row.dataset.no, s=songs.find(function(x){return x.no===no});
+   if(s){ var at=-1; for(var y=0;y<q.length;y++){if(q[y].id===s.id){at=y;break}}
+    if(at<0){q.unshift(s);at=0} closeSheet(); go(at); }
+  });
+ });
+ body.querySelectorAll('[data-act="rmpl"]').forEach(function(btn){
+  btn.addEventListener("click",async function(e){
+   e.stopPropagation();
+   var no=+btn.closest(".srow").dataset.no;
+   await sb.from("playlist_songs").delete().eq("playlist_id",openPlaylistId).eq("song_no",no);
+   openPlaylist(openPlaylistId);
+  });
+ });
+}
+
+async function updateHeart(){
+ var h=$("#heart"); if(!live||!q[i]){h.classList.remove("on");return}
+ h.classList.toggle("on", sb && user && favSet.has(q[i].no));
+}
+$("#heart").onclick=async function(){
+ if(needSupabase())return;
+ if(!user){ renderSignIn(); openSheet(); return }
+ if(!live||!q[i])return;
+ var s=q[i];
+ if(favSet.has(s.no)){
+  favSet.delete(s.no);
+  await sb.from("favorites").delete().eq("user_id",user.id).eq("song_no",s.no);
+ } else {
+  favSet.add(s.no);
+  await sb.from("favorites").insert({user_id:user.id,song_no:s.no,song_id:s.id,song_title:s.title,song_kn:s.kn||null});
+ }
+ updateHeart();
+};
+
+function openPicker(){
+ $("#pickBg").classList.add("open");
+ refreshPicker();
+}
+function closePicker(){$("#pickBg").classList.remove("open")}
+$("#pickBg").onclick=function(e){if(e.target===$("#pickBg"))closePicker()};
+async function refreshPicker(){
+ var {data}=await sb.from("playlists").select("*").order("created_at",{ascending:false});
+ playlists=data||[];
+ var el=$("#pickList");
+ if(!playlists.length){ el.innerHTML='<div class="empty">No playlists yet — add one above.</div>'; return; }
+ el.innerHTML = playlists.map(function(p){
+  return '<div class="plrow" data-id="'+p.id+'"><b>'+esc(p.name)+'</b></div>';
+ }).join("");
+ el.querySelectorAll(".plrow").forEach(function(row){
+  row.addEventListener("click",async function(){
+   var s=q[i]; if(!s)return;
+   var {data:existing}=await sb.from("playlist_songs").select("position").eq("playlist_id",row.dataset.id).order("position",{ascending:false}).limit(1);
+   var pos=(existing&&existing[0])?existing[0].position+1:0;
+   await sb.from("playlist_songs").upsert({playlist_id:row.dataset.id,song_no:s.no,song_id:s.id,song_title:s.title,song_kn:s.kn||null,position:pos},{onConflict:"playlist_id,song_no"});
+   closePicker();
+  });
+ });
+}
+$("#pickNewGo").onclick=async function(){
+ var name=$("#pickNewName").value.trim(); if(!name||!user)return;
+ var {data}=await sb.from("playlists").insert({user_id:user.id,name:name}).select();
+ $("#pickNewName").value="";
+ refreshPicker();
+};
+$("#addpl").onclick=function(){
+ if(needSupabase())return;
+ if(!user){ renderSignIn(); openSheet(); return }
+ if(!live||!q[i])return;
+ openPicker();
+};
+
+var videoMode = false;
+function enterVideo(){
+ if(!pl||!rdy||!live)return;
+ videoMode = true;
+ $("#vidFrame").appendChild($("#ytWrap"));
+ $("#ytWrap").style.cssText = "position:static;width:100%;height:100%;opacity:1;pointer-events:auto";
+ pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
+ var s=q[i]; if(s){ $("#vidCap").textContent = (s.kn||s.title) + (s.singers?" \u00b7 "+s.singers:"") }
+ $("#vidBg").classList.add("open");
+}
+function exitVideo(){
+ videoMode = false;
+ $("#vidBg").classList.remove("open");
+ document.body.appendChild($("#ytWrap"));
+ $("#ytWrap").style.cssText = "position:fixed;bottom:-9999px;left:0;width:1px;height:1px;overflow:hidden";
+ pl.setSize(1,1);
+}
+$("#watchBtn").onclick=function(){ videoMode?exitVideo():enterVideo() };
+$("#vidClose").onclick=exitVideo;
+$("#vidBg").onclick=function(e){ if(e.target===$("#vidBg"))exitVideo() };
+addEventListener("resize",function(){
+ if(videoMode) pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
+});
+
+if(sb){
+ sb.auth.onAuthStateChange(function(event,session){
+  user = session ? session.user : null;
+  $("#acctBtn").classList.toggle("signed-in", !!user);
+  if(user && user.user_metadata && user.user_metadata.avatar_url){
+   $("#acctBtn").innerHTML = '<img src="'+user.user_metadata.avatar_url+'" onerror="this.parentNode.classList.remove(\'signed-in\')"/>';
+  } else {
+   $("#acctBtn").innerHTML = '<svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></svg>';
+  }
+  if(user){
+   sb.from("favorites").select("song_no").then(function(r){
+    favSet = new Set((r.data||[]).map(function(x){return x.song_no}));
+    updateHeart();
+   });
+  } else { favSet=new Set(); updateHeart(); }
+ });
+}
 </script>
 </body>
 </html>
