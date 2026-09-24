@@ -119,7 +119,7 @@ body.on-air .glow-sweep{opacity:1;animation:pulse-glow 4.5s ease-in-out infinite
 @keyframes pulse-glow{0%,100%{transform:translate(-50%,-50%) scale(1)}50%{transform:translate(-50%,-50%) scale(1.12)}}
 
 .wave{position:relative;width:min(560px,86%);display:flex;align-items:center;justify-content:center;
- gap:3px;height:32px;margin-top:24px}
+ gap:3px;height:32px;margin-top:22px}
 .wave i{width:2px;border-radius:2px;height:10%;background:var(--w26);transition:opacity .5s}
 body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
  animation:eq 1.1s ease-in-out infinite alternate}
@@ -264,12 +264,33 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
  font-size:18px;line-height:1}
 .vid-cap{margin-top:10px;text-align:center;font-family:var(--en);font-size:12px;color:var(--w48)}
 
+.dis-bg{position:fixed;inset:0;z-index:40;background:rgba(4,3,1,.94);backdrop-filter:blur(8px);
+ display:flex;align-items:center;justify-content:center;padding:20px}
+.dis-bg.hide{display:none}
+.dis{width:min(400px,100%);background:#17110a;border:1px solid var(--w14);
+ border-radius:18px;padding:24px 22px;text-align:center}
+.dis .mark{font-family:var(--kn);font-weight:800;font-size:22px;color:var(--gold);margin-bottom:14px}
+.dis p{font-family:var(--en);font-size:12.5px;line-height:1.65;color:var(--w72);margin-bottom:8px}
+.dis p b{color:var(--w)}
+.dis button{margin-top:14px;width:100%;background:var(--gold);color:#140C05;border:0;
+ border-radius:12px;padding:13px;font-family:var(--en);font-weight:600;font-size:14px;cursor:pointer;
+ transition:transform .15s}
+.dis button:active{transform:scale(.97)}
+
 @media(max-height:640px){.ft{display:none}.wave{height:22px;margin-top:16px}.title-kn{font-size:24px}}
 @media(prefers-reduced-motion:reduce){.wave i,.chip i,.glow-sweep,.fill::after{animation:none!important}
  .hero{transition:none!important}}
 </style>
 </head>
 <body>
+<div class="dis-bg" id="disBg">
+ <div class="dis">
+  <div class="mark">ದೋಸ್ತಾ ರೇಡಿಯೋ</div>
+  <p><b>All music here plays directly from YouTube.</b> Dostaa Radio does not host, store, download, or own any audio or video — every track streams straight from the original uploader's YouTube channel.</p>
+  <p>Copyright in every song remains with its respective label, artist, or rights holder. This site is a player, not a source.</p>
+  <button id="disOk" type="button">Got it, let's listen</button>
+ </div>
+</div>
 <div class="bg"></div><div class="veil"></div>
 <div class="yt" id="ytWrap"><div id="yt"></div></div>
 <div class="vid-bg" id="vidBg">
@@ -381,6 +402,16 @@ var sb = null, user = null, favSet = new Set(), playlists = [];
 if (SUPABASE_URL.indexOf("YOUR_") !== 0 && window.supabase) {
   sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 }
+
+(function(){
+ var KEY="dostaa_disclaimer_seen";
+ var seen; try{ seen = localStorage.getItem(KEY) }catch(e){ seen = null }
+ if(seen){ $("#disBg").classList.add("hide") }
+ $("#disOk").onclick=function(){
+  $("#disBg").classList.add("hide");
+  try{ localStorage.setItem(KEY,"1") }catch(e){}
+ };
+})();
 
 (function(){var w=$("#wave"),s="";
 for(var k=0;k<56;k++){var d=Math.abs(k-27.5)/27.5;
@@ -747,9 +778,11 @@ function enterVideo(){
  videoMode = true;
  $("#vidFrame").appendChild($("#ytWrap"));
  $("#ytWrap").style.cssText = "position:static;width:100%;height:100%;opacity:1;pointer-events:auto";
- pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
  var s=q[i]; if(s){ $("#vidCap").textContent = (s.kn||s.title) + (s.singers?" \u00b7 "+s.singers:"") }
  $("#vidBg").classList.add("open");
+ requestAnimationFrame(function(){
+  pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
+ });
 }
 function exitVideo(){
  videoMode = false;
@@ -763,6 +796,11 @@ $("#vidClose").onclick=exitVideo;
 $("#vidBg").onclick=function(e){ if(e.target===$("#vidBg"))exitVideo() };
 addEventListener("resize",function(){
  if(videoMode) pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
+});
+addEventListener("orientationchange",function(){
+ if(videoMode) setTimeout(function(){
+  pl.setSize($("#vidFrame").clientWidth, $("#vidFrame").clientHeight);
+ },200);
 });
 
 if(sb){
