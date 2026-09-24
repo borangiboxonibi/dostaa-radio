@@ -18,6 +18,7 @@ for line in open("songs.txt", encoding="utf-8"):
         "year": int(year) if year.isdigit() else None,
         "singers": singers,
         "tags": [t.strip() for t in tags.split(",") if t.strip()],
+        "karaoke": "karaoke" in [t.strip() for t in tags.split(",")],
         "by": by, "hot": True,
     })
 
