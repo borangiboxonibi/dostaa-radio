@@ -118,6 +118,9 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#0D0904}
 .dis-line{font-family:var(--nk);font-size:11px;color:var(--w48);margin-top:10px;
  max-width:36ch;line-height:1.5;opacity:.85;transition:opacity .3s,max-height .3s;overflow:hidden}
 body.on-air .dis-line,body.live-started .dis-line{opacity:0;max-height:0;margin-top:0}
+.hint-line{font-family:var(--en);font-size:10.5px;color:var(--ember);margin-top:8px;
+ opacity:0;transition:opacity .3s;min-height:14px}
+.hint-line.show{opacity:1}
 
 .glow-sweep{position:absolute;left:50%;top:50%;width:280px;height:280px;
  transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;
@@ -133,7 +136,7 @@ body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
  animation:eq 1.1s ease-in-out infinite alternate}
 @keyframes eq{from{height:10%}to{height:100%}}
 
-.tools{display:flex;align-items:center;justify-content:center;gap:22px;margin-top:20px}
+.tools{display:flex;align-items:center;justify-content:center;gap:26px;margin-top:20px}
 .tbtn{width:58px;height:58px;border-radius:50%;border:0;cursor:pointer;position:relative;
  display:grid;place-items:center;color:var(--w);
  background:linear-gradient(155deg,#2A1E12,#130D07);
@@ -142,8 +145,7 @@ body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
  transition:transform .1s,box-shadow .1s}
 .tbtn svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;position:relative;z-index:1}
 .tbtn::before{content:"";position:absolute;inset:-8px;border-radius:50%;opacity:0;
- background:radial-gradient(circle,rgba(255,194,74,.35),transparent 70%);
- transition:opacity .2s}
+ background:radial-gradient(circle,rgba(255,194,74,.35),transparent 70%);transition:opacity .2s}
 .tbtn:hover::before{opacity:1}
 .tbtn:hover{transform:translateY(-2px);
  box-shadow:0 10px 0 rgba(0,0,0,.35),0 16px 26px rgba(0,0,0,.5),
@@ -159,7 +161,7 @@ body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
 .tbtn-lbl{position:absolute;bottom:-19px;left:50%;transform:translateX(-50%);
  font-family:var(--en);font-size:9px;color:var(--w48);letter-spacing:.04em;white-space:nowrap}
 
-.deck{flex:0 0 auto;width:min(560px,100%);margin-top:28px}
+.deck{flex:0 0 auto;width:min(560px,100%);margin-top:30px}
 .pg{padding:8px 0;cursor:pointer}
 .trk{position:relative;height:3px;background:var(--w14);border-radius:3px;overflow:hidden}
 .fill{position:absolute;inset:0 auto 0 0;width:0;border-radius:3px;
@@ -176,27 +178,36 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
 .tm{display:flex;justify-content:space-between;margin-top:6px;font-family:var(--en);font-weight:500;
  font-size:10.5px;color:var(--w48)}
 
-.ctl{display:flex;align-items:center;justify-content:space-between;margin-top:14px;padding:0 4px}
-.b{border:0;background:transparent;color:var(--w);cursor:pointer;display:grid;place-items:center;
- border-radius:50%;transition:transform .16s,color .16s,box-shadow .2s;position:relative}
-.b svg{fill:currentColor;display:block;position:relative;z-index:1}
-.b::before{content:"";position:absolute;inset:-6px;border-radius:50%;opacity:0;
- background:radial-gradient(circle,rgba(255,194,74,.4),transparent 70%);
- transition:opacity .2s,transform .2s;transform:scale(.7)}
-.b:hover::before{opacity:1;transform:scale(1)}
-.b:active{transform:scale(.88)}
-.b:active::before{opacity:1;transform:scale(1.15)}
-.b-sm{width:38px;height:38px;color:var(--w48)}.b-sm svg{width:16px;height:16px}
-.b-sm:hover{color:var(--w)}
-.b-sm[aria-pressed=true]{color:var(--gold)}
-.b-md{width:46px;height:46px}.b-md svg{width:25px;height:25px}
-.b-lg{width:66px;height:66px;background:var(--w);color:#140C05;
- box-shadow:0 8px 28px rgba(0,0,0,.5),0 0 0 1px rgba(255,194,74,.25)}
-.b-lg:hover{transform:translateY(-2px) scale(1.04)}
-.b-lg:active{transform:scale(.92)}
-.b-lg:active::before{background:radial-gradient(circle,rgba(255,150,60,.55),transparent 70%)}
-.b-lg svg{width:29px;height:29px}
-.b:focus-visible{outline:2.5px solid var(--gold);outline-offset:4px}
+.deckplate{margin-top:16px;padding:16px 14px 12px;border-radius:20px;
+ background:linear-gradient(155deg,#241A10,#0F0A05);
+ box-shadow:0 16px 40px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.06),
+  inset 0 -2px 0 rgba(0,0,0,.4),0 0 0 1px rgba(255,194,74,.08)}
+.ctl{display:flex;align-items:center;justify-content:center;gap:12px}
+.tape{border:0;cursor:pointer;position:relative;color:var(--w72);
+ background:linear-gradient(180deg,#3A2C1B,#1C1409);
+ border-radius:11px;
+ box-shadow:0 5px 0 #0A0602,0 9px 14px rgba(0,0,0,.5),
+  inset 0 1px 0 rgba(255,255,255,.1),inset 0 -6px 10px rgba(0,0,0,.35);
+ transition:transform .08s,box-shadow .08s;
+ display:grid;place-items:center}
+.tape svg{fill:currentColor;position:relative;z-index:1;filter:drop-shadow(0 1px 1px rgba(0,0,0,.4))}
+.tape:hover{color:var(--w)}
+.tape:active{transform:translateY(5px);
+ box-shadow:0 0 0 #0A0602,0 2px 6px rgba(0,0,0,.5),
+  inset 0 1px 0 rgba(255,255,255,.06),inset 0 -3px 6px rgba(0,0,0,.4)}
+.tape-sm{width:46px;height:40px}.tape-sm svg{width:17px;height:17px}
+.tape-md{width:56px;height:48px}.tape-md svg{width:22px;height:22px}
+.tape-lg{width:78px;height:58px;background:linear-gradient(180deg,#4A3016,#20140A);
+ box-shadow:0 6px 0 #0A0602,0 11px 18px rgba(0,0,0,.55),
+  inset 0 1px 0 rgba(255,255,255,.14),inset 0 -7px 12px rgba(0,0,0,.4),
+  0 0 0 1px rgba(255,194,74,.15)}
+.tape-lg svg{width:26px;height:26px;color:var(--gold)}
+.tape-lg:active{transform:translateY(6px);
+ box-shadow:0 0 0 #0A0602,0 3px 8px rgba(0,0,0,.55),
+  inset 0 1px 0 rgba(255,255,255,.08),inset 0 -3px 7px rgba(0,0,0,.45)}
+.tape[aria-pressed=true]{color:var(--gold);box-shadow:0 5px 0 #0A0602,0 9px 14px rgba(0,0,0,.5),
+  inset 0 1px 0 rgba(255,255,255,.1),inset 0 -6px 10px rgba(0,0,0,.35),0 0 14px rgba(255,194,74,.4)}
+.tape:focus-visible{outline:2.5px solid var(--gold);outline-offset:3px}
 
 .actors{flex:0 0 auto;display:flex;gap:8px;margin-top:16px;padding-top:12px;
  border-top:1px solid var(--w14);width:min(760px,100%);overflow-x:auto;scrollbar-width:none}
@@ -289,28 +300,8 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
 .vol-slider::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--w);border:0;cursor:grab;
  box-shadow:0 0 0 3px rgba(255,194,74,.28),0 2px 8px rgba(0,0,0,.5)}
 
-.mic-row{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:12px;flex-wrap:wrap}
-.mic-btn,.mon-btn,.rec-btn{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--w14);
- background:rgba(0,0,0,.32);color:var(--w72);cursor:pointer;display:grid;place-items:center;
- transition:all .18s}
-.mic-btn svg,.mon-btn svg,.rec-btn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2}
-.mic-btn.live{color:var(--w);border-color:rgba(255,106,52,.6);background:rgba(255,80,40,.14)}
-.mic-btn.muted{color:var(--w26)}
-.mon-btn.on{color:var(--gold);border-color:rgba(255,194,74,.55);box-shadow:0 0 12px rgba(255,194,74,.3)}
-.rec-btn.on{color:#fff;border-color:#ff3b3b;background:rgba(255,40,40,.22);animation:rec-pulse 1.3s ease-in-out infinite}
-@keyframes rec-pulse{0%,100%{box-shadow:0 0 0 0 rgba(255,59,59,.5)}50%{box-shadow:0 0 0 8px rgba(255,59,59,0)}}
-.mic-meter{width:56px;height:6px;border-radius:3px;background:var(--w14);overflow:hidden;position:relative}
-.mic-meter i{position:absolute;left:0;top:0;bottom:0;width:0%;border-radius:3px;
- background:linear-gradient(90deg,var(--ember),var(--gold));transition:width .07s linear}
-.mic-label{font-family:var(--en);font-size:9.5px;color:var(--w48);width:100%;text-align:center}
-.mon-warn{font-family:var(--en);font-size:9.5px;color:rgba(255,194,74,.75);text-align:center;
- margin-top:4px;max-width:220px}
-.rec-link{display:inline-block;margin-top:8px;font-family:var(--en);font-weight:600;font-size:11.5px;
- color:var(--gold);text-decoration:none;border:1px solid rgba(255,194,74,.4);border-radius:999px;
- padding:6px 14px}
-
 @media(max-height:640px){.ft{display:none}.wave{height:20px;margin-top:16px}.title-kn{font-size:24px}
- .tools{margin-top:14px}}
+ .tools{margin-top:14px}.deckplate{padding:12px 10px 10px}}
 @media(prefers-reduced-motion:reduce){.wave i,.chip i,.glow-sweep,.fill::after,.splash-disc{animation:none!important}
  .hero{transition:none!important}}
 </style>
@@ -331,21 +322,6 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
    <button class="vid-close" id="vidClose">&times;</button>
   </div>
   <div class="vid-cap" id="vidCap"></div>
-  <div class="mic-row" id="micRow" style="display:none">
-   <button class="mic-btn" id="micBtn" aria-label="Microphone">
-    <svg viewBox="0 0 24 24"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
-   </button>
-   <div class="mic-meter"><i id="micMeter"></i></div>
-   <button class="mon-btn" id="monBtn" aria-label="Hear yourself" title="Hear yourself through speakers">
-    <svg viewBox="0 0 24 24"><path d="M4 9v6h3.5l4.5 4V5l-4.5 4H4z"/><path d="M16 8a5 5 0 0 1 0 8"/></svg>
-   </button>
-   <button class="rec-btn" id="recBtn" aria-label="Record your voice" title="Record your voice">
-    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/></svg>
-   </button>
-   <div class="mic-label" id="micLabel">Mic off</div>
-   <div class="mon-warn" id="monWarn" style="display:none">Best with earphones — may echo otherwise</div>
-   <a class="rec-link" id="recLink" style="display:none" download="my-voice.webm">Download your recording</a>
-  </div>
   <div class="vid-ctl">
    <button class="vc" id="vPrev" aria-label="previous"><svg viewBox="0 0 24 24"><path d="M7 6h2.2v12H7zM20 6v12l-9-6z"/></svg></button>
    <button class="vc vc-play" id="vPlay" aria-label="play/pause"><svg id="vpi" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
@@ -380,6 +356,7 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
   <div class="title-en" id="ten"></div>
   <div class="artist" id="s">Kannada songs &middot; 24&times;7</div>
   <div class="dis-line" id="disLine">ಎಲ್ಲಾ ಹಾಡುಗಳು YouTube ಮೂಲಕ ಪ್ಲೇ ಆಗುತ್ತವೆ. ಹಕ್ಕುಗಳು ಆಯಾ ಮಾಲೀಕರಿಗೆ ಸೇರಿವೆ.</div>
+  <div class="hint-line" id="hintLine"></div>
   <div class="wave" id="wave" aria-hidden="true"></div>
   <div class="tools">
    <button class="tbtn" id="watchBtn" aria-label="Watch video">
@@ -390,27 +367,25 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
     <svg id="volIcon" viewBox="0 0 24 24"><path d="M4 9v6h3.5l4.5 4V5l-4.5 4H4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8 8 0 0 1 0 12"/></svg>
     <span class="tbtn-lbl">Volume</span>
    </button>
-   <button class="tbtn" id="karaokeBtn" aria-label="Karaoke">
-    <svg viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v4M9 21h6"/></svg>
-    <span class="tbtn-lbl">Karaoke</span>
-   </button>
   </div>
  </div>
 
  <div class="deck">
   <div class="pg" id="pg"><div class="trk"><div class="fill" id="fill"></div><div class="knb" id="knb"></div></div></div>
   <div class="tm"><span id="t0">0:00</span><span id="t1">0:00</span></div>
-  <div class="ctl">
-   <button class="b b-sm" id="shuf" aria-pressed="true" aria-label="shuffle">
-    <svg viewBox="0 0 24 24"><path d="M17 3l4 4-4 4V8.5h-2.2c-1 0-1.6.4-2.3 1.4l-1 1.5-1.2-1.8.8-1.2C12.1 6.7 13.3 6 15 6h2V3zM3 6h3.2c1.7 0 2.9.7 3.9 2.2l4 6c.7 1 1.3 1.4 2.3 1.4H21v2.9h-4.6c-1.7 0-2.9-.7-3.9-2.2l-4-6C7.8 9.3 7.2 8.9 6.2 8.9H3V6zm14 9.5V13l4 4-4 4v-2.5h-1v-3h1z"/></svg></button>
-   <button class="b b-md" id="prev" aria-label="previous">
-    <svg viewBox="0 0 24 24"><path d="M7 6h2.2v12H7zM20 6v12l-9-6z"/></svg></button>
-   <button class="b b-lg" id="play" aria-label="play">
-    <svg id="pi" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
-   <button class="b b-md" id="next" aria-label="next">
-    <svg viewBox="0 0 24 24"><path d="M14.8 6H17v12h-2.2zM4 6l9 6-9 6z"/></svg></button>
-   <button class="b b-sm" id="rep" aria-pressed="false" aria-label="repeat">
-    <svg viewBox="0 0 24 24"><path d="M7 7h10v2.5l4-3.5-4-3.5V5H5v6h2V7zm10 10H7v-2.5l-4 3.5 4 3.5V19h12v-6h-2v4z"/></svg></button>
+  <div class="deckplate">
+   <div class="ctl">
+    <button class="tape tape-sm" id="shuf" aria-pressed="true" aria-label="shuffle">
+     <svg viewBox="0 0 24 24"><path d="M17 3l4 4-4 4V8.5h-2.2c-1 0-1.6.4-2.3 1.4l-1 1.5-1.2-1.8.8-1.2C12.1 6.7 13.3 6 15 6h2V3zM3 6h3.2c1.7 0 2.9.7 3.9 2.2l4 6c.7 1 1.3 1.4 2.3 1.4H21v2.9h-4.6c-1.7 0-2.9-.7-3.9-2.2l-4-6C7.8 9.3 7.2 8.9 6.2 8.9H3V6zm14 9.5V13l4 4-4 4v-2.5h-1v-3h1z"/></svg></button>
+    <button class="tape tape-md" id="prev" aria-label="previous">
+     <svg viewBox="0 0 24 24"><path d="M7 6h2.2v12H7zM20 6v12l-9-6z"/></svg></button>
+    <button class="tape tape-lg" id="play" aria-label="play">
+     <svg id="pi" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+    <button class="tape tape-md" id="next" aria-label="next">
+     <svg viewBox="0 0 24 24"><path d="M14.8 6H17v12h-2.2zM4 6l9 6-9 6z"/></svg></button>
+    <button class="tape tape-sm" id="rep" aria-pressed="false" aria-label="repeat">
+     <svg viewBox="0 0 24 24"><path d="M7 7h10v2.5l4-3.5-4-3.5V5H5v6h2V7zm10 10H7v-2.5l-4 3.5 4 3.5V19h12v-6h-2v4z"/></svg></button>
+   </div>
   </div>
  </div>
 
@@ -511,13 +486,13 @@ function actorRail(){
  var allBtn=document.createElement("button");
  allBtn.className="ab";allBtn.type="button";allBtn.textContent="All";
  allBtn.setAttribute("aria-pressed",String(!actorFilter));
- allBtn.onclick=function(){actorFilter=null;karaokeMode=false;updateKaraokeBtn();actorRail();build();if(live)go(0)};
+ allBtn.onclick=function(){actorFilter=null;actorRail();build();if(live)go(0)};
  el.appendChild(allBtn);
  names.forEach(function(name){
   var b=document.createElement("button");
   b.className="ab";b.type="button";b.textContent=name+" ("+counts[name]+")";
   b.setAttribute("aria-pressed",String(actorFilter===name));
-  b.onclick=function(){actorFilter=name;karaokeMode=false;updateKaraokeBtn();actorRail();build();if(live)go(0)};
+  b.onclick=function(){actorFilter=name;actorRail();build();if(live)go(0)};
   el.appendChild(b);
  });
 }
@@ -527,8 +502,7 @@ fetch("songs.json",{cache:"no-store"}).then(function(r){return r.json()})
  .catch(function(){build()});
 
 function build(){
- q=karaokeMode ? songs.filter(function(s){return s.karaoke===true})
-  : (actorFilter?songs.filter(function(s){return s.actor===actorFilter}):songs.slice());
+ q=actorFilter?songs.filter(function(s){return s.actor===actorFilter}):songs.slice();
  for(var k=q.length-1;k>0;k--){var j=Math.random()*(k+1)|0;var t=q[k];q[k]=q[j];q[j]=t}
  var h=[];for(var z=0;z<q.length;z++){if(q[z].hot)h.push(z)}
  if(h.length){var p=h[Math.random()*h.length|0];var f=q[p];q.splice(p,1);q.unshift(f)}
@@ -538,7 +512,8 @@ window.onYouTubeIframeAPIReady=function(){
  pl=new YT.Player("yt",{height:"1",width:"1",
   playerVars:{playsinline:1,rel:0,controls:0,disablekb:1,modestbranding:1},
   events:{onReady:function(){rdy=true;if(live)go(i);
-   try{pl.setVolume(volLevel)}catch(e){}},
+   try{pl.setVolume(volLevel)}catch(e){}
+   if(pendingVideo){pendingVideo=false;enterVideo()}},
   onStateChange:function(e){var on=e.data===YT.PlayerState.PLAYING;
    document.body.classList.toggle("on-air",on);
    $("#pi").innerHTML=on?PAUSE:PLAY;
@@ -660,7 +635,11 @@ $("#listClose").onclick=closeList;
 $("#listBg").onclick=function(e){ if(e.target===$("#listBg"))closeList() };
 $("#listSearch").addEventListener("input",function(){ renderList(this.value) });
 
-var videoMode = false;
+var videoMode = false, pendingVideo = false;
+function hint(msg){
+ var h=$("#hintLine"); h.textContent=msg; h.classList.add("show");
+ clearTimeout(hint._t); hint._t=setTimeout(function(){h.classList.remove("show")},2600);
+}
 function syncVideoRect(){
  if(!videoMode)return;
  var r = $("#vidHolder").getBoundingClientRect();
@@ -670,10 +649,12 @@ function syncVideoRect(){
  pl.setSize(Math.round(r.width), Math.round(r.height));
 }
 function enterVideo(){
- if(!pl||!rdy||!live)return;
+ if(!q.length){ hint("No songs loaded yet"); return }
+ if(!live){ go(i); }
+ if(!pl||!rdy){ pendingVideo=true; hint("Loading player\u2026"); return }
  videoMode = true;
  var s=q[i]; if(s){ $("#vidCap").textContent = (s.kn||s.title) + (s.singers?" \u00b7 "+s.singers:"") }
- $("#vidBg").classListadd("open");
+ $("#vidBg").classList.add("open");
  requestAnimationFrame(syncVideoRect);
 }
 function exitVideo(){
@@ -681,8 +662,6 @@ function exitVideo(){
  $("#vidBg").classList.remove("open");
  $("#ytWrap").style.cssText = "position:fixed;bottom:-9999px;left:0;width:1px;height:1px;overflow:hidden";
  pl.setSize(1,1);
- $("#micRow").style.display="none";
- stopMic();
 }
 $("#watchBtn").onclick=function(){ videoMode?exitVideo():enterVideo() };
 $("#vidClose").onclick=exitVideo;
@@ -732,112 +711,6 @@ document.addEventListener("click",function(e){
 });
 addEventListener("keydown",function(e){ if(e.key==="Escape"&&volOpen) closeVolPop() });
 addEventListener("resize",function(){ if(volOpen) positionVolPop() });
-
-var karaokeMode = false;
-function updateKaraokeBtn(){ $("#karaokeBtn").classList.toggle("on", karaokeMode) }
-$("#karaokeBtn").onclick=function(){
- if(karaokeMode){
-  karaokeMode=false; updateKaraokeBtn(); build();
-  if(videoMode) exitVideo();
-  stopMic();
-  return;
- }
- var has = songs.some(function(s){return s.karaoke===true});
- if(!has){ alert("No karaoke tracks yet — check back soon."); return; }
- karaokeMode=true; actorFilter=null; updateKaraokeBtn(); actorRail(); build();
- go(0);
- $("#micRow").style.display="flex";
- setTimeout(function(){ if(rdy&&pl) enterVideo() }, 200);
-};
-
-var micStream=null, micCtx=null, micAnalyser=null, micGain=null, micRAF=null;
-var micMuted=false, micMonitoring=false;
-var recorder=null, recChunks=[], recording=false;
-
-function startMic(){
- if(micStream){ return }
- if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
-  $("#micLabel").textContent="Mic not supported"; return;
- }
- navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}})
- .then(function(stream){
-  micStream=stream; micMuted=false;
-  $("#micBtn").classList.add("live"); $("#micBtn").classList.remove("muted");
-  $("#micLabel").textContent="Listening";
-  micCtx = new (window.AudioContext||window.webkitAudioContext)();
-  var src = micCtx.createMediaStreamSource(stream);
-  micAnalyser = micCtx.createAnalyser(); micAnalyser.fftSize=512;
-  src.connect(micAnalyser);
-  micGain = micCtx.createGain(); micGain.gain.value=0.7;
-  src.connect(micGain);
-  var data=new Uint8Array(micAnalyser.frequencyBinCount);
-  (function loop(){
-   micAnalyser.getByteTimeDomainData(data);
-   var sum=0; for(var k=0;k<data.length;k++){var v=(data[k]-128)/128;sum+=v*v}
-   $("#micMeter").style.width=Math.min(100,Math.sqrt(sum/data.length)*260)+"%";
-   micRAF=requestAnimationFrame(loop);
-  })();
- }).catch(function(){ $("#micLabel").textContent="Mic permission denied" });
-}
-function stopMic(){
- if(recording) stopRecording();
- if(micRAF) cancelAnimationFrame(micRAF);
- if(micGain) try{micGain.disconnect()}catch(e){}
- if(micCtx) try{micCtx.close()}catch(e){}
- if(micStream) micStream.getTracks().forEach(function(t){t.stop()});
- micStream=null;micCtx=null;micAnalyser=null;micGain=null;micRAF=null;micMonitoring=false;
- $("#micBtn").classList.remove("live","muted");
- $("#monBtn").classList.remove("on");
- $("#monWarn").style.display="none";
- $("#micLabel").textContent="Mic off";
- $("#micMeter").style.width="0%";
-}
-$("#micBtn").onclick=function(){
- if(!micStream){ startMic(); return }
- var track=micStream.getAudioTracks()[0];
- micMuted=!micMuted; track.enabled=!micMuted;
- $("#micBtn").classList.toggle("muted",micMuted);
- $("#micBtn").classList.toggle("live",!micMuted);
- $("#micLabel").textContent = micMuted?"Muted":"Listening";
-};
-$("#monBtn").onclick=function(){
- if(!micStream){ startMic(); }
- micMonitoring=!micMonitoring;
- $("#monBtn").classList.toggle("on",micMonitoring);
- $("#monWarn").style.display=micMonitoring?"block":"none";
- if(micGain){
-  if(micMonitoring) micGain.connect(micCtx.destination);
-  else try{micGain.disconnect(micCtx.destination)}catch(e){}
- }
-};
-$("#recBtn").onclick=function(){
- if(!micStream){ startMic(); setTimeout(function(){ if(micStream) toggleRecording() },600); return }
- toggleRecording();
-};
-function toggleRecording(){ recording?stopRecording():startRecording() }
-function startRecording(){
- if(!micStream||!window.MediaRecorder)return;
- recChunks=[];
- var mime = MediaRecorder.isTypeSupported("audio/webm") ? "audio/webm" : "";
- recorder = mime ? new MediaRecorder(micStream,{mimeType:mime}) : new MediaRecorder(micStream);
- recorder.ondataavailable=function(e){ if(e.data.size>0) recChunks.push(e.data) };
- recorder.onstop=function(){
-  var blob=new Blob(recChunks,{type:recorder.mimeType||"audio/webm"});
-  var url=URL.createObjectURL(blob);
-  var a=$("#recLink");
-  a.href=url; a.style.display="inline-block";
-  a.download = "my-voice-"+Date.now()+".webm";
- };
- recorder.start();
- recording=true;
- $("#recBtn").classList.add("on");
- $("#recLink").style.display="none";
-}
-function stopRecording(){
- if(recorder && recording){ recorder.stop() }
- recording=false;
- $("#recBtn").classList.remove("on");
-}
 </script>
 </body>
 </html>
