@@ -24,8 +24,9 @@
  --nk:"Noto Sans Kannada",system-ui,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html,body{height:100%}
-body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#0D0904}
+html,body{height:100%;height:100dvh}
+body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#0D0904;
+ position:fixed;inset:0;width:100%}
 .bg{position:fixed;inset:0;z-index:0;background:#0D0904 url("bg-mobile.jpg") center/cover no-repeat}
 @media(min-width:760px){.bg{background-image:url("bg-desktop.jpg")}}
 .veil{position:fixed;inset:0;z-index:1;pointer-events:none;
@@ -33,29 +34,16 @@ body{font-family:var(--nk);color:var(--w);overflow:hidden;background:#0D0904}
   rgba(10,6,2,.14) 46%,rgba(10,6,2,.55) 72%,rgba(8,5,2,.9) 100%)}
 .stage{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;
  align-items:center;padding:calc(env(safe-area-inset-top) + 14px) 18px calc(env(safe-area-inset-bottom) + 14px);
- perspective:900px}
+ perspective:900px;overflow:hidden}
 @media(max-width:380px){.rail{gap:6px}.orbs{width:38px}.find input{width:52px}.when{font-size:9px}}
 
-.splash{position:fixed;inset:0;z-index:100;background:#0D0904;
- display:flex;flex-direction:column;align-items:center;justify-content:center;
- gap:22px;padding:30px;transition:opacity .6s ease,visibility .6s}
-.splash.gone{opacity:0;visibility:hidden;pointer-events:none}
-.splash-mark{font-family:var(--kn);font-weight:800;font-size:clamp(22px,6vw,34px);
- color:var(--gold);letter-spacing:.01em;text-shadow:0 0 30px rgba(255,194,74,.3)}
-.splash-line{font-family:var(--kn);font-weight:700;font-size:clamp(17px,4.6vw,26px);
- color:#FFFBF2;text-align:center;line-height:1.5;max-width:20ch}
-.splash-line span{display:inline-block;opacity:0;transform:translateY(10px);
- animation:sp-up .6s ease forwards}
-@keyframes sp-up{to{opacity:1;transform:translateY(0)}}
-.splash-bar{width:180px;height:3px;border-radius:3px;background:var(--w14);overflow:hidden;position:relative}
-.splash-bar i{position:absolute;left:0;top:0;bottom:0;width:40%;border-radius:3px;
- background:linear-gradient(90deg,var(--ember),var(--gold));
- animation:sp-load 1.6s ease-in-out infinite}
-@keyframes sp-load{0%{left:-40%}100%{left:100%}}
-.splash-disc{width:56px;height:56px;border-radius:50%;
- background:radial-gradient(circle at 38% 34%,#FFE9A8,#FF9B2E 55%,#C43A1C);
- box-shadow:0 0 40px rgba(255,150,60,.5);animation:sp-spin 2.4s linear infinite}
-@keyframes sp-spin{to{transform:rotate(360deg)}}
+.igbar{position:fixed;top:0;left:0;right:0;z-index:50;background:#1A1206;
+ border-bottom:1px solid rgba(255,194,74,.3);padding:calc(env(safe-area-inset-top) + 8px) 14px 8px;
+ display:none;align-items:center;justify-content:space-between;gap:10px}
+.igbar.show{display:flex}
+.igbar span{font-family:var(--en);font-size:11.5px;color:var(--w72);line-height:1.4}
+.igbar a{flex:0 0 auto;font-family:var(--en);font-weight:600;font-size:11.5px;color:#140C05;
+ background:var(--gold);padding:7px 13px;border-radius:999px;text-decoration:none;white-space:nowrap}
 
 .rail{width:min(720px,100%);display:flex;align-items:center;justify-content:space-between;gap:10px}
 .rail .l,.rail .r{display:flex;align-items:center;gap:9px;flex:0 0 auto}
@@ -162,10 +150,11 @@ body.on-air .wave i{background:linear-gradient(to top,var(--ember),var(--gold));
  font-family:var(--en);font-size:9px;color:var(--w48);letter-spacing:.04em;white-space:nowrap}
 
 .deck{flex:0 0 auto;width:min(560px,100%);margin-top:30px}
-.pg{padding:8px 0;cursor:pointer}
-.trk{position:relative;height:3px;background:var(--w14);border-radius:3px;overflow:hidden}
+.pg{padding:14px 0;cursor:pointer;touch-action:none}
+.trk{position:relative;height:3px;background:var(--w14);border-radius:3px;overflow:visible}
 .fill{position:absolute;inset:0 auto 0 0;width:0;border-radius:3px;
  background:linear-gradient(90deg,var(--ember),var(--gold));transition:width .9s linear}
+.pg.dragging .fill{transition:none}
 .fill::after{content:"";position:absolute;inset:0;
  background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);
  width:40px;transform:translateX(-40px);animation:sweep-line 2.6s ease-in-out infinite}
@@ -175,7 +164,8 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
  transform:translate(-50%,-50%) scale(0);box-shadow:0 1px 8px rgba(0,0,0,.6),0 0 16px rgba(255,194,74,.5);
  transition:left .9s linear,transform .2s}
 .pg:hover .knb,body.on-air .knb{transform:translate(-50%,-50%) scale(1)}
-.tm{display:flex;justify-content:space-between;margin-top:6px;font-family:var(--en);font-weight:500;
+.pg.dragging .knb{transition:none;transform:translate(-50%,-50%) scale(1.5)}
+.tm{display:flex;justify-content:space-between;margin-top:2px;font-family:var(--en);font-weight:500;
  font-size:10.5px;color:var(--w48)}
 
 .deckplate{margin-top:16px;padding:16px 14px 12px;border-radius:20px;
@@ -300,18 +290,35 @@ body:not(.on-air) .fill::after{animation-play-state:paused}
 .vol-slider::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--w);border:0;cursor:grab;
  box-shadow:0 0 0 3px rgba(255,194,74,.28),0 2px 8px rgba(0,0,0,.5)}
 
-@media(max-height:640px){.ft{display:none}.wave{height:20px;margin-top:16px}.title-kn{font-size:24px}
- .tools{margin-top:14px}.deckplate{padding:12px 10px 10px}}
-@media(prefers-reduced-motion:reduce){.wave i,.chip i,.glow-sweep,.fill::after,.splash-disc{animation:none!important}
+@media(max-height:700px){
+ .ft{display:none}
+ .wave{height:18px;margin-top:12px}
+ .title-kn{font-size:clamp(22px,6.5vw,34px)}
+ .badge{margin-bottom:8px}
+ .tools{margin-top:12px;gap:20px}
+ .tbtn{width:50px;height:50px}
+ .tbtn svg{width:20px;height:20px}
+ .tbtn-lbl{display:none}
+ .deck{margin-top:14px}
+ .deckplate{padding:10px 8px 8px;margin-top:10px}
+ .tape-lg{width:66px;height:48px}.tape-lg svg{width:22px;height:22px}
+ .tape-md{width:48px;height:40px}.tape-md svg{width:19px;height:19px}
+ .tape-sm{width:40px;height:34px}.tape-sm svg{width:15px;height:15px}
+ .actors{margin-top:10px;padding-top:8px}
+}
+@media(max-height:560px){
+ .dis-line,.hint-line{display:none}
+ .artist{margin-top:8px}
+ .actors{display:none}
+}
+@media(prefers-reduced-motion:reduce){.wave i,.chip i,.glow-sweep,.fill::after{animation:none!important}
  .hero{transition:none!important}}
 </style>
 </head>
 <body>
-<div class="splash" id="splash">
- <div class="splash-disc"></div>
- <div class="splash-mark">ದೋಸ್ತಾ ರೇಡಿಯೋ</div>
- <div class="splash-line" id="splashLine"></div>
- <div class="splash-bar"><i></i></div>
+<div class="igbar" id="igBar">
+ <span>Video and audio may not play inside Instagram. Open in your browser for the full experience.</span>
+ <a id="igOpen" href="https://radio.dostaa.in">Open</a>
 </div>
 
 <div class="bg"></div><div class="veil"></div>
@@ -421,13 +428,19 @@ var MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"
 var DAY=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 
 (function(){
- var text="ಕನ್ನಡದ ದನಿಯಾಗಿ ಕನ್ನಡಿಗರಿಂದ ಕನ್ನಡಿಗರಿಗಾಗಿ";
- var words=text.split(" "), el=$("#splashLine"), html="";
- words.forEach(function(w,idx){
-  html+='<span style="animation-delay:'+(idx*0.14).toFixed(2)+'s">'+w+'&nbsp;</span>';
- });
- el.innerHTML=html;
- setTimeout(function(){ $("#splash").classList.add("gone") }, 2400);
+ var ua=navigator.userAgent||"";
+ if(/Instagram/i.test(ua)){
+  $("#igBar").classList.add("show");
+  var target="https://radio.dostaa.in"+location.search;
+  $("#igOpen").href=target;
+  $("#igOpen").onclick=function(e){
+   if(/Android/i.test(ua)){
+    e.preventDefault();
+    location.href="intent://radio.dostaa.in#Intent;scheme=https;package=com.android.chrome;end";
+    setTimeout(function(){ location.href=target },800);
+   }
+  };
+ }
 })();
 
 (function(){var w=$("#wave"),s="";
@@ -447,12 +460,6 @@ w.innerHTML=s})();
   if(e.pointerType==="mouse"){apply(e.clientX,e.clientY,hero.getBoundingClientRect())}
  });
  hero.addEventListener("pointerleave",reset);
- hero.addEventListener("touchstart",function(){active=true},{passive:true});
- hero.addEventListener("touchmove",function(e){
-  if(!active||!e.touches[0])return;
-  apply(e.touches[0].clientX,e.touches[0].clientY,hero.getBoundingClientRect());
- },{passive:true});
- hero.addEventListener("touchend",function(){active=false;reset()});
 })();
 
 function ist(){var n=new Date();return new Date(n.getTime()+n.getTimezoneOffset()*60000+19800000)}
@@ -549,15 +556,47 @@ function go(k){if(!q.length)return;
  if(rdy&&pl)pl.loadVideoById(s.id)}
 
 function fmt(x){x=Math.floor(x||0);return Math.floor(x/60)+":"+String(x%60).padStart(2,"0")}
-function start(){stop();tick=setInterval(function(){if(!pl||!rdy)return;
+function start(){stop();tick=setInterval(function(){if(!pl||!rdy||pg.dragging)return;
  var c=pl.getCurrentTime()||0,d=pl.getDuration()||0,p=d?c/d*100:0;
  $("#fill").style.width=p+"%";$("#knb").style.left=p+"%";
  $("#t0").textContent=fmt(c);$("#t1").textContent=fmt(d)},1000)}
 function stop(){clearInterval(tick);tick=null}
 
-$("#pg").onclick=function(e){if(!pl||!rdy||!live)return;
- var r=$("#pg").querySelector(".trk").getBoundingClientRect();
- pl.seekTo((e.clientX-r.left)/r.width*(pl.getDuration()||0),true)};
+var pg={dragging:false};
+(function(){
+ var el=$("#pg"), trk=el.querySelector(".trk");
+ function pct(clientX){
+  var r=trk.getBoundingClientRect();
+  return Math.max(0,Math.min(1,(clientX-r.left)/r.width));
+ }
+ function preview(p){
+  $("#fill").style.width=(p*100)+"%";
+  $("#knb").style.left=(p*100)+"%";
+  if(pl&&rdy){var d=pl.getDuration()||0;$("#t0").textContent=fmt(p*d)}
+ }
+ function startDrag(clientX){
+  if(!pl||!rdy||!live)return;
+  pg.dragging=true; el.classList.add("dragging");
+  preview(pct(clientX));
+ }
+ function moveDrag(clientX){
+  if(!pg.dragging)return;
+  preview(pct(clientX));
+ }
+ function endDrag(clientX){
+  if(!pg.dragging)return;
+  var p=pct(clientX);
+  pg.dragging=false; el.classList.remove("dragging");
+  pl.seekTo(p*(pl.getDuration()||0),true);
+ }
+ el.addEventListener("mousedown",function(e){ startDrag(e.clientX) });
+ addEventListener("mousemove",function(e){ moveDrag(e.clientX) });
+ addEventListener("mouseup",function(e){ endDrag(e.clientX) });
+ el.addEventListener("touchstart",function(e){ startDrag(e.touches[0].clientX) },{passive:true});
+ el.addEventListener("touchmove",function(e){ moveDrag(e.touches[0].clientX); e.preventDefault() },{passive:false});
+ el.addEventListener("touchend",function(e){ endDrag(e.changedTouches[0].clientX) });
+})();
+
 $("#play").onclick=function(){if(!q.length)return;
  if(!live){go(i);return}
  pl.getPlayerState()===YT.PlayerState.PLAYING?pl.pauseVideo():pl.playVideo()};
