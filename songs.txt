@@ -1,5 +1,3 @@
-kS0_40chvrU|Kareye Kogile|Navajeevana|1964|S. Janaki|classic,melody
-x-FW-SQCn-E|Moodala Maneya|Belli Moda|1967|S. Janaki|classic,melody
 8NJ-EY2GhIA|Aakashave Biddalu|Kasturi Nivasa|1971|P. B. Sreenivas|classic,dard
 aV1kJ_XG84w|Tera Eri Ambarada|Naagarahaavu|1972|P. B. Sreenivas|classic
 cScfvBT6LGU|Gandhada Gudi Title|Gandhada Gudi|1973|P. B. Sreenivas|classic,folk
@@ -9,22 +7,16 @@ uxej3YBsCII|Lele Appachi|Mayura|1975|P. B. Sreenivas|folk,classic
 2xD8KuArGlM|Baanallu Neene|Bayalu Daari|1977|S. Janaki|classic,melody
 1UKpmhCzNKE|Neerabittu Nelada Mele|Hombisilu|1978|S. P. Balasubrahmanyam|classic,melody
 u2PidOShBkI|Chinnada Mallige Hoove|Huliya Haalina Mevu|1979|Dr. Rajkumar, S. Janaki|classic,melody
-fTxFBA7HxEM|Priya Priya|Ranga Nayaki|1980|S. P. Balasubrahmanyam|melody,classic
 EgoJz1UxUXU|Kannadada Makkalella|Auto Raja|1980|S. P. Balasubrahmanyam|mass,classic
-lsTCsgX_AKM|Nanna Aaseya Hoove|Auto Raja|1980|S. P. Balasubrahmanyam|melody,classic
-64P_2yNXL30|Kangalu Vandane Helide|Minchina Ota|1980|S. P. Balasubrahmanyam|melody,classic
 GUYUYdZbrfI|Preethi Maadabaardu|Minchina Ota|1980|S. P. Balasubrahmanyam|mass,classic
 ED2EgbsDXDc|Baana Dariyalli|Bhagyavantha|1981|Master Puneeth Rajkumar|dard,classic
 8HbwsAOfoRY|Jotheyali Jothe Jotheyali|Geetha (1981)|1981|S. P. Balasubrahmanyam|melody,classic
 neLfupVwObI|Santoshakke|Geetha (1981)|1981|S. P. Balasubrahmanyam|mass,classic
 I9biAGVvbI0|Yare Koogadali|Antha|1981|S. P. Balasubrahmanyam|mass,classic
-whURfYcRgew|Nadada Navalokave|Geetha|1981|S. P. Balasubrahmanyam|melody,classic
-u2nyzSDoigw|Yee Haadu Santhoshada|Muniyana Madari|1981|S. P. Balasubrahmanyam|folk,classic
 EpwtGYuUzno|Jenina Holeyo|Chalisuva Modagalu|1982|S. Janaki, S. P. Balasubrahmanyam|melody,classic
 vyHnZHdPSqE|Olave Jeevana|Hosa Belaku|1982|S. P. Balasubrahmanyam|melody,classic
 AJSeaFthdeE|Naguva Nayana|Pallavi Anupallavi|1983|S. P. Balasubrahmanyam, S. Janaki|melody,classic
 mJzdwi7Awu0|Chalisuva Modagale|Eradu Nakshatragalu|1983|S. P. Balasubrahmanyam|melody,classic
-3mF0QdAA-5Q|Naanenu Maadali|Benkiya Bale|1983|S. Janaki|dard,classic
 sEADCCqoA6I|Nannavaru Yaaru Illa|Accident|1985|S. P. Balasubrahmanyam|dard,classic
 nP43kDFLfn4|Malgudi Days Theme|Malgudi Days|1986|L. Vaidyanathan|classic,folk
 8uppMdMTcBw|Thamnam Thamnam|Premaloka|1987|S. P. Balasubrahmanyam|melody,classic
@@ -244,7 +236,6 @@ KjLV0rn1z40|Neene Bari Neene|Chakravarthy|2017|Sonu Nigam|melody
 lkOuyF3Oo9A|Appa I Love You|Chowka|2017|Anuradha Bhat|dard
 XuH-k-IE5yg|Sanahasada|RangiTaranga|2015|Vijay Prakash|melody
 cYwbndfAMCU|Kareyole|RangiTaranga|2015|Inchara Rao|folk
-LK7-_dgAVQE|Yo Yo Hassena|Googly|2013|Pawan Wadeyar|mass
 otNb9dP61EE|Bombe Adsonu|Drama|2012|Vijay Prakash|melody
 oEZHQCA77pw|Sanju Mattu Geetha|Sanju Weds Geetha|2011|Sonu Nigam, Shreya Ghoshal|melody
 xNR4FAEGxV4|Kannalle|Just Math Mathalli|2010|Sonu Nigam|melody
@@ -390,93 +381,3 @@ twcc3SiMuTs|Saayo Aata|Bell Bottom|2019|Raghu Dixit|mass
 lur8LpJ785I|Arere Avala Naguva|Sarkari Hi Pra Shaale|2018|Vasuki Vaibhav|melody
 7cBSr4dGRZY|Vismaya|Simple Agi Ondh Love Story|2013|BJ Bharat|melody
 WOuUEZVFqG8|Karagida Banalli|Simple Agi Ondh Love Story|2013|BJ Bharat|dard
-aIQpgca3EoM|Huttid Urigi Hodar Katti Badithara|Janapada|0|Balu Belagundi|folk
-bT19ud5tRfQ|Madavi Agi Hogidi Malenad Side|Janapada|0|Balu Belagundi|folk
-VCXgLoKE7bg|Yesta Helidru Kelalilla Gelathi Gelathi|Janapada|0|Balu Belagundi|folk
-uZJ4X3u2L8U|My Life My Wife Ninantu Aa Type|Janapada|0|Balu Belagundi|folk
-zl8EpfifJyY|Hinga Nagabyad Yadiyag Yelatava Hula|Janapada|0|Balu Belagundi|folk
-V4Dej2KVcTY|Hodibyada Mava Hodibyada|Janapada|0|Balu Belagundi|folk
-95iKmLg1VSo|Maharani Nanna Maharani|Janapada|0|Balu Belagundi|folk
-EKaQqmpRDtQ|Langa Dawanyag Mast Kanati Lavanya|Janapada|0|Balu Belagundi|folk
-iOMqz4LbiMY|Kunitalo Kunitala Nelak Kal Haddadang|Janapada|0|Balu Belagundi|folk
-eZPWr6BQt5E|Kalungrilla Kalaga|Janapada|0|Shabbir Dange, Mahalaxmi|folk
-U-TWfmTPZQM|Hagalu Ratri Hidadaitheno|Janapada|0|Shabbir Dange|folk
-mu98nW_c95k|Baasinga Bigada|Janapada|0|Shabbir Dange, Anuradha|folk
-HaSYRT8ZM5k|Aadadd Yenanta Vadadhela|Janapada|0|Shabbir Dange|folk
-VpfI7V-EoS0|Halakki Nudidanga|Janapada|0|Shabbir Dange|folk
-kJcVqDTPSxc|Naa Driver Ni Nann Lover|Janapada|0|Malu Nipanal|folk
-N2Q1FR8Pmag|Bicchi Itta Baralen Hel Kollan Taali|Janapada|0|Malu Nipanal|folk
-NYKO2dtLY24|Nagabyada Nagabyada|Janapada|0|Malu Nipanal|folk
-L9n1YUEJ-ec|Halagi Hodell Hayagi Iratanant|Janapada|0|Veeru Jamkhandi|folk
-EEDJAoQuqQE|Chinna Anta Karitidni Ninna|Janapada|0|Veeru Jamkhandi|folk
-eifcIjCuIms|Naachiki Barbeeka Ninaga Chinna|Janapada|0|Veeru Jamkhandi|folk
-reK7xfV7Z2Y|Nanna Yediya Myaga Teli Ittu|Janapada|0|Ramesh Kurubagatti|folk
-8eAUlMPbPGU|Koti Koti Galisidavagu Sukha Yallaiti|Janapada|0|Ramesh Kurubagatti|folk
-ks5MJa2Fi6g|Naa Janapada Hadava|Janapada|0|Ramesh Kurubagatti|folk
-6inpdgsH_oU|Maleraya Maleraya|Janapada|0|Ramesh Kurubagatti|folk
-Cz5R15G_yXM|Huchcharanga Tirugudata Uraga|Janapada|0|Basavaraj Narendra|folk
-0qWE8rglFV0|Kudagola Kumbalakaayi Ninna Kaiyaag|Janapada|0|Basavaraj Narendra|folk
-hPiFwQRUC2Y|Yaradaru Nodyaranta|Janapada|0|Basavaraj Narendra|folk
-EtGCLsjHwFk|Ee Varsha Nanna Maduvi|Janapada|0|Basavaraj Narendra|folk
-Vj2fOwSCB0w|Girijya Anti Gichcha Adaali|Janapada|0|Mallesh Pandroli|folk
-e5r-esYpyMY|Ninna Maduvyaga Nanna Rakta Hachako|Janapada|0|Mallesh Pandroli|folk
-UZ4iEt_6ZcM|Tadiya Onda Vaara Taratana Mahendra Tara|Janapada|0|Mallesh Pandroli|folk
-JzN0DvDHiKw|Nanna Mudda Madidi|Janapada|0|Mallesh Pandroli|folk
-bpo24-A1uTA|Nand Ayti Thindi Tractor|Janapada|0|Laxmi Bijapur|folk
-b4tAaX0V648|E Gubbige Ogiyaav Halla Halla|Janapada|0|Laxmi Bijapur|folk
-tZKBKZ7DOs0|Mur Mur Ar Ninn Lover Yaar|Janapada|0|Laxmi Bijapur|folk
-KpZD8LeGg4Y|Tractor Rodigi Singara|Janapada|0|Shivu Badagi|folk
-2fou5vlKqfs|Bandr Maman Bulet Gadi|Janapada|0|Shivu Badagi|folk
-BSc8aIutnWI|Niyatta Ella Naalagi Myala|Janapada|0|Sangmesh SG|folk
-0gqO7XZITHU|Lakka Beko Love Madidaki Sigalaaka|Janapada|0|Sangmesh SG|folk
-Ft_galtw7dU|Udho Udho Yellamma|Janapada|0|Malnad Voice|folk
-aO_ynA1NejM|Hachavali Yako Mav Phone|Janapada|0|Madu Umarani|folk
-MSjFvqtpC9g|Batli Hidibyada|Janapada|0|Shabbir Dange|folk
-fYSN657UVhY|Akkana Magala|Janapada|0|Shabbir Dange|folk
-eypO2ldV2a0|Geletana Marata Maragabyada Geleti|Janapada|0|Shabbir Dange|folk
-zMhoVJEiIgY|Panchamige Bandi Yaka|Janapada|0|Shabbir Dange|folk
-JWyFAEXySBc|Hali Suddi Tagibyada|Janapada|0|Shabbir Dange, Pratima|folk
--N3qIPBQXdo|Shri Padabodha|Janapada|0|Shabbir Dange|folk
-LZES4RfCduA|Sakkari Hachhona|Janapada|0|Shabbir Dange, Siddu|folk
-yuR3ZgzFQYA|Managanda Aiti Mala|Janapada|0|Malu Nipanal|folk
-Md06u02dcow|Hithalaka Karibyada Maava|Janapada|0|Malu Nipanal, Shruthi|folk
-oRgq-Ak2DSc|Hey Driver Ni Nanna Lover|Janapada|0|Malu Nipanal|folk
-em1DsKL1m8Y|Nanna Muddu Tangemma|Janapada|0|Malu Nipanal|folk
-a8IlPo5IBT8|Preeti Premada Payanadolaga|Janapada|0|Malu Nipanal|folk
-BhU5BnAswNI|Aunty Lover|Janapada|0|Malu Nipanal|folk
-eakEq1qmyxQ|Ketti Anta Annudilla|Janapada|0|Malu Nipanal|folk
-Lwg_lU7DOsI|Panchamidina Hada Hoga Namma Onigi|Janapada|0|Malu Nipanal|folk
-qL_4vqKpATE|Kaiyya Korakonda|Janapada|0|Shabbir Dange|folk
-V8Bc6EVlN-E|Aadida Angala|Janapada|0|Shabbir Dange|folk
-v2brcRIvLnU|Joruka Bhadya|Janapada|0|Shabbir Dange|folk
-gAL7Su5iEYs|Photo Koda Vanda Nodaaka|Janapada|0|Shabbir Dange, Pratima|folk
-kxZIzq_lepk|Hengadiyo Geleya|Janapada|0|Shabbir Dange|folk
-vTW0hlHk9Ak|Salyaga Irata Inna Preeti Madeni Ninna|Janapada|0|Shabbir Dange|folk
-HdWILtsFb_k|Cheluvi Naa Anta|Janapada|0|Shabbir Dange, Lekha|folk
-zsbtEoIWTYE|Hadda Harada Ogadangaatalla|Janapada|0|Shabbir Dange|folk
-9boQ7UfbNR4|Nagatalo Nodi Nagatalo|Janapada|0|Balu Belagundi|folk
-VCZGefh48rM|Naa Helud Jara Tilako|Janapada|0|Balu Belagundi|folk
-WJSZRv9_3fY|Dooraithi Ninna Kotta Oora Nanna Oorige|Janapada|0|Balu Belagundi|folk
-nQRPepaWCHM|Muddu Maadaki Muddama|Janapada|0|Balu Belagundi|folk
-PHBtywWdEww|Shanivar Diwas Namma Ura Santi|Janapada|0|Balu Belagundi|folk
-J6GXrvLRZr4|Yen Kunata Ninda Yen Kunata|Janapada|0|Balu Belagundi|folk
-HCGdf9OkLaY|Tractor Driver Byaadada|Janapada|0|Balu Belagundi|folk
-bPRCdOKFHr4|Kelade Nimageega|Geetha (1981)|1981|Various|melody
-Zg3IGmwUnT4|Yene Kelu Koduve|Geetha (1981)|1981|Various|dard
-2Q1MzQe3h30|Kaada Noda Hode|C.B.I. Shankar|1989|Hamsalekha|mass
-L9f5ITIAeVk|Ek Do Theen Chaar|C.B.I. Shankar|1989|Various|mass
-xrmJG0mTCj8|Preethiyinda|Sangliyana|1988|Various|melody
-x33ZZdN_89g|Dhool Maga Dhol|Kalasipalya|2004|Various|mass
-Xnafboih5aA|Suntara Gaali|Kalasipalya|2004|Various|mass
--FmA7xFFXVs|O Kencha O Kencha|Kalasipalya|2004|Various|melody
-ODbTxvQJTAw|Muddu Manase Peddu Manase|Majestic|2002|Various|melody
-BxcEm4QCLE8|Naane Naane Rajadhi Raja|Majestic|2002|Various|mass
-0j7YXcADQwY|Majestic Title Track|Majestic|2002|Various|mass
-ce_8oho9AaA|Maathu Nannavalu|Gaja|2008|Various|melody
-_nYe47mFxEI|O Manase Manase|Gaja|2008|Various|melody
-TLYKOwgM9vU|Bangari Yare Nee|Gaja|2008|Various|melody
-myca4e2ID0c|Anisuthide (Karaoke)|Mungaru Male|2006|Karaoke Track|melody,karaoke
-Al5-tJIo5V4|Belageddu (Karaoke)|Kirik Party|2016|Karaoke Track|melody,karaoke
-jNoaf88ecok|Huttidare Kannada Nadalli Huttabeku (Karaoke)|Aakasmika|1993|Karaoke Track|classic,karaoke
-XzjdLQmSOC8|Varaha Roopam (Karaoke)|Kantara|2022|Karaoke Track|folk,karaoke
-_tWSlAauE-I|Salaam Rocky Bhai (Karaoke)|KGF Chapter 1|2018|Karaoke Track|mass,karaoke
