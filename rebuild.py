@@ -11,11 +11,16 @@ Song numbers are PERMANENT. numbers.json is an append-only lock
 (id -> no). A song keeps its number forever; deleting a line leaves a
 gap instead of renumbering everything. New songs get max+1.
 Never hand-edit or delete numbers.json.
+
+Workflow:  edit songs.txt  ->  python3 audit.py  ->  python3 rebuild.py  ->  git push
 """
 import json, os
 from collections import Counter
 
 LOCK = "numbers.json"
+VERIFIED = "verified.json"   # written by audit.py
+ver = json.load(open(VERIFIED, encoding="utf-8")) if os.path.exists(VERIFIED) else {}
+unaudited = []
 
 lock = {}
 if os.path.exists(LOCK):
@@ -57,6 +62,12 @@ for line in open("songs.txt", encoding="utf-8"):
     }
     if kn:
         song["kn"] = kn
+    v = ver.get(vid)
+    if not v or "tv" not in v:
+        unaudited.append(title)
+    else:
+        song["tv"] = bool(v.get("tv"))   # title confirmed by the video itself
+        song["fv"] = bool(v.get("fv"))   # film confirmed -> eligible for the film quiz
     out.append(song)
 
 out.sort(key=lambda s: s["no"])
@@ -67,5 +78,11 @@ json.dump(dict(sorted(lock.items(), key=lambda kv: kv[1])),
 nums = [s["no"] for s in out]
 gaps = (max(nums) - len(nums)) if nums else 0
 print(f"{len(out)} songs live | numbers 1-{max(nums) if nums else 0} | {gaps} retired gaps | {added} new")
+if unaudited:
+    print(f"WARNING: {len(unaudited)} song(s) not audited yet — run: python3 audit.py  ({', '.join(unaudited[:5])})")
+bad = [s["title"] for s in out if s.get("tv") is False]
+if bad:
+    print(f"WARNING: {len(bad)} song(s) don't match their video — run: python3 audit.py")
+print(f"quiz-eligible (film verified): {sum(1 for s in out if s.get('fv'))}")
 for name, c in Counter(s["by"] for s in out).most_common():
     print(f"  {c:>4}  {name}")

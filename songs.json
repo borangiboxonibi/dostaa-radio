@@ -1,32 +1,19 @@
 [
  {
-  "no": 1,
-  "id": "8NJ-EY2GhIA",
-  "title": "Aakashave Biddalu",
-  "film": "Kasturi Nivasa",
-  "year": 1971,
-  "singers": "P. B. Sreenivas",
-  "tags": [
-   "classic",
-   "dard"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
   "no": 2,
   "id": "aV1kJ_XG84w",
-  "title": "Tera Eri Ambarada",
-  "film": "Naagarahaavu",
-  "year": 1972,
-  "singers": "P. B. Sreenivas",
+  "title": "Elliruve Manava Kaduva Roopasiye",
+  "film": "Bayalu Daari",
+  "year": 1977,
+  "singers": "",
   "tags": [
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 3,
@@ -41,7 +28,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 4,
@@ -56,14 +45,16 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 5,
   "id": "EkPOkT_a2U0",
-  "title": "Naadamaya",
-  "film": "Bhakta Kumbara",
-  "year": 1974,
+  "title": "Naadamaya Ee Lokavella",
+  "film": "Jeevana Chaitra",
+  "year": null,
   "singers": "Dr. Rajkumar",
   "tags": [
    "classic",
@@ -71,22 +62,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 6,
   "id": "uxej3YBsCII",
-  "title": "Lele Appachi",
-  "film": "Mayura",
-  "year": 1975,
-  "singers": "P. B. Sreenivas",
+  "title": "Simpallagi Helateen Kele",
+  "film": "Maurya",
+  "year": 2004,
+  "singers": "",
   "tags": [
    "folk",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 7,
@@ -101,7 +96,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 8,
@@ -116,7 +113,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 9,
@@ -131,29 +130,33 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 10,
   "id": "EgoJz1UxUXU",
-  "title": "Kannadada Makkalella",
-  "film": "Auto Raja",
-  "year": 1980,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Kannada Naadina Jeevanadi",
+  "film": "Jeevanadi",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 11,
   "id": "GUYUYdZbrfI",
-  "title": "Preethi Maadabaardu",
-  "film": "Minchina Ota",
-  "year": 1980,
+  "title": "Nodi Swamy Navirodu Heege",
+  "film": "Nodi Swamy Navirodu Heege",
+  "year": null,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "mass",
@@ -161,7 +164,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 12,
@@ -176,13 +181,15 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 13,
   "id": "8HbwsAOfoRY",
   "title": "Jotheyali Jothe Jotheyali",
-  "film": "Geetha (1981)",
+  "film": "Geetha",
   "year": 1981,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
@@ -191,13 +198,15 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 14,
   "id": "neLfupVwObI",
-  "title": "Santoshakke",
-  "film": "Geetha (1981)",
+  "title": "Santhoshakke Haadu Santhoshakke",
+  "film": "Geetha",
   "year": 1981,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
@@ -206,14 +215,16 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 15,
   "id": "I9biAGVvbI0",
   "title": "Yare Koogadali",
-  "film": "Antha",
-  "year": 1981,
+  "film": "Sampathige Saval",
+  "year": null,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "mass",
@@ -221,12 +232,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 16,
   "id": "EpwtGYuUzno",
-  "title": "Jenina Holeyo",
+  "title": "Jenina Holeyo Haalina Maleyo",
   "film": "Chalisuva Modagalu",
   "year": 1982,
   "singers": "S. Janaki, S. P. Balasubrahmanyam",
@@ -236,22 +249,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 17,
   "id": "vyHnZHdPSqE",
-  "title": "Olave Jeevana",
+  "title": "Cheluveye Ninna Nodalu",
   "film": "Hosa Belaku",
   "year": 1982,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 18,
@@ -266,82 +283,94 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 19,
   "id": "mJzdwi7Awu0",
-  "title": "Chalisuva Modagale",
+  "title": "Nanna Udupu Ninnadu",
   "film": "Eradu Nakshatragalu",
   "year": 1983,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 20,
   "id": "sEADCCqoA6I",
-  "title": "Nannavaru Yaaru Illa",
-  "film": "Accident",
-  "year": 1985,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Madhuchandra Banda",
+  "film": "Jana Nayaka",
+  "year": null,
+  "singers": "",
   "tags": [
    "dard",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 21,
   "id": "nP43kDFLfn4",
-  "title": "Malgudi Days Theme",
+  "title": "Kanasina Kannye",
   "film": "Malgudi Days",
-  "year": 1986,
-  "singers": "L. Vaidyanathan",
+  "year": null,
+  "singers": "Sanjith Hegde",
   "tags": [
    "classic",
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 22,
   "id": "8uppMdMTcBw",
-  "title": "Thamnam Thamnam",
-  "film": "Premaloka",
-  "year": 1987,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Tananam Tananam",
+  "film": "Rasika",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 23,
   "id": "KP0OesOJjSo",
-  "title": "Premaloka Nanna",
+  "title": "Idu Nanna Ninna",
   "film": "Premaloka",
   "year": 1987,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "classic",
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 24,
@@ -356,58 +385,66 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 25,
   "id": "0DR4eQ2FpWU",
-  "title": "Thai Thai Bangari",
-  "film": "Olavina Udugore",
-  "year": 1987,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Bandalo Bandalo",
+  "film": "Baa Nalle Madhuchandrake",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 26,
   "id": "AJT2U-Fnpvs",
-  "title": "Ondu Muthina Kathe Title",
-  "film": "Ondu Muthina Kathe",
-  "year": 1987,
-  "singers": "Dr. Rajkumar",
+  "title": "Ondanondu Oorali",
+  "film": "Bangara S/O Bangarada Manushya",
+  "year": null,
+  "singers": "",
   "tags": [
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 27,
   "id": "2Vh3eDR37J4",
-  "title": "Boy Friend",
-  "film": "Ranadheera",
-  "year": 1988,
-  "singers": "S. Janaki",
+  "title": "Boy Friend Barthaanantha",
+  "film": "Premaloka",
+  "year": 1987,
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 28,
   "id": "MpzlmO8OLH8",
   "title": "Jagave Ondu Ranaranga",
-  "film": "Ranadheera",
-  "year": 1988,
+  "film": "Ranaranga",
+  "year": null,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "mass",
@@ -415,14 +452,16 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 29,
   "id": "56ul0WJ15TY",
-  "title": "Hey Nanna Hoove",
-  "film": "Sangliyana",
-  "year": 1988,
+  "title": "Geethanjali",
+  "film": "C.B.I. Shankar",
+  "year": 1989,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "mass",
@@ -430,12 +469,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 30,
   "id": "CHk-0VpNVVw",
-  "title": "Bandalo Bandalo Kanchana",
+  "title": "Bandalo Kanchana",
   "film": "Sangliyana",
   "year": 1988,
   "singers": "S. P. Balasubrahmanyam",
@@ -445,37 +486,43 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 31,
   "id": "9qafenBpqYs",
-  "title": "Aakashave Beelali",
-  "film": "C.I.D. Rajanna",
-  "year": 1988,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Ho Makkale Ee Naadina Kangale",
+  "film": "Kasidre Kailasa",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 32,
   "id": "2GXXYlPMt1w",
-  "title": "Mudina Kanmani",
-  "film": "Anjada Gandu",
-  "year": 1988,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Mandyada Gandu Muttina Chandu",
+  "film": "Mandyada Gandu",
+  "year": null,
+  "singers": "S. P. Balasubrahmanyam, Sangeetha Katti",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 33,
@@ -490,7 +537,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 34,
@@ -505,22 +554,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 35,
   "id": "K5plr3yThCo",
   "title": "Kannadave Nammamma",
-  "film": "Mutthina Haara",
-  "year": 1990,
-  "singers": "S. P. Balasubrahmanyam",
+  "film": "Mojugara Sogasugara",
+  "year": null,
+  "singers": "",
   "tags": [
    "classic",
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 36,
@@ -535,7 +588,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 37,
@@ -550,7 +605,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 38,
@@ -565,7 +622,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 39,
@@ -580,14 +639,16 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 40,
   "id": "U0x0Gv0tKRY",
   "title": "Neenandre Nanagista",
-  "film": "Ganesha Subramanya",
-  "year": 1992,
+  "film": "Prema Khaidi",
+  "year": null,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "mass",
@@ -595,7 +656,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 41,
@@ -610,21 +673,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 42,
   "id": "PN45gErXMJA",
-  "title": "Brahmange Kettanthu",
-  "film": "Aakasmika",
-  "year": 1993,
-  "singers": "Dr. Rajkumar",
+  "title": "Brahmange Tale Kettu",
+  "film": "",
+  "year": null,
+  "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 43,
@@ -639,7 +706,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 44,
@@ -654,7 +723,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 45,
@@ -668,7 +739,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 46,
@@ -683,7 +756,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 47,
@@ -698,7 +773,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 48,
@@ -713,21 +790,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 49,
   "id": "yx6Uow7Vuew",
-  "title": "Belli Moodithu",
-  "film": "Janumada Jodi",
-  "year": 1996,
-  "singers": "C. Ashwath",
+  "title": "Kannu Kannu Kalethaga",
+  "film": "Kamanabillu",
+  "year": null,
+  "singers": "",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 50,
@@ -742,21 +823,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 51,
   "id": "L7IjWlmAsDw",
-  "title": "Hindusthanavu Endoo",
-  "film": "Amrutha Varshini",
-  "year": 1997,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Hindusthanavu Endu Mareyada",
+  "film": "Amrutha Ghalige",
+  "year": null,
+  "singers": "",
   "tags": [
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 52,
@@ -770,12 +855,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 53,
   "id": "1mY9GP17p5Y",
-  "title": "E Sunder Beladingala",
+  "title": "Ee Sundara Beladingala",
   "film": "Amrutha Varshini",
   "year": 1997,
   "singers": "S. P. Balasubrahmanyam",
@@ -784,21 +871,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 54,
   "id": "pd_Cej_fCoY",
-  "title": "Preethse Preethse",
-  "film": "America America",
-  "year": 1997,
-  "singers": "Mano",
+  "title": "I Wanna See My Darling",
+  "film": "H2O",
+  "year": null,
+  "singers": "Rajesh Krishnan",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 55,
@@ -812,21 +903,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 56,
   "id": "gHCGNm2_sl0",
-  "title": "Oho Nammamma",
-  "film": "Ulta Palta",
-  "year": 1997,
-  "singers": "Rajesh Krishnan",
+  "title": "Aase Holeye Batthi Hogaithe",
+  "film": "Panchama Veda",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 57,
@@ -841,22 +936,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 58,
-  "id": "f37My7hRdZQ",
-  "title": "Marre Macha",
-  "film": "A",
-  "year": 1998,
-  "singers": "Gurukiran",
-  "tags": [
-   "mass",
-   "classic"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 59,
@@ -870,7 +952,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 60,
@@ -885,35 +969,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 61,
   "id": "uDu00u3XFqU",
-  "title": "Uppie Loka",
+  "title": "Uppigintha Ruchi Bere Illa",
   "film": "Upendra",
   "year": 1999,
-  "singers": "Upendra",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 62,
   "id": "gUpu89jDTwI",
-  "title": "O Prema",
-  "film": "Upendra",
-  "year": 1999,
-  "singers": "Suresh Peters",
+  "title": "O Gulabiye",
+  "film": "Om",
+  "year": 1995,
+  "singers": "",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 63,
@@ -927,22 +1017,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 64,
   "id": "i54MpYpFjuY",
-  "title": "Sona Sona",
+  "title": "Yajamana Title Track",
   "film": "Yajamana",
   "year": 2000,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 65,
@@ -956,7 +1050,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 66,
@@ -970,7 +1066,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 67,
@@ -984,77 +1082,73 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 68,
   "id": "B_LlgoFVM7c",
-  "title": "Yaarivalu",
-  "film": "Huchcha",
-  "year": 2001,
-  "singers": "Hariharan",
+  "title": "Yaarivalu Yaarivalu",
+  "film": "Ganapa",
+  "year": null,
+  "singers": "Vijay Prakash",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 69,
   "id": "DSJix00Lmkg",
-  "title": "Banta Banta",
+  "title": "Sakath Aagide",
   "film": "Hollywood",
   "year": 2002,
-  "singers": "Gurukiran",
+  "singers": "Sukhwinder Singh, Gurukiran",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 70,
   "id": "n-gh7I2X7bw",
-  "title": "O Nanna Nannolu",
+  "title": "Malnad Adike",
   "film": "Simhadriya Simha",
   "year": 2002,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 71,
   "id": "nmIROFk-000",
-  "title": "Kanaso Idu",
-  "film": "Majestic",
-  "year": 2002,
-  "singers": "Rajesh Krishnan",
+  "title": "Yendu Kanda Kanasu",
+  "film": "Lankesh Patrike",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 72,
-  "id": "Y26s6dPvtLE",
-  "title": "Namma Kuralu",
-  "film": "Majestic",
-  "year": 2002,
-  "singers": "Darshan",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 73,
@@ -1068,26 +1162,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 74,
   "id": "OM-rp45Jnbg",
-  "title": "Bare Bare Rajakumari",
-  "film": "Appu",
-  "year": 2002,
-  "singers": "Udit Narayan",
-  "tags": [
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 75,
-  "id": "35HiIXKMhMs",
-  "title": "Ela Ela",
+  "title": "Baare Baare Kalyana",
   "film": "Appu",
   "year": 2002,
   "singers": "Udit Narayan, K. S. Chithra",
@@ -1096,105 +1178,137 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 75,
+  "id": "35HiIXKMhMs",
+  "title": "Hesaru Poorthi Helade",
+  "film": "Paramaathma",
+  "year": null,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 76,
   "id": "T6gMFzuxegI",
-  "title": "Excuse Me",
+  "title": "Jai Ganesha",
   "film": "Kutumba",
   "year": 2003,
-  "singers": "Rajesh Krishnan",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 77,
   "id": "9jyvXznrw7w",
-  "title": "Yaare Neenu",
-  "film": "Annavru",
-  "year": 2003,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Yaare Neenu Cheluve",
+  "film": "",
+  "year": null,
+  "singers": "K. J. Yesudas",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 78,
   "id": "Fv3wsYTkYz0",
-  "title": "Chitte Minchu",
-  "film": "Abhi",
-  "year": 2003,
-  "singers": "Udit Narayan",
+  "title": "Baaninda Baa Chandira",
+  "film": "Kanti",
+  "year": null,
+  "singers": "Sonu Nigam",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 79,
   "id": "oXFH9b89neU",
-  "title": "Summane Summane",
+  "title": "Sum Sumne",
   "film": "Abhi",
   "year": 2003,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 80,
   "id": "yxOO0KQcVAs",
-  "title": "Rakkamma",
+  "title": "Ra Ra Sarasaku",
   "film": "Aapthamitra",
   "year": 2004,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 81,
   "id": "7LB26D4zlxg",
-  "title": "Sakkathagide",
-  "film": "Kalasipalya",
-  "year": 2004,
-  "singers": "Vijay Prakash",
+  "title": "Sakatthagavle",
+  "film": "Porki",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 82,
   "id": "4Nadbr67aos",
-  "title": "Neene Neene",
+  "title": "Nee Amrithadhare",
   "film": "Amrithadhare",
   "year": 2005,
-  "singers": "Sonu Nigam",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 83,
@@ -1209,7 +1323,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 84,
@@ -1223,21 +1339,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 85,
   "id": "FCAfwX5Tw9w",
-  "title": "Neenu Neene",
+  "title": "Neene Neene",
   "film": "Aakash",
   "year": 2005,
-  "singers": "Sonu Nigam",
+  "singers": "Kunal Ganjawala",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 86,
@@ -1251,7 +1371,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 87,
@@ -1266,7 +1388,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 88,
@@ -1281,7 +1405,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 89,
@@ -1296,21 +1422,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 90,
   "id": "VPVdVHBuztc",
   "title": "O Priyathama",
-  "film": "Jothe Jotheyali",
-  "year": 2006,
-  "singers": "Sonu Nigam",
+  "film": "Cheluveye Ninne Nodalu",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 91,
@@ -1324,7 +1454,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 92,
@@ -1338,21 +1470,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 93,
   "id": "PvLXLA8Dsns",
-  "title": "Aaha Namma Kalyana",
-  "film": "Cheluvina Chittara",
-  "year": 2007,
-  "singers": "Mano",
+  "title": "Suvvi Suvalli",
+  "film": "Mungaru Male",
+  "year": 2006,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 94,
@@ -1366,22 +1502,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 95,
   "id": "Fi1WmAMKkhY",
-  "title": "Madhuvana Karedare",
-  "film": "Arasu",
-  "year": 2007,
-  "singers": "Rajesh Krishnan",
+  "title": "Hoo Kanasa Jokali",
+  "film": "Inthi Ninna Preethiya",
+  "year": null,
+  "singers": "",
   "tags": [
    "folk",
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 96,
@@ -1395,7 +1535,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 97,
@@ -1409,21 +1551,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 98,
   "id": "twgEwLoswcs",
-  "title": "Usire Usire",
+  "title": "Yenagali",
   "film": "Mussanje Maatu",
   "year": 2008,
-  "singers": "Kunal Ganjawala",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 99,
@@ -1437,82 +1583,94 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 100,
   "id": "cTYyAEvsOZs",
-  "title": "Ivanu Yaaru",
+  "title": "Minchagi Neenu Baralu",
   "film": "Gaalipata",
   "year": 2008,
-  "singers": "Vijay Prakash",
-  "tags": [
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 101,
-  "id": "dbH2g5A4Xl4",
-  "title": "Helade Karana",
-  "film": "Gaalipata",
-  "year": 2008,
-  "singers": "Rajesh Krishnan",
-  "tags": [
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 102,
-  "id": "UYsyUkg5fno",
-  "title": "Ninna Kanda",
-  "film": "Veera Madakari",
-  "year": 2009,
-  "singers": "M. M. Keeravani",
-  "tags": [
-   "dard"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 103,
-  "id": "IZJEvtr82zc",
-  "title": "Kaal Kilo",
-  "film": "Super",
-  "year": 2010,
-  "singers": "Upendra",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 104,
-  "id": "xSJJTDrVrb0",
-  "title": "Ondu Malebillu",
-  "film": "Just Maath Maathalli",
-  "year": 2010,
   "singers": "Sonu Nigam",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 101,
+  "id": "dbH2g5A4Xl4",
+  "title": "Prayashaha",
+  "film": "Gaalipata 2",
+  "year": null,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 102,
+  "id": "UYsyUkg5fno",
+  "title": "Jum Jum Maya",
+  "film": "Veera Madakari",
+  "year": 2009,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 103,
+  "id": "IZJEvtr82zc",
+  "title": "Kaal Kg Preethi",
+  "film": "Lavvayya Lavvo",
+  "year": null,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 104,
+  "id": "xSJJTDrVrb0",
+  "title": "Baanina Haniyu",
+  "film": "Just Maath Maathalli",
+  "year": 2010,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 105,
   "id": "Cjm6EEQB1e4",
-  "title": "Shiva Antha Hogutidde",
+  "title": "Shiva Antha",
   "film": "Jackie",
   "year": 2010,
   "singers": "Puneeth Rajkumar",
@@ -1521,7 +1679,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 106,
@@ -1535,35 +1695,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 107,
   "id": "IUV1s-NfTS0",
-  "title": "Beladingalali",
-  "film": "Kempe Gowda",
+  "title": "Tara Tara",
+  "film": "Kempegowda",
   "year": 2011,
-  "singers": "Vijay Prakash",
+  "singers": "Vijay Prakash, Shreya Ghoshal",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 108,
   "id": "yMTEPt8_hsU",
-  "title": "Ello Oduva Manase",
-  "film": "Sanju Weds Geetha",
-  "year": 2011,
-  "singers": "Sonu Nigam",
+  "title": "Ille Ille Ello",
+  "film": "Chirru",
+  "year": null,
+  "singers": "Sonu Nigam, Shreya Ghoshal",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 109,
@@ -1577,22 +1743,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 110,
   "id": "N5BmQz4AmFI",
-  "title": "Dhoolipata",
+  "title": "Danaku Dana",
   "film": "Kirataka",
   "year": 2011,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "folk",
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 111,
@@ -1606,7 +1776,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 112,
@@ -1620,7 +1792,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 113,
@@ -1634,49 +1808,57 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 114,
   "id": "JukrjXdBTFw",
-  "title": "Jagave Ninnadu",
-  "film": "Bachchan",
-  "year": 2013,
-  "singers": "Sonu Nigam",
+  "title": "Ninna Kanda Kshanadinda",
+  "film": "Arasu",
+  "year": 2007,
+  "singers": "Kunal Ganjawala",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 115,
   "id": "ABxO1NkkGAY",
-  "title": "Sampige Nenne",
-  "film": "Bulbul",
-  "year": 2013,
-  "singers": "Sonu Nigam",
+  "title": "Bangari Yaare Nee Bulbul",
+  "film": "Gaja",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 116,
   "id": "_x-AmVUuyNU",
-  "title": "Chitte Gallu",
-  "film": "Kaddipudi",
-  "year": 2013,
-  "singers": "Vijay Prakash",
+  "title": "Thithli Thithli",
+  "film": "Ranna",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 117,
@@ -1690,105 +1872,121 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 118,
   "id": "pIYRm41WLBs",
-  "title": "Anantham",
-  "film": "Googly",
-  "year": 2013,
-  "singers": "Sonu Nigam",
+  "title": "Annthamma",
+  "film": "Mr and Mrs Ramachari",
+  "year": 2014,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 119,
   "id": "LdQZwDYa_is",
-  "title": "Chanda Chanda",
-  "film": "Kaddipudi",
-  "year": 2013,
-  "singers": "Sonu Nigam",
+  "title": "Maathu Muride Mathadade",
+  "film": "Ganda Hendathi",
+  "year": null,
+  "singers": "Kunal Ganjawala",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 120,
   "id": "lMTRge_hrX0",
-  "title": "Sontada Visya",
-  "film": "Brahma",
-  "year": 2014,
-  "singers": "Vijay Prakash",
+  "title": "Sontada Vishya Bedavo Shishya",
+  "film": "Chandu",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 121,
   "id": "iWeoIZK-Nvw",
-  "title": "Yenammi Yenammi",
-  "film": "Mr. and Mrs. Ramachari",
+  "title": "Mr and Mrs Ramachari Title Track",
+  "film": "Mr and Mrs Ramachari",
   "year": 2014,
-  "singers": "Vijay Prakash, Shreya Ghoshal",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 122,
   "id": "bfC-F3SGARw",
-  "title": "Guruvara",
+  "title": "Guruvara Sanje",
   "film": "Power",
   "year": 2014,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 123,
   "id": "lCgHY60RasI",
-  "title": "Pyarge Aagbitta",
-  "film": "Paramesh Panwala",
-  "year": 2014,
-  "singers": "Puneeth Rajkumar",
+  "title": "Ee Prema Annode Hinge",
+  "film": "Ayya",
+  "year": null,
+  "singers": "Udit Narayan",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 124,
   "id": "Ks2lxk9SjYo",
   "title": "Asaku Pasaku",
-  "film": "Ranna",
-  "year": 2015,
-  "singers": "Jaspreet Jasz",
+  "film": "Ambareesha",
+  "year": 2014,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 125,
@@ -1802,21 +2000,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 126,
   "id": "CuAkKgOL83g",
-  "title": "Open The Bottle",
+  "title": "Thale Keduthe",
   "film": "Jaggu Dada",
   "year": 2016,
-  "singers": "Mika Singh",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 127,
@@ -1831,7 +2033,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 128,
@@ -1845,49 +2049,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 129,
   "id": "T_C6sZ3TcOA",
-  "title": "Kadalanu Kaanora",
-  "film": "Mufti",
-  "year": 2017,
-  "singers": "Charan Raj",
+  "title": "Karune Illade",
+  "film": "Asura",
+  "year": null,
+  "singers": "Rajesh Krishnan",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 130,
   "id": "9nVYr0F7rI0",
-  "title": "Bhairathi Ranagal Theme",
-  "film": "Mufti",
-  "year": 2017,
-  "singers": "Ravi Basrur",
+  "title": "Bhairathi Ranagal Title Song",
+  "film": "Bhairathi Ranagal",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 131,
-  "id": "Q7Ztm3bin0I",
-  "title": "Neene Neene Raajakumara",
-  "film": "Raajakumara",
-  "year": 2017,
-  "singers": "Vijay Prakash",
-  "tags": [
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 132,
@@ -1901,7 +2097,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 133,
@@ -1915,7 +2113,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 134,
@@ -1929,7 +2129,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 135,
@@ -1943,12 +2145,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 136,
   "id": "yWmcMsI5dks",
-  "title": "Sojugada Sooju Mallige",
+  "title": "Sojugada Sooju Mallige (Live)",
   "film": "Janapada",
   "year": 2021,
   "singers": "Ananya Bhat",
@@ -1957,21 +2161,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 137,
   "id": "Yt8IKlI82lc",
-  "title": "Ba Ba Ba Na Cingari",
-  "film": "Roberrt",
-  "year": 2021,
-  "singers": "Shankar Mahadevan",
+  "title": "Chakravarthy Title Track",
+  "film": "Chakravarthy",
+  "year": 2017,
+  "singers": "Vyasraj",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 138,
@@ -1985,7 +2193,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 139,
@@ -1999,7 +2209,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 140,
@@ -2014,7 +2226,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 141,
@@ -2028,7 +2242,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 142,
@@ -2042,7 +2258,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 143,
@@ -2056,7 +2274,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 144,
@@ -2070,7 +2290,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 145,
@@ -2084,7 +2306,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 146,
@@ -2099,7 +2323,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 147,
@@ -2114,7 +2340,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 148,
@@ -2129,7 +2357,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 149,
@@ -2144,7 +2374,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 150,
@@ -2159,55 +2391,63 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 151,
   "id": "wYWx1pTRSYY",
-  "title": "Kaveri Theerada",
-  "film": "Halli Meshtru",
-  "year": 1992,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Andhu Megha Sandesha (Sad)",
+  "film": "Kodagina Kaveri",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 152,
   "id": "p5bXnFD4O4I",
-  "title": "Sriramachandrage",
-  "film": "Annavru",
-  "year": 2003,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Malla Malla Malla",
+  "film": "Neelakanta",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 153,
   "id": "Tbk96O889hA",
   "title": "Suntaragali",
-  "film": "Annavru",
-  "year": 2003,
-  "singers": "Rajesh Krishnan",
+  "film": "Kalasipalya",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 154,
   "id": "uUHvnZfKmsY",
-  "title": "Chikku Chikku",
+  "title": "Hey Rukkamma",
   "film": "Sipayi",
   "year": 1996,
   "singers": "S. P. Balasubrahmanyam",
@@ -2217,158 +2457,180 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 155,
   "id": "5qxH0t8cq_g",
-  "title": "O Nanna Cheluve",
+  "title": "Bangarada Bombe Nanna",
   "film": "Sipayi",
   "year": 1996,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "K. J. Yesudas, K. S. Chithra",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 156,
   "id": "noK7dZfiwZU",
-  "title": "Snehithane",
+  "title": "Snehakke Sneha Preethige Preethi",
   "film": "Sipayi",
   "year": 1996,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 157,
   "id": "RosC7tWJcpI",
   "title": "Sundari Sundari",
-  "film": "Kalavida",
-  "year": 1997,
+  "film": "Sri Ramachandra",
+  "year": null,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 158,
   "id": "NT1IR7dmF1I",
-  "title": "Baaro Baaro",
-  "film": "Naanu Nanna Hendthi",
-  "year": 1999,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Chanda Chanda",
+  "film": "Anjaniputhraa",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 159,
   "id": "d2X87-HU5bU",
-  "title": "Shanthi Shanthi",
+  "title": "Karunade Kai Chachide Node",
   "film": "Malla",
   "year": 2004,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 160,
   "id": "kz3_PI87A_M",
-  "title": "Thangali Thangali",
-  "film": "Rasika",
-  "year": 1994,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Incharave Incharave",
+  "film": "",
+  "year": null,
+  "singers": "K. S. Chithra",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 161,
   "id": "-lKzsfnoZss",
   "title": "O Priyathama",
-  "film": "Chinna",
-  "year": 1994,
-  "singers": "S. P. Balasubrahmanyam",
+  "film": "Kaviratna Kalidasa",
+  "year": 1983,
+  "singers": "",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 162,
   "id": "uZIFHmIAoJQ",
-  "title": "Putta Putta Makkale",
+  "title": "Puttmalli Puttamalli",
   "film": "Putnanja",
   "year": 1995,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "Mano, K. S. Chithra",
   "tags": [
    "dard",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 163,
   "id": "-ZVARK25T0Y",
-  "title": "Rangana Halliya",
+  "title": "Rangero Holi",
   "film": "Putnanja",
   "year": 1995,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "Mano, Minmini",
   "tags": [
    "folk",
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 164,
   "id": "mlkJKMYTfMw",
-  "title": "Dasara Habba",
+  "title": "Dasara Gombe Ninnanu Nodalu",
   "film": "Putnanja",
   "year": 1995,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "Mano",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 165,
   "id": "Y2u5WAntdu4",
-  "title": "O Maina O Maina",
+  "title": "E Kannada Mannanu Maribeda",
   "film": "Solillada Saradara",
   "year": 1992,
   "singers": "S. P. Balasubrahmanyam",
@@ -2378,41 +2640,47 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 166,
   "id": "rDJXnFCB3z0",
-  "title": "Premada Poojari",
+  "title": "Yarigagi Hele Ninna Prema Pooje",
   "film": "Solillada Saradara",
   "year": 1992,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 167,
   "id": "qWhZv9o7UHg",
-  "title": "Jogada Siri",
-  "film": "Ekangi",
-  "year": 2002,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Aakashakke Obba Surya Kano",
+  "film": "Jogula",
+  "year": null,
+  "singers": "",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 168,
   "id": "-Oryie1c-gs",
-  "title": "Bangarada Manushya Aagadu Endu",
+  "title": "Aagadu Endu",
   "film": "Bangarada Manushya",
   "year": 1972,
   "singers": "P. B. Sreenivas",
@@ -2422,7 +2690,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 169,
@@ -2437,22 +2707,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 170,
   "id": "H_D1GBhlR1w",
-  "title": "Nanobba Kalla",
-  "film": "Nanobba Kalla",
-  "year": 1979,
-  "singers": "Dr. Rajkumar",
+  "title": "O Entha Soundarya Kande",
+  "film": "",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 171,
@@ -2467,7 +2741,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 172,
@@ -2482,7 +2758,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 173,
@@ -2497,7 +2775,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 174,
@@ -2512,7 +2792,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 175,
@@ -2527,21 +2809,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 176,
   "id": "K-eMFiFSFRg",
-  "title": "Om Namah Shivaya",
+  "title": "Om Mahaprana Dipam",
   "film": "Sri Manjunatha",
   "year": 2001,
-  "singers": "Dr. Rajkumar",
+  "singers": "Shankar Mahadevan",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 177,
@@ -2555,21 +2841,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 178,
   "id": "30aU4Bvbu1Q",
-  "title": "O Hrudaya",
+  "title": "Just Maath Maathalli",
   "film": "Just Maath Maathalli",
   "year": 2010,
-  "singers": "Sonu Nigam",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 179,
@@ -2583,7 +2873,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 180,
@@ -2597,21 +2889,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 181,
   "id": "Z1JGdFmdP7U",
-  "title": "Bachchan Title Track",
-  "film": "Bachchan",
-  "year": 2013,
-  "singers": "Shankar Mahadevan",
+  "title": "Jeena Jeena",
+  "film": "Maanikya",
+  "year": null,
+  "singers": "Shaan",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 182,
@@ -2625,35 +2921,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 183,
   "id": "_88Sxp1GW68",
-  "title": "Jigari",
-  "film": "Hebbuli",
-  "year": 2017,
-  "singers": "Sanjith Hegde",
+  "title": "Jigari Dosta",
+  "film": "Hulibeera",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 184,
   "id": "ObydPjLF4iM",
-  "title": "Devare",
+  "title": "Usire Usire",
   "film": "Hebbuli",
   "year": 2017,
-  "singers": "Armaan Malik",
+  "singers": "Shaan, Shreya Ghoshal",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 185,
@@ -2667,7 +2969,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 186,
@@ -2681,7 +2985,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 187,
@@ -2695,7 +3001,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 188,
@@ -2709,63 +3017,73 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 189,
   "id": "k_SOuh3gILA",
-  "title": "Snehada Kadalalli",
-  "film": "My Autograph",
-  "year": 2006,
-  "singers": "Vijay Prakash",
+  "title": "Usiraaguve",
+  "film": "Bahuparaak",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 190,
   "id": "ICy1jUOgtws",
-  "title": "Kariyana Kariyani",
-  "film": "Kariya",
-  "year": 2003,
-  "singers": "Gurukiran",
+  "title": "Ding Diga Ding",
+  "film": "Veerabaahu",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 191,
   "id": "naKNouYsM40",
-  "title": "Gaja Hey Gaja",
+  "title": "Aitalakkadi",
   "film": "Gaja",
   "year": 2008,
-  "singers": "Shankar Mahadevan",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 192,
   "id": "zpVZ6ydVpI0",
-  "title": "Yaare Neenu",
-  "film": "Saarathi",
-  "year": 2011,
-  "singers": "Sonu Nigam",
+  "title": "Pushpavati",
+  "film": "Kranti",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 193,
@@ -2779,7 +3097,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 194,
@@ -2793,7 +3113,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 195,
@@ -2807,7 +3129,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 196,
@@ -2821,7 +3145,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 197,
@@ -2835,7 +3161,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 198,
@@ -2849,68 +3177,78 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 199,
   "id": "FwqTyzZJ7rY",
-  "title": "Yaava Janumada",
+  "title": "Yava Janumada Gelathi",
   "film": "Kaatera",
   "year": 2023,
-  "singers": "Sonu Nigam",
+  "singers": "",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 200,
   "id": "Zu6z3qUPu1s",
-  "title": "Kirunage",
-  "film": "Kirataka",
-  "year": 2011,
-  "singers": "Vijay Prakash",
+  "title": "Maamu Maamu",
+  "film": "Maanikya",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 201,
   "id": "Ja_uPaekDgY",
-  "title": "Baalali Jotheyagi",
-  "film": "Googly",
-  "year": 2013,
-  "singers": "Haricharan",
+  "title": "Thangaliyante Balalli Bande",
+  "film": "",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 202,
   "id": "T-upgqYnILk",
-  "title": "Googly Title Track",
+  "title": "Googly Gandasare",
   "film": "Googly",
   "year": 2013,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 203,
   "id": "sPde-5cnIDE",
-  "title": "Onde Ondu",
+  "title": "Chalta Chalta",
   "film": "Raja Huli",
   "year": 2013,
   "singers": "Sonu Nigam",
@@ -2919,7 +3257,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 204,
@@ -2933,21 +3273,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 205,
   "id": "mmyWqBkX-Bw",
-  "title": "Kinaare",
-  "film": "Santhu Straight Forward",
-  "year": 2016,
-  "singers": "Armaan Malik",
+  "title": "Kendavare Hoove",
+  "film": "Kirataka",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 206,
@@ -2961,7 +3305,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 207,
@@ -2975,7 +3321,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 208,
@@ -2989,7 +3337,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 209,
@@ -3003,7 +3353,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 210,
@@ -3017,26 +3369,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 211,
-  "id": "G0dZrjIzGCA",
-  "title": "Ninna Nodalentho",
-  "film": "Gaalipata",
-  "year": 2008,
-  "singers": "Sonu Nigam",
-  "tags": [
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 212,
   "id": "Q-Eeacn-7aI",
-  "title": "Neene Neene",
+  "title": "Nee Sanihake Bandare",
   "film": "Maleyali Jotheyali",
   "year": 2009,
   "singers": "Sonu Nigam",
@@ -3045,49 +3385,57 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 213,
   "id": "pnf7wukJoWA",
   "title": "Neenendare",
-  "film": "Kool",
-  "year": 2011,
-  "singers": "V. Harikrishna",
+  "film": "Ronny",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 214,
   "id": "ENY1eIrnIwI",
-  "title": "Kannale Kannale",
+  "title": "Early Morning",
   "film": "Dil Rangeela",
   "year": 2014,
-  "singers": "Sonu Nigam",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 215,
   "id": "3j-LhFjaTmI",
-  "title": "Aakashake",
-  "film": "Geetha",
-  "year": 2019,
-  "singers": "Sanjith Hegde",
+  "title": "Aakashakeddu Nintha",
+  "film": "Bhavageethe",
+  "year": null,
+  "singers": "C. Ashwath",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 216,
@@ -3102,35 +3450,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 217,
   "id": "NxZEWwBPbYg",
-  "title": "Kodagana Koriya Nooreya",
-  "film": "Shishunala Sharif",
-  "year": 1990,
-  "singers": "C. Ashwath",
+  "title": "Kodagana Koli Nungitha",
+  "film": "",
+  "year": null,
+  "singers": "Dhruti, Athreya Sisters",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 218,
-  "id": "Y7dH2L5uy2E",
-  "title": "Tarakka Bindige",
-  "film": "Shishunala Sharif",
-  "year": 1990,
-  "singers": "C. Ashwath",
-  "tags": [
-   "folk"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 219,
@@ -3144,7 +3482,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 220,
@@ -3152,13 +3492,15 @@
   "title": "Bhagyada Balegara",
   "film": "Janapada",
   "year": 1990,
-  "singers": "Janapada",
+  "singers": "B. R. Chaya, K. Yuvaraj",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 221,
@@ -3166,28 +3508,15 @@
   "title": "Jogada Siri Belakinalli",
   "film": "Bhavageethe",
   "year": 1985,
-  "singers": "C. Ashwath",
+  "singers": "Mysore Ananthaswamy",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 222,
-  "id": "MUbYGWXgLWA",
-  "title": "Nammoora Mandaara Hoove",
-  "film": "Nammoora Mandaara Hoove",
-  "year": 1996,
-  "singers": "C. Ashwath",
-  "tags": [
-   "folk",
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 223,
@@ -3202,35 +3531,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 224,
-  "id": "O_fUZHJ-X78",
-  "title": "Ra Ra Rakkamma",
-  "film": "Vikrant Rona",
-  "year": 2022,
-  "singers": "Nakash Aziz, Sunidhi Chauhan",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 225,
-  "id": "Q1Xg6Ghol1A",
-  "title": "Mental Ho Gawa",
-  "film": "Tagaru",
-  "year": 2018,
-  "singers": "Ananya Bhat",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 226,
@@ -3245,7 +3548,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 227,
@@ -3259,7 +3564,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 228,
@@ -3273,7 +3580,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 229,
@@ -3288,7 +3597,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 230,
@@ -3302,7 +3613,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 231,
@@ -3317,7 +3630,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 232,
@@ -3332,7 +3647,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 233,
@@ -3346,7 +3663,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 234,
@@ -3360,21 +3679,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 235,
   "id": "KjLV0rn1z40",
-  "title": "Neene Bari Neene",
-  "film": "Chakravarthy",
-  "year": 2017,
-  "singers": "Sonu Nigam",
+  "title": "Neene Neene",
+  "film": "Khushi Khushiyagi",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 236,
@@ -3388,35 +3711,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 237,
   "id": "XuH-k-IE5yg",
-  "title": "Sanahasada",
+  "title": "Ee Sanje",
   "film": "RangiTaranga",
   "year": 2015,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 238,
   "id": "cYwbndfAMCU",
-  "title": "Kareyole",
+  "title": "Kele Cheluve",
   "film": "RangiTaranga",
   "year": 2015,
-  "singers": "Inchara Rao",
+  "singers": "",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 239,
@@ -3430,7 +3759,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 240,
@@ -3444,21 +3775,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 241,
   "id": "xNR4FAEGxV4",
-  "title": "Kannalle",
-  "film": "Just Math Mathalli",
+  "title": "Munjane Manjalli",
+  "film": "Just Maath Maathalli",
   "year": 2010,
-  "singers": "Sonu Nigam",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 242,
@@ -3472,35 +3807,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 243,
   "id": "D9UkW3HoKv4",
-  "title": "Open Hairu",
-  "film": "Roberrt",
-  "year": 2021,
-  "singers": "Shankar Mahadevan",
+  "title": "Open Hairu Bitkondu",
+  "film": "Adhyaksha",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 244,
   "id": "tNs3PG0-V-Y",
-  "title": "Kanneerina",
-  "film": "Love Mocktail 2",
-  "year": 2022,
-  "singers": "Nakul Abhyankar",
+  "title": "Kannalli Preethi Manadalli Preethi",
+  "film": "Nee Thanda Kanike",
+  "year": null,
+  "singers": "",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 245,
@@ -3514,21 +3855,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 246,
   "id": "50T6Ht7ITSM",
-  "title": "Bhavaloka",
-  "film": "Bell Bottom",
-  "year": 2019,
-  "singers": "Vijay Prakash",
+  "title": "Bhaavalokada (Unplugged)",
+  "film": "Nathicharami",
+  "year": null,
+  "singers": "Bindhumalini",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 247,
@@ -3542,35 +3887,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 248,
-  "id": "1himtoWeA_U",
-  "title": "Karma Song",
-  "film": "U Turn",
-  "year": 2016,
-  "singers": "Anirudh Ravichander",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 249,
   "id": "m9PGvND2wh4",
-  "title": "Goli Maar",
-  "film": "Raambo 2",
-  "year": 2018,
+  "title": "Naav Maneg Hogodilla",
+  "film": "Victory 2",
+  "year": null,
   "singers": "Vijay Prakash",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 250,
@@ -3584,21 +3919,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 251,
   "id": "wCzYdR8H_84",
-  "title": "No Excuse Me",
-  "film": "Uppi 2",
-  "year": 2015,
-  "singers": "Upendra",
+  "title": "Look At My Style",
+  "film": "Super",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 252,
@@ -3612,7 +3951,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 253,
@@ -3626,21 +3967,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 254,
   "id": "LLeNxfu2PFo",
-  "title": "Chinnamma Unna",
-  "film": "Rider",
-  "year": 2021,
-  "singers": "Armaan Malik",
+  "title": "Bad Boys",
+  "film": "Bheema",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 255,
@@ -3654,21 +3999,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 256,
   "id": "CkSkNY6snjY",
-  "title": "Hey Jhumke",
-  "film": "Kabzaa",
-  "year": 2023,
-  "singers": "Gurukiran",
+  "title": "Jilka Jilkare",
+  "film": "Pushpaka Vimana",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 257,
@@ -3682,21 +4031,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 258,
-  "id": "5CDpZWqJ32c",
-  "title": "Dheemtha",
-  "film": "Kantara",
-  "year": 2022,
-  "singers": "B. Ajaneesh Loknath",
-  "tags": [
-   "folk"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 259,
@@ -3710,21 +4047,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 260,
   "id": "aTz3u9JvcwM",
-  "title": "Mahadeshwara",
-  "film": "Orchestra Mysuru",
-  "year": 2023,
-  "singers": "Raghu Dixit",
+  "title": "Ninna Poojege Bande Mahadeshwara",
+  "film": "Psycho",
+  "year": null,
+  "singers": "Raghu Dixit, Haricharan",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 261,
@@ -3738,101 +4079,66 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 262,
-  "id": "7GKYw1B48o8",
-  "title": "Hey Bhagwan",
-  "film": "Ideas Above Ground",
-  "year": 2008,
-  "singers": "Raghu Dixit",
-  "tags": [
-   "folk"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 263,
-  "id": "2zbkKL556YY",
-  "title": "Mysore Se Ayi",
-  "film": "Ideas Above Ground",
-  "year": 2008,
-  "singers": "Raghu Dixit",
-  "tags": [
-   "folk"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 264,
-  "id": "sp6-4hiRGVs",
-  "title": "Jag Changa Title",
-  "film": "Jag Changa",
-  "year": 2014,
-  "singers": "Raghu Dixit",
-  "tags": [
-   "folk",
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 265,
   "id": "63PTx_1WEq4",
-  "title": "Parasiva",
-  "film": "Jag Changa",
-  "year": 2014,
+  "title": "Parasiva (Kande Parasivana)",
+  "film": "",
+  "year": null,
   "singers": "Raghu Dixit",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 266,
   "id": "_5TXsQ01TrU",
-  "title": "Bareyada Neena Kavyavu",
-  "film": "Nagarahavu",
-  "year": 1972,
-  "singers": "P. B. Sreenivas, S. Janaki",
+  "title": "Preethi Endarenu",
+  "film": "Jayamahal",
+  "year": null,
+  "singers": "",
   "tags": [
    "classic",
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 267,
   "id": "vKTti4IA-YI",
-  "title": "Katheya Heluvenu",
-  "film": "Naa Ninna Mareyalare",
-  "year": 1976,
-  "singers": "P. B. Sreenivas",
+  "title": "Thiliyade Nanage Thiliyade",
+  "film": "Keralida Simha",
+  "year": null,
+  "singers": "",
   "tags": [
    "classic",
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 268,
   "id": "sU_CcNYXgNc",
-  "title": "Sahasa Simha Title",
-  "film": "Sahasa Simha",
-  "year": 1982,
+  "title": "Sahasa Simha",
+  "film": "Kotigobba",
+  "year": null,
   "singers": "S. P. Balasubrahmanyam",
   "tags": [
    "mass",
@@ -3840,91 +4146,89 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 269,
   "id": "3OaClP6bYPw",
-  "title": "Simhadri Raya",
-  "film": "Simhadriya Simha",
-  "year": 2002,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Gandara Ganda",
+  "film": "Ambareesha",
+  "year": 2014,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 270,
-  "id": "3QUZ23Bv1Uc",
-  "title": "Parda Parda",
-  "film": "Aapthamitra",
-  "year": 2004,
-  "singers": "Rajesh Krishnan",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 271,
   "id": "Cv3L2RJkoPs",
-  "title": "Garagasa Garagasa",
-  "film": "Aaptharakshaka",
-  "year": 2010,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Neenu Nanage",
+  "film": "Gharga",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 272,
   "id": "50988PfIqZw",
-  "title": "Koti Koti Thara",
-  "film": "Kotigobba",
-  "year": 2001,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Hello Mister",
+  "film": "Kotigobba 2",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 273,
   "id": "Z8ejNU-VCUg",
-  "title": "O Sona O Sona",
-  "film": "Kotigobba",
-  "year": 2001,
-  "singers": "Rajesh Krishnan, K. S. Chithra",
+  "title": "Hunna Hunna",
+  "film": "Kotigobba 2",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 274,
   "id": "rUeyfai1ddc",
-  "title": "Devaru Kotta Thangi",
-  "film": "Surya Vamsha",
-  "year": 1999,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Kuhu Kuhu Kogile",
+  "film": "",
+  "year": null,
+  "singers": "Hariharan, K. S. Chithra",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 275,
@@ -3938,7 +4242,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 276,
@@ -3952,37 +4258,43 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 277,
   "id": "tC4L713i0L4",
-  "title": "Devaru Thorida Dhaari",
-  "film": "Muthina Haara",
+  "title": "Devaru Hoseda Premada Daara",
+  "film": "Mutthina Haara",
   "year": 1990,
-  "singers": "M. M. Keeravani",
+  "singers": "",
   "tags": [
    "dard",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 278,
   "id": "5ohv8DLgOhI",
-  "title": "Kodagana Koli Nungitha",
-  "film": "Muthina Haara",
-  "year": 1990,
-  "singers": "C. Ashwath",
+  "title": "Taravalla Tegi Ninna Thamboori",
+  "film": "",
+  "year": null,
+  "singers": "Kasturi Shankar",
   "tags": [
    "folk",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 279,
@@ -3996,65 +4308,75 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 280,
   "id": "Q08dgLjBAnw",
-  "title": "Jootathathi",
-  "film": "Sangliyana",
-  "year": 1988,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Ondu Muthinantha Muthu",
+  "film": "S. P. Sangliyana Part 2",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 281,
   "id": "OeIiVhhqfVA",
-  "title": "Bharatambeya Makkalu",
+  "title": "Bharathambe Ninna Januma Dina",
   "film": "Veerappa Nayaka",
   "year": 1999,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 282,
   "id": "Pam6wyva1hc",
-  "title": "Olavina Udugore Title",
+  "title": "Olavina Udugore Kodalenu",
   "film": "Olavina Udugore",
   "year": 1987,
-  "singers": "S. P. Balasubrahmanyam",
+  "singers": "P. Jayachandran",
   "tags": [
    "melody",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 283,
   "id": "MLZgBI8eCSM",
-  "title": "Ondu Munjaane",
-  "film": "Jamindaru",
-  "year": 2002,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Yaaro Ob Sundari",
+  "film": "Munjaane",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 284,
@@ -4069,64 +4391,74 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 285,
   "id": "p_BwsiRofXo",
   "title": "Moodal Kunigal Kere",
-  "film": "Mysore Mallige",
-  "year": 1992,
-  "singers": "C. Ashwath",
+  "film": "Nanna Preethiya Hudugi",
+  "year": null,
+  "singers": "",
   "tags": [
    "folk",
    "classic"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 286,
   "id": "p20oa3bHVO8",
-  "title": "Olithu Madu Manusa",
-  "film": "Nammanna",
-  "year": 2005,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Serithu Mana Serithu",
+  "film": "",
+  "year": null,
+  "singers": "",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 287,
   "id": "UcX-bU1SJGA",
-  "title": "Koti Janma",
-  "film": "Varsha",
-  "year": 2005,
-  "singers": "S. P. Balasubrahmanyam",
+  "title": "Kannige Kanisuva Daivavu Ninamma",
+  "film": "Datta",
+  "year": null,
+  "singers": "",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 288,
   "id": "OzAyFDk0h2U",
-  "title": "Matad Matadu Mallige",
-  "film": "Matad Matadu Mallige",
-  "year": 2007,
-  "singers": "C. Ashwath",
+  "title": "Maatad Maatadu Mallige",
+  "film": "",
+  "year": null,
+  "singers": "Vijay Yesudas, Nanditha",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 289,
@@ -4140,12 +4472,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 290,
   "id": "2cp-Y26FgVw",
-  "title": "Kanaso Idu Cheluvina",
+  "title": "Kanaso Idu",
   "film": "Cheluvina Chittara",
   "year": 2007,
   "singers": "Sonu Nigam",
@@ -4154,21 +4488,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 291,
   "id": "HfNtBJSkprk",
-  "title": "Gaalipata Title",
+  "title": "Aakasha Ishte",
   "film": "Gaalipata",
   "year": 2008,
-  "singers": "Rajesh Krishnan",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 292,
@@ -4183,21 +4521,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 293,
   "id": "nwgH8EqnZQY",
-  "title": "Mathadu Mathadu",
-  "film": "Krishna",
-  "year": 2007,
-  "singers": "Sonu Nigam",
+  "title": "Maatadro",
+  "film": "Krishna Leela",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 294,
@@ -4211,7 +4553,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 295,
@@ -4225,35 +4569,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 296,
   "id": "pDhHQsbZ820",
-  "title": "Nannavale Nannavale",
-  "film": "Romeo",
-  "year": 2012,
-  "singers": "Sonu Nigam",
+  "title": "Ninthali Nillalaare",
+  "film": "Chakravyuha",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 297,
   "id": "-FXz8DTfaMw",
-  "title": "Aane Paki",
+  "title": "Thunthuru Thunthuru",
   "film": "Romeo",
   "year": 2012,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 298,
@@ -4267,98 +4617,96 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 299,
   "id": "7TJN6kNDxQ8",
-  "title": "Roopa Thandiye",
+  "title": "Roopasi",
   "film": "Mugulu Nage",
   "year": 2017,
-  "singers": "Shreya Ghoshal",
-  "tags": [
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 300,
-  "id": "QKSmMpnNDkk",
-  "title": "Style King Title",
-  "film": "Style King",
-  "year": 2016,
-  "singers": "Tippu",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 301,
-  "id": "keMpTLBzX50",
-  "title": "Jagave Neenu",
-  "film": "Baanadariyalli",
-  "year": 2023,
-  "singers": "Sid Sriram",
-  "tags": [
-   "melody",
-   "dard"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 302,
-  "id": "8Bt5MP4WEwQ",
-  "title": "Naa Board Irada",
-  "film": "Mungaru Male 2",
-  "year": 2016,
-  "singers": "Armaan Malik",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 303,
-  "id": "w9082JWVhjQ",
-  "title": "Gamanisu",
-  "film": "Geetha",
-  "year": 2019,
   "singers": "Sonu Nigam",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
-  "no": 304,
-  "id": "J08Bd35ofbk",
-  "title": "Kannu Kannu",
-  "film": "Geetha",
-  "year": 2019,
-  "singers": "Armaan Malik",
+  "no": 301,
+  "id": "keMpTLBzX50",
+  "title": "Baana Daariyalli",
+  "film": "Bhagyavantha",
+  "year": 1981,
+  "singers": "",
+  "tags": [
+   "melody",
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 302,
+  "id": "8Bt5MP4WEwQ",
+  "title": "Pankaja",
+  "film": "Hudugru",
+  "year": null,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 303,
+  "id": "w9082JWVhjQ",
+  "title": "Gamanisu",
+  "film": "Mungaru Male 2",
+  "year": null,
+  "singers": "Sonu Nigam",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 304,
+  "id": "J08Bd35ofbk",
+  "title": "Kannu Kannu",
+  "film": "Naduve Antaravirali",
+  "year": null,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 305,
   "id": "xu3IdW8Q6Yw",
-  "title": "Jokae Nannu",
-  "film": "K.G.F Chapter 1",
+  "title": "Jokae",
+  "film": "KGF Chapter 1",
   "year": 2018,
   "singers": "Airaa Udupi",
   "tags": [
@@ -4366,7 +4714,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 306,
@@ -4380,21 +4730,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 307,
   "id": "qdCwbryZbQU",
-  "title": "Yaarige Beku",
-  "film": "Mr and Mrs Ramachari",
-  "year": 2014,
-  "singers": "Rajesh Krishnan",
+  "title": "Geleya Beku",
+  "film": "Moggina Manasu",
+  "year": 2008,
+  "singers": "",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 308,
@@ -4408,21 +4762,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 309,
-  "id": "VbF5wouHThE",
-  "title": "Neeralli Sannage",
-  "film": "Googly",
-  "year": 2013,
-  "singers": "Sonu Nigam, Shreya Ghoshal",
-  "tags": [
-   "melody"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 310,
@@ -4436,21 +4778,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 311,
   "id": "PubWT2Eg51w",
-  "title": "Drama Title",
-  "film": "Drama",
-  "year": 2012,
-  "singers": "Tippu",
+  "title": "The Hymn Of Dharma",
+  "film": "777 Charlie",
+  "year": 2022,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 312,
@@ -4464,49 +4810,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 313,
-  "id": "labVkcSBX68",
-  "title": "Baite Baite",
-  "film": "Gajakesari",
-  "year": 2014,
-  "singers": "Shankar Mahadevan",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 314,
   "id": "QWamO6sxLI8",
-  "title": "Kannada Mannina",
-  "film": "Gajakesari",
-  "year": 2014,
-  "singers": "Shankar Mahadevan",
+  "title": "Mellusire Savigana",
+  "film": "Veera Kesari",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 315,
   "id": "fweYZ1GaRds",
-  "title": "Kendasampige",
-  "film": "Santhu Straight Forward",
-  "year": 2016,
-  "singers": "Vijay Prakash",
+  "title": "Haage Ondhu",
+  "film": "Fair & Lovely",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 316,
@@ -4520,22 +4858,26 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 317,
   "id": "ZsrKHTng3gc",
-  "title": "Varadha",
-  "film": "Raja Huli",
-  "year": 2013,
-  "singers": "Vijay Prakash",
+  "title": "Poli Ivanu",
+  "film": "Raj",
+  "year": null,
+  "singers": "Shreya Ghoshal",
   "tags": [
    "folk",
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 318,
@@ -4549,83 +4891,95 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 319,
   "id": "lnVeVAvOojA",
-  "title": "Non Stop",
-  "film": "Lucky",
-  "year": 2012,
-  "singers": "Vijay Prakash",
+  "title": "Sadha Ninna Kannali",
+  "film": "Bachchan",
+  "year": 2013,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 320,
   "id": "COSIvzMURw8",
   "title": "Dhool Maga Dhool",
-  "film": "Kirataka",
-  "year": 2011,
-  "singers": "Vijay Prakash",
+  "film": "Kalasipalya",
+  "year": null,
+  "singers": "",
   "tags": [
    "folk",
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 321,
   "id": "qavhxgdMujo",
-  "title": "Avva Kana Kanda",
-  "film": "Kirataka",
-  "year": 2011,
-  "singers": "Kailash Kher",
+  "title": "Yaava Seemeya Mayagaatiye",
+  "film": "Johnny Mera Naam",
+  "year": null,
+  "singers": "",
   "tags": [
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 322,
   "id": "EcdswCLAIKU",
-  "title": "Aakasha Deepavu",
-  "film": "Modalasala",
-  "year": 2010,
+  "title": "Aakasha Neene",
+  "film": "Ambari",
+  "year": null,
   "singers": "Sonu Nigam",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 323,
   "id": "RisscgLRohA",
-  "title": "Moodal Kunigal Kere Modalasala",
-  "film": "Modalasala",
-  "year": 2010,
-  "singers": "V. Harikrishna",
+  "title": "Moda Modalu Bhoomigilida",
+  "film": "Yashwanth",
+  "year": null,
+  "singers": "",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 324,
   "id": "0HTxAYOl-Bc",
-  "title": "Moga Modala",
+  "title": "Moggina Manasali",
   "film": "Moggina Manasu",
   "year": 2008,
   "singers": "Shreya Ghoshal",
@@ -4634,7 +4988,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 325,
@@ -4648,217 +5004,217 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 326,
   "id": "UwMB5VKfKP8",
   "title": "Mussanje Veleli",
-  "film": "Mussanje Maatu",
-  "year": 2008,
-  "singers": "Sonu Nigam",
+  "film": "Addhuri",
+  "year": null,
+  "singers": "Vaani Harikrishna",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 327,
   "id": "8CMxV1O5VHw",
-  "title": "Oora Devru",
+  "title": "Oora Kannu",
   "film": "Ranga SSLC",
   "year": 2004,
-  "singers": "Shankar Mahadevan",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 328,
-  "id": "UK9BZMBz8Xo",
-  "title": "Baanina Uyyale",
-  "film": "Just Maath Maathalli",
-  "year": 2010,
-  "singers": "Sonu Nigam",
-  "tags": [
-   "dard"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 329,
   "id": "Ue6IkriyDBY",
-  "title": "Bareyada Kavyavu",
-  "film": "Veera Madakari",
-  "year": 2009,
-  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "title": "Kattheya Mari Chanda",
+  "film": "Sarvamangala",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 330,
   "id": "lW0PGckEAHs",
-  "title": "Veera Madakari Title",
+  "title": "Manjari Manjari",
   "film": "Veera Madakari",
   "year": 2009,
-  "singers": "Shankar Mahadevan",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 331,
-  "id": "3kyWhpoHEHY",
-  "title": "Huchcha Title",
-  "film": "Huchcha",
-  "year": 2001,
-  "singers": "Rajesh Krishnan",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 332,
   "id": "CPuPCxuZ6h0",
-  "title": "Muddu Muddu",
-  "film": "Kiccha",
-  "year": 2003,
-  "singers": "Rajesh Krishnan",
+  "title": "Muddu Manase Peddu Manase",
+  "film": "",
+  "year": null,
+  "singers": "Unni Krishnan",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 333,
   "id": "NQ1jeD4PaYo",
-  "title": "Nanna Kanasina",
-  "film": "My Autograph",
-  "year": 2006,
-  "singers": "Vijay Prakash",
+  "title": "O Sona O Sona",
+  "film": "Vaali",
+  "year": null,
+  "singers": "Hariharan",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 334,
   "id": "DnAeqLLbrdY",
-  "title": "Machan Machan",
-  "film": "My Autograph",
-  "year": 2006,
-  "singers": "Sudeep",
+  "title": "Suvvi Suvvi",
+  "film": "Swathi Muthu",
+  "year": null,
+  "singers": "Rajesh Krishnan, K. S. Chithra",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 335,
   "id": "loQoTzF69b0",
-  "title": "O Nanna Manase",
+  "title": "Malagiruva Bhoomige",
   "film": "Swathi Muthu",
   "year": 2003,
-  "singers": "Rajesh Krishnan",
+  "singers": "K. J. Yesudas",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 336,
   "id": "6jQEwL3V5MI",
-  "title": "Hulianna",
-  "film": "Vishnuvardhana",
-  "year": 2011,
-  "singers": "Vijay Prakash",
+  "title": "Oh Kanchana",
+  "film": "Jyeshta",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 337,
   "id": "MGnN-9wY-xs",
-  "title": "Baaro Hey Hero",
-  "film": "Manikya",
-  "year": 2014,
-  "singers": "Jaspreet Jasz",
+  "title": "Baaro Pailwaan",
+  "film": "Pailwaan",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 338,
   "id": "hN-HBKbCjgc",
-  "title": "Ranna Title",
+  "title": "Babber Sher",
   "film": "Ranna",
   "year": 2015,
-  "singers": "Devi Sri Prasad",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 339,
   "id": "3rCYrr5XnOI",
-  "title": "Seereli Penne",
+  "title": "Seereli Hudugeena",
   "film": "Ranna",
   "year": 2015,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 340,
   "id": "rHlb9cQdAO8",
-  "title": "O Priyathama",
-  "film": "Amrithadhare",
-  "year": 2005,
-  "singers": "Sonu Nigam",
+  "title": "O Priya",
+  "film": "Pallakki",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 341,
@@ -4872,50 +5228,58 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 342,
   "id": "HkjoYHTv69Y",
-  "title": "Sonta Sonta",
+  "title": "Roadigili Radhika",
   "film": "Excuse Me",
   "year": 2003,
-  "singers": "Rajesh Krishnan",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 343,
   "id": "35AkUNqq3X8",
-  "title": "Preethi Bandhe",
-  "film": "Aakash",
-  "year": 2005,
-  "singers": "Sonu Nigam, Shreya Ghoshal",
+  "title": "Preethi Neenillade Nanu Hegirali",
+  "film": "Baava Baamaida",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 344,
   "id": "nmRGq8Zy7Eo",
-  "title": "Kolumande Jangama",
-  "film": "Jothe Jotheyali",
-  "year": 2006,
-  "singers": "Vijay Prakash",
+  "title": "Kolumande Jangama Devaru",
+  "film": "Janumada Jodi",
+  "year": 1996,
+  "singers": "",
   "tags": [
    "folk",
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 345,
@@ -4929,49 +5293,57 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 346,
   "id": "QCoQ9-ABugU",
-  "title": "Onde Ondu Aase Sidlingu",
-  "film": "Sidlingu",
-  "year": 2012,
+  "title": "Ondonde",
+  "film": "Inthi Ninna Preethiya",
+  "year": null,
   "singers": "Sonu Nigam",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 347,
   "id": "_ebBMIsAFLM",
-  "title": "Minchu Minchu",
-  "film": "Lucky",
-  "year": 2012,
-  "singers": "Vijay Prakash",
+  "title": "Jungle Hakki",
+  "film": "Baava Baamaida",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 348,
   "id": "NORO0x0V8oA",
-  "title": "Baa Baaro Rasika",
-  "film": "Appu",
-  "year": 2002,
-  "singers": "Udit Narayan",
+  "title": "Bittaku Bittaku",
+  "film": "",
+  "year": null,
+  "singers": "Adnan Sami",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 349,
@@ -4985,12 +5357,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 350,
   "id": "kn9Sv7uaUDE",
-  "title": "Veera Kannadiga Title",
+  "title": "Jeeva Kannada Deha Kannada",
   "film": "Veera Kannadiga",
   "year": 2004,
   "singers": "Shankar Mahadevan",
@@ -4999,21 +5373,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 351,
   "id": "Wq1yTIgxK8g",
-  "title": "Addadalli",
+  "title": "Addadalli Kingu Nane",
   "film": "Maurya",
   "year": 2004,
-  "singers": "Shankar Mahadevan",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 352,
@@ -5027,7 +5405,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 353,
@@ -5041,49 +5421,57 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 354,
   "id": "-trQaAERmRo",
-  "title": "Kaanada Kadalige",
+  "title": "Thayi Thayi Laali Haado",
   "film": "Vamshi",
   "year": 2008,
-  "singers": "C. Ashwath",
+  "singers": "Dr. Rajkumar",
   "tags": [
    "folk"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 355,
   "id": "9eShOnkYfUg",
-  "title": "Yaare Yaare",
+  "title": "Jackie Jackie",
   "film": "Jackie",
   "year": 2010,
-  "singers": "Tippu",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 356,
   "id": "5zLloUGQLxc",
-  "title": "Kannadle Karedaga",
-  "film": "Jackie",
-  "year": 2010,
-  "singers": "Puneeth Rajkumar, Shreya Ghoshal",
+  "title": "Kanna Sanneyindalene",
+  "film": "Akira",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 357,
@@ -5097,21 +5485,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 358,
   "id": "heEbp0czSeA",
-  "title": "Open Hairu Anna Bond",
-  "film": "Anna Bond",
-  "year": 2012,
-  "singers": "Tippu",
+  "title": "Ammate",
+  "film": "Addhuri",
+  "year": null,
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 359,
@@ -5125,7 +5517,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 360,
@@ -5139,35 +5533,41 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 361,
   "id": "hZl2POYtcbU",
-  "title": "Lightagagi Dodmane",
+  "title": "Thraas Aakkathi",
   "film": "Dodmane Huduga",
   "year": 2016,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 362,
   "id": "sunhfPfx6JE",
-  "title": "Naguvina Hoogala",
-  "film": "Dodmane Huduga",
-  "year": 2016,
-  "singers": "Karthik",
+  "title": "Saavira Nadigaligella",
+  "film": "",
+  "year": null,
+  "singers": "Shankar Mahadevan",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": false
  },
  {
   "no": 363,
@@ -5181,7 +5581,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 364,
@@ -5195,26 +5597,30 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 365,
   "id": "GBwWunPvZ1M",
-  "title": "Raajakumara Title",
+  "title": "Yaakingagidhe",
   "film": "Raajakumara",
   "year": 2017,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "mass"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 366,
   "id": "3WT2yGrWKoc",
-  "title": "Saagarada Aleye",
+  "title": "Saagaradha",
   "film": "Raajakumara",
   "year": 2017,
   "singers": "Sonu Nigam",
@@ -5223,7 +5629,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 367,
@@ -5237,36 +5645,42 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 368,
   "id": "h_gP1oPNKf4",
   "title": "Gubbachi Goodinalli",
-  "film": "Ninnindale",
-  "year": 2014,
-  "singers": "Arijit Singh",
+  "film": "Bindaas",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 369,
   "id": "WD2MlG0Q4bI",
-  "title": "Bettada Hoovu Kannadada Makkalella",
-  "film": "Bettada Hoovu",
-  "year": 1985,
-  "singers": "Master Puneeth",
+  "title": "Kannadada Honnudi",
+  "film": "Ondu Cinema Kathe",
+  "year": null,
+  "singers": "",
   "tags": [
    "classic",
    "dard"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 370,
@@ -5280,21 +5694,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 371,
   "id": "NVlYwUrmh1s",
-  "title": "Katheyondu Shuruvaagide",
+  "title": "Katheyonda Helide",
   "film": "Kirik Party",
   "year": 2016,
-  "singers": "Vijay Prakash",
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 372,
@@ -5308,7 +5726,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 373,
@@ -5322,7 +5742,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 374,
@@ -5336,12 +5758,14 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 375,
   "id": "JzxSJORrPug",
-  "title": "Sojugada Sooju Mallige Film",
+  "title": "Sojugada Sooju Mallige",
   "film": "Garuda Gamana Vrishabha Vahana",
   "year": 2021,
   "singers": "Chaithra J Achar",
@@ -5350,7 +5774,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 376,
@@ -5364,7 +5790,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 377,
@@ -5378,7 +5806,9 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 378,
@@ -5392,35 +5822,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 379,
   "id": "oepLylgqSKU",
-  "title": "Malenaada",
-  "film": "Ricky",
-  "year": 2016,
-  "singers": "Sonu Nigam",
+  "title": "Dennana Dennana",
+  "film": "RangiTaranga",
+  "year": null,
+  "singers": "",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
- },
- {
-  "no": 380,
-  "id": "twcc3SiMuTs",
-  "title": "Saayo Aata",
-  "film": "Bell Bottom",
-  "year": 2019,
-  "singers": "Raghu Dixit",
-  "tags": [
-   "mass"
-  ],
-  "karaoke": false,
-  "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 381,
@@ -5434,21 +5854,25 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 382,
   "id": "7cBSr4dGRZY",
-  "title": "Vismaya",
+  "title": "Baanali Badalaago",
   "film": "Simple Agi Ondh Love Story",
   "year": 2013,
-  "singers": "BJ Bharat",
+  "singers": "Sonu Nigam",
   "tags": [
    "melody"
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  },
  {
   "no": 383,
@@ -5462,6 +5886,8 @@
   ],
   "karaoke": false,
   "by": "Praveen BABA",
-  "hot": true
+  "hot": true,
+  "tv": true,
+  "fv": true
  }
 ]

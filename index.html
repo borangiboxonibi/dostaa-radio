@@ -942,7 +942,11 @@ function showSong(s, prevNo){
 function renderSub(s){
  const hide = quizOn && quizState && quizState.id === s.id && !quizState.done;
  const film = hide ? '<span class="film-q">? ? ?</span>' : esc(s.film);
- $("#sub").innerHTML = "<b>" + esc(s.singers) + "</b> · 🎬 " + film + (s.year && !hide ? " · " + s.year : "");
+ const parts = [];
+ if (s.singers) parts.push("<b>" + esc(s.singers) + "</b>");
+ if (s.film || hide) parts.push("🎬 " + film);
+ if (s.year && !hide) parts.push(String(s.year));
+ $("#sub").innerHTML = parts.join(" · ") || "Kannada song";
 }
 function go(k){
  if (!q.length) return;
@@ -1010,9 +1014,10 @@ setInterval(() => {
 let qzTimer = null;
 function startQuiz(s){
  clearInterval(qzTimer);
- const films = [...new Set(songs.map(x => x.film).filter(f => f && f !== s.film))];
- if (!s.film || films.length < 3){ closeQuiz(); return; }
- const near = films.filter(f => { const y = songs.find(x => x.film === f).year; return s.year && y && Math.abs(y - s.year) <= 8; });
+ const vs = songs.filter(x => x.fv && x.film);
+ const films = [...new Set(vs.map(x => x.film).filter(f => f.toLowerCase() !== (s.film||"").toLowerCase()))];
+ if (!s.fv || !s.film || films.length < 3){ closeQuiz(); return; }
+ const near = films.filter(f => { const y = (vs.find(x => x.film === f) || {}).year; return s.year && y && Math.abs(y - s.year) <= 8; });
  const src = near.length >= 6 ? near : films, opts = new Set([s.film]);
  while (opts.size < 4) opts.add(src[Math.random()*src.length | 0]);
  const arr = [...opts].sort(() => Math.random() - .5);
@@ -1048,7 +1053,7 @@ function closeQuiz(){ clearInterval(qzTimer); quizState = null; $("#quiz").class
 $("#qzOpts").addEventListener("click", e => { const b = e.target.closest(".qo"); if (b) answer(b.dataset.f, b); });
 $("#quizBtn").onclick = () => {
  quizOn = !quizOn; $("#quizBtn").setAttribute("aria-pressed", String(quizOn));
- if (quizOn){ toast("🎬", "Quiz mode on", "Guess the film for every song. Faster answers earn more XP"); if (live && cur) startQuiz(cur); }
+ if (quizOn){ toast("🎬", "Quiz mode on", "Guess the film. Only songs with a video-verified film are quizzed"); if (live && cur) startQuiz(cur); }
  else closeQuiz();
  if (cur) renderSub(cur);
 };
@@ -1071,7 +1076,7 @@ function renderList(f){
  if (!list.length){ $("#lBody").innerHTML = '<div class="empty">No match. Missing a song? <br/><br/><button class="btn" id="lReq">Request it</button></div>'; $("#lReq").onclick = () => sheet("#reqSheet"); return; }
  $("#lBody").innerHTML = list.map(s => '<div class="lrow' + (cur && cur.id === s.id ? " cur" : "") + '" data-id="' + s.id + '">' +
   '<span class="no">#' + s.no + '</span><img loading="lazy" alt="" src="https://i.ytimg.com/vi/' + s.id + '/default.jpg"/>' +
-  '<span class="tt"><b>' + esc(s.kn || s.title) + '</b><s>' + esc(s.film) + (s.year ? " · " + s.year : "") + " · " + esc(s.singers) + '</s></span>' +
+  '<span class="tt"><b>' + esc(s.kn || s.title) + '</b><s>' + esc([s.film, s.year, s.singers].filter(Boolean).join(" · ")) + '</s></span>' +
   (P.heard[s.id] ? '<span class="hd" title="Discovered">✓</span>' : "") + '</div>').join("");
 }
 $("#lBody").addEventListener("click", e => { const r = e.target.closest(".lrow"); if (!r) return; jumpTo(byId.get(r.dataset.id)); closeSheets(); });
@@ -1141,7 +1146,7 @@ async function checkReq(){
  if (!id){ rqSet("err", "That doesn't look like a YouTube link. Try copying it from the Share button on YouTube."); return; }
  const have = byId.get(id);
  if (have){
-  rqSet("ok", "🎉 Already on air as <b>#" + have.no + "</b>: " + esc(have.kn || have.title) + " (" + esc(have.film) + "). <button class='btn' id='rqPlay' style='margin-top:10px;padding:9px 14px'>Play it now</button>");
+  rqSet("ok", "🎉 Already on air as <b>#" + have.no + "</b>: " + esc(have.kn || have.title) + (have.film ? " (" + esc(have.film) + ")" : "") + ". <button class='btn' id='rqPlay' style='margin-top:10px;padding:9px 14px'>Play it now</button>");
   $("#rqPlay").onclick = () => { jumpTo(have); closeSheets(); }; return;
  }
  if ((P.reqs || []).includes(id)){ rqSet("ok", "You've already requested this one. It's in the review queue 🙌"); return; }
@@ -1180,7 +1185,7 @@ $("#reqBtn").onclick = () => { sheet("#reqSheet"); if (fine) setTimeout(() => $(
 /* ---------------- share ---------------- */
 $("#shareBtn").onclick = async () => {
  const s = cur; const url = location.origin + location.pathname + (s ? "?n=" + s.no : "");
- const text = s ? "🎶 #" + s.no + " " + (s.kn || s.title) + " (" + s.film + ") on ದೋಸ್ತಾ ರೇಡಿಯೋ" : "ದೋಸ್ತಾ ರೇಡಿಯೋ: Kannada songs 24×7";
+ const text = s ? "🎶 #" + s.no + " " + (s.kn || s.title) + (s.film ? " (" + s.film + ")" : "") + " on ದೋಸ್ತಾ ರೇಡಿಯೋ" : "ದೋಸ್ತಾ ರೇಡಿಯೋ: Kannada songs 24×7";
  if (navigator.share){ try { await navigator.share({title:"Dostaa Radio", text, url}); return; } catch(e){ if (e.name === "AbortError") return; } }
  try { await navigator.clipboard.writeText(text + " " + url); toast("🔗", "Link copied", "Paste it anywhere to share this song"); } catch(e){ prompt("Copy this link:", url); }
 };
@@ -1196,7 +1201,7 @@ function syncVid(){
 function openVideo(){
  if (!live) go(qi);
  if (!pl || !rdy){ pendingVideo = true; toast("", "Loading the player…"); return; }
- videoMode = true; $("#vidCap").textContent = cur ? (cur.kn || cur.title) + " · " + cur.film : "";
+ videoMode = true; $("#vidCap").textContent = cur ? [cur.kn || cur.title, cur.film].filter(Boolean).join(" · ") : "";
  $("#vid").classList.add("open"); $("#scrim").classList.add("open"); requestAnimationFrame(syncVid);
 }
 function closeVideo(){
