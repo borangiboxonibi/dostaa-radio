@@ -23,7 +23,7 @@
  --w20:rgba(255,255,255,.2);--w10:rgba(255,255,255,.1);--w06:rgba(255,255,255,.06);
  --gold:#FFC24A;--gold2:#FFE09A;--ember:#FF6A34;--rani:#E8336D;--leaf:#2BD39A;
  --kn:"Baloo Tamma 2",system-ui,sans-serif;
- --en:"Poppins",system-ui,sans-serif;
+ --en:"Poppins","Noto Sans Kannada",system-ui,sans-serif;
  --nk:"Noto Sans Kannada","Baloo Tamma 2",system-ui,sans-serif;
  --ease:cubic-bezier(.2,.9,.25,1);
  --deck:min(94vw,calc(100dvh - 350px),520px);
@@ -111,7 +111,8 @@ body:not(.playing) .aura{opacity:.7}
  background:radial-gradient(circle,var(--gold) 0 26%,#140C05 27% 31%,transparent 32%),repeating-radial-gradient(circle,#0c0906 0 1px,#241a10 1.5px 2.6px);
  box-shadow:0 0 0 1px rgba(255,194,74,.25),0 4px 14px rgba(0,0,0,.5)}
 body.playing .brand-mark{animation:spin 1.8s linear infinite}
-.brand-txt{min-width:0}
+.brand-txt{min-width:0;overflow:hidden}
+body[data-lang=en] .brand-kn{font-family:var(--en);font-weight:800;font-size:17px;letter-spacing:-.01em}
 .brand-kn{font-family:var(--kn);font-weight:800;font-size:19px;line-height:1;white-space:nowrap;
  background:linear-gradient(100deg,var(--gold2),var(--gold) 50%,var(--ember));-webkit-background-clip:text;background-clip:text;color:transparent}
 .onair{display:flex;align-items:center;gap:6px;margin-top:3px;font-family:var(--en);font-weight:600;font-size:9.5px;letter-spacing:.14em;color:var(--w60);white-space:nowrap}
@@ -140,6 +141,31 @@ body.playing .onair i{background:var(--ember);box-shadow:0 0 10px var(--ember);a
 .ibtn:active{transform:scale(.9)}
 .ibtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .ibtn.req{background:linear-gradient(135deg,rgba(255,194,74,.22),rgba(255,106,52,.18));border-color:rgba(255,194,74,.4);color:var(--gold)}
+
+/* ---------- language toggle ---------- */
+.lang{position:relative;display:flex;align-items:center;height:36px;padding:3px;border-radius:999px;flex:0 0 auto;
+ background:rgba(0,0,0,.38);border:1px solid var(--w10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+ transition:border-color .25s,box-shadow .25s}
+.lang:hover{border-color:rgba(255,194,74,.55);box-shadow:0 0 18px rgba(255,194,74,.18)}
+.lang-thumb{position:absolute;top:3px;bottom:3px;left:0;width:0;border-radius:999px;
+ background:linear-gradient(120deg,var(--gold2),var(--gold) 50%,var(--ember));
+ box-shadow:0 4px 14px rgba(255,150,40,.45),inset 0 1px 0 rgba(255,255,255,.5);
+ transition:transform .55s cubic-bezier(.5,1.7,.4,1),width .45s var(--ease)}
+.lang.flip .lang-thumb{animation:squash .55s var(--ease)}
+@keyframes squash{30%{scale:1.18 .82}60%{scale:.94 1.06}}
+.lang-o{position:relative;z-index:1;height:30px;padding:0 11px;display:grid;place-items:center;white-space:nowrap;
+ font-family:var(--en);font-weight:800;font-size:11.5px;letter-spacing:.06em;color:var(--w60);transition:color .35s}
+.lang-o[data-l=kn]{font-family:var(--kn);font-weight:700;font-size:14px;letter-spacing:0;padding-top:2px}
+.lang-o.on{color:#160C03}
+.lang .sk{display:none}
+.ld-lang{position:absolute;top:calc(env(safe-area-inset-top) + 16px);right:16px}
+/* language swap motion */
+body.lswap [data-t],body.lswap .t-kn,body.lswap .sub,body.lswap .chip,body.lswap .pill,body.lswap .brand-kn,body.lswap .xp-txt,body.lswap .sh-b{animation:lswap .5s var(--ease)}
+@keyframes lswap{40%{opacity:0;filter:blur(5px);transform:translateY(-5px)}41%{transform:translateY(5px)}}
+body[data-lang=kn] .onair,body[data-lang=kn] .meta-top,body[data-lang=kn] .deck-hint,body[data-lang=kn] .ld-sub{letter-spacing:.02em}
+body[data-lang=kn] .tool,body[data-lang=kn] .btn,body[data-lang=kn] .surprise,body[data-lang=kn] .qz-h b{font-family:var(--kn);font-weight:700}
+body[data-lang=kn] .tool{font-size:13px}
+body[data-lang=kn] .onair{font-family:var(--kn);font-size:11px;font-weight:700}
 
 /* ---------- main stage ---------- */
 .stage{flex:1 1 auto;min-height:0;width:min(1100px,100%);margin:0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
@@ -271,6 +297,8 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
 .chip-sep{flex:0 0 1px;background:var(--w10);margin:4px 3px}
 .ft{flex:0 0 auto;text-align:center;font-family:var(--en);font-size:9.5px;color:var(--w40);margin-top:4px}
 .ft a{color:rgba(255,194,74,.6);text-decoration:none}
+.ft .credit a{color:var(--gold);font-weight:700;letter-spacing:.03em;transition:text-shadow .2s}
+.ft .credit a:hover{text-shadow:0 0 12px rgba(255,194,74,.7)}
 
 /* ---------- desktop / landscape: two columns ---------- */
 @media (min-width:900px) and (min-height:560px), (min-width:640px) and (max-height:560px) and (orientation:landscape){
@@ -283,7 +311,7 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
 }
 @media (min-width:640px) and (max-height:560px) and (orientation:landscape){
  :root{--deck:min(48vw,calc(100dvh - 64px))}
- .info{gap:6px}.t-kn{font-size:24px}.ft{display:none}
+ .info{gap:6px}.t-kn{font-size:24px}.ft{margin-top:0}.ft-main{display:none}
  .play{width:58px;height:58px}
 }
 @media (min-width:1200px) and (min-height:760px){
@@ -300,18 +328,24 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
 }
 /* short portrait phones */
 @media (max-height:700px) and (orientation:portrait){
- :root{--deck:min(90vw,calc(100dvh - 318px),440px)}
+ :root{--deck:min(90vw,calc(100dvh - 332px),440px)}
  .info{gap:6px}.t-kn{font-size:clamp(22px,6vw,30px)}
  .play{width:60px;height:60px}.play svg{width:24px;height:24px}
  .tb{width:42px;height:42px}
- .ft{display:none}.deck-hint{display:none}
+ .ft{margin-top:2px}.deck-hint{display:none}
 }
 @media (max-height:600px) and (orientation:portrait){
- :root{--deck:min(86vw,calc(100dvh - 296px))}
+ :root{--deck:min(86vw,calc(100dvh - 310px))}
  .t-en{display:none}.tool span{display:none}.tool{padding:8px 11px}
 }
+@media (max-width:520px){
+ .ft-main{display:none}.ft{font-size:9.5px}
+ .xp-txt{display:none}.xp{padding:3px}.rail-r{gap:6px}
+ .lang-o{padding:0 9px}.lang .full{display:none}.lang .sk{display:inline}
+}
 @media (max-width:380px){
- .xp-txt{display:none}.xp{padding:4px}.brand-kn{font-size:17px}
+ .brand-kn,body[data-lang=en] .brand-kn{font-size:15px}.onair{font-size:8.5px;letter-spacing:.03em;gap:4px}.brand-mark{width:30px;height:30px}.ibtn{width:34px;height:34px}.xp-ring{width:28px;height:28px}
+ .lang{height:34px}.lang-o{height:28px;padding:0 8px}
  .tool span{display:none}.tool{padding:9px 12px}
 }
 
@@ -445,7 +479,8 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
 <body>
 
 <!-- ======== LOADER ======== -->
-<div id="loader" role="dialog" aria-label="Loading Dostaa Radio">
+<div id="loader" role="dialog" aria-label="Dostaa Radio">
+ <div class="ld-lang"><button class="lang" id="langBtnL" type="button" role="switch" aria-checked="false" aria-label="Language: English / ಕನ್ನಡ"><span class="lang-thumb"></span><span class="lang-o" data-l="en">EN</span><span class="lang-o" data-l="kn"><span class="full">ಕನ್ನಡ</span><span class="sk">ಕ</span></span></button></div>
  <div class="ld-orb">
   <svg class="ld-ring" viewBox="0 0 100 100" aria-hidden="true">
    <defs><linearGradient id="ldg" x1="0" x2="1"><stop offset="0" stop-color="#E8336D"/><stop offset=".5" stop-color="#FF6A34"/><stop offset="1" stop-color="#FFC24A"/></linearGradient></defs>
@@ -454,16 +489,16 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
   <div class="ld-vinyl"></div><div class="ld-hole"></div>
  </div>
  <div class="ld-title" id="ldTitle" aria-label="ದೋಸ್ತಾ ರೇಡಿಯೋ"></div>
- <div class="ld-sub">Kannada Radio · 24×7</div>
- <div class="ld-status" id="ldStatus">Tuning the frequencies…</div>
+ <div class="ld-sub" data-t="ld_sub">Kannada Radio · 24×7</div>
+ <div class="ld-status" id="ldStatus"></div>
  <button class="tune" id="tuneBtn" type="button">
   <span class="pi"><svg viewBox="0 0 24 24"><path d="M7 4v16l13-8z"/></svg></span>
-  <span><span id="tuneLbl">Tune in</span><small>ಟ್ಯೂನ್ ಮಾಡಿ</small></span>
+  <span><span id="tuneLbl">Tune in</span><small data-t="tune_sub">Start listening</small></span>
  </button>
- <div class="ld-dis">ಎಲ್ಲಾ ಹಾಡುಗಳು YouTube ಮೂಲಕ ಪ್ಲೇ ಆಗುತ್ತವೆ. ಹಕ್ಕುಗಳು ಆಯಾ ಮಾಲೀಕರಿಗೆ ಸೇರಿವೆ.<br/>All songs play via YouTube. Rights belong to their owners.</div>
+ <div class="ld-dis" data-t="ld_dis">All songs play via YouTube. Rights belong to their owners.</div>
 </div>
 
-<div class="igbar" id="igBar"><span>Music may not play inside Instagram. Open in your browser for the full experience.</span><a id="igOpen" href="https://radio.dostaa.in">Open</a></div>
+<div class="igbar" id="igBar"><span data-t="ig">Music may not play inside Instagram. Open in your browser for the full experience.</span><a id="igOpen" href="https://radio.dostaa.in" data-t="ig_open">Open</a></div>
 <div class="bg"></div><div class="aura"></div><canvas id="fx"></canvas><div class="grain"></div>
 <div class="yt" id="ytWrap"><div id="yt"></div></div>
 <div class="yt"><div id="chk"></div></div>
@@ -474,19 +509,20 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
   <div class="brand">
    <div class="brand-mark" aria-hidden="true"></div>
    <div class="brand-txt">
-    <div class="brand-kn">ದೋಸ್ತಾ ರೇಡಿಯೋ</div>
+    <div class="brand-kn" data-t="brand">ದೋಸ್ತಾ ರೇಡಿಯೋ</div>
     <div class="onair"><i></i><span id="onairTxt">ON AIR</span></div>
    </div>
   </div>
   <div class="rail-r">
-   <button class="xp" id="xpBtn" type="button" aria-label="Your level and badges">
+   <button class="lang" id="langBtn" type="button" role="switch" aria-checked="false" aria-label="Language: English / ಕನ್ನಡ"><span class="lang-thumb"></span><span class="lang-o" data-l="en">EN</span><span class="lang-o" data-l="kn"><span class="full">ಕನ್ನಡ</span><span class="sk">ಕ</span></span></button>
+   <button class="xp" id="xpBtn" type="button" aria-label="Your level and badges" data-ta="a_xp">
     <span class="xp-ring"><svg viewBox="0 0 30 30"><circle class="b" cx="15" cy="15" r="13"/><circle class="f" id="xpArc" cx="15" cy="15" r="13"/></svg><b id="xpLv">1</b></span>
     <span class="xp-txt"><b id="xpName">ಕೇಳುಗ</b><s id="xpPts">0 XP</s></span>
    </button>
-   <button class="ibtn req" id="reqBtn" type="button" aria-label="Request a missing song" title="Missing a song? Paste the YouTube link">
+   <button class="ibtn req" id="reqBtn" type="button" aria-label="Request a missing song" title="Missing a song? Paste the YouTube link" data-ta="a_req">
     <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
    </button>
-   <button class="ibtn" id="listBtn" type="button" aria-label="All songs" title="All songs">
+   <button class="ibtn" id="listBtn" type="button" aria-label="All songs" title="All songs" data-ta="a_list">
     <svg viewBox="0 0 24 24"><path d="M4 6h11M4 12h11M4 18h7"/><circle cx="18.5" cy="16.5" r="2.5"/><path d="M21 16.5V6l-3 1"/></svg>
    </button>
   </div>
@@ -512,10 +548,10 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
      <rect x="9" y="190" width="2" height="8" fill="#FFE09A"/>
     </svg>
    </div>
-   <div class="deck-hint">TAP TO PLAY · SPIN TO SCRUB</div>
+   <div class="deck-hint" data-t="hint">TAP TO PLAY · SPIN TO SCRUB</div>
 
    <div class="quiz" id="quiz" aria-live="polite">
-    <div class="qz-h"><b>🎬 GUESS THE FILM</b><span id="qzStreak">ಯಾವ ಸಿನಿಮಾ?</span></div>
+    <div class="qz-h"><b data-t="qz_h">🎬 GUESS THE FILM</b><span id="qzStreak"></span></div>
     <div class="qz-t"><i id="qzTimer"></i></div>
     <div class="qz-o" id="qzOpts"></div>
    </div>
@@ -526,13 +562,13 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
     <span class="pill no" id="mNo">#—</span>
     <span class="pill" id="mDec">Kannada</span>
     <span class="pill" id="mTag">24×7</span>
-    <span class="pill new" id="mNew" hidden>NEW FOR YOU</span>
+    <span class="pill new" id="mNew" hidden data-t="new4u">NEW FOR YOU</span>
    </div>
    <div class="ttl">
-    <h1 class="t-kn" id="tKn">ದೋಸ್ತಾ ರೇಡಿಯೋ</h1>
-    <div class="t-en" id="tEn">Kannada songs, all day</div>
+    <h1 class="t-kn" id="tKn" data-t="brand">ದೋಸ್ತಾ ರೇಡಿಯೋ</h1>
+    <div class="t-en" id="tEn" data-t="hero_en">Kannada songs, all day</div>
    </div>
-   <div class="sub" id="sub">Tap the record to begin</div>
+   <div class="sub" id="sub" data-t="hero_sub">Tap the record to begin</div>
    <div class="seek" id="seek" aria-label="Seek"><div class="trk"><div class="fill" id="fill"></div><div class="knb" id="knb"></div></div>
     <div class="tm"><span id="t0">0:00</span><span id="t1">0:00</span></div></div>
    <div class="transport">
@@ -543,15 +579,15 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
     <button class="tb sm" id="rep" aria-pressed="false" aria-label="Repeat one"><svg viewBox="0 0 24 24"><path d="M7 7h10v2.5l4-3.5-4-3.5V5H5v6h2V7zm10 10H7v-2.5l-4 3.5 4 3.5V19h12v-6h-2v4z"/></svg></button>
    </div>
    <div class="tools">
-    <button class="tool" id="quizBtn" aria-pressed="false" title="Guess the film (Q)"><svg viewBox="0 0 24 24"><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14"/><circle cx="12" cy="17.5" r=".6" fill="currentColor"/><circle cx="12" cy="12" r="9.5"/></svg><span>Quiz</span></button>
-    <button class="tool" id="watchBtn" title="Watch video"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="14" height="12" rx="2.5"/><path d="M16.5 10.5l5-3v9l-5-3"/></svg><span>Watch</span></button>
-    <button class="tool" id="volBtn" title="Volume"><svg id="volIco" viewBox="0 0 24 24"><path d="M4 9v6h3.5l4.5 4V5L7.5 9z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8 8 0 0 1 0 12"/></svg><span>Vol</span></button>
-    <button class="tool" id="shareBtn" title="Share this song"><svg viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="M8.2 10.8l7.6-4M8.2 13.2l7.6 4"/></svg><span>Share</span></button>
+    <button class="tool" id="quizBtn" aria-pressed="false" title="Guess the film (Q)" data-ta="a_quiz"><svg viewBox="0 0 24 24"><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14"/><circle cx="12" cy="17.5" r=".6" fill="currentColor"/><circle cx="12" cy="12" r="9.5"/></svg><span data-t="t_quiz">Quiz</span></button>
+    <button class="tool" id="watchBtn" title="Watch video" data-ta="a_watch"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="14" height="12" rx="2.5"/><path d="M16.5 10.5l5-3v9l-5-3"/></svg><span data-t="t_watch">Watch</span></button>
+    <button class="tool" id="volBtn" title="Volume" data-ta="a_vol"><svg id="volIco" viewBox="0 0 24 24"><path d="M4 9v6h3.5l4.5 4V5L7.5 9z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8 8 0 0 1 0 12"/></svg><span data-t="t_vol">Vol</span></button>
+    <button class="tool" id="shareBtn" title="Share this song" data-ta="a_share"><svg viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="M8.2 10.8l7.6-4M8.2 13.2l7.6 4"/></svg><span data-t="t_share">Share</span></button>
    </div>
    <div class="chips" id="chips" role="toolbar" aria-label="Moods and decades"></div>
   </section>
  </main>
- <div class="ft">Played via YouTube · rights belong to their owners · <a href="https://dostaa.in">dostaa.in</a></div>
+ <div class="ft"><span class="ft-main"><span data-t="ft">Played via YouTube · rights belong to their owners</span> · <a href="https://dostaa.in">dostaa.in</a> · </span><span class="credit"><span data-t="credit">Engineered &amp; designed by</span> <a href="https://borangi.com/?utm_source=dostaa-radio&amp;utm_medium=footer" target="_blank" rel="noopener">Borangi</a></span></div>
 </div>
 
 <!-- ======== OVERLAYS ======== -->
@@ -559,32 +595,32 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
 
 <section class="sheet" id="listSheet" aria-label="All songs">
  <div class="grab"></div>
- <div class="sh-h"><h2>All songs<small id="lCount">ಎಲ್ಲಾ ಹಾಡುಗಳು</small></h2><button class="x" data-close aria-label="Close">×</button></div>
- <div class="sh-b" style="padding-bottom:4px"><input class="field" id="lSearch" placeholder="Search number, song, film or singer…" autocomplete="off"/>
-  <div class="lmeta"><span id="lInfo"></span><button class="surprise" id="surprise">🎲 Surprise me</button></div></div>
+ <div class="sh-h"><h2><span data-t="l_h">All songs</span><small id="lCount"></small></h2><button class="x" data-close aria-label="Close">×</button></div>
+ <div class="sh-b" style="padding-bottom:4px"><input class="field" id="lSearch" placeholder="Search number, song, film or singer…" data-tp="l_ph" autocomplete="off"/>
+  <div class="lmeta"><span id="lInfo"></span><button class="surprise" id="surprise" data-t="surprise">🎲 Surprise me</button></div></div>
  <div class="sh-b" id="lBody" style="padding-top:0"></div>
 </section>
 
 <section class="sheet" id="reqSheet" aria-label="Request a song">
  <div class="grab"></div>
- <div class="sh-h"><h2>Missing a song?<small>ನಿಮ್ಮ ಹಾಡು ಇಲ್ಲವೇ?</small></h2><button class="x" data-close aria-label="Close">×</button></div>
+ <div class="sh-h"><h2><span data-t="rq_h">Missing a song?</span><small data-t="rq_sh">Paste a YouTube link</small></h2><button class="x" data-close aria-label="Close">×</button></div>
  <div class="sh-b">
-  <p class="rq-lead">Paste the YouTube link. We check it instantly, and once it's verified it goes on air with your name on it.</p>
-  <div class="rq-row"><input class="field" id="rqUrl" inputmode="url" placeholder="https://youtu.be/…" autocomplete="off"/><button class="btn ghost" id="rqPaste" type="button">Paste</button></div>
+  <p class="rq-lead" data-t="rq_lead">Paste the YouTube link. We check it instantly, and once it's verified it goes on air with your name on it.</p>
+  <div class="rq-row"><input class="field" id="rqUrl" inputmode="url" placeholder="https://youtu.be/…" autocomplete="off"/><button class="btn ghost" id="rqPaste" type="button" data-t="paste">Paste</button></div>
   <div class="rq-state" id="rqState"></div>
   <div id="rqCard"></div>
   <div class="rq-more" id="rqMore" hidden>
-   <input class="field" id="rqName" maxlength="40" placeholder="Your name (shown as “Added by”)"/>
-   <input class="field" id="rqNote" maxlength="120" placeholder="Film / year / anything we should know (optional)"/>
-   <button class="btn" id="rqSend" type="button">Send request · +15 XP</button>
+   <input class="field" id="rqName" maxlength="40" placeholder="Your name (shown as “Added by”)" data-tp="rq_name"/>
+   <input class="field" id="rqNote" maxlength="120" placeholder="Film / year / anything we should know (optional)" data-tp="rq_note"/>
+   <button class="btn" id="rqSend" type="button" data-t="rq_send">Send request · +15 XP</button>
   </div>
-  <p class="rq-fine">Single songs only, preferably from the official label or artist channel. Jukeboxes, mashups and compilations aren't accepted. Every request is reviewed before it plays.</p>
+  <p class="rq-fine" data-t="rq_fine">Single songs only, preferably from the official label or artist channel. Jukeboxes, mashups and compilations aren't accepted. Every request is reviewed before it plays.</p>
  </div>
 </section>
 
 <section class="sheet" id="meSheet" aria-label="Your progress">
  <div class="grab"></div>
- <div class="sh-h"><h2>Your Radio Journey<small>ನಿಮ್ಮ ಸಂಗೀತ ಪಯಣ</small></h2><button class="x" data-close aria-label="Close">×</button></div>
+ <div class="sh-h"><h2><span data-t="me_h">Your Radio Journey</span><small data-t="me_sh">Level, badges and stats</small></h2><button class="x" data-close aria-label="Close">×</button></div>
  <div class="sh-b" id="meBody"></div>
 </section>
 
@@ -626,6 +662,134 @@ const MOODS = [
  {k:"classic",kn:"ಕ್ಲಾಸಿಕ್",en:"Classic"},{k:"folk",kn:"ಜಾನಪದ",en:"Folk"},{k:"dard",kn:"ದರ್ದ್",en:"Dard"}];
 const BPM = {mass:128,folk:112,melody:92,classic:84,dard:76};
 
+
+/* ============================================================
+   LANGUAGE — full English / ಕನ್ನಡ interface
+   ============================================================ */
+const I18N = {
+ en:{brand:"Dostaa Radio",onair:"ON AIR",songsN:"{n} SONGS",allMix:"All songs",ld_sub:"Kannada Radio · 24×7",
+  ld_stat:["Tuning the frequencies…","Dusting the vinyl…","Warming up the valves…","Lining up the hits…"],
+  ld_ready:"{n} songs ready",tune:"Tune in",tune_sub:"Start listening",playNo:"Play #{n}",
+  ld_dis:"All songs play via YouTube. Rights belong to their owners.",ld_fail:"Couldn't load the song list. Refresh to try again.",
+  ig:"Music may not play inside Instagram. Open in your browser for the full experience.",ig_open:"Open",
+  hero_en:"Kannada songs, all day",hero_sub:"Tap the record to begin",hint:"TAP TO PLAY · SPIN TO SCRUB",
+  qz_h:"🎬 GUESS THE FILM",qz_q:"Which film?",qz_row:"🔥 {n} in a row",new4u:"NEW FOR YOU",kannada:"Kannada",kSong:"Kannada song",
+  t_quiz:"Quiz",t_watch:"Watch",t_vol:"Vol",t_share:"Share",ft:"Played via YouTube · rights belong to their owners",
+  a_xp:"Your level and badges",a_req:"Missing a song? Paste the YouTube link",a_list:"All songs",a_quiz:"Guess the film (Q)",
+  a_watch:"Watch video",a_vol:"Volume",a_share:"Share this song",a_play:"Play",a_pause:"Pause",
+  l_h:"All songs",l_cnt:"{n} songs",l_ph:"Search number, song, film or singer…",l_disc:"{a} of {b} discovered",l_match:"{n} matches",
+  l_none:"No match. Missing a song?",l_req:"Request it",surprise:"🎲 Surprise me",
+  rq_h:"Missing a song?",rq_sh:"Paste a YouTube link",rq_lead:"Paste the YouTube link. We check it instantly, and once it's verified it goes on air with your name on it.",
+  paste:"Paste",rq_name:"Your name (shown as “Added by”)",rq_note:"Film / year / anything we should know (optional)",rq_send:"Send request · +15 XP",
+  rq_fine:"Single songs only, preferably from the official label or artist channel. Jukeboxes, mashups and compilations aren't accepted. Every request is reviewed before it plays.",
+  rq_bad:"That doesn't look like a YouTube link. Try copying it from the Share button on YouTube.",
+  rq_have:"🎉 Already on air as <b>#{n}</b>: {t}.",rq_play:"Play it now",rq_dup:"You've already requested this one. It's in the review queue 🙌",
+  rq_check:"Checking the link…",rq_missing:"This video doesn't exist or is private. Double-check the link.",
+  rq_blocked:"This upload blocks playback on other sites, so it can't go on air. Look for the same song on the official label's channel.",
+  rq_jbox:"Looks like a jukebox, mashup or compilation. Single songs only, please.",
+  rq_ok:"✓ Plays fine on Dostaa Radio. Add your name and send it in.",rq_maybe:"Looks valid. We'll confirm it plays during review.",
+  rq_thx:"🙏 Thanks, {name}! Your request is in. Once it's verified, it plays with your name on it.",anon:"Anonymous",chan:"Channel unknown",
+  longpress:"Long-press the box and tap Paste",
+  me_h:"Your Radio Journey",me_sh:"Level, badges and stats",level:"Level {n}",xpTo:"{n} XP to {name}",maxL:"Max level",
+  st_disc:"Songs discovered",st_streak:"Day streak",st_time:"Listening time",st_quiz:"Quiz wins · accuracy",hU:"h",mU:"m",
+  badges:"Badges",reset:"Reset my progress on this device",resetQ:"Reset XP, badges and history on this device?",
+  lvlUp:"Level up! {name}",lvlSub:"You're now Level {n}",bdgUnl:"Badge unlocked: {name}",
+  streak:"{n}-day streak!",streakSub:"Daily tune-in bonus +20 XP",noMix:"No songs in this mix yet",noMixSub:"Try another mood or decade",
+  skipped:"Skipped #{n}",skippedSub:"This video can't play here right now",cantPlay:"Couldn't play songs. Check your connection",
+  reshuf:"Reshuffled 🎲",reshufSub:"{n} songs in the mix",repOn:"Repeat one: on",repOff:"Repeat one: off",
+  quizOn:"Quiz mode on",quizOnSub:"Guess the film. Only songs with a video-verified film are quizzed",
+  surp:"Surprise: #{n}",surpNew:"A song you haven't discovered yet",surpAll:"You've heard them all. Legend.",
+  copied:"Link copied",copiedSub:"Paste it anywhere to share this song",copyQ:"Copy this link:",loadingPl:"Loading the player…",
+  ytFail:"YouTube couldn't load",ytFailSub:"Check your connection, or open in a regular browser",
+  share:"🎶 #{n} {t}{f} on Dostaa Radio",docT:"{t} · Dostaa Radio",credit:"Engineered & designed by"},
+ kn:{brand:"ದೋಸ್ತಾ ರೇಡಿಯೋ",onair:"ಪ್ರಸಾರದಲ್ಲಿ",songsN:"{n} ಹಾಡುಗಳು",allMix:"ಎಲ್ಲಾ ಹಾಡುಗಳು",ld_sub:"ಕನ್ನಡ ರೇಡಿಯೋ · 24×7",
+  ld_stat:["ತರಂಗ ಹೊಂದಿಸುತ್ತಿದ್ದೇವೆ…","ರೆಕಾರ್ಡ್ ಸಿದ್ಧಪಡಿಸುತ್ತಿದ್ದೇವೆ…","ಸ್ವರ ಸರಿ ಮಾಡುತ್ತಿದ್ದೇವೆ…","ಹಿಟ್ ಹಾಡುಗಳನ್ನು ಜೋಡಿಸುತ್ತಿದ್ದೇವೆ…"],
+  ld_ready:"{n} ಹಾಡುಗಳು ಸಿದ್ಧ · ಹಾಡು ಕೇಳೋಣ",tune:"ಟ್ಯೂನ್ ಮಾಡಿ",tune_sub:"ಕೇಳಲು ಶುರು ಮಾಡಿ",playNo:"#{n} ಕೇಳಿ",
+  ld_dis:"ಎಲ್ಲಾ ಹಾಡುಗಳು YouTube ಮೂಲಕ ಪ್ಲೇ ಆಗುತ್ತವೆ. ಹಕ್ಕುಗಳು ಆಯಾ ಮಾಲೀಕರಿಗೆ ಸೇರಿವೆ.",ld_fail:"ಹಾಡುಗಳ ಪಟ್ಟಿ ಲೋಡ್ ಆಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ರಿಫ್ರೆಶ್ ಮಾಡಿ.",
+  ig:"Instagram ಒಳಗೆ ಹಾಡು ಪ್ಲೇ ಆಗದಿರಬಹುದು. ಪೂರ್ಣ ಅನುಭವಕ್ಕೆ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ.",ig_open:"ತೆರೆಯಿರಿ",
+  hero_en:"ದಿನವಿಡೀ ಕನ್ನಡ ಹಾಡುಗಳು",hero_sub:"ಶುರು ಮಾಡಲು ರೆಕಾರ್ಡ್ ಒತ್ತಿ",hint:"ಒತ್ತಿ ಪ್ಲೇ ಮಾಡಿ · ತಿರುಗಿಸಿ ಮುಂದೆ ಹೋಗಿ",
+  qz_h:"🎬 ಸಿನಿಮಾ ಊಹಿಸಿ",qz_q:"ಯಾವ ಸಿನಿಮಾ?",qz_row:"🔥 ಸತತ {n} ಸರಿ",new4u:"ನಿಮಗೆ ಹೊಸದು",kannada:"ಕನ್ನಡ",kSong:"ಕನ್ನಡ ಹಾಡು",
+  t_quiz:"ಕ್ವಿಜ್",t_watch:"ವೀಕ್ಷಿಸಿ",t_vol:"ಧ್ವನಿ",t_share:"ಹಂಚಿ",ft:"YouTube ಮೂಲಕ ಪ್ಲೇ · ಹಕ್ಕುಗಳು ಆಯಾ ಮಾಲೀಕರಿಗೆ",
+  a_xp:"ನಿಮ್ಮ ಹಂತ ಮತ್ತು ಬ್ಯಾಡ್ಜ್‌ಗಳು",a_req:"ನಿಮ್ಮ ಹಾಡು ಇಲ್ಲವೇ? YouTube ಲಿಂಕ್ ಹಾಕಿ",a_list:"ಎಲ್ಲಾ ಹಾಡುಗಳು",a_quiz:"ಸಿನಿಮಾ ಊಹಿಸಿ (Q)",
+  a_watch:"ವೀಡಿಯೊ ನೋಡಿ",a_vol:"ಧ್ವನಿ",a_share:"ಈ ಹಾಡು ಹಂಚಿಕೊಳ್ಳಿ",a_play:"ಪ್ಲೇ",a_pause:"ವಿರಾಮ",
+  l_h:"ಎಲ್ಲಾ ಹಾಡುಗಳು",l_cnt:"{n} ಹಾಡುಗಳು",l_ph:"ಸಂಖ್ಯೆ, ಹಾಡು, ಸಿನಿಮಾ ಅಥವಾ ಗಾಯಕರನ್ನು ಹುಡುಕಿ…",l_disc:"{b} ರಲ್ಲಿ {a} ಕೇಳಿದ್ದೀರಿ",l_match:"{n} ಫಲಿತಾಂಶಗಳು",
+  l_none:"ಯಾವುದೂ ಸಿಗಲಿಲ್ಲ. ನಿಮ್ಮ ಹಾಡು ಇಲ್ಲವೇ?",l_req:"ಸೇರಿಸಲು ಕೇಳಿ",surprise:"🎲 ಅಚ್ಚರಿ ಹಾಡು",
+  rq_h:"ನಿಮ್ಮ ಹಾಡು ಇಲ್ಲವೇ?",rq_sh:"YouTube ಲಿಂಕ್ ಹಾಕಿ",rq_lead:"YouTube ಲಿಂಕ್ ಪೇಸ್ಟ್ ಮಾಡಿ. ನಾವು ತಕ್ಷಣ ಪರಿಶೀಲಿಸುತ್ತೇವೆ. ಖಚಿತವಾದ ನಂತರ ಅದು ನಿಮ್ಮ ಹೆಸರಿನೊಂದಿಗೆ ಪ್ರಸಾರವಾಗುತ್ತದೆ.",
+  paste:"ಪೇಸ್ಟ್",rq_name:"ನಿಮ್ಮ ಹೆಸರು (“ಸೇರಿಸಿದವರು” ಎಂದು ತೋರಿಸಲಾಗುತ್ತದೆ)",rq_note:"ಸಿನಿಮಾ / ವರ್ಷ / ಇನ್ನೇನಾದರೂ (ಐಚ್ಛಿಕ)",rq_send:"ವಿನಂತಿ ಕಳುಹಿಸಿ · +15 XP",
+  rq_fine:"ಒಂದೇ ಹಾಡು ಮಾತ್ರ, ಸಾಧ್ಯವಾದರೆ ಅಧಿಕೃತ ಲೇಬಲ್ ಅಥವಾ ಕಲಾವಿದರ ಚಾನೆಲ್‌ನಿಂದ. ಜೂಕ್‌ಬಾಕ್ಸ್, ಮ್ಯಾಶಪ್ ಮತ್ತು ಸಂಕಲನಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ. ಪ್ರತಿ ವಿನಂತಿಯನ್ನು ಪರಿಶೀಲಿಸಿದ ನಂತರವೇ ಪ್ರಸಾರ ಮಾಡಲಾಗುತ್ತದೆ.",
+  rq_bad:"ಇದು YouTube ಲಿಂಕ್‌ನಂತೆ ಕಾಣುತ್ತಿಲ್ಲ. YouTube ನಲ್ಲಿನ Share ಬಟನ್‌ನಿಂದ ನಕಲಿಸಿ.",
+  rq_have:"🎉 ಈಗಾಗಲೇ <b>#{n}</b> ಆಗಿ ಪ್ರಸಾರದಲ್ಲಿದೆ: {t}.",rq_play:"ಈಗಲೇ ಕೇಳಿ",rq_dup:"ಈ ಹಾಡನ್ನು ನೀವು ಈಗಾಗಲೇ ಕೇಳಿದ್ದೀರಿ. ಅದು ಪರಿಶೀಲನೆಯ ಸಾಲಿನಲ್ಲಿದೆ 🙌",
+  rq_check:"ಲಿಂಕ್ ಪರಿಶೀಲಿಸುತ್ತಿದ್ದೇವೆ…",rq_missing:"ಈ ವೀಡಿಯೊ ಇಲ್ಲ ಅಥವಾ ಖಾಸಗಿಯಾಗಿದೆ. ಲಿಂಕ್ ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ.",
+  rq_blocked:"ಈ ವೀಡಿಯೊ ಬೇರೆ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ಪ್ಲೇ ಆಗಲು ಅನುಮತಿ ಇಲ್ಲ. ಅಧಿಕೃತ ಲೇಬಲ್ ಚಾನೆಲ್‌ನಲ್ಲಿ ಅದೇ ಹಾಡನ್ನು ಹುಡುಕಿ.",
+  rq_jbox:"ಇದು ಜೂಕ್‌ಬಾಕ್ಸ್, ಮ್ಯಾಶಪ್ ಅಥವಾ ಸಂಕಲನದಂತಿದೆ. ದಯವಿಟ್ಟು ಒಂದೇ ಹಾಡು ಮಾತ್ರ.",
+  rq_ok:"✓ ದೋಸ್ತಾ ರೇಡಿಯೋದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಪ್ಲೇ ಆಗುತ್ತದೆ. ನಿಮ್ಮ ಹೆಸರು ಸೇರಿಸಿ ಕಳುಹಿಸಿ.",rq_maybe:"ಸರಿಯಾಗಿದೆ ಎನಿಸುತ್ತದೆ. ಪರಿಶೀಲನೆಯ ವೇಳೆ ಪ್ಲೇ ಆಗುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತೇವೆ.",
+  rq_thx:"🙏 ಧನ್ಯವಾದಗಳು, {name}! ನಿಮ್ಮ ವಿನಂತಿ ತಲುಪಿದೆ. ಪರಿಶೀಲನೆಯ ನಂತರ ನಿಮ್ಮ ಹೆಸರಿನೊಂದಿಗೆ ಪ್ರಸಾರವಾಗುತ್ತದೆ.",anon:"ಅನಾಮಧೇಯ",chan:"ಚಾನೆಲ್ ತಿಳಿದಿಲ್ಲ",
+  longpress:"ಬಾಕ್ಸ್ ಮೇಲೆ ಒತ್ತಿ ಹಿಡಿದು Paste ಒತ್ತಿ",
+  me_h:"ನಿಮ್ಮ ಸಂಗೀತ ಪಯಣ",me_sh:"ಹಂತ, ಬ್ಯಾಡ್ಜ್‌ಗಳು ಮತ್ತು ಅಂಕಿಅಂಶ",level:"ಹಂತ {n}",xpTo:"{name} ತಲುಪಲು {n} XP",maxL:"ಅತ್ಯುನ್ನತ ಹಂತ",
+  st_disc:"ಕೇಳಿದ ಹಾಡುಗಳು",st_streak:"ದಿನಗಳ ಸರಣಿ",st_time:"ಕೇಳಿದ ಸಮಯ",st_quiz:"ಕ್ವಿಜ್ ಗೆಲುವು · ನಿಖರತೆ",hU:"ಗಂ",mU:"ನಿ",
+  badges:"ಬ್ಯಾಡ್ಜ್‌ಗಳು",reset:"ಈ ಸಾಧನದಲ್ಲಿನ ನನ್ನ ಪ್ರಗತಿ ಅಳಿಸಿ",resetQ:"ಈ ಸಾಧನದಲ್ಲಿನ XP, ಬ್ಯಾಡ್ಜ್‌ಗಳು ಮತ್ತು ಇತಿಹಾಸ ಅಳಿಸಬೇಕೆ?",
+  lvlUp:"ಹಂತ ಏರಿಕೆ! {name}",lvlSub:"ನೀವು ಈಗ ಹಂತ {n}",bdgUnl:"ಬ್ಯಾಡ್ಜ್ ಗಳಿಸಿದಿರಿ: {name}",
+  streak:"ಸತತ {n} ದಿನ!",streakSub:"ದೈನಂದಿನ ಬೋನಸ್ +20 XP",noMix:"ಈ ಆಯ್ಕೆಯಲ್ಲಿ ಹಾಡುಗಳಿಲ್ಲ",noMixSub:"ಬೇರೆ ಮೂಡ್ ಅಥವಾ ದಶಕ ಆರಿಸಿ",
+  skipped:"#{n} ಬಿಡಲಾಗಿದೆ",skippedSub:"ಈ ವೀಡಿಯೊ ಇಲ್ಲಿ ಈಗ ಪ್ಲೇ ಆಗುತ್ತಿಲ್ಲ",cantPlay:"ಹಾಡು ಪ್ಲೇ ಆಗಲಿಲ್ಲ. ಇಂಟರ್ನೆಟ್ ಪರಿಶೀಲಿಸಿ",
+  reshuf:"ಹೊಸ ಕ್ರಮ 🎲",reshufSub:"{n} ಹಾಡುಗಳು",repOn:"ಒಂದೇ ಹಾಡು ಪುನರಾವರ್ತನೆ: ಆನ್",repOff:"ಪುನರಾವರ್ತನೆ: ಆಫ್",
+  quizOn:"ಕ್ವಿಜ್ ಆನ್",quizOnSub:"ಸಿನಿಮಾ ಊಹಿಸಿ. ಸಿನಿಮಾ ಖಚಿತವಿರುವ ಹಾಡುಗಳಿಗೆ ಮಾತ್ರ ಪ್ರಶ್ನೆ",
+  surp:"ಅಚ್ಚರಿ: #{n}",surpNew:"ನೀವು ಇನ್ನೂ ಕೇಳದ ಹಾಡು",surpAll:"ಎಲ್ಲಾ ಹಾಡು ಕೇಳಿದ್ದೀರಿ. ನೀವು ದಂತಕಥೆ!",
+  copied:"ಲಿಂಕ್ ನಕಲಾಗಿದೆ",copiedSub:"ಎಲ್ಲಿ ಬೇಕಾದರೂ ಪೇಸ್ಟ್ ಮಾಡಿ ಹಂಚಿಕೊಳ್ಳಿ",copyQ:"ಈ ಲಿಂಕ್ ನಕಲಿಸಿ:",loadingPl:"ಪ್ಲೇಯರ್ ಲೋಡ್ ಆಗುತ್ತಿದೆ…",
+  ytFail:"YouTube ಲೋಡ್ ಆಗಲಿಲ್ಲ",ytFailSub:"ಇಂಟರ್ನೆಟ್ ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಸಾಮಾನ್ಯ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ",
+  share:"🎶 #{n} {t}{f} · ದೋಸ್ತಾ ರೇಡಿಯೋದಲ್ಲಿ ಕೇಳಿ",docT:"{t} · ದೋಸ್ತಾ ರೇಡಿಯೋ",credit:"ವಿನ್ಯಾಸ ಮತ್ತು ನಿರ್ಮಾಣ:"}
+};
+const BADGE_KN = {first:["ಮೊದಲ ಸುತ್ತು","ಮೊದಲ ಹಾಡು ಕೇಳಿ"],explorer:["ಅನ್ವೇಷಕ","50 ಹಾಡುಗಳನ್ನು ಕೇಳಿ"],centurion:["ಶತಕ","100 ಹಾಡುಗಳನ್ನು ಕೇಳಿ"],
+ decades:["ದಶಕ ಪಯಣಿಗ","5 ದಶಕಗಳ ಹಾಡುಗಳು"],classic:["ಕ್ಲಾಸಿಕ್ ಮನಸ್ಸು","10 ಕ್ಲಾಸಿಕ್ ಹಾಡುಗಳು"],mass:["ಮಾಸ್ ಅಭಿಮಾನಿ","25 ಮಾಸ್ ಹಾಡುಗಳು"],
+ melody:["ಮೆಲೊಡಿ ಹೃದಯ","25 ಮೆಲೊಡಿ ಹಾಡುಗಳು"],folk:["ಜಾನಪದ ಬೇರು","10 ಜಾನಪದ ಹಾಡುಗಳು"],owl:["ರಾತ್ರಿ ಗೂಬೆ","ಮಧ್ಯರಾತ್ರಿಯ ನಂತರ ಕೇಳಿ"],
+ quiz1:["ಸಿನಿಮಾ ಪ್ರಿಯ","ಮೊದಲ ಕ್ವಿಜ್ ಗೆಲುವು"],quiz10:["ಕ್ವಿಜ್ ಮಾಸ್ಟರ್","10 ಕ್ವಿಜ್ ಗೆಲುವು"],combo:["ಬೆಂಕಿ","ಸತತ 5 ಕ್ವಿಜ್ ಗೆಲುವು"],
+ streak3:["3 ದಿನದ ಸರಣಿ","ಸತತ 3 ದಿನ ಕೇಳಿ"],streak7:["ವಾರದ ರಾಜ","ಸತತ 7 ದಿನ ಕೇಳಿ"],curator:["ಸಂಗ್ರಾಹಕ","ಒಂದು ಹಾಡನ್ನು ಸೂಚಿಸಿ"]};
+let LANG = "en";
+try { LANG = localStorage.getItem("dostaa_lang") || ((navigator.language || "").toLowerCase().startsWith("kn") ? "kn" : "en"); } catch(e){}
+if (!I18N[LANG]) LANG = "en";
+const t = (k, v) => { let x = (I18N[LANG][k] ?? I18N.en[k] ?? k); if (v && typeof x === "string") for (const p in v) x = x.split("{" + p + "}").join(v[p]); return x; };
+const lvlName = L => LANG === "kn" ? L.kn : L.en;
+const bName = b => LANG === "kn" ? BADGE_KN[b.id][0] : b.n;
+const bDesc = b => LANG === "kn" ? BADGE_KN[b.id][1] : b.d;
+const moodName = m => LANG === "kn" ? m.kn : m.en;
+function placeThumbs(){
+ $$(".lang").forEach(b => {
+  const on = b.querySelector('.lang-o[data-l="' + LANG + '"]'), th = b.querySelector(".lang-thumb");
+  b.querySelectorAll(".lang-o").forEach(o => o.classList.toggle("on", o === on));
+  b.setAttribute("aria-checked", String(LANG === "kn"));
+  if (on){ th.style.width = on.offsetWidth + "px"; th.style.transform = "translateX(" + on.offsetLeft + "px)"; }
+ });
+}
+function applyLang(){
+ document.documentElement.lang = LANG; document.body.dataset.lang = LANG;
+ $$("[data-t]").forEach(el => { if (el.id === "tKn" || el.id === "tEn" || el.id === "sub"){ if (live) return; } el.textContent = t(el.dataset.t); });
+ $$("[data-tp]").forEach(el => el.placeholder = t(el.dataset.tp));
+ $$("[data-ta]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.ta)); if (el.title) el.title = t(el.dataset.ta); });
+ $("#tuneLbl").textContent = (deepNo && byNo.get(deepNo)) ? t("playNo", {n: deepNo}) + " · " + (byNo.get(deepNo).kn || byNo.get(deepNo).title).slice(0,24) : t("tune");
+ if (!$("#tuneBtn").classList.contains("show")) $("#ldStatus").textContent = t("ld_stat")[0];
+ else $("#ldStatus").textContent = t("ld_ready", {n: songs.length});
+ $("#ldTitle").setAttribute("aria-label", t("brand"));
+ if (songs.length){ $("#lCount").textContent = t("l_cnt", {n: songs.length}); renderChips(); updOnair(); }
+ $("#play").setAttribute("aria-label", t(playing ? "a_pause" : "a_play"));
+ renderXP();
+ if (cur){ showSongMeta(cur); renderSub(cur); document.title = t("docT", {t: cur.kn || cur.title}); } else document.title = t("brand");
+ if (quizState && !quizState.done) $("#qzStreak").textContent = P.combo > 1 ? t("qz_row", {n: P.combo}) : t("qz_q");
+ if (openSheet === "#listSheet") renderList($("#lSearch").value);
+ if (openSheet === "#meSheet") renderMe();
+ placeThumbs();
+}
+function setLang(l){
+ if (l === LANG) return;
+ LANG = l; try { localStorage.setItem("dostaa_lang", l); } catch(e){}
+ $$(".lang").forEach(b => { b.classList.remove("flip"); void b.offsetWidth; b.classList.add("flip"); });
+ placeThumbsTo(l);
+ document.body.classList.remove("lswap"); void document.body.offsetWidth; document.body.classList.add("lswap");
+ setTimeout(applyLang, reduced ? 0 : 190);
+ setTimeout(() => document.body.classList.remove("lswap"), 600);
+}
+function placeThumbsTo(l){ const keep = LANG; LANG = l; placeThumbs(); LANG = keep; }
+$$(".lang").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); setLang(LANG === "en" ? "kn" : "en"); }));
+addEventListener("resize", placeThumbs);
+
 /* ---------------- state ---------------- */
 let songs = [], byNo = new Map(), byId = new Map(), q = [], qi = 0;
 let pl = null, rdy = false, live = false, playing = false, repeatOne = false, badCount = 0;
@@ -662,7 +826,7 @@ function renderXP(){
  const L = lvlOf(P.xp), a = LEVELS[L], b = LEVELS[L+1];
  const pct = b ? (P.xp - a.x) / (b.x - a.x) : 1;
  $("#xpLv").textContent = L + 1;
- $("#xpName").textContent = a.kn;
+ $("#xpName").textContent = lvlName(a);
  $("#xpPts").textContent = P.xp.toLocaleString("en-IN") + " XP";
  $("#xpArc").style.strokeDashoffset = (81.7 * (1 - pct)).toFixed(1);
 }
@@ -679,7 +843,7 @@ function addXP(n, fromEl, quiet){
  }
  const after = lvlOf(P.xp);
  if (after > before){
-  toast("🏆", "Level up! " + LEVELS[after].kn, "You're now a " + LEVELS[after].en + " · Level " + (after+1));
+  toast("🏆", t("lvlUp", {name: lvlName(LEVELS[after])}), t("lvlSub", {n: after+1}));
   confetti(innerWidth/2, innerHeight*0.35, 120);
  }
  checkBadges();
@@ -688,7 +852,7 @@ function checkBadges(){
  BADGES.forEach(b => {
   if (!P.badges[b.id] && b.t(P)){
    P.badges[b.id] = Date.now(); save();
-   setTimeout(() => { toast(b.e, "Badge unlocked: " + b.n, b.d); confetti(innerWidth/2, 90, 70); }, 350);
+   setTimeout(() => { toast(b.e, t("bdgUnl", {name: bName(b)}), bDesc(b)); confetti(innerWidth/2, 90, 70); }, 350);
   }
  });
 }
@@ -702,7 +866,7 @@ function markHeard(s){
  const today = istDay(d), y = istDay(new Date(d.getTime() - 86400000));
  let bonus = 0;
  if (P.last !== today){ P.streak = (P.last === y) ? P.streak + 1 : 1; P.last = today; bonus = 20;
-  if (P.streak > 1) toast("🔥", P.streak + "-day streak!", "Daily tune-in bonus +20 XP"); }
+  if (P.streak > 1) toast("🔥", t("streak", {n: P.streak}), t("streakSub")); }
  save(); addXP(10 + bonus);
  $("#mNew").hidden = true;
  return true;
@@ -861,6 +1025,10 @@ if (fine && !reduced){
 }
 
 /* ---------------- queue + filters ---------------- */
+function updOnair(){
+ const label = [mood ? moodName(MOODS.find(x => x.k === mood)) : "", decade ? decLbl(decade) : ""].filter(Boolean).join(" · ");
+ $("#onairTxt").textContent = t("onair") + " · " + (label ? (LANG === "en" ? label.toUpperCase() : label) : t("songsN", {n: songs.length}));
+}
 function pool(){
  return songs.filter(s => (!mood || (s.tags||[]).includes(mood)) && (!decade || (s.year && Math.floor(s.year/10)*10 === decade)));
 }
@@ -874,7 +1042,7 @@ function renderChips(){
  const decs = [...new Set(songs.filter(s => s.year).map(s => Math.floor(s.year/10)*10))].sort();
  let h = MOODS.map(m => {
   const n = m.k ? songs.filter(s => (s.tags||[]).includes(m.k)).length : songs.length;
-  return '<button class="chip" data-m="' + (m.k||"") + '" aria-pressed="' + (mood === m.k) + '">' + m.kn + '<small>' + n + '</small></button>';
+  return '<button class="chip" data-m="' + (m.k||"") + '" aria-pressed="' + (mood === m.k) + '"' + (LANG === "en" ? ' style="font-family:var(--en);font-size:12.5px"' : '') + '>' + moodName(m) + '<small>' + n + '</small></button>';
  }).join("");
  h += '<span class="chip-sep"></span>' + decs.map(d => '<button class="chip" data-d="' + d + '" aria-pressed="' + (decade === d) + '" style="font-family:var(--en);font-size:12px">' + decLbl(d) + '</button>').join("");
  $("#chips").innerHTML = h;
@@ -884,9 +1052,8 @@ $("#chips").addEventListener("click", e => {
  if (b.dataset.m !== undefined){ const m = b.dataset.m || null; mood = (mood === m && m) ? null : m; }
  if (b.dataset.d){ const d = +b.dataset.d; decade = decade === d ? null : d; }
  renderChips(); build(false);
- if (!q.length){ toast("", "No songs in this mix yet", "Try another mood or decade"); mood = null; decade = null; renderChips(); build(false); }
- const label = [mood ? MOODS.find(x => x.k === mood).en : "", decade ? decade + "s" : ""].filter(Boolean).join(" · ") || "All songs";
- $("#onairTxt").textContent = "ON AIR · " + label.toUpperCase();
+ if (!q.length){ toast("", t("noMix"), t("noMixSub")); mood = null; decade = null; renderChips(); build(false); }
+ updOnair();
  if (live) go(0);
 });
 
@@ -899,14 +1066,14 @@ window.onYouTubeIframeAPIReady = function(){
    onStateChange(e){
     const on = e.data === YT.PlayerState.PLAYING; playing = on;
     document.body.classList.toggle("playing", on);
-    $("#pIco").innerHTML = on ? PAUSE : PLAY; $("#play").setAttribute("aria-label", on ? "Pause" : "Play");
+    $("#pIco").innerHTML = on ? PAUSE : PLAY; $("#play").setAttribute("aria-label", t(on ? "a_pause" : "a_play"));
     if (on){ badCount = 0; }
     if (e.data === YT.PlayerState.ENDED){ repeatOne ? go(qi) : go(qi + 1); }
     if ("mediaSession" in navigator) navigator.mediaSession.playbackState = on ? "playing" : "paused";
    },
    onError(e){
-    const s = cur; if (++badCount < 12){ if (s) toast("", "Skipped #" + s.no, "This video can't play here right now"); go(qi + 1); }
-    else { badCount = 0; $("#sub").textContent = "Couldn't play songs — check your connection"; }
+    const s = cur; if (++badCount < 12){ if (s) toast("", t("skipped", {n: s.no}), t("skippedSub")); go(qi + 1); }
+    else { badCount = 0; $("#sub").textContent = t("cantPlay"); }
    }
   }});
 };
@@ -916,14 +1083,8 @@ window.onYouTubeIframeAPIReady = function(){
 let odoT = null;
 function showSong(s, prevNo){
  const kn = s.kn || s.title;
- const t = $("#tKn"); t.textContent = kn; t.classList.remove("anim"); void t.offsetWidth; t.classList.add("anim");
- $("#tEn").textContent = s.kn ? s.title : "";
- $("#tEn").style.display = s.kn ? "" : "none";
- renderSub(s);
- $("#mDec").textContent = decLbl(s.year);
- const tg = (s.tags||[])[0]; const md = MOODS.find(m => m.k === tg);
- $("#mTag").textContent = md ? md.en : "Kannada";
- $("#mNew").hidden = !!P.heard[s.id];
+ const h1 = $("#tKn"); h1.textContent = kn; h1.classList.remove("anim"); void h1.offsetWidth; h1.classList.add("anim");
+ renderSub(s); showSongMeta(s);
  // odometer roll on the number
  clearInterval(odoT);
  if (reduced || prevNo == null){ $("#mNo").textContent = "#" + s.no; }
@@ -932,12 +1093,19 @@ function showSong(s, prevNo){
  const im = $("#lblImg"); im.style.opacity = 0;
  const img = new Image(); img.onload = () => { im.style.backgroundImage = "url('" + img.src + "')"; im.style.opacity = 1; };
  img.src = "https://i.ytimg.com/vi/" + s.id + "/hqdefault.jpg";
- document.title = kn + " · ದೋಸ್ತಾ ರೇಡಿಯೋ";
+ document.title = t("docT", {t: kn});
  if ("mediaSession" in navigator){
   navigator.mediaSession.metadata = new MediaMetadata({ title:kn, artist:s.singers || "Dostaa Radio", album:s.film || "Dostaa Radio",
    artwork:[{src:"https://i.ytimg.com/vi/" + s.id + "/hqdefault.jpg", sizes:"480x360", type:"image/jpeg"}]});
  }
  try { history.replaceState(null, "", "?n=" + s.no); } catch(e){}
+}
+function showSongMeta(s){
+ $("#tEn").textContent = s.kn ? s.title : ""; $("#tEn").style.display = s.kn ? "" : "none";
+ $("#mDec").textContent = s.year ? decLbl(s.year) : t("kannada");
+ const tg = (s.tags||[])[0]; const md = MOODS.find(m => m.k === tg);
+ $("#mTag").textContent = md ? moodName(md) : t("kannada");
+ $("#mNew").hidden = !!P.heard[s.id];
 }
 function renderSub(s){
  const hide = quizOn && quizState && quizState.id === s.id && !quizState.done;
@@ -946,7 +1114,7 @@ function renderSub(s){
  if (s.singers) parts.push("<b>" + esc(s.singers) + "</b>");
  if (s.film || hide) parts.push("🎬 " + film);
  if (s.year && !hide) parts.push(String(s.year));
- $("#sub").innerHTML = parts.join(" · ") || "Kannada song";
+ $("#sub").innerHTML = parts.join(" · ") || t("kSong");
 }
 function go(k){
  if (!q.length) return;
@@ -973,8 +1141,8 @@ function jumpTo(s){
 $("#play").onclick = togglePlay;
 $("#next").onclick = () => go(qi + 1);
 $("#prev").onclick = () => { if (pl && rdy && live && (pl.getCurrentTime() || 0) > 3){ pl.seekTo(0, true); return; } go(qi - 1); };
-$("#shuf").onclick = () => { build(true); toast("", "Reshuffled 🎲", q.length + " songs in the mix"); };
-$("#rep").onclick = e => { repeatOne = !repeatOne; e.currentTarget.setAttribute("aria-pressed", String(repeatOne)); toast("", repeatOne ? "Repeat one: on" : "Repeat one: off"); };
+$("#shuf").onclick = () => { build(true); toast("", t("reshuf"), t("reshufSub", {n: q.length})); };
+$("#rep").onclick = e => { repeatOne = !repeatOne; e.currentTarget.setAttribute("aria-pressed", String(repeatOne)); toast("", t(repeatOne ? "repOn" : "repOff")); };
 if ("mediaSession" in navigator){
  try {
   navigator.mediaSession.setActionHandler("play", () => pl && pl.playVideo());
@@ -1024,7 +1192,7 @@ function startQuiz(s){
  quizState = { id:s.id, ans:s.film, done:false, left:20 };
  $("#qzOpts").innerHTML = arr.map((f,k) => '<button class="qo" data-f="' + esc(f) + '"><em>' + (k+1) + '</em>' + esc(f) + '</button>').join("");
  $("#quiz").classList.remove("done"); $("#quiz").classList.add("open");
- $("#qzStreak").textContent = P.combo > 1 ? "🔥 " + P.combo + " in a row" : "ಯಾವ ಸಿನಿಮಾ?";
+ $("#qzStreak").textContent = P.combo > 1 ? t("qz_row", {n: P.combo}) : t("qz_q");
  const bar = $("#qzTimer"); bar.style.transition = "none"; bar.style.transform = "scaleX(1)"; void bar.offsetWidth; bar.style.transition = "";
  qzTimer = setInterval(() => {
   if (!playing) return;                       // clock only runs while music plays
@@ -1053,7 +1221,7 @@ function closeQuiz(){ clearInterval(qzTimer); quizState = null; $("#quiz").class
 $("#qzOpts").addEventListener("click", e => { const b = e.target.closest(".qo"); if (b) answer(b.dataset.f, b); });
 $("#quizBtn").onclick = () => {
  quizOn = !quizOn; $("#quizBtn").setAttribute("aria-pressed", String(quizOn));
- if (quizOn){ toast("🎬", "Quiz mode on", "Guess the film. Only songs with a video-verified film are quizzed"); if (live && cur) startQuiz(cur); }
+ if (quizOn){ toast("🎬", t("quizOn"), t("quizOnSub")); if (live && cur) startQuiz(cur); }
  else closeQuiz();
  if (cur) renderSub(cur);
 };
@@ -1072,8 +1240,8 @@ $$("[data-close]").forEach(b => b.onclick = closeSheets);
 function renderList(f){
  const n = (f||"").trim().toLowerCase();
  const list = n ? songs.filter(s => String(s.no) === n.replace("#","") || [s.title,s.kn,s.film,s.singers].some(v => (v||"").toLowerCase().includes(n))) : songs;
- $("#lInfo").textContent = (n ? list.length + " match" + (list.length === 1 ? "" : "es") : P.heardN + " of " + songs.length + " discovered");
- if (!list.length){ $("#lBody").innerHTML = '<div class="empty">No match. Missing a song? <br/><br/><button class="btn" id="lReq">Request it</button></div>'; $("#lReq").onclick = () => sheet("#reqSheet"); return; }
+ $("#lInfo").textContent = n ? t("l_match", {n: list.length}) : t("l_disc", {a: P.heardN, b: songs.length});
+ if (!list.length){ $("#lBody").innerHTML = '<div class="empty">' + t("l_none") + '<br/><br/><button class="btn" id="lReq">' + t("l_req") + '</button></div>'; $("#lReq").onclick = () => sheet("#reqSheet"); return; }
  $("#lBody").innerHTML = list.map(s => '<div class="lrow' + (cur && cur.id === s.id ? " cur" : "") + '" data-id="' + s.id + '">' +
   '<span class="no">#' + s.no + '</span><img loading="lazy" alt="" src="https://i.ytimg.com/vi/' + s.id + '/default.jpg"/>' +
   '<span class="tt"><b>' + esc(s.kn || s.title) + '</b><s>' + esc([s.film, s.year, s.singers].filter(Boolean).join(" · ")) + '</s></span>' +
@@ -1086,7 +1254,7 @@ $("#lSearch").addEventListener("keydown", e => {
  if (/^\d+$/.test(v) && byNo.get(+v)){ jumpTo(byNo.get(+v)); closeSheets(); }
 });
 $("#listBtn").onclick = () => { renderList($("#lSearch").value); sheet("#listSheet"); if (fine) setTimeout(() => $("#lSearch").focus(), 300); };
-$("#surprise").onclick = () => { const un = songs.filter(s => !P.heard[s.id]); const pk = (un.length ? un : songs)[Math.random()*(un.length || songs.length) | 0]; jumpTo(pk); closeSheets(); toast("🎲", "Surprise: #" + pk.no, un.length ? "A song you haven't discovered yet" : "You've heard them all. Legend."); };
+$("#surprise").onclick = () => { const un = songs.filter(s => !P.heard[s.id]); const pk = (un.length ? un : songs)[Math.random()*(un.length || songs.length) | 0]; jumpTo(pk); closeSheets(); toast("🎲", t("surp", {n: pk.no}), t(un.length ? "surpNew" : "surpAll")); };
 
 /* profile */
 function renderMe(){
@@ -1094,18 +1262,18 @@ function renderMe(){
  const got = BADGES.filter(x => P.badges[x.id]).length;
  const acc = P.qt ? Math.round(P.qr/P.qt*100) + "%" : "—";
  $("#meBody").innerHTML =
-  '<div class="lvl"><div class="lvl-n">Level ' + (L+1) + ' · ' + a.en + '</div><div class="lvl-t">' + a.kn + '</div>' +
+  '<div class="lvl"><div class="lvl-n">' + t("level", {n: L+1}) + (LANG === "en" ? ' · ' + a.kn : '') + '</div><div class="lvl-t"' + (LANG === "en" ? ' style="font-family:var(--en)"' : '') + '>' + lvlName(a) + '</div>' +
   '<div class="lvl-bar"><i style="width:' + pct.toFixed(1) + '%"></i></div>' +
-  '<div class="lvl-x"><span>' + P.xp.toLocaleString("en-IN") + ' XP</span><span>' + (b ? (b.x - P.xp) + " XP to " + b.kn : "Max level") + '</span></div></div>' +
+  '<div class="lvl-x"><span>' + P.xp.toLocaleString("en-IN") + ' XP</span><span>' + (b ? t("xpTo", {n: b.x - P.xp, name: lvlName(b)}) : t("maxL")) + '</span></div></div>' +
   '<div class="stats">' +
-  '<div class="stat"><b>' + P.heardN + '<span style="font-size:12px;color:var(--w40)"> / ' + songs.length + '</span></b><s>Songs discovered</s></div>' +
-  '<div class="stat"><b>' + (P.streak || 0) + ' 🔥</b><s>Day streak</s></div>' +
-  '<div class="stat"><b>' + Math.floor(P.listen/3600) + 'h ' + Math.floor(P.listen%3600/60) + 'm</b><s>Listening time</s></div>' +
-  '<div class="stat"><b>' + P.qr + ' <span style="font-size:12px;color:var(--w40)">' + acc + '</span></b><s>Quiz wins · accuracy</s></div></div>' +
-  '<div class="bh">Badges <span>' + got + ' / ' + BADGES.length + '</span></div><div class="badges">' +
-  BADGES.map(x => '<div class="bdg ' + (P.badges[x.id] ? "got" : "lock") + '"><span class="e">' + x.e + '</span><b>' + x.n + '</b><s>' + x.d + '</s></div>').join("") +
-  '</div><button class="reset" id="resetP">Reset my progress on this device</button>';
- $("#resetP").onclick = () => { if (confirm("Reset XP, badges and history on this device?")){ P = P0(); save(); renderXP(); renderMe(); } };
+  '<div class="stat"><b>' + P.heardN + '<span style="font-size:12px;color:var(--w40)"> / ' + songs.length + '</span></b><s>' + t("st_disc") + '</s></div>' +
+  '<div class="stat"><b>' + (P.streak || 0) + ' 🔥</b><s>' + t("st_streak") + '</s></div>' +
+  '<div class="stat"><b>' + Math.floor(P.listen/3600) + t("hU") + ' ' + Math.floor(P.listen%3600/60) + t("mU") + '</b><s>' + t("st_time") + '</s></div>' +
+  '<div class="stat"><b>' + P.qr + ' <span style="font-size:12px;color:var(--w40)">' + acc + '</span></b><s>' + t("st_quiz") + '</s></div></div>' +
+  '<div class="bh">' + t("badges") + ' <span>' + got + ' / ' + BADGES.length + '</span></div><div class="badges">' +
+  BADGES.map(x => '<div class="bdg ' + (P.badges[x.id] ? "got" : "lock") + '"><span class="e">' + x.e + '</span><b>' + bName(x) + '</b><s>' + bDesc(x) + '</s></div>').join("") +
+  '</div><button class="reset" id="resetP">' + t("reset") + '</button>';
+ $("#resetP").onclick = () => { if (confirm(t("resetQ"))){ P = P0(); save(); renderXP(); renderMe(); } };
 }
 $("#xpBtn").onclick = () => { renderMe(); sheet("#meSheet"); };
 
@@ -1143,31 +1311,31 @@ async function checkReq(){
  const raw = $("#rqUrl").value, id = ytId(raw), my = ++rqSeq;
  $("#rqCard").innerHTML = ""; $("#rqMore").hidden = true; rq = null;
  if (!raw.trim()){ rqSet("", ""); return; }
- if (!id){ rqSet("err", "That doesn't look like a YouTube link. Try copying it from the Share button on YouTube."); return; }
+ if (!id){ rqSet("err", t("rq_bad")); return; }
  const have = byId.get(id);
  if (have){
-  rqSet("ok", "🎉 Already on air as <b>#" + have.no + "</b>: " + esc(have.kn || have.title) + (have.film ? " (" + esc(have.film) + ")" : "") + ". <button class='btn' id='rqPlay' style='margin-top:10px;padding:9px 14px'>Play it now</button>");
+  rqSet("ok", t("rq_have", {n: have.no, t: esc(have.kn || have.title) + (have.film ? " (" + esc(have.film) + ")" : "")}) + " <button class='btn' id='rqPlay' style='margin-top:10px;padding:9px 14px'>" + t("rq_play") + "</button>");
   $("#rqPlay").onclick = () => { jumpTo(have); closeSheets(); }; return;
  }
- if ((P.reqs || []).includes(id)){ rqSet("ok", "You've already requested this one. It's in the review queue 🙌"); return; }
- rqSet("busy", '<span class="spin"></span>Checking the link…');
+ if ((P.reqs || []).includes(id)){ rqSet("ok", t("rq_dup")); return; }
+ rqSet("busy", '<span class="spin"></span>' + t("rq_check"));
  const [meta, emb] = await Promise.all([oembed(id), embedCheck(id)]);
  if (my !== rqSeq) return;
- if ((meta && meta.missing) || emb === "missing"){ rqSet("err", "This video doesn't exist or is private. Double-check the link."); return; }
- if ((meta && meta.blocked) || emb === "blocked"){ rqSet("err", "This upload blocks playback on other sites, so it can't go on air. Look for the same song on the official label's channel."); return; }
+ if ((meta && meta.missing) || emb === "missing"){ rqSet("err", t("rq_missing")); return; }
+ if ((meta && meta.blocked) || emb === "blocked"){ rqSet("err", t("rq_blocked")); return; }
  const title = meta && meta.title ? meta.title : "", chan = meta && (meta.author_name) ? meta.author_name : "";
- if (/jukebox|mashup|compilation|non[\s-]?stop|full album|back to back|all songs/i.test(title)){ rqSet("err", "Looks like a jukebox, mashup or compilation. Single songs only, please."); return; }
+ if (/jukebox|mashup|compilation|non[\s-]?stop|full album|back to back|all songs/i.test(title)){ rqSet("err", t("rq_jbox")); return; }
  rq = { id, title, chan, verified: emb === "ok" };
- $("#rqCard").innerHTML = '<div class="rq-card"><img alt="" src="https://i.ytimg.com/vi/' + id + '/mqdefault.jpg"/><div><b>' + esc(title || "YouTube video " + id) + '</b><s>' + esc(chan || "Channel unknown") + '</s></div></div>';
- rqSet("ok", emb === "ok" ? "✓ Plays fine on Dostaa Radio. Add your name and send it in." : "Looks valid. We'll confirm it plays during review.");
+ $("#rqCard").innerHTML = '<div class="rq-card"><img alt="" src="https://i.ytimg.com/vi/' + id + '/mqdefault.jpg"/><div><b>' + esc(title || "YouTube video " + id) + '</b><s>' + esc(chan || t("chan")) + '</s></div></div>';
+ rqSet("ok", t(emb === "ok" ? "rq_ok" : "rq_maybe"));
  $("#rqMore").hidden = false;
 }
 let rqDeb = null;
 $("#rqUrl").addEventListener("input", () => { clearTimeout(rqDeb); rqDeb = setTimeout(checkReq, 350); });
-$("#rqPaste").onclick = async () => { try { $("#rqUrl").value = await navigator.clipboard.readText(); checkReq(); } catch(e){ $("#rqUrl").focus(); toast("", "Long-press the box and tap Paste"); } };
+$("#rqPaste").onclick = async () => { try { $("#rqUrl").value = await navigator.clipboard.readText(); checkReq(); } catch(e){ $("#rqUrl").focus(); toast("", t("longpress")); } };
 $("#rqSend").onclick = () => {
  if (!rq) return;
- const name = $("#rqName").value.trim() || "Anonymous", note = $("#rqNote").value.trim();
+ const name = $("#rqName").value.trim() || t("anon"), note = $("#rqNote").value.trim();
  const link = "https://youtu.be/" + rq.id;
  const body = "Song request for Dostaa Radio\n\nLink: " + link + "\nYouTube title: " + rq.title + "\nChannel: " + rq.chan +
   "\nPlays embedded: " + (rq.verified ? "yes (checked in browser)" : "not confirmed") + "\nRequested by: " + name + (note ? "\nNote: " + note : "") +
@@ -1177,7 +1345,7 @@ $("#rqSend").onclick = () => {
  P.reqs = (P.reqs || []).concat(rq.id); P.req = (P.req || 0) + 1; save();
  addXP(15, $("#rqSend"));
  confetti(innerWidth/2, innerHeight*.5, 80);
- rqSet("ok", "🙏 Thanks, " + esc(name) + "! Your request is in. Once it's verified, it plays with your name on it.");
+ rqSet("ok", t("rq_thx", {name: esc(name)}));
  $("#rqMore").hidden = true; $("#rqCard").innerHTML = ""; $("#rqUrl").value = ""; rq = null;
 };
 $("#reqBtn").onclick = () => { sheet("#reqSheet"); if (fine) setTimeout(() => $("#rqUrl").focus(), 300); };
@@ -1185,9 +1353,9 @@ $("#reqBtn").onclick = () => { sheet("#reqSheet"); if (fine) setTimeout(() => $(
 /* ---------------- share ---------------- */
 $("#shareBtn").onclick = async () => {
  const s = cur; const url = location.origin + location.pathname + (s ? "?n=" + s.no : "");
- const text = s ? "🎶 #" + s.no + " " + (s.kn || s.title) + (s.film ? " (" + s.film + ")" : "") + " on ದೋಸ್ತಾ ರೇಡಿಯೋ" : "ದೋಸ್ತಾ ರೇಡಿಯೋ: Kannada songs 24×7";
+ const text = s ? t("share", {n: s.no, t: s.kn || s.title, f: s.film ? " (" + s.film + ")" : ""}) : t("brand") + " · " + t("hero_en");
  if (navigator.share){ try { await navigator.share({title:"Dostaa Radio", text, url}); return; } catch(e){ if (e.name === "AbortError") return; } }
- try { await navigator.clipboard.writeText(text + " " + url); toast("🔗", "Link copied", "Paste it anywhere to share this song"); } catch(e){ prompt("Copy this link:", url); }
+ try { await navigator.clipboard.writeText(text + " " + url); toast("🔗", t("copied"), t("copiedSub")); } catch(e){ prompt(t("copyQ"), url); }
 };
 
 /* ---------------- video ---------------- */
@@ -1200,7 +1368,7 @@ function syncVid(){
 }
 function openVideo(){
  if (!live) go(qi);
- if (!pl || !rdy){ pendingVideo = true; toast("", "Loading the player…"); return; }
+ if (!pl || !rdy){ pendingVideo = true; toast("", t("loadingPl")); return; }
  videoMode = true; $("#vidCap").textContent = cur ? [cur.kn || cur.title, cur.film].filter(Boolean).join(" · ") : "";
  $("#vid").classList.add("open"); $("#scrim").classList.add("open"); requestAnimationFrame(syncVid);
 }
@@ -1251,11 +1419,11 @@ addEventListener("keydown", e => {
 
 /* ---------------- LOADER ---------------- */
 const ready = { songs:false, yt:false, fonts:false, ytFail:false };
-const STAT = ["Tuning the frequencies…","Dusting the vinyl…","Warming up the valves…","Lining up the hits…","ಸ್ವರ ಸರಿ ಮಾಡುತ್ತಿದ್ದೇವೆ…"];
+
 (function(){
  const t = "ದೋಸ್ತಾ ರೇಡಿಯೋ".split(" ");
  $("#ldTitle").innerHTML = t.map((w,k) => '<span style="animation-delay:' + (0.15 + k*.25) + 's">' + w + '</span>').join('<span style="width:.3em"></span>');
- let k = 0; const it = setInterval(() => { if ($("#loader").classList.contains("out") || $("#tuneBtn").classList.contains("show")){ clearInterval(it); return; } k = (k+1) % STAT.length; $("#ldStatus").textContent = STAT[k]; }, 1400);
+ let k = 0; const it = setInterval(() => { if ($("#loader").classList.contains("out") || $("#tuneBtn").classList.contains("show")){ clearInterval(it); return; } const st = t("ld_stat"); k = (k+1) % st.length; $("#ldStatus").textContent = st[k]; }, 1400);
  document.fonts && document.fonts.ready.then(() => { ready.fonts = true; ldProgress(); });
  setTimeout(() => { ready.fonts = true; ready.yt = true; ldProgress(); }, 7000);   // never hang on a slow network
 })();
@@ -1264,29 +1432,26 @@ function ldProgress(){
  const p = (ready.songs ? .45 : .1) + (ready.yt ? .4 : 0) + (ready.fonts ? .15 : 0);
  $("#ldRing").style.strokeDashoffset = (301.6*(1 - Math.min(1,p))).toFixed(1);
  if (ready.songs && (ready.yt || ready.fonts) && !$("#tuneBtn").classList.contains("show") && p >= .85){
-  $("#ldStatus").textContent = songs.length + " songs ready · ಹಾಡು ಕೇಳೋಣ";
-  if (deepNo && byNo.get(deepNo)){ const s = byNo.get(deepNo); $("#tuneLbl").textContent = "Play #" + s.no + " · " + (s.kn || s.title).slice(0,26); }
-  $("#tuneBtn").classList.add("show");
+  $("#tuneBtn").classList.add("show"); applyLang();
  }
 }
 $("#tuneBtn").onclick = () => {
  const L = $("#loader"); L.classList.add("out"); setTimeout(() => L.classList.add("gone"), 950);
  if (deepNo && byNo.get(deepNo)) jumpTo(byNo.get(deepNo)); else go(qi);
- if (ready.ytFail) toast("", "YouTube couldn't load", "Check your connection, or open in a regular browser");
+ if (ready.ytFail) toast("", t("ytFail"), t("ytFailSub"));
 };
 
 /* ---------------- boot ---------------- */
-sizeFx(); seedMotes(); renderXP();
+sizeFx(); seedMotes(); applyLang();
+document.fonts && document.fonts.ready.then(placeThumbs);
 requestAnimationFrame(() => { sizeViz(); requestAnimationFrame(frame); });
 fetch("songs.json", {cache:"no-store"}).then(r => r.json()).then(d => {
  songs = (Array.isArray(d) ? d : []).filter(s => s && s.id).sort((a,b) => a.no - b.no);
  songs.forEach(s => { byNo.set(s.no, s); byId.set(s.id, s); });
- $("#lCount").textContent = songs.length + " ಹಾಡುಗಳು · " + songs.length + " songs";
- $("#onairTxt").textContent = "ON AIR · " + songs.length + " SONGS";
- renderChips(); build(false);
+ renderChips(); build(false); updOnair(); $("#lCount").textContent = t("l_cnt", {n: songs.length});
  const first = q[0]; if (first){ const im = $("#lblImg"); im.style.backgroundImage = "url('https://i.ytimg.com/vi/" + first.id + "/hqdefault.jpg')"; }
  ready.songs = true; ldProgress();
-}).catch(() => { $("#ldStatus").textContent = "Couldn't load the song list. Refresh to try again."; });
+}).catch(() => { $("#ldStatus").textContent = t("ld_fail"); });
 </script>
 </body>
 </html>
