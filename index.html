@@ -60,8 +60,16 @@ body:not(.playing) .aura{opacity:.7}
  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:24px;
  transition:clip-path .9s var(--ease),opacity .4s;clip-path:circle(150% at 50% 45%)}
 #loader.out{clip-path:circle(0% at 50% 45%);pointer-events:none}
+@media (max-height:560px) and (orientation:landscape){
+ #loader{display:grid;grid-template-columns:auto auto;align-content:center;justify-content:center;justify-items:center;column-gap:clamp(24px,6vw,64px);row-gap:10px;padding:16px 24px 34px}
+ #loader .ld-orb{grid-column:1;grid-row:1 / span 5;align-self:center;width:min(62vh,230px)}
+ #loader .ld-title,#loader .ld-tag,#loader .ld-sub,#loader .ld-status,#loader .tune{grid-column:2}
+ #loader .ld-title{font-size:clamp(28px,9.5vh,46px)}
+ #loader .ld-tag{margin-top:-4px}#loader .ld-sub{margin-top:-2px}
+ #loader .ld-dis{bottom:calc(env(safe-area-inset-bottom) + 8px);font-size:10px}
+}
 #loader.gone{display:none}
-.ld-orb{position:relative;width:min(56vw,230px);aspect-ratio:1}
+.ld-orb{position:relative;width:min(56vw,230px,32vh);aspect-ratio:1}
 .ld-orb::before{content:"";position:absolute;inset:-14%;border-radius:50%;background:radial-gradient(circle,rgba(226,55,42,.22),transparent 65%);animation:breathe 2.4s ease-in-out infinite}
 .ld-ring{position:absolute;inset:0;transform:rotate(-90deg)}
 .ld-ring circle{fill:none;stroke-width:3}
@@ -208,11 +216,15 @@ body[data-lang=kn] .onair{font-family:var(--kn);font-size:11px;font-weight:700}
 .label .lbl-img{position:absolute;inset:-18%;background:center/cover no-repeat;transition:opacity .6s}
 .label::after{content:"";position:absolute;inset:0;border-radius:50%;
  background:radial-gradient(circle,rgba(0,0,0,0) 40%,rgba(0,0,0,.45))}
-.label{background:conic-gradient(from 0deg,var(--kred) 0 25%,var(--kyel) 0 50%,var(--kred) 0 75%,var(--kyel) 0)!important}
+.label{background:conic-gradient(from 0deg,#E2231A 0 25%,#F5C518 0 50%,#E2231A 0 75%,#F5C518 0)!important;filter:saturate(1.2) brightness(1.12)}
 .label .lbl-img{display:none}
 .hub{position:absolute;left:50%;top:50%;width:34%;height:34%;z-index:4;pointer-events:none;
  transform:translate(-50%,-50%) scale(var(--pulse,1));will-change:transform}
-.hub::before{content:"";position:absolute;inset:-9%;border-radius:50%;background:radial-gradient(circle,rgba(12,5,4,.9) 58%,transparent 72%)}
+.hub::before{content:"";position:absolute;inset:-10%;border-radius:50%;
+ background:radial-gradient(circle,#1A0806 0 62%,rgba(26,8,6,0) 63%);
+ border:3px solid var(--gold);
+ box-shadow:0 0 0 2px rgba(255,255,255,.55),0 0 calc(10px + var(--glow,0)*30px) rgba(245,197,24,.85),inset 0 0 14px rgba(245,197,24,.35)}
+.hub::after{content:"";position:absolute;inset:-17%;border-radius:50%;border:1.5px dashed rgba(245,197,24,.55);animation:spin 18s linear infinite reverse}
 .hub i{position:absolute;inset:0;background:url("logo-512.webp") center/contain no-repeat;
  filter:drop-shadow(0 6px 18px rgba(199,27,13,calc(.35 + var(--glow,0)*.6))) drop-shadow(0 0 calc(var(--glow,0)*26px) rgba(245,197,24,.55))}
 .hub.flip i{animation:hubFlip .9s var(--ease)}
@@ -1659,8 +1671,8 @@ addEventListener("keydown", e => {
 const ready = { songs:false, yt:false, fonts:false, ytFail:false };
 
 (function(){
- const t = "ದೋಸ್ತಾ ರೇಡಿಯೋ".split(" ");
- $("#ldTitle").innerHTML = t.map((w,k) => '<span style="animation-delay:' + (0.15 + k*.25) + 's">' + w + '</span>').join('<span style="width:.3em"></span>');
+ const words = "ದೋಸ್ತಾ ರೇಡಿಯೋ".split(" ");
+ $("#ldTitle").innerHTML = words.map((w,k) => '<span style="animation-delay:' + (0.15 + k*.25) + 's">' + w + '</span>').join('<span style="width:.3em"></span>');
  let k = 0; const it = setInterval(() => { if ($("#loader").classList.contains("out") || $("#tuneBtn").classList.contains("show")){ clearInterval(it); return; } const st = t("ld_stat"); k = (k+1) % st.length; $("#ldStatus").textContent = st[k]; }, 1400);
  document.fonts && document.fonts.ready.then(() => { ready.fonts = true; ldProgress(); });
  setTimeout(() => { ready.fonts = true; ready.yt = true; ldProgress(); }, 7000);   // never hang on a slow network
