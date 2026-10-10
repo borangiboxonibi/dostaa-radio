@@ -530,6 +530,79 @@ body[data-lang=kn] .ry-stats s{font-family:var(--kn);font-size:12px}
 .ry-new{font-family:var(--en);font-weight:800;font-size:12px;letter-spacing:.12em;color:#1A0703;background:var(--leaf);padding:5px 12px;border-radius:999px;animation:bump .8s 3}
 @media (max-height:640px){.ry-logo{width:min(38vw,140px)}.ro{padding:10px 12px;font-size:14px}.ry-dial{width:110px}}
 
+/* ---------- specials ---------- */
+.tool.sp{color:#140C05;background:linear-gradient(120deg,var(--gold2),var(--gold) 55%,#F0901C);border-color:rgba(255,230,128,.8);box-shadow:0 4px 18px rgba(245,197,24,.28)}
+.tool.sp:hover{color:#140C05;box-shadow:0 6px 24px rgba(245,197,24,.45)}
+.chip.spc{display:inline-flex;align-items:center;gap:7px;color:#140C05;background:linear-gradient(120deg,var(--gold2),var(--gold));border-color:var(--gold);box-shadow:0 4px 16px rgba(245,197,24,.35)}
+.chip.spc i{font-style:normal;font-family:var(--en);font-weight:800;font-size:13px;line-height:1;opacity:.65}
+.chip.spc:hover i{opacity:1}
+#specSheet{width:min(880px,100%)}
+@media(min-width:700px){#specSheet{max-height:88dvh}}
+#specBody{padding-top:2px}
+.sp-hero{position:relative;display:block;width:100%;text-align:left;overflow:hidden;border-radius:20px;padding:18px 18px 16px;margin:0 0 4px;isolation:isolate;
+ background:linear-gradient(135deg,#2a0d07,#160604);border:1px solid rgba(245,197,24,.28);cursor:pointer;transition:transform .2s,border-color .2s;color:var(--w)}
+.sp-hero:hover{border-color:rgba(245,197,24,.6);transform:translateY(-1px)}
+.sp-hero::before{content:"";position:absolute;z-index:-1;right:-40px;top:-40px;width:44%;height:190%;transform:rotate(14deg);
+ background:linear-gradient(180deg,var(--kyel) 0 50%,var(--kred) 50% 100%);box-shadow:-20px 0 60px rgba(0,0,0,.5)}
+.sp-hero::after{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#1c0805 40%,rgba(28,8,5,.6) 64%,rgba(28,8,5,0) 82%)}
+.sp-hero .eb{display:block;font-family:var(--en);font-weight:700;font-size:10.5px;letter-spacing:.16em;color:var(--gold);text-transform:uppercase}
+body[data-lang=kn] .sp-hero .eb{font-family:var(--nk);letter-spacing:.02em;font-size:12px}
+.sp-hero .ht{display:block;font-family:var(--kn);font-weight:800;font-size:clamp(26px,5vw,36px);line-height:1.15;margin:6px 0 2px;max-width:64%}
+body[data-lang=en] .sp-hero .ht{font-family:var(--en);letter-spacing:-.01em}
+.sp-hero .hs2{display:block;font-family:var(--nk);font-size:13px;color:var(--w60);max-width:62%}
+.sp-hero .hc{display:flex;align-items:center;gap:12px;margin-top:14px;flex-wrap:wrap}
+.sp-hero .cd{font-family:var(--en);font-weight:800;font-size:13px;color:#140C05;background:var(--gold);padding:6px 12px;border-radius:999px}
+body[data-lang=kn] .sp-hero .cd{font-family:var(--nk)}
+.sp-hero .hp{display:inline-flex;align-items:center;gap:8px;font-family:var(--en);font-weight:700;font-size:13px}
+body[data-lang=kn] .sp-hero .hp{font-family:var(--nk)}
+.sp-hero .hp svg{width:28px;height:28px;padding:8px 7px 8px 9px;border-radius:50%;background:var(--ember);fill:#fff;box-shadow:0 4px 14px rgba(226,55,42,.5)}
+.sp-sh{margin-top:16px}
+.sp-sh h3{display:flex;align-items:baseline;gap:8px;font-family:var(--kn);font-weight:800;font-size:18px;margin:0 0 8px}
+body[data-lang=en] .sp-sh h3{font-family:var(--en);font-size:16px}
+.sp-sh h3 small{font-family:var(--en);font-weight:600;font-size:11px;color:var(--w40);letter-spacing:.06em}
+body[data-lang=en] .sp-sh h3 small{font-family:var(--nk);letter-spacing:0;font-size:12px}
+.sp-row{display:grid;grid-auto-flow:column;grid-auto-columns:148px;gap:10px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none;
+ margin:0 -18px;padding:2px 18px 8px;scroll-padding:0 18px}
+.sp-row::-webkit-scrollbar{display:none}
+@media(min-width:700px){.sp-row{grid-auto-columns:164px}}
+.spc-card{position:relative;overflow:hidden;isolation:isolate;height:176px;border-radius:18px;padding:12px;display:flex;flex-direction:column;justify-content:flex-end;
+ text-align:left;scroll-snap-align:start;color:#fff;border:1px solid rgba(255,255,255,.1);transition:transform .2s var(--ease),box-shadow .2s;cursor:pointer}
+.spc-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.45)}
+.spc-card:active{transform:scale(.97)}
+.spc-card::before{content:attr(data-g);position:absolute;z-index:-1;right:-4px;top:-20px;font-family:var(--kn);font-weight:800;font-size:124px;line-height:1;color:rgba(255,255,255,.14);pointer-events:none}
+.spc-card::after{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.55))}
+.spc-card .sb,.spc-card .tt{text-shadow:0 1px 10px rgba(0,0,0,.45)}
+.spc-card .sb{display:block;font-family:var(--nk);font-weight:600;font-size:11px;color:rgba(255,255,255,.8);line-height:1.3;margin-bottom:3px}
+.spc-card .tt{display:block;font-family:var(--kn);font-weight:800;font-size:19px;line-height:1.15}
+body[data-lang=en] .spc-card .tt{font-family:var(--en);font-size:16px;letter-spacing:-.01em}
+.spc-card .ft2{display:flex;align-items:center;justify-content:space-between;margin-top:9px;font-family:var(--en);font-weight:600;font-size:11px;color:rgba(255,255,255,.78)}
+body[data-lang=kn] .spc-card .ft2{font-family:var(--nk)}
+.spc-card .pb{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.95);box-shadow:0 4px 12px rgba(0,0,0,.35);transition:transform .2s}
+.spc-card:hover .pb{transform:scale(1.1)}
+.spc-card .pb svg{width:12px;height:12px;fill:#140C05;margin-left:2px}
+.spc-card .bdg{position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;gap:5px;padding:3px 8px;border-radius:999px;font-family:var(--en);font-weight:800;font-size:9.5px;letter-spacing:.08em;background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
+body[data-lang=kn] .spc-card .bdg{font-family:var(--nk);letter-spacing:0;font-size:10.5px}
+.spc-card .bdg i{width:6px;height:6px;border-radius:50%;background:var(--leaf);box-shadow:0 0 8px var(--leaf);animation:blip 1.6s ease-in-out infinite}
+.spc-card.on{border-color:var(--gold2);box-shadow:0 0 0 2px rgba(245,197,24,.6),0 12px 30px rgba(0,0,0,.4)}
+.spc-card.on .bdg{background:var(--gold);color:#140C05}
+.spc-card.soon{cursor:default;filter:saturate(.3);opacity:.55;border-style:dashed}
+.spc-card.soon:hover{transform:none;box-shadow:none}
+.th-flag{background:linear-gradient(180deg,#E8C60E 0 34%,#C71B0D 34% 100%)}
+.th-flag::after{background:linear-gradient(180deg,rgba(0,0,0,.05) 25%,rgba(0,0,0,.6))}
+.th-gold{background:linear-gradient(150deg,#FFD84D,#D98E12 55%,#6b3305)}
+.th-ember{background:linear-gradient(150deg,#FF9A4D,#E2372A 55%,#5a0f0a)}
+.th-leaf{background:linear-gradient(150deg,#8FE6B8,#1F8F62 55%,#0b3a2a)}
+.th-royal{background:linear-gradient(155deg,#3b1409,#120504 70%);border-color:rgba(245,197,24,.35)}
+.th-royal .tt{color:var(--gold2)}
+.th-royal::before{color:rgba(245,197,24,.13)}
+.th-red{background:linear-gradient(150deg,#F0483A,#9C170C 58%,#2c0705)}
+.th-rose{background:linear-gradient(150deg,#F2558A,#951446 58%,#2c0614)}
+.th-plum{background:linear-gradient(150deg,#7B3AA0,#33124a 58%,#140818)}
+@media (max-width:520px){.tool:not(.sp) span{display:none}.tool:not(.sp){padding:9px 12px}}
+@media (max-width:380px){.tool.sp span{display:inline}.tool.sp{padding:9px 13px}}
+.sp-note{margin:18px 0 2px;font-family:var(--en);font-size:11px;color:var(--w40);text-align:center}
+body[data-lang=kn] .sp-note{font-family:var(--nk)}
+
 /* ---------- sheets ---------- */
 .scrim{position:fixed;inset:0;z-index:40;background:rgba(5,3,1,.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
  opacity:0;pointer-events:none;transition:opacity .3s}
@@ -758,6 +831,7 @@ body[data-lang=kn] .ry-stats s{font-family:var(--kn);font-size:12px}
     <button class="tb sm" id="rep" aria-pressed="false" aria-label="Repeat one"><svg viewBox="0 0 24 24"><path d="M7 7h10v2.5l4-3.5-4-3.5V5H5v6h2V7zm10 10H7v-2.5l-4 3.5 4 3.5V19h12v-6h-2v4z"/></svg></button>
    </div>
    <div class="tools">
+    <button class="tool sp" id="specBtn" title="Specials" data-ta="a_spec"><svg viewBox="0 0 24 24"><path d="M12 3l2.5 5.6 6 .6-4.5 4 1.3 6-5.3-3.1-5.3 3.1 1.3-6-4.5-4 6-.6z"/></svg><span data-t="t_spec">Specials</span></button>
     <button class="tool" id="quizBtn" aria-pressed="false" title="Quiz Rally (Q)" data-ta="a_quiz"><svg viewBox="0 0 24 24"><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14"/><circle cx="12" cy="17.5" r=".6" fill="currentColor"/><circle cx="12" cy="12" r="9.5"/></svg><span data-t="t_quiz">Quiz</span></button>
     <button class="tool" id="watchBtn" title="Watch video" data-ta="a_watch"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="14" height="12" rx="2.5"/><path d="M16.5 10.5l5-3v9l-5-3"/></svg><span data-t="t_watch">Watch</span></button>
     <button class="tool" id="volBtn" title="Volume" data-ta="a_vol"><svg id="volIco" viewBox="0 0 24 24"><path d="M4 9v6h3.5l4.5 4V5L7.5 9z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8 8 0 0 1 0 12"/></svg><span data-t="t_vol">Vol</span></button>
@@ -778,6 +852,12 @@ body[data-lang=kn] .ry-stats s{font-family:var(--kn);font-size:12px}
  <div class="sh-b" style="padding-bottom:4px"><input class="field" id="lSearch" placeholder="Search number, song, film or singer…" data-tp="l_ph" autocomplete="off"/>
   <div class="lmeta"><span id="lInfo"></span><button class="surprise" id="surprise" data-t="surprise">🎲 Surprise me</button></div></div>
  <div class="sh-b" id="lBody" style="padding-top:0"></div>
+</section>
+
+<section class="sheet" id="specSheet" aria-label="Specials">
+ <div class="grab"></div>
+ <div class="sh-h"><h2><span data-t="sp_h">Specials</span><small data-t="sp_sh">Festivals, heroes, moods. One tap.</small></h2><button class="x" data-close aria-label="Close">×</button></div>
+ <div class="sh-b" id="specBody"></div>
 </section>
 
 <section class="sheet" id="reqSheet" aria-label="Request a song">
@@ -863,6 +943,7 @@ const I18N = {
   ig:"Music may not play inside Instagram. Open in your browser for the full experience.",ig_open:"Open",
   hero_en:"Kannada songs, all day",hero_sub:"Tap the record to begin",hint:"TAP TO PLAY · SPIN TO SCRUB",
   qz_h:"🎬 GUESS THE FILM",qz_q:"Which film?",qz_row:"🔥 {n} in a row",new4u:"NEW FOR YOU",kannada:"Kannada",kSong:"Kannada song",
+  t_spec:"Specials",a_spec:"Specials playlists",sp_h:"Specials",sp_sh:"Festivals, heroes, moods. One tap.",sp_n:"{n} songs",sp_soon:"Coming in {m}",sp_soon0:"Coming soon",sp_live:"ON NOW",sp_playing:"PLAYING",sp_on:"{n} is on",sp_onSub:"{n} songs, shuffled · tap × on the chip to go back",sp_off:"Back to the full radio",sp_offSub:"{n} songs",sp_share:"🎶 Listening to {n} on Dostaa Radio",sp_days:"{n} days to go",sp_day1:"Tomorrow!",sp_today:"It is Rajyotsava today!",sp_kmonth:"Kannada month is on",sp_play:"Play now",sp_eb:"Nov 1 · Kannada Rajyotsava",sp_note:"Every song plays through YouTube, so every view goes to the official channel.",mon:{Nov:"Nov",Jan:"Jan"},
   hs_ph:"Search songs, films, singers…",a_hs:"Search songs",hs_none:"No match for “{q}”",hs_req:"Request it",hs_try:"Try",hs_all:"See all {n} results",hs_tip:"Type a song, film, singer or #number.",
   t_quiz:"Quiz",t_watch:"Watch",t_vol:"Vol",t_share:"Share",ft:"Played via YouTube · rights belong to their owners",
   a_xp:"Your level and badges",a_req:"Missing a song? Paste the YouTube link",a_list:"All songs",a_quiz:"Guess the film (Q)",
@@ -905,6 +986,7 @@ const I18N = {
   ig:"Instagram ಒಳಗೆ ಹಾಡು ಪ್ಲೇ ಆಗದಿರಬಹುದು. ಪೂರ್ಣ ಅನುಭವಕ್ಕೆ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ.",ig_open:"ಓಪನ್ ಮಾಡಿ",
   hero_en:"ದಿನವಿಡೀ ಕನ್ನಡ ಹಾಡುಗಳು",hero_sub:"ಶುರು ಮಾಡಲು ರೆಕಾರ್ಡ್ ಒತ್ತಿ",hint:"ಒತ್ತಿ ಪ್ಲೇ ಮಾಡಿ · ತಿರುಗಿಸಿ ಮುಂದೆ ಹೋಗಿ",
   qz_h:"🎬 ಸಿನಿಮಾ ಊಹಿಸಿ",qz_q:"ಯಾವ ಸಿನಿಮಾ?",qz_row:"🔥 ಸತತ {n} ಸರಿ",new4u:"ನಿಮಗೆ ಹೊಸದು",kannada:"ಕನ್ನಡ",kSong:"ಕನ್ನಡ ಹಾಡು",
+  t_spec:"ಸ್ಪೆಷಲ್ಸ್",a_spec:"ಸ್ಪೆಷಲ್ ಪ್ಲೇಲಿಸ್ಟ್‌ಗಳು",sp_h:"ಸ್ಪೆಷಲ್ಸ್",sp_sh:"ಹಬ್ಬ, ಹೀರೋ, ಮೂಡು. ಒಂದೇ ಟ್ಯಾಪ್.",sp_n:"{n} ಹಾಡು",sp_soon:"{m}ಗೆ ಬರ್ತಿದೆ",sp_soon0:"ಬರ್ತಾ ಇದೆ",sp_live:"ಈಗ ನಡೀತಿದೆ",sp_playing:"ಈಗ ಪ್ಲೇ",sp_on:"{n} ಶುರು!",sp_onSub:"{n} ಹಾಡು, ಶಫಲ್ · ವಾಪಸ್ ಬರೋಕೆ ಚಿಪ್ ಮೇಲೆ × ಒತ್ತು",sp_off:"ಫುಲ್ ರೇಡಿಯೋಗೆ ವಾಪಸ್",sp_offSub:"{n} ಹಾಡು",sp_share:"🎶 ದೋಸ್ತಾ ರೇಡಿಯೋದಲ್ಲಿ {n} ಕೇಳ್ತಿದೀನಿ",sp_days:"ಇನ್ನೂ {n} ದಿನ",sp_day1:"ನಾಳೆನೇ!",sp_today:"ಇವತ್ತೇ ರಾಜ್ಯೋತ್ಸವ!",sp_kmonth:"ಕನ್ನಡ ತಿಂಗಳು ನಡೀತಿದೆ",sp_play:"ಈಗ ಕೇಳು",sp_eb:"ನವೆಂಬರ್ 1 · ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ",sp_note:"ಎಲ್ಲಾ ಹಾಡು YouTube ಮೂಲಕವೇ ಪ್ಲೇ ಆಗುತ್ತೆ, ವ್ಯೂಸ್ ಅಧಿಕೃತ ಚಾನೆಲ್‌ಗೇ.",mon:{Nov:"ನವೆಂಬರ್",Jan:"ಜನವರಿ"},
   hs_ph:"ಹಾಡು, ಸಿನಿಮಾ, ಗಾಯಕ… ಹುಡುಕು",a_hs:"ಹಾಡು ಹುಡುಕು",hs_none:"“{q}” ಸಿಗ್ಲಿಲ್ಲ ಗುರು",hs_req:"ರಿಕ್ವೆಸ್ಟ್ ಮಾಡು",hs_try:"ಟ್ರೈ ಮಾಡು",hs_all:"ಎಲ್ಲಾ {n} ರಿಸಲ್ಟ್ ನೋಡು",hs_tip:"ಹಾಡು, ಸಿನಿಮಾ, ಗಾಯಕ ಅಥವಾ #ನಂಬರ್ ಟೈಪ್ ಮಾಡು.",
   t_quiz:"ಕ್ವಿಜ್",t_watch:"ವೀಕ್ಷಿಸಿ",t_vol:"ಧ್ವನಿ",t_share:"ಹಂಚಿ",ft:"YouTube ಮೂಲಕ ಪ್ಲೇ · ಹಕ್ಕುಗಳು ಆಯಾ ಮಾಲೀಕರಿಗೆ",
   a_xp:"ನಿಮ್ಮ ಹಂತ ಮತ್ತು ಬ್ಯಾಡ್ಜ್‌ಗಳು",a_req:"ನಿಮ್ಮ ಹಾಡು ಇಲ್ಲವೇ? YouTube ಲಿಂಕ್ ಹಾಕಿ",a_list:"ಎಲ್ಲಾ ಹಾಡುಗಳು",a_quiz:"ಸಿನಿಮಾ ಊಹಿಸಿ (Q)",
@@ -979,6 +1061,7 @@ function applyLang(){
  if (openSheet === "#listSheet") renderList($("#lSearch").value);
  if (openSheet === "#meSheet") renderMe();
  if ($("#hs").classList.contains("open")) hsRender();
+ if (openSheet === "#specSheet") renderSpecials();
  placeThumbs();
 }
 function setLang(l){
@@ -997,7 +1080,7 @@ addEventListener("resize", placeThumbs);
 /* ---------------- state ---------------- */
 let songs = [], byNo = new Map(), byId = new Map(), q = [], qi = 0;
 let pl = null, rdy = false, live = false, playing = false, repeatOne = false, badCount = 0;
-let mood = null, decade = null, cur = null, curSec = 0, playingSince = 0;
+let mood = null, decade = null, cur = null, curSec = 0, playingSince = 0, spec = null;
 let quizOn = false, quizState = null;
 
 /* ---------------- progress / gamification (per-device) ---------------- */
@@ -1230,11 +1313,12 @@ if (fine && !reduced){
 
 /* ---------------- queue + filters ---------------- */
 function updOnair(){
- const label = [mood ? moodName(MOODS.find(x => x.k === mood)) : "", decade ? decLbl(decade) : ""].filter(Boolean).join(" · ");
+ const label = spec && specGet(spec) ? specName(specGet(spec)) : [mood ? moodName(MOODS.find(x => x.k === mood)) : "", decade ? decLbl(decade) : ""].filter(Boolean).join(" · ");
  const oa = $("#onairTxt"); if (!oa) return;
  oa.innerHTML = esc(t("onair")) + '<span class="oa-x"> · ' + esc(label ? (LANG === "en" ? label.toUpperCase() : label) : t("songsN", {n: songs.length})) + '</span>';
 }
 function pool(){
+ if (spec){ const it = specGet(spec); if (it) return it.ids.map(id => byId.get(id)).filter(Boolean); }
  return songs.filter(s => (!mood || (s.tags||[]).includes(mood)) && (!decade || (s.year && Math.floor(s.year/10)*10 === decade)));
 }
 function build(keepCur){
@@ -1245,15 +1329,19 @@ function build(keepCur){
 }
 function renderChips(){
  const decs = [...new Set(songs.filter(s => s.year).map(s => Math.floor(s.year/10)*10))].sort();
- let h = MOODS.map(m => {
+ const sp = spec && specGet(spec);
+ let h = sp ? '<button class="chip spc" data-x="1" aria-pressed="true" title="' + esc(t("sp_off")) + '"' + (LANG === "en" ? ' style="font-family:var(--en);font-size:12.5px"' : '') + '>✨ ' + esc(specName(sp)) + '<i>×</i></button><span class="chip-sep"></span>' : "";
+ h += MOODS.map(m => {
   const n = m.k ? songs.filter(s => (s.tags||[]).includes(m.k)).length : songs.length;
-  return '<button class="chip" data-m="' + (m.k||"") + '" aria-pressed="' + (mood === m.k) + '"' + (LANG === "en" ? ' style="font-family:var(--en);font-size:12.5px"' : '') + '>' + moodName(m) + '<small>' + n + '</small></button>';
+  return '<button class="chip" data-m="' + (m.k||"") + '" aria-pressed="' + (!sp && mood === m.k) + '"' + (LANG === "en" ? ' style="font-family:var(--en);font-size:12.5px"' : '') + '>' + moodName(m) + '<small>' + n + '</small></button>';
  }).join("");
  h += '<span class="chip-sep"></span>' + decs.map(d => '<button class="chip" data-d="' + d + '" aria-pressed="' + (decade === d) + '" style="font-family:var(--en);font-size:12px">' + decLbl(d) + '</button>').join("");
  $("#chips").innerHTML = h;
 }
 $("#chips").addEventListener("click", e => {
  const b = e.target.closest(".chip"); if (!b) return;
+ if (b.dataset.x){ exitSpecial(); return; }
+ if (spec){ spec = null; mood = null; decade = null; }
  if (b.dataset.m !== undefined){ const m = b.dataset.m || null; mood = (mood === m && m) ? null : m; }
  if (b.dataset.d){ const d = +b.dataset.d; decade = decade === d ? null : d; }
  renderChips(); build(false);
@@ -1303,7 +1391,7 @@ function showSong(s, prevNo){
   navigator.mediaSession.metadata = R.on ? new MediaMetadata({ title:t("ry_title"), artist:t("brand"), artwork:[{src:"logo-512.webp", sizes:"512x512", type:"image/webp"}] }) : new MediaMetadata({ title:kn, artist:s.singers || "Dostaa Radio", album:s.film || "Dostaa Radio",
    artwork:[{src:"https://i.ytimg.com/vi/" + s.id + "/hqdefault.jpg", sizes:"480x360", type:"image/jpeg"}]});
  }
- try { history.replaceState(null, "", "?n=" + s.no); } catch(e){}
+ try { history.replaceState(null, "", "?n=" + s.no + (spec ? "&sp=" + spec : "")); } catch(e){}
 }
 function showSongMeta(s){
  const showRoman = LANG === "kn" && s.kn;
@@ -1609,6 +1697,66 @@ $("#hsBtn").onclick = () => { document.body.classList.add("hs-on"); $("#hsIn").f
 $("#hsBack").onclick = () => hsClose(true);
 document.addEventListener("pointerdown", e => { if (!e.target.closest("#hs")) hsClose(false); });
 
+/* ---------------- SPECIALS ---------------- */
+const specById = new Map();
+function specIndex(){ specById.clear(); if (!SPEC) return; SPEC.shelves.forEach(sh => sh.items.forEach(it => {
+ it.ids = (it.ids || []).filter(id => byId.has(id)); specById.set(it.id, it); })); }
+const specGet = id => { const it = specById.get(id); return it && it.ids.length ? it : null; };
+const specName = it => LANG === "kn" ? it.kn : it.en;
+const specSub = it => LANG === "kn" ? it.skn : it.sen;
+const specLive = it => { if (!it.live) return false; const d = istDay(); return d >= it.live[0] && d <= it.live[1]; };
+function daysTo(mmdd){ const n = ist(), y = n.getUTCFullYear(), today = Date.UTC(y, n.getUTCMonth(), n.getUTCDate());
+ let d = Math.round((Date.UTC(y, +mmdd.slice(0,2) - 1, +mmdd.slice(3,5)) - today) / 864e5);
+ if (d < -29) d = Math.round((Date.UTC(y + 1, +mmdd.slice(0,2) - 1, +mmdd.slice(3,5)) - today) / 864e5);
+ return d; }
+const PLAYI = '<svg viewBox="0 0 24 24"><path d="M7 4v16l13-8z"/></svg>';
+function specCard(it){
+ const soon = !!it.coming, on = spec === it.id, g = Array.from(it.kn || "")[0] || "";
+ const foot = soon ? (it.coming === "soon" ? t("sp_soon0") : t("sp_soon", {m: (t("mon") || {})[it.coming] || it.coming})) : t("sp_n", {n: it.ids.length});
+ const pre = it.hero && it.date ? daysTo(it.date) : -1;
+ const badge = on ? '<span class="bdg">' + esc(t("sp_playing")) + '</span>' :
+  (pre > 0 ? '<span class="bdg">' + esc(pre === 1 ? t("sp_day1") : t("sp_days", {n: pre})) + '</span>' :
+  (specLive(it) ? '<span class="bdg"><i></i>' + esc(t("sp_live")) + '</span>' : ""));
+ return '<button type="button" class="spc-card th-' + (it.theme || "red") + (on ? " on" : "") + (soon ? " soon" : "") + '" data-sp="' + it.id + '" data-g="' + esc(g) + '"' + (soon ? ' aria-disabled="true"' : '') + '>' +
+  badge + '<span class="sb">' + esc(specSub(it)) + '</span><span class="tt">' + esc(specName(it)) + '</span>' +
+  '<span class="ft2"><span>' + esc(foot) + '</span>' + (soon ? "" : '<span class="pb">' + PLAYI + '</span>') + '</span></button>';
+}
+function specHero(){
+ let it = null; SPEC.shelves.forEach(sh => sh.items.forEach(x => { if (x.hero && specGet(x.id) && specLive(x)) it = x; }));
+ if (!it) return "";
+ const d = it.date ? daysTo(it.date) : null;
+ const cd = d === null ? "" : d > 1 ? t("sp_days", {n: d}) : d === 1 ? t("sp_day1") : d === 0 ? t("sp_today") : t("sp_kmonth");
+ return '<button type="button" class="sp-hero" data-sp="' + it.id + '"><span class="eb">' + esc(t("sp_eb")) + '</span><span class="ht">' + esc(specName(it)) + '</span>' +
+  '<span class="hs2">' + esc(specSub(it)) + ' · ' + esc(t("sp_n", {n: it.ids.length})) + '</span>' +
+  '<span class="hc">' + (cd ? '<span class="cd">' + esc(cd) + '</span>' : "") + '<span class="hp">' + PLAYI + esc(spec === it.id ? t("sp_playing") : t("sp_play")) + '</span></span></button>';
+}
+function renderSpecials(){
+ if (!SPEC){ $("#specBody").innerHTML = '<div class="empty">' + esc(t("ld_stat")[0]) + '</div>'; return; }
+ let h = specHero();
+ SPEC.shelves.forEach(sh => {
+  const items = sh.items.filter(it => it.coming || specGet(it.id)); if (!items.length) return;
+  h += '<section class="sp-sh"><h3>' + esc(LANG === "kn" ? sh.kn : sh.en) + '<small>' + esc(LANG === "kn" ? sh.en : sh.kn) + '</small></h3><div class="sp-row">' + items.map(specCard).join("") + '</div></section>';
+ });
+ $("#specBody").innerHTML = h + '<p class="sp-note">' + esc(t("sp_note")) + '</p>';
+}
+function playSpecial(id, quiet){
+ const it = specGet(id); if (!it) return;
+ spec = id; mood = null; decade = null;
+ build(false); renderChips(); updOnair(); closeSheets(); go(0);
+ const c = $("#chips"); if (c) c.scrollLeft = 0;
+ if (!quiet) toast("✨", t("sp_on", {n: specName(it)}), t("sp_onSub", {n: q.length}));
+}
+function exitSpecial(){
+ if (!spec) return; spec = null;
+ build(true); renderChips(); updOnair();
+ toast("📻", t("sp_off"), t("sp_offSub", {n: songs.length}));
+}
+$("#specBtn").onclick = () => { renderSpecials(); sheet("#specSheet"); };
+$("#specBody").addEventListener("click", e => {
+ const b = e.target.closest("[data-sp]"); if (!b || b.classList.contains("soon")) return;
+ playSpecial(b.dataset.sp);
+});
+
 /* profile */
 function renderMe(){
  const L = lvlOf(P.xp), a = LEVELS[L], b = LEVELS[L+1], pct = b ? (P.xp - a.x)/(b.x - a.x)*100 : 100;
@@ -1705,8 +1853,9 @@ $("#reqBtn").onclick = () => { sheet("#reqSheet"); if (fine) setTimeout(() => $(
 
 /* ---------------- share ---------------- */
 $("#shareBtn").onclick = async () => {
- const s = cur; const url = location.origin + location.pathname + (s ? "?n=" + s.no : "");
- const text = s ? t("share", {n: s.no, t: s.kn || s.title, f: s.film ? " (" + s.film + ")" : ""}) : t("brand") + " · " + t("hero_en");
+ const s = cur, sp = spec && specGet(spec);
+ const url = location.origin + location.pathname + (sp ? "?sp=" + spec + (s ? "&n=" + s.no : "") : (s ? "?n=" + s.no : ""));
+ const text = sp ? t("sp_share", {n: specName(sp)}) : s ? t("share", {n: s.no, t: s.kn || s.title, f: s.film ? " (" + s.film + ")" : ""}) : t("brand") + " · " + t("hero_en");
  if (navigator.share){ try { await navigator.share({title:"Dostaa Radio", text, url}); return; } catch(e){ if (e.name === "AbortError") return; } }
  try { await navigator.clipboard.writeText(text + " " + url); toast("🔗", t("copied"), t("copiedSub")); } catch(e){ prompt(t("copyQ"), url); }
 };
@@ -1759,6 +1908,7 @@ addEventListener("keydown", e => {
  else if (e.key === "ArrowLeft") $("#prev").click();
  else if (e.key.toLowerCase() === "q") $("#quizBtn").click();
  else if (e.key.toLowerCase() === "l") $("#listBtn").click();
+ else if (e.key.toLowerCase() === "s") $("#specBtn").click();
  else if (e.key === "/"){ e.preventDefault(); if (innerWidth <= 640) $("#hsBtn").click(); else $("#hsIn").focus(); }
  else if (R.on && R.q && !R.q.done && /^[1-4a-dA-D]$/.test(e.key)){ const k = "1234".includes(e.key) ? +e.key - 1 : "abcd".indexOf(e.key.toLowerCase()); const b = $$("#ryOpts .ro")[k]; if (b) ryAnswer(b.dataset.o, b); }
 });
@@ -1782,7 +1932,7 @@ const ready = { songs:false, yt:false, fonts:false, ytFail:false };
  document.fonts && document.fonts.ready.then(() => { ready.fonts = true; ldProgress(); });
  setTimeout(() => { ready.fonts = true; ready.yt = true; ldProgress(); }, 7000);   // never hang on a slow network
 })();
-let deepNo = null; try { deepNo = parseInt(new URLSearchParams(location.search).get("n"), 10) || null; } catch(e){}
+let deepNo = null, deepSp = null; try { const u = new URLSearchParams(location.search); deepNo = parseInt(u.get("n"), 10) || null; deepSp = (u.get("sp") || "").replace(/[^a-z0-9]/g, "") || null; } catch(e){}
 function ldProgress(){
  const p = (ready.songs ? .45 : .1) + (ready.yt ? .4 : 0) + (ready.fonts ? .15 : 0);
  $("#ldRing").style.strokeDashoffset = (301.6*(1 - Math.min(1,p))).toFixed(1);
@@ -1792,7 +1942,8 @@ function ldProgress(){
 }
 $("#tuneBtn").onclick = () => {
  const L = $("#loader"); L.classList.add("out"); setTimeout(() => L.classList.add("gone"), 950);
- if (deepNo && byNo.get(deepNo)) jumpTo(byNo.get(deepNo)); else go(qi);
+ if (deepSp && specGet(deepSp)){ playSpecial(deepSp, true); if (deepNo && q.some(x => x.no === deepNo)) jumpTo(byNo.get(deepNo)); }
+ else if (deepNo && byNo.get(deepNo)) jumpTo(byNo.get(deepNo)); else go(qi);
  if (ready.ytFail) toast("", t("ytFail"), t("ytFailSub"));
 };
 
@@ -1804,9 +1955,10 @@ fetch("songs.json", {cache:"no-store"}).then(r => r.json()).then(d => {
  songs = (Array.isArray(d) ? d : []).filter(s => s && s.id).sort((a,b) => a.no - b.no);
  songs.forEach(s => { byNo.set(s.no, s); byId.set(s.id, s); });
  renderChips(); build(false); updOnair(); hsBuild(); $("#lCount").textContent = t("l_cnt", {n: songs.length});
- fetch("specials.json", {cache:"no-store"}).then(r => r.json()).then(d => { SPEC = d; hsBuild(); }).catch(() => {});
  const first = q[0]; if (first){ const im = $("#lblImg"); im.style.backgroundImage = "url('https://i.ytimg.com/vi/" + first.id + "/hqdefault.jpg')"; }
- ready.songs = true; ldProgress();
+ const done = () => { ready.songs = true; ldProgress(); };
+ const tmo = setTimeout(done, 2500);   // never hold the loader hostage to specials.json
+ fetch("specials.json", {cache:"no-store"}).then(r => r.json()).then(d => { SPEC = d; specIndex(); hsBuild(); }).catch(() => {}).finally(() => { clearTimeout(tmo); done(); });
 }).catch(() => { $("#ldStatus").textContent = t("ld_fail"); });
 </script>
 </body>

@@ -59,7 +59,7 @@ shelves = [
  {"id": "habba", "kn": "ಹಬ್ಬದ ಹವಾ", "en": "Habba Hava", "items": [
    {"id": "rajyotsava", "al": "rajyotsava kannada rajyothsava ರಾಜ್ಯೋತ್ಸವ ಕನ್ನಡ", "kn": "ರಾಜ್ಯೋತ್ಸವ ಸ್ಪೆಷಲ್", "en": "Rajyotsava Special",
     "skn": "ಎದೆ ತಟ್ಟಿ ಹೇಳು, ನಾನು ಕನ್ನಡಿಗ", "sen": "Kannada pride, full volume",
-    "theme": "flag", "date": "11-01", "live": ["2026-10-15", "2026-11-30"], "ids": RAJYOTSAVA, "hero": True},
+    "theme": "flag", "date": "11-01", "live": ["2026-10-01", "2026-11-30"], "ids": RAJYOTSAVA, "hero": True},
    {"id": "dasara", "al": "dasara dussehra navaratri mysuru ದಸರಾ ನವರಾತ್ರಿ", "kn": "ದಸರಾ ಸ್ಪೆಷಲ್", "en": "Dasara Special",
     "skn": "ನಾಡ ಹಬ್ಬದ ಹಾಡುಗಳು", "sen": "Naada Habba songs",
     "theme": "gold", "live": ["2026-10-01", "2026-10-22"], "ids": DASARA},
