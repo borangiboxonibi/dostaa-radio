@@ -148,6 +148,7 @@ body[data-lang=en] .brand-kn{font-family:var(--en);font-weight:800;font-size:19p
 .onair i{width:6px;height:6px;border-radius:50%;background:var(--w40)}
 body.playing .onair i{background:var(--ember);box-shadow:0 0 10px var(--ember);animation:blip 1.6s ease-in-out infinite}
 @keyframes blip{50%{opacity:.25}}
+.rail-l{display:flex;align-items:center;flex:0 0 auto}
 .rail-r{display:flex;align-items:center;gap:8px;flex:0 0 auto}
 .xp{display:flex;align-items:center;gap:8px;padding:4px 12px 4px 4px;border-radius:999px;background:rgba(0,0,0,.35);
  border:1px solid var(--w10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:border-color .2s,transform .2s}
@@ -380,14 +381,14 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
 @media (max-width:520px){
  .brand-mark{width:46px;height:46px}
  .ft-main{display:none}.ft{font-size:9.5px}
- .bk-full{display:none}.bk-short{display:inline}.oa-x{display:none}
+ .oa-x{display:none}
  .brand-kn,body[data-lang=en] .brand-kn{font-size:19px}
  .xp-txt{display:none}.xp{padding:3px}.rail-r{gap:6px}
- .lang-o{padding:0 9px}.lang .full{display:none}.lang .sk{display:inline}
+ .lang-o{padding:0 11px}
 }
 @media (max-width:380px){
  .brand-kn,body[data-lang=en] .brand-kn{font-size:17px}.brand-mark{width:42px;height:42px}.brand{gap:8px}.onair{font-size:8.5px;letter-spacing:.03em;gap:4px}.ibtn{width:34px;height:34px}.xp-ring{width:28px;height:28px}
- .lang{height:34px}.lang-o{height:28px;padding:0 8px}
+ .lang{height:34px}.lang-o{height:28px;padding:0 9px}
  .tool span{display:none}.tool{padding:9px 12px}
 }
 
@@ -644,15 +645,10 @@ body[data-lang=kn] .ry-stats s{font-family:var(--kn);font-size:12px}
 <!-- ======== APP ======== -->
 <div class="app">
  <header class="rail">
-  <div class="brand">
-   <div class="brand-mark" role="img" aria-label="Dostaa logo"></div>
-   <div class="brand-txt">
-    <div class="brand-kn"><span class="bk-full" data-t="brand">ದೋಸ್ತಾ ರೇಡಿಯೋ</span><span class="bk-short" data-t="brand_s">ರೇಡಿಯೋ</span></div>
-    <div class="onair"><i></i><span id="onairTxt">ON AIR</span></div>
-   </div>
+  <div class="rail-l">
+   <button class="lang" id="langBtn" type="button" role="switch" aria-checked="false" aria-label="Language: English / ಕನ್ನಡ"><span class="lang-thumb"></span><span class="lang-o" data-l="en">EN</span><span class="lang-o" data-l="kn"><span class="full">ಕನ್ನಡ</span><span class="sk">ಕ</span></span></button>
   </div>
   <div class="rail-r">
-   <button class="lang" id="langBtn" type="button" role="switch" aria-checked="false" aria-label="Language: English / ಕನ್ನಡ"><span class="lang-thumb"></span><span class="lang-o" data-l="en">EN</span><span class="lang-o" data-l="kn"><span class="full">ಕನ್ನಡ</span><span class="sk">ಕ</span></span></button>
    <button class="xp" id="xpBtn" type="button" aria-label="Your level and badges" data-ta="a_xp">
     <span class="xp-ring"><svg viewBox="0 0 30 30"><circle class="b" cx="15" cy="15" r="13"/><circle class="f" id="xpArc" cx="15" cy="15" r="13"/></svg><b id="xpLv">1</b></span>
     <span class="xp-txt"><b id="xpName">ಕೇಳುಗ</b><s id="xpPts">0 XP</s></span>
@@ -1176,7 +1172,8 @@ if (fine && !reduced){
 /* ---------------- queue + filters ---------------- */
 function updOnair(){
  const label = [mood ? moodName(MOODS.find(x => x.k === mood)) : "", decade ? decLbl(decade) : ""].filter(Boolean).join(" · ");
- $("#onairTxt").innerHTML = esc(t("onair")) + '<span class="oa-x"> · ' + esc(label ? (LANG === "en" ? label.toUpperCase() : label) : t("songsN", {n: songs.length})) + '</span>';
+ const oa = $("#onairTxt"); if (!oa) return;
+ oa.innerHTML = esc(t("onair")) + '<span class="oa-x"> · ' + esc(label ? (LANG === "en" ? label.toUpperCase() : label) : t("songsN", {n: songs.length})) + '</span>';
 }
 function pool(){
  return songs.filter(s => (!mood || (s.tags||[]).includes(mood)) && (!decade || (s.year && Math.floor(s.year/10)*10 === decade)));
