@@ -651,7 +651,7 @@ body[data-lang=kn] .ry-stats s{font-family:var(--kn);font-size:12px}
   <div class="rail-r">
    <button class="xp" id="xpBtn" type="button" aria-label="Your level and badges" data-ta="a_xp">
     <span class="xp-ring"><svg viewBox="0 0 30 30"><circle class="b" cx="15" cy="15" r="13"/><circle class="f" id="xpArc" cx="15" cy="15" r="13"/></svg><b id="xpLv">1</b></span>
-    <span class="xp-txt"><b id="xpName">ಕೇಳುಗ</b><s id="xpPts">0 XP</s></span>
+    <span class="xp-txt"><b id="xpName">ಹೊಸಬ</b><s id="xpPts">0 XP</s></span>
    </button>
    <button class="ibtn req" id="reqBtn" type="button" aria-label="Request a missing song" title="Missing a song? Paste the YouTube link" data-ta="a_req">
     <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
@@ -864,9 +864,9 @@ const I18N = {
   rq_ok:"✓ ದೋಸ್ತಾ ರೇಡಿಯೋದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಪ್ಲೇ ಆಗುತ್ತದೆ. ನಿಮ್ಮ ಹೆಸರು ಸೇರಿಸಿ ಕಳುಹಿಸಿ.",rq_maybe:"ಸರಿಯಾಗಿದೆ ಎನಿಸುತ್ತದೆ. ಪರಿಶೀಲನೆಯ ವೇಳೆ ಪ್ಲೇ ಆಗುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತೇವೆ.",
   rq_thx:"🙏 ಧನ್ಯವಾದಗಳು, {name}! ನಿಮ್ಮ ವಿನಂತಿ ತಲುಪಿದೆ. ಪರಿಶೀಲನೆಯ ನಂತರ ನಿಮ್ಮ ಹೆಸರಿನೊಂದಿಗೆ ಪ್ರಸಾರವಾಗುತ್ತದೆ.",anon:"ಅನಾಮಧೇಯ",chan:"ಚಾನೆಲ್ ತಿಳಿದಿಲ್ಲ",
   longpress:"ಬಾಕ್ಸ್ ಮೇಲೆ ಒತ್ತಿ ಹಿಡಿದು Paste ಒತ್ತಿ",
-  me_h:"ನಿಮ್ಮ ಸಂಗೀತ ಪಯಣ",me_sh:"ಹಂತ, ಬ್ಯಾಡ್ಜ್‌ಗಳು ಮತ್ತು ಅಂಕಿಅಂಶ",level:"ಹಂತ {n}",xpTo:"{name} ತಲುಪಲು {n} XP",maxL:"ಅತ್ಯುನ್ನತ ಹಂತ",
-  st_disc:"ಕೇಳಿದ ಹಾಡುಗಳು",st_streak:"ದಿನಗಳ ಸರಣಿ",st_time:"ಕೇಳಿದ ಸಮಯ",st_quiz:"ಕ್ವಿಜ್ ಗೆಲುವು · ನಿಖರತೆ",hU:"ಗಂ",mU:"ನಿ",
-  badges:"ಬ್ಯಾಡ್ಜ್‌ಗಳು",reset:"ಈ ಸಾಧನದಲ್ಲಿನ ನನ್ನ ಪ್ರಗತಿ ಅಳಿಸಿ",resetQ:"ಈ ಸಾಧನದಲ್ಲಿನ XP, ಬ್ಯಾಡ್ಜ್‌ಗಳು ಮತ್ತು ಇತಿಹಾಸ ಅಳಿಸಬೇಕೆ?",
+  me_h:"ನಿನ್ ಹಾಡಿನ್ ಹವಾ",me_sh:"ಲೆವೆಲ್, ಬ್ಯಾಡ್ಜು, ಸ್ಕೋರು",level:"ಲೆವೆಲ್ {n}",xpTo:"{name} ಆಗೋಕೆ ಇನ್ನೂ {n} XP",maxL:"ಟಾಪ್ ಲೆವೆಲ್, ಮಗಾ!",
+  st_disc:"ಕೇಳಿರೋ ಹಾಡು",st_streak:"ಬಿಡದೇ ಬಂದ ದಿನ",st_time:"ಕಿವಿ ಕೊಟ್ಟ ಟೈಮು",st_quiz:"ಕ್ವಿಜ್ ಗೆದ್ದಿದ್ದು · ಗುರಿ",hU:"ಗಂ",mU:"ನಿ",
+  badges:"ಬ್ಯಾಡ್ಜು",reset:"ಎಲ್ಲಾ ಅಳಿಸಿ, ಹೊಸದಾಗಿ ಶುರು ಮಾಡು",resetQ:"ಈ ಸಾಧನದಲ್ಲಿನ XP, ಬ್ಯಾಡ್ಜ್‌ಗಳು ಮತ್ತು ಇತಿಹಾಸ ಅಳಿಸಬೇಕೆ?",
   lvlUp:"ಹಂತ ಏರಿಕೆ! {name}",lvlSub:"ನೀವು ಈಗ ಹಂತ {n}",bdgUnl:"ಬ್ಯಾಡ್ಜ್ ಗಳಿಸಿದಿರಿ: {name}",
   streak:"ಸತತ {n} ದಿನ!",streakSub:"ದೈನಂದಿನ ಬೋನಸ್ +20 XP",noMix:"ಈ ಆಯ್ಕೆಯಲ್ಲಿ ಹಾಡುಗಳಿಲ್ಲ",noMixSub:"ಬೇರೆ ಮೂಡ್ ಅಥವಾ ದಶಕ ಆರಿಸಿ",
   skipped:"#{n} ಬಿಡಲಾಗಿದೆ",skippedSub:"ಈ ವೀಡಿಯೊ ಇಲ್ಲಿ ಈಗ ಪ್ಲೇ ಆಗುತ್ತಿಲ್ಲ",cantPlay:"ಹಾಡು ಪ್ಲೇ ಆಗಲಿಲ್ಲ. ಇಂಟರ್ನೆಟ್ ಪರಿಶೀಲಿಸಿ",
@@ -883,11 +883,11 @@ const I18N = {
   rk4:"ಸಂಗೀತ ಸಾಮ್ರಾಟ 👑",rk3:"ಸೂಪರ್ ಅಭಿಮಾನಿ 🔥",rk2:"ಬೆಳೆಯುತ್ತಿರುವ ರಸಿಕ 🎧",rk1:"ಇನ್ನಷ್ಟು ಕೇಳಿ 🎵",
   ld_sub:"ಕನ್ನಡದ ದನಿಯಾಗಿ · ಕನ್ನಡಿಗರಿಂದ · ಕನ್ನಡಿಗರಿಗಾಗಿ"}
 };
-const BADGE_KN = {first:["ಮೊದಲ ಸುತ್ತು","ಮೊದಲ ಹಾಡು ಕೇಳಿ"],explorer:["ಅನ್ವೇಷಕ","50 ಹಾಡುಗಳನ್ನು ಕೇಳಿ"],centurion:["ಶತಕ","100 ಹಾಡುಗಳನ್ನು ಕೇಳಿ"],
- decades:["ದಶಕ ಪಯಣಿಗ","5 ದಶಕಗಳ ಹಾಡುಗಳು"],classic:["ಕ್ಲಾಸಿಕ್ ಮನಸ್ಸು","10 ಕ್ಲಾಸಿಕ್ ಹಾಡುಗಳು"],mass:["ಮಾಸ್ ಅಭಿಮಾನಿ","25 ಮಾಸ್ ಹಾಡುಗಳು"],
- melody:["ಮೆಲೊಡಿ ಹೃದಯ","25 ಮೆಲೊಡಿ ಹಾಡುಗಳು"],folk:["ಜಾನಪದ ಬೇರು","10 ಜಾನಪದ ಹಾಡುಗಳು"],owl:["ರಾತ್ರಿ ಗೂಬೆ","ಮಧ್ಯರಾತ್ರಿಯ ನಂತರ ಕೇಳಿ"],
- quiz1:["ಸಿನಿಮಾ ಪ್ರಿಯ","ಮೊದಲ ಕ್ವಿಜ್ ಗೆಲುವು"],quiz10:["ಕ್ವಿಜ್ ಮಾಸ್ಟರ್","10 ಕ್ವಿಜ್ ಗೆಲುವು"],combo:["ಬೆಂಕಿ","ಸತತ 5 ಕ್ವಿಜ್ ಗೆಲುವು"],
- streak3:["3 ದಿನದ ಸರಣಿ","ಸತತ 3 ದಿನ ಕೇಳಿ"],streak7:["ವಾರದ ರಾಜ","ಸತತ 7 ದಿನ ಕೇಳಿ"],curator:["ಸಂಗ್ರಾಹಕ","ಒಂದು ಹಾಡನ್ನು ಸೂಚಿಸಿ"]};
+const BADGE_KN = {first:["ಬೋಣಿ","ಮೊದಲ ಹಾಡು ಹಾಕು"],explorer:["ಏರಿಯಾ ರೌಂಡ್ಸ್","50 ಹಾಡು ಕೇಳು"],centurion:["ಸೆಂಚುರಿ ಸ್ಟಾರ್","100 ಹಾಡು ಪೂರ್ತಿ"],
+ decades:["ಟೈಮ್ ಮಷೀನ್","5 ದಶಕದ ಹಾಡು"],classic:["ಹಳೇ ಹುಲಿ","10 ಕ್ಲಾಸಿಕ್"],mass:["ಫುಲ್ ಮಾಸು","25 ಮಾಸ್ ಹಾಡು"],
+ melody:["ಮೆಲೊಡಿ ಮನ್ಸು","25 ಮೆಲೊಡಿ"],folk:["ಹಳ್ಳಿ ಸೊಗಡು","10 ಜಾನಪದ"],owl:["ನೈಟ್ ಶಿಫ್ಟ್","12ರ ಮೇಲೆ ಕೇಳು"],
+ quiz1:["ಸಿನಿಮಾ ಹುಚ್ಚ","ಮೊದಲ ಕ್ವಿಜ್ ಗೆದ್ದೆ"],quiz10:["ಸಕತ್ ಸ್ಮಾರ್ಟು","10 ಕ್ವಿಜ್ ಗೆಲುವು"],combo:["ಬೆಂಕಿ ಮಗಾ","ಒಂದೇ ಉಸಿರಲ್ಲಿ 5 ಗೆಲುವು"],
+ streak3:["ಹ್ಯಾಟ್ರಿಕ್","3 ದಿನ ಬಿಡದೇ"],streak7:["ವಾರದ ಬಾಸು","7 ದಿನ ಬಿಡದೇ"],curator:["ಡಿಜೆ ಸಾಹೇಬ್ರು","ಒಂದು ಹಾಡು ಸಜೆಸ್ಟ್ ಮಾಡು"]};
 let LANG = "en";
 try { LANG = localStorage.getItem("dostaa_lang") || ((navigator.language || "").toLowerCase().startsWith("kn") ? "kn" : "en"); } catch(e){}
 if (!I18N[LANG]) LANG = "en";
@@ -943,8 +943,8 @@ let quizOn = false, quizState = null;
 
 /* ---------------- progress / gamification (per-device) ---------------- */
 const LEVELS = [
- {x:0,kn:"ಕೇಳುಗ",en:"Listener"},{x:120,kn:"ಅಭಿಮಾನಿ",en:"Fan"},{x:350,kn:"ರಸಿಕ",en:"Connoisseur"},
- {x:800,kn:"ಗಾನಪ್ರಿಯ",en:"Music Lover"},{x:1600,kn:"ಸ್ವರಸಾಧಕ",en:"Swara Sadhaka"},{x:3200,kn:"ಸಂಗೀತ ಸಾಮ್ರಾಟ",en:"Sangeetha Samrat"}];
+ {x:0,kn:"ಹೊಸಬ",en:"Hosaba"},{x:120,kn:"ಗುರು",en:"Guru"},{x:350,kn:"ಮಗಾ",en:"Maga"},
+ {x:800,kn:"ಬಾಸು",en:"Baasu"},{x:1600,kn:"ಏರಿಯಾ ಹೀರೋ",en:"Area Hero"},{x:3200,kn:"ರೇಡಿಯೋ ಡಾನ್",en:"Radio Don"}];
 const BADGES = [
  {id:"first",e:"🎧",n:"First Spin",d:"Play your first song",t:p=>p.heardN>=1},
  {id:"explorer",e:"🧭",n:"Explorer",d:"Discover 50 songs",t:p=>p.heardN>=50},
