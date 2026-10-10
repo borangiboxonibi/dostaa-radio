@@ -148,7 +148,54 @@ body[data-lang=en] .brand-kn{font-family:var(--en);font-weight:800;font-size:19p
 .onair i{width:6px;height:6px;border-radius:50%;background:var(--w40)}
 body.playing .onair i{background:var(--ember);box-shadow:0 0 10px var(--ember);animation:blip 1.6s ease-in-out infinite}
 @keyframes blip{50%{opacity:.25}}
+.rail{position:relative;z-index:30}
 .rail-l{display:flex;align-items:center;flex:0 0 auto}
+/* ---------- header search ---------- */
+.hs{position:relative;flex:1 1 auto;max-width:480px;min-width:0;height:40px;display:flex;align-items:center;gap:8px;padding:0 6px 0 14px;border-radius:999px;
+ background:rgba(0,0,0,.38);border:1px solid var(--w10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:border-color .2s,box-shadow .2s}
+.hs:focus-within{border-color:rgba(245,197,24,.7);box-shadow:0 0 0 3px rgba(245,197,24,.12)}
+.hs>svg{width:17px;height:17px;flex:0 0 auto;fill:none;stroke:var(--w60);stroke-width:2.2;stroke-linecap:round}
+.hs input{flex:1;min-width:0;height:100%;background:none;border:0;outline:0;color:var(--w);font-family:var(--en);font-size:14px}
+body[data-lang=kn] .hs input{font-family:var(--nk)}
+.hs input::placeholder{color:var(--w40)}
+.hs input::-webkit-search-cancel-button{display:none}
+.hs-x{width:28px;height:28px;border-radius:50%;display:none;place-items:center;color:var(--w60);font-size:17px;flex:0 0 auto}
+.hs-x:hover{background:var(--w10);color:var(--w)}
+.hs.has .hs-x{display:grid}
+.hs-key{font-family:var(--en);font-size:10.5px;font-weight:700;color:var(--w40);border:1px solid var(--w20);border-radius:6px;padding:1px 6px;flex:0 0 auto}
+.hs.has .hs-key,.hs:focus-within .hs-key{display:none}
+.hs-back,.hs-btn{display:none}
+.hs-drop{position:absolute;top:calc(100% + 8px);left:0;right:0;max-height:min(62dvh,520px);overflow-y:auto;-webkit-overflow-scrolling:touch;
+ background:linear-gradient(180deg,#24100B,#140705);border:1px solid rgba(245,197,24,.18);border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,.6);
+ padding:6px;opacity:0;transform:translateY(-6px);pointer-events:none;transition:opacity .18s,transform .18s}
+.hs.open .hs-drop{opacity:1;transform:none;pointer-events:auto}
+.hs-row{display:flex;align-items:center;gap:11px;width:100%;padding:7px 8px;border-radius:12px;text-align:left;cursor:pointer}
+.hs-row:hover,.hs-row.sel{background:rgba(245,197,24,.1)}
+.hs-row img{width:46px;height:34px;border-radius:7px;object-fit:cover;background:#2a1d10;flex:0 0 auto}
+.hs-row .tt{flex:1;min-width:0}
+.hs-row b{display:block;font-weight:600;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hs-row b mark{background:none;color:var(--gold)}
+.hs-row s{display:block;text-decoration:none;font-family:var(--en);font-size:11px;color:var(--w40);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hs-row .no{font-family:var(--en);font-weight:800;font-size:11px;color:var(--gold);flex:0 0 auto}
+.hs-hint{padding:12px 12px 10px;font-family:var(--en);font-size:12.5px;color:var(--w60);line-height:1.6}
+body[data-lang=kn] .hs-hint{font-family:var(--nk)}
+.hs-hint button{display:inline-block;margin:6px 6px 0 0;padding:5px 11px;border-radius:999px;background:var(--w06);border:1px solid var(--w10);color:var(--w80);font-size:12px}
+.hs-hint button:hover{border-color:rgba(245,197,24,.5);color:var(--w)}
+.hs-more{display:block;width:100%;padding:10px;margin-top:2px;border-top:1px solid var(--w06);font-family:var(--en);font-size:12px;font-weight:600;color:var(--gold);text-align:center}
+@media (max-width:640px){
+ .hs{flex:0 0 auto;width:38px;height:38px;padding:0;justify-content:center;background:rgba(0,0,0,.38)}
+ .hs>svg,.hs input,.hs-key,.hs-x{display:none}
+ .hs-btn{display:grid;place-items:center;width:100%;height:100%;border-radius:50%}
+ .hs-btn svg{width:18px;height:18px;fill:none;stroke:var(--w80);stroke-width:2.2;stroke-linecap:round}
+ body.hs-on .rail-l,body.hs-on .rail-r{display:none}
+ body.hs-on .hs{flex:1 1 auto;width:auto;max-width:none;padding:0 6px 0 4px;justify-content:flex-start}
+ body.hs-on .hs input{display:block}
+ body.hs-on .hs.has .hs-x{display:grid}
+ body.hs-on .hs-btn{display:none}
+ body.hs-on .hs-back{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;flex:0 0 auto;color:var(--w80)}
+ .hs-back svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+ .hs-drop{position:fixed;top:64px;left:10px;right:10px}
+}
 .rail-r{display:flex;align-items:center;gap:8px;flex:0 0 auto}
 .xp{display:flex;align-items:center;gap:8px;padding:4px 12px 4px 4px;border-radius:999px;background:rgba(0,0,0,.35);
  border:1px solid var(--w10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:border-color .2s,transform .2s}
@@ -648,6 +695,15 @@ body[data-lang=kn] .ry-stats s{font-family:var(--kn);font-size:12px}
   <div class="rail-l">
    <button class="lang" id="langBtn" type="button" role="switch" aria-checked="false" aria-label="Language: English / ಕನ್ನಡ"><span class="lang-thumb"></span><span class="lang-o" data-l="en">EN</span><span class="lang-o" data-l="kn"><span class="full">ಕನ್ನಡ</span><span class="sk">ಕ</span></span></button>
   </div>
+  <div class="hs" id="hs" role="search">
+   <button class="hs-back" id="hsBack" type="button" aria-label="Close search"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+   <button class="hs-btn" id="hsBtn" type="button" aria-label="Search songs" data-ta="a_hs"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></button>
+   <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
+   <input id="hsIn" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search" placeholder="Search songs, films, singers…" data-tp="hs_ph" aria-label="Search songs" aria-controls="hsDrop" aria-autocomplete="list"/>
+   <span class="hs-key" aria-hidden="true">/</span>
+   <button class="hs-x" id="hsX" type="button" aria-label="Clear">×</button>
+   <div class="hs-drop" id="hsDrop" role="listbox"></div>
+  </div>
   <div class="rail-r">
    <button class="xp" id="xpBtn" type="button" aria-label="Your level and badges" data-ta="a_xp">
     <span class="xp-ring"><svg viewBox="0 0 30 30"><circle class="b" cx="15" cy="15" r="13"/><circle class="f" id="xpArc" cx="15" cy="15" r="13"/></svg><b id="xpLv">1</b></span>
@@ -807,6 +863,7 @@ const I18N = {
   ig:"Music may not play inside Instagram. Open in your browser for the full experience.",ig_open:"Open",
   hero_en:"Kannada songs, all day",hero_sub:"Tap the record to begin",hint:"TAP TO PLAY · SPIN TO SCRUB",
   qz_h:"🎬 GUESS THE FILM",qz_q:"Which film?",qz_row:"🔥 {n} in a row",new4u:"NEW FOR YOU",kannada:"Kannada",kSong:"Kannada song",
+  hs_ph:"Search songs, films, singers…",a_hs:"Search songs",hs_none:"No match for “{q}”",hs_req:"Request it",hs_try:"Try",hs_all:"See all {n} results",hs_tip:"Type a song, film, singer or #number.",
   t_quiz:"Quiz",t_watch:"Watch",t_vol:"Vol",t_share:"Share",ft:"Played via YouTube · rights belong to their owners",
   a_xp:"Your level and badges",a_req:"Missing a song? Paste the YouTube link",a_list:"All songs",a_quiz:"Guess the film (Q)",
   a_watch:"Watch video",a_vol:"Volume",a_share:"Share this song",a_play:"Play",a_pause:"Pause",
@@ -848,6 +905,7 @@ const I18N = {
   ig:"Instagram ಒಳಗೆ ಹಾಡು ಪ್ಲೇ ಆಗದಿರಬಹುದು. ಪೂರ್ಣ ಅನುಭವಕ್ಕೆ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ.",ig_open:"ಓಪನ್ ಮಾಡಿ",
   hero_en:"ದಿನವಿಡೀ ಕನ್ನಡ ಹಾಡುಗಳು",hero_sub:"ಶುರು ಮಾಡಲು ರೆಕಾರ್ಡ್ ಒತ್ತಿ",hint:"ಒತ್ತಿ ಪ್ಲೇ ಮಾಡಿ · ತಿರುಗಿಸಿ ಮುಂದೆ ಹೋಗಿ",
   qz_h:"🎬 ಸಿನಿಮಾ ಊಹಿಸಿ",qz_q:"ಯಾವ ಸಿನಿಮಾ?",qz_row:"🔥 ಸತತ {n} ಸರಿ",new4u:"ನಿಮಗೆ ಹೊಸದು",kannada:"ಕನ್ನಡ",kSong:"ಕನ್ನಡ ಹಾಡು",
+  hs_ph:"ಹಾಡು, ಸಿನಿಮಾ, ಗಾಯಕ… ಹುಡುಕು",a_hs:"ಹಾಡು ಹುಡುಕು",hs_none:"“{q}” ಸಿಗ್ಲಿಲ್ಲ ಗುರು",hs_req:"ರಿಕ್ವೆಸ್ಟ್ ಮಾಡು",hs_try:"ಟ್ರೈ ಮಾಡು",hs_all:"ಎಲ್ಲಾ {n} ರಿಸಲ್ಟ್ ನೋಡು",hs_tip:"ಹಾಡು, ಸಿನಿಮಾ, ಗಾಯಕ ಅಥವಾ #ನಂಬರ್ ಟೈಪ್ ಮಾಡು.",
   t_quiz:"ಕ್ವಿಜ್",t_watch:"ವೀಕ್ಷಿಸಿ",t_vol:"ಧ್ವನಿ",t_share:"ಹಂಚಿ",ft:"YouTube ಮೂಲಕ ಪ್ಲೇ · ಹಕ್ಕುಗಳು ಆಯಾ ಮಾಲೀಕರಿಗೆ",
   a_xp:"ನಿಮ್ಮ ಹಂತ ಮತ್ತು ಬ್ಯಾಡ್ಜ್‌ಗಳು",a_req:"ನಿಮ್ಮ ಹಾಡು ಇಲ್ಲವೇ? YouTube ಲಿಂಕ್ ಹಾಕಿ",a_list:"ಎಲ್ಲಾ ಹಾಡುಗಳು",a_quiz:"ಸಿನಿಮಾ ಊಹಿಸಿ (Q)",
   a_watch:"ವೀಡಿಯೊ ನೋಡಿ",a_vol:"ಧ್ವನಿ",a_share:"ಈ ಹಾಡು ಹಂಚಿಕೊಳ್ಳಿ",a_play:"ಪ್ಲೇ",a_pause:"ವಿರಾಮ",
@@ -920,6 +978,7 @@ function applyLang(){
  if ($("#rally").classList.contains("open") && !R.on && !R.q && !$("#ryBig")) ryStartScreen();
  if (openSheet === "#listSheet") renderList($("#lSearch").value);
  if (openSheet === "#meSheet") renderMe();
+ if ($("#hs").classList.contains("open")) hsRender();
  placeThumbs();
 }
 function setLang(l){
@@ -1483,6 +1542,73 @@ $("#lSearch").addEventListener("keydown", e => {
 $("#listBtn").onclick = () => { renderList($("#lSearch").value); sheet("#listSheet"); if (fine) setTimeout(() => $("#lSearch").focus(), 300); };
 $("#surprise").onclick = () => { const un = songs.filter(s => !P.heard[s.id]); const pk = (un.length ? un : songs)[Math.random()*(un.length || songs.length) | 0]; jumpTo(pk); closeSheets(); toast("🎲", t("surp", {n: pk.no}), t(un.length ? "surpNew" : "surpAll")); };
 
+/* header search (YouTube-style) */
+// word-aware, spelling-tolerant: "Huttidaare" finds "Huttidare", but "appu" no longer matches across words ("pushpA PUshpa")
+const hsNorm = x => { let v = " " + String(x || "").toLowerCase().replace(/[\u200c\u200d]/g, "").replace(/[^a-z0-9\u0c80-\u0cff]+/g, " ").trim() + " ";
+ for (const [a,b] of [["aa","a"],["ee","i"],["oo","u"],["th","t"],["dh","d"],["bh","b"],["sh","s"],["kh","k"],["gh","g"],["ph","f"],["w","v"],["z","j"],["y","i"]]) v = v.split(a).join(b);
+ return v.replace(/([^ ])\1+/g, "$1"); };
+let hsIdx = [], hsSel = -1, hsRes = [], SPEC = null;
+function hsBuild(){
+ const ppl = {};   // song id -> actor / composer / singer aliases, from specials.json membership
+ if (SPEC) SPEC.shelves.forEach(sh => sh.items.forEach(it => (it.ids || []).forEach(id => { ppl[id] = (ppl[id] || "") + " " + [it.al, it.en, it.kn].join(" "); })));
+ hsIdx = songs.map(s => ({ s, t: hsNorm(s.title) + hsNorm(s.kn), f: hsNorm(s.film) + hsNorm(s.knf), g: hsNorm(s.singers) + hsNorm(s.kns), p: hsNorm(ppl[s.id]) }));
+}
+function hsSearch(q){
+ const raw = q.trim(); if (!raw) return [];
+ const num = raw.replace(/^#/, ""); const out = [];
+ if (/^\d+$/.test(num) && byNo.get(+num)) out.push({ s: byNo.get(+num), sc: 100 });
+ const n = hsNorm(raw); if (!n.trim()) return out;
+ for (const e of hsIdx){
+  let sc = 0; const w = " " + n.trim(), long = n.trim().length >= 4;
+  if (e.t.includes(w)) sc = 60; else if (long && e.t.includes(n.trim())) sc = 42;
+  else if (e.f.includes(w)) sc = 32; else if (e.p.includes(w)) sc = 26; else if (e.g.includes(w)) sc = 22;
+  if (sc){ if (e.s.hot) sc += 3; if (!out.some(o => o.s.id === e.s.id)) out.push({ s: e.s, sc }); }
+ }
+ return out.sort((a,b) => b.sc - a.sc).map(o => o.s);
+}
+function hsMark(txt, q){ const v = String(txt || ""), i = v.toLowerCase().indexOf(q.trim().toLowerCase()); return i < 0 || !q.trim() ? esc(v) : esc(v.slice(0,i)) + "<mark>" + esc(v.slice(i, i + q.trim().length)) + "</mark>" + esc(v.slice(i + q.trim().length)); }
+function hsRender(){
+ const q = $("#hsIn").value; $("#hs").classList.toggle("has", !!q);
+ hsRes = hsSearch(q); hsSel = hsRes.length ? 0 : -1;
+ let h;
+ if (!q.trim()){
+  const ex = LANG === "kn" ? ["ಅಪ್ಪು","ಹಂಸಲೇಖ","ಮುಂಗಾರು ಮಳೆ","#104"] : ["Huttidare","Hamsalekha","Mungaru Male","#104"];
+  h = '<div class="hs-hint">' + esc(t("hs_tip")) + '<br/>' + ex.map(x => '<button type="button" data-q="' + esc(x) + '">' + esc(x) + '</button>').join("") + '</div>';
+ } else if (!hsRes.length){
+  h = '<div class="hs-hint">' + esc(t("hs_none", {q: q.trim()})) + '<br/><button type="button" data-req="1">➕ ' + esc(t("hs_req")) + '</button></div>';
+ } else {
+  h = hsRes.slice(0, 8).map((s, k) => '<div class="hs-row' + (k === 0 ? " sel" : "") + '" role="option" data-id="' + s.id + '">' +
+   '<img loading="lazy" alt="" src="https://i.ytimg.com/vi/' + s.id + '/default.jpg"/><span class="tt"><b' + (LANG === "kn" && s.kn ? ' style="font-family:var(--kn)"' : '') + '>' + hsMark(dispTitle(s), q) + '</b><s>' +
+   esc([dispFilm(s), s.year, LANG === "kn" && s.kns ? s.kns : s.singers].filter(Boolean).join(" · ")) + '</s></span><span class="no">#' + s.no + '</span></div>').join("");
+  if (hsRes.length > 8) h += '<button type="button" class="hs-more" data-all="1">' + esc(t("hs_all", {n: hsRes.length})) + '</button>';
+ }
+ $("#hsDrop").innerHTML = h;
+}
+function hsOpen(){ if (!hsIdx.length && songs.length) hsBuild(); $("#hs").classList.add("open"); hsRender(); }
+function hsClose(clear){ $("#hs").classList.remove("open"); document.body.classList.remove("hs-on"); if (clear){ $("#hsIn").value = ""; $("#hs").classList.remove("has"); } $("#hsIn").blur(); }
+function hsPick(s){ if (!s) return; jumpTo(s); hsClose(true); }
+function hsMove(d){ const rows = $$("#hsDrop .hs-row"); if (!rows.length) return; hsSel = (hsSel + d + rows.length) % rows.length; rows.forEach((r,k) => r.classList.toggle("sel", k === hsSel)); rows[hsSel].scrollIntoView({block:"nearest"}); }
+$("#hsIn").addEventListener("focus", hsOpen);
+$("#hsIn").addEventListener("input", () => { $("#hs").classList.add("open"); hsRender(); });
+$("#hsIn").addEventListener("keydown", e => {
+ if (e.key === "ArrowDown"){ e.preventDefault(); hsMove(1); }
+ else if (e.key === "ArrowUp"){ e.preventDefault(); hsMove(-1); }
+ else if (e.key === "Enter"){ e.preventDefault(); const r = $$("#hsDrop .hs-row")[hsSel]; if (r) hsPick(byId.get(r.dataset.id)); }
+ else if (e.key === "Escape"){ e.stopPropagation(); hsClose(false); }
+});
+$("#hsDrop").addEventListener("pointerdown", e => e.preventDefault());   // keep focus in the input while tapping results
+$("#hsDrop").addEventListener("click", e => {
+ const r = e.target.closest(".hs-row"); if (r){ hsPick(byId.get(r.dataset.id)); return; }
+ const b = e.target.closest("button"); if (!b) return;
+ if (b.dataset.q){ $("#hsIn").value = b.dataset.q; hsRender(); $("#hsIn").focus(); }
+ else if (b.dataset.req){ hsClose(true); $("#reqBtn").click(); }
+ else if (b.dataset.all){ const q = $("#hsIn").value; hsClose(true); $("#lSearch").value = q; renderList(q); sheet("#listSheet"); }
+});
+$("#hsX").onclick = () => { $("#hsIn").value = ""; hsRender(); $("#hsIn").focus(); };
+$("#hsBtn").onclick = () => { document.body.classList.add("hs-on"); $("#hsIn").focus(); hsOpen(); };
+$("#hsBack").onclick = () => hsClose(true);
+document.addEventListener("pointerdown", e => { if (!e.target.closest("#hs")) hsClose(false); });
+
 /* profile */
 function renderMe(){
  const L = lvlOf(P.xp), a = LEVELS[L], b = LEVELS[L+1], pct = b ? (P.xp - a.x)/(b.x - a.x)*100 : 100;
@@ -1633,6 +1759,7 @@ addEventListener("keydown", e => {
  else if (e.key === "ArrowLeft") $("#prev").click();
  else if (e.key.toLowerCase() === "q") $("#quizBtn").click();
  else if (e.key.toLowerCase() === "l") $("#listBtn").click();
+ else if (e.key === "/"){ e.preventDefault(); if (innerWidth <= 640) $("#hsBtn").click(); else $("#hsIn").focus(); }
  else if (R.on && R.q && !R.q.done && /^[1-4a-dA-D]$/.test(e.key)){ const k = "1234".includes(e.key) ? +e.key - 1 : "abcd".indexOf(e.key.toLowerCase()); const b = $$("#ryOpts .ro")[k]; if (b) ryAnswer(b.dataset.o, b); }
 });
 
@@ -1676,7 +1803,8 @@ requestAnimationFrame(() => { sizeViz(); requestAnimationFrame(frame); });
 fetch("songs.json", {cache:"no-store"}).then(r => r.json()).then(d => {
  songs = (Array.isArray(d) ? d : []).filter(s => s && s.id).sort((a,b) => a.no - b.no);
  songs.forEach(s => { byNo.set(s.no, s); byId.set(s.id, s); });
- renderChips(); build(false); updOnair(); $("#lCount").textContent = t("l_cnt", {n: songs.length});
+ renderChips(); build(false); updOnair(); hsBuild(); $("#lCount").textContent = t("l_cnt", {n: songs.length});
+ fetch("specials.json", {cache:"no-store"}).then(r => r.json()).then(d => { SPEC = d; hsBuild(); }).catch(() => {});
  const first = q[0]; if (first){ const im = $("#lblImg"); im.style.backgroundImage = "url('https://i.ytimg.com/vi/" + first.id + "/hqdefault.jpg')"; }
  ready.songs = true; ldProgress();
 }).catch(() => { $("#ldStatus").textContent = t("ld_fail"); });
