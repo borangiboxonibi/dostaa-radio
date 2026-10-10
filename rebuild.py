@@ -21,6 +21,7 @@ LOCK = "numbers.json"
 VERIFIED = "verified.json"   # written by audit.py
 ver = json.load(open(VERIFIED, encoding="utf-8")) if os.path.exists(VERIFIED) else {}
 unaudited = []
+KNN = json.load(open("kn_names.json", encoding="utf-8")) if os.path.exists("kn_names.json") else {"films": {}, "singers": {}}
 
 lock = {}
 if os.path.exists(LOCK):
@@ -62,6 +63,10 @@ for line in open("songs.txt", encoding="utf-8"):
     }
     if kn:
         song["kn"] = kn
+    knf = KNN["films"].get(film)
+    if knf: song["knf"] = knf
+    sk = [KNN["singers"].get(n.strip()) for n in singers.split(",") if n.strip()]
+    if sk and all(sk): song["kns"] = ", ".join(sk)
     v = ver.get(vid)
     if not v or "tv" not in v:
         unaudited.append(title)
