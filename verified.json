@@ -334,6 +334,15 @@
   "checked_title": "Salaam Rocky Bhai",
   "checked_film": "KGF Chapter 1"
  },
+ "4IGo_zmRccQ": {
+  "status": "ok",
+  "yt_title": "Eru Peru Hrudaya Video Song(Premada Oorali) - Shreeraam, Ramika Shivu, Manoj Kumar, Sunaad Gowtham",
+  "channel": "Vanilla Entertainments",
+  "tv": true,
+  "fv": true,
+  "checked_title": "Eru Peru Hrudaya",
+  "checked_film": "Premada Oorali"
+ },
  "4Nadbr67aos": {
   "status": "ok",
   "yt_title": "Nee Amrithadhare HD Video | Dhyan | Ramya | Manomurthy | Nagathihalli Chandrashekhar | Amrithadhare",
@@ -2527,6 +2536,15 @@
   "checked_title": "Manjari Manjari",
   "checked_film": "Veera Madakari"
  },
+ "lWPP1hIJ1_0": {
+  "status": "ok",
+  "yt_title": "Baanali Jaarida Video Song | Premada Oorali | Shreeraam, Thapaswini | Sunaad Gowtham | Manoj Kumar",
+  "channel": "Vanilla Entertainments",
+  "tv": true,
+  "fv": true,
+  "checked_title": "Baanali Jaarida",
+  "checked_film": "Premada Oorali"
+ },
  "labVkcSBX68": {
   "status": "ok",
   "yt_title": "Thara Thara Lyrical Video | Kiccha Sudeep | Ragini Dwivedi | Arjun Janya | Ghouse Peer | Kempegowda",
@@ -3238,6 +3256,17 @@
   "fv": true,
   "checked_title": "Look At My Style",
   "checked_film": "Super"
+ },
+ "wJJSDqbrGC4": {
+  "status": "ok",
+  "yt_title": "The Unspoken Hero | ಅವ್ವನಂತ ಅಪ್ಪನಿವನು | Premada Oorali | Rangayana Raghu | Shreeraam | Manoj Kumar",
+  "channel": "Vanilla Entertainments",
+  "tv": true,
+  "fv": true,
+  "checked_title": "Avvananta Appanivanu",
+  "checked_film": "Premada Oorali",
+  "manual_tv": true,
+  "note": "video title in Kannada script: ಅವ್ವನಂತ ಅಪ್ಪನಿವನು (The Unspoken Hero)"
  },
  "wYWx1pTRSYY": {
   "status": "ok",
