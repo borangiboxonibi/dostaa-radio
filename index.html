@@ -1467,12 +1467,12 @@ $$("[data-close]").forEach(b => b.onclick = closeSheets);
 /* list */
 function renderList(f){
  const n = (f||"").trim().toLowerCase();
- const list = n ? songs.filter(s => String(s.no) === n.replace("#","") || [s.title,s.kn,s.film,s.singers].some(v => (v||"").toLowerCase().includes(n))) : songs;
+ const list = n ? songs.filter(s => String(s.no) === n.replace("#","") || [s.title,s.kn,s.film,s.knf,s.singers,s.kns].some(v => (v||"").toLowerCase().includes(n))) : songs;
  $("#lInfo").textContent = n ? t("l_match", {n: list.length}) : t("l_disc", {a: P.heardN, b: songs.length});
  if (!list.length){ $("#lBody").innerHTML = '<div class="empty">' + t("l_none") + '<br/><br/><button class="btn" id="lReq">' + t("l_req") + '</button></div>'; $("#lReq").onclick = () => sheet("#reqSheet"); return; }
  $("#lBody").innerHTML = list.map(s => '<div class="lrow' + (cur && cur.id === s.id ? " cur" : "") + '" data-id="' + s.id + '">' +
   '<span class="no">#' + s.no + '</span><img loading="lazy" alt="" src="https://i.ytimg.com/vi/' + s.id + '/default.jpg"/>' +
-  '<span class="tt"><b>' + esc(s.kn || s.title) + '</b><s>' + esc([s.film, s.year, s.singers].filter(Boolean).join(" · ")) + '</s></span>' +
+  '<span class="tt"><b' + (LANG === "kn" && s.kn ? ' style="font-family:var(--kn)"' : '') + '>' + esc(dispTitle(s)) + '</b><s>' + esc([dispFilm(s), s.year, LANG === "kn" && s.kns ? s.kns : s.singers].filter(Boolean).join(" · ")) + '</s></span>' +
   (P.heard[s.id] ? '<span class="hd" title="Discovered">✓</span>' : "") + '</div>').join("");
 }
 $("#lBody").addEventListener("click", e => { const r = e.target.closest(".lrow"); if (!r) return; jumpTo(byId.get(r.dataset.id)); closeSheets(); });
