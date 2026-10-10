@@ -270,6 +270,9 @@ body.scratched .deck-hint{opacity:0}
  text-shadow:0 3px 24px rgba(0,0,0,.7);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .t-kn.anim{animation:slideIn .6s var(--ease)}
 @keyframes slideIn{from{opacity:0;transform:translateY(14px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+.t-kn:not(.is-kn){font-family:var(--en);line-height:1.24;padding-bottom:1px}
+.t-kn.is-kn{line-height:1.42;padding-top:2px}
+body[data-lang=kn] .sub{font-family:var(--nk)}
 .t-en{font-family:var(--en);font-weight:500;font-size:12.5px;color:var(--w60);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sub{font-family:var(--en);font-size:12.5px;color:var(--w60);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 .sub b{font-weight:600;color:var(--w80)}
@@ -1230,8 +1233,8 @@ window.onYouTubeIframeAPIReady = function(){
 /* ---------------- playback ---------------- */
 let odoT = null;
 function showSong(s, prevNo){
- const kn = s.kn || s.title;
- const h1 = $("#tKn"); h1.textContent = kn; h1.classList.remove("anim"); void h1.offsetWidth; h1.classList.add("anim");
+ const kn = dispTitle(s);
+ const h1 = $("#tKn"); h1.textContent = kn; h1.classList.toggle("is-kn", LANG === "kn" && !!s.kn); h1.classList.remove("anim"); void h1.offsetWidth; h1.classList.add("anim");
  renderSub(s); showSongMeta(s);
  // odometer roll on the number
  clearInterval(odoT);
@@ -1250,17 +1253,19 @@ function showSong(s, prevNo){
  try { history.replaceState(null, "", "?n=" + s.no); } catch(e){}
 }
 function showSongMeta(s){
- $("#tEn").textContent = s.kn ? s.title : ""; $("#tEn").style.display = s.kn ? "" : "none";
- $("#mDec").textContent = s.year ? decLbl(s.year) : t("kannada");
+ const showRoman = LANG === "kn" && s.kn;
+ $("#tKn").textContent = dispTitle(s); $("#tKn").classList.toggle("is-kn", !!showRoman);
+ $("#tEn").textContent = showRoman ? s.title : ""; $("#tEn").style.display = showRoman ? "" : "none";
+ $("#mDec").textContent = s.year ? (LANG === "kn" ? Math.floor(s.year/10)*10 + "ರ ದಶಕ" : decLbl(s.year)) : t("kannada");
  const tg = (s.tags||[])[0]; const md = MOODS.find(m => m.k === tg);
  $("#mTag").textContent = md ? moodName(md) : t("kannada");
  $("#mNew").hidden = !!P.heard[s.id];
 }
 function renderSub(s){
  const hide = quizOn && quizState && quizState.id === s.id && !quizState.done;
- const film = hide ? '<span class="film-q">? ? ?</span>' : esc(s.film);
- const parts = [];
- if (s.singers) parts.push("<b>" + esc(s.singers) + "</b>");
+ const film = hide ? '<span class="film-q">? ? ?</span>' : esc(dispFilm(s));
+ const parts = [], sing = LANG === "kn" && s.kns ? s.kns : s.singers;
+ if (sing) parts.push("<b>" + esc(sing) + "</b>");
  if (s.film || hide) parts.push("🎬 " + film);
  if (s.year && !hide) parts.push(String(s.year));
  $("#sub").innerHTML = parts.join(" · ") || t("kSong");
@@ -1601,7 +1606,7 @@ function syncVid(){
 function openVideo(){
  if (!live) go(qi);
  if (!pl || !rdy){ pendingVideo = true; toast("", t("loadingPl")); return; }
- videoMode = true; $("#vidCap").textContent = cur ? [cur.kn || cur.title, cur.film].filter(Boolean).join(" · ") : "";
+ videoMode = true; $("#vidCap").textContent = cur ? [dispTitle(cur), dispFilm(cur)].filter(Boolean).join(" · ") : "";
  $("#vid").classList.add("open"); $("#scrim").classList.add("open"); requestAnimationFrame(syncVid);
 }
 function closeVideo(){
