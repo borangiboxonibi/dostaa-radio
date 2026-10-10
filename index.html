@@ -189,9 +189,9 @@ body.playing .onair i{background:var(--ember);box-shadow:0 0 10px var(--ember);a
 .lang .sk{display:none}
 .ld-lang{position:absolute;top:calc(env(safe-area-inset-top) + 16px);right:16px}
 /* language swap motion */
-body.lswap [data-t],body.lswap .t-kn,body.lswap .sub,body.lswap .chip,body.lswap .pill,body.lswap .brand-kn,body.lswap .xp-txt,body.lswap .sh-b{animation:lswap .5s var(--ease)}
+body.lswap [data-t],body.lswap .t-kn,body.lswap .sub,body.lswap .chip,body.lswap .brand-kn,body.lswap .xp-txt,body.lswap .sh-b{animation:lswap .5s var(--ease)}
 @keyframes lswap{40%{opacity:0;filter:blur(5px);transform:translateY(-5px)}41%{transform:translateY(5px)}}
-body[data-lang=kn] .onair,body[data-lang=kn] .meta-top,body[data-lang=kn] .deck-hint,body[data-lang=kn] .ld-sub{letter-spacing:.02em}
+body[data-lang=kn] .onair,body[data-lang=kn] .deck-hint,body[data-lang=kn] .ld-sub{letter-spacing:.02em}
 body[data-lang=kn] .tool,body[data-lang=kn] .btn,body[data-lang=kn] .surprise,body[data-lang=kn] .qz-h b{font-family:var(--kn);font-weight:700}
 body[data-lang=kn] .tool{font-size:13px}
 body[data-lang=kn] .onair{font-family:var(--kn);font-size:11px;font-weight:700}
@@ -273,10 +273,6 @@ body.scratched .deck-hint{opacity:0}
 
 /* ---------- info column ---------- */
 .info{width:min(560px,100%);display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;min-height:0}
-.meta-top{display:flex;align-items:center;justify-content:center;gap:7px;flex-wrap:wrap;font-family:var(--en);font-weight:600;font-size:10.5px;letter-spacing:.08em}
-.pill{padding:3px 9px;border-radius:999px;background:var(--w06);border:1px solid var(--w10);color:var(--w60);text-transform:uppercase}
-.pill.no{color:#140C05;background:var(--gold);border-color:var(--gold);font-weight:800;font-variant-numeric:tabular-nums;min-width:44px}
-.pill.new{color:var(--leaf);border-color:rgba(43,211,154,.4);background:rgba(43,211,154,.08)}
 .ttl{width:100%;min-height:0}
 .t-kn{font-family:var(--kn);font-weight:800;font-size:clamp(24px,6.4vw,40px);line-height:1.15;color:#FFF8EA;
  text-shadow:0 3px 24px rgba(0,0,0,.7);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
@@ -348,7 +344,7 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
  :root{--deck:min(52vw,calc(100dvh - 110px),640px)}
  .stage{flex-direction:row;gap:clamp(20px,4vw,64px)}
  .info{width:min(440px,44vw);align-items:flex-start;text-align:left;gap:12px}
- .meta-top,.transport,.tools{justify-content:flex-start}
+ .transport,.tools{justify-content:flex-start}
  .t-kn{font-size:clamp(28px,3.4vw,48px)}
  .transport{gap:14px}
 }
@@ -360,7 +356,7 @@ body.playing .play::before{opacity:1;animation:breathe 2s ease-in-out infinite}
 @media (min-width:1200px) and (min-height:760px){
  .info{width:min(500px,40vw);gap:16px}
  .t-kn{font-size:clamp(40px,3.6vw,60px)}
- .sub{font-size:15px}.meta-top{font-size:12px}
+ .sub{font-size:15px}
  .tb{width:54px;height:54px}.tb svg{width:25px;height:25px}
  .play{width:88px;height:88px}.play svg{width:34px;height:34px}
  .tool{font-size:13px;padding:10px 16px}.tool svg{width:17px;height:17px}
@@ -695,12 +691,6 @@ body[data-lang=kn] .ry-stats s{font-family:var(--kn);font-size:12px}
   </div>
 
   <section class="info">
-   <div class="meta-top">
-    <span class="pill no" id="mNo">#—</span>
-    <span class="pill" id="mDec">Kannada</span>
-    <span class="pill" id="mTag">24×7</span>
-    <span class="pill new" id="mNew" hidden data-t="new4u">NEW FOR YOU</span>
-   </div>
    <div class="ttl">
     <h1 class="t-kn" id="tKn" data-t="brand">ದೋಸ್ತಾ ರೇಡಿಯೋ</h1>
     <div class="t-en" id="tEn" data-t="hero_en">Kannada songs, all day</div>
@@ -1027,7 +1017,6 @@ function markHeard(s){
  if (P.last !== today){ P.streak = (P.last === y) ? P.streak + 1 : 1; P.last = today; bonus = 20;
   if (P.streak > 1) toast("🔥", t("streak", {n: P.streak}), t("streakSub")); }
  save(); addXP(10 + bonus);
- $("#mNew").hidden = true;
  return true;
 }
 
@@ -1248,10 +1237,6 @@ function showSong(s, prevNo){
  const kn = dispTitle(s);
  const h1 = $("#tKn"); h1.textContent = kn; h1.classList.toggle("is-kn", LANG === "kn" && !!s.kn); h1.classList.remove("anim"); void h1.offsetWidth; h1.classList.add("anim");
  renderSub(s); showSongMeta(s);
- // odometer roll on the number
- clearInterval(odoT);
- if (reduced || prevNo == null){ $("#mNo").textContent = "#" + s.no; }
- else { let k = 0; odoT = setInterval(() => { k++; $("#mNo").textContent = "#" + (k < 8 ? (1 + Math.random()*Math.max(songs.length, 99) | 0) : s.no); if (k >= 8) clearInterval(odoT); }, 45); }
  // record label = video thumbnail (crossfade)
  const im = $("#lblImg"); im.style.opacity = 0;
  const img = new Image(); img.onload = () => { im.style.backgroundImage = "url('" + img.src + "')"; im.style.opacity = 1; };
@@ -1268,10 +1253,6 @@ function showSongMeta(s){
  const showRoman = LANG === "kn" && s.kn;
  $("#tKn").textContent = dispTitle(s); $("#tKn").classList.toggle("is-kn", !!showRoman);
  $("#tEn").textContent = showRoman ? s.title : ""; $("#tEn").style.display = showRoman ? "" : "none";
- $("#mDec").textContent = s.year ? (LANG === "kn" ? Math.floor(s.year/10)*10 + "ರ ದಶಕ" : decLbl(s.year)) : t("kannada");
- const tg = (s.tags||[])[0]; const md = MOODS.find(m => m.k === tg);
- $("#mTag").textContent = md ? moodName(md) : t("kannada");
- $("#mNew").hidden = !!P.heard[s.id];
 }
 function renderSub(s){
  const hide = quizOn && quizState && quizState.id === s.id && !quizState.done;
