@@ -360,7 +360,6 @@ oepLylgqSKU|Dennana Dennana|RangiTaranga|||melody||ದೆನ್ನಾನ ದೆ�
 lur8LpJ785I|Arere Avala Naguva|Sarkari Hi Pra Shaale|2018|Vasuki Vaibhav|melody||ಅರೆರೆ ಅವಳ ನಗುವ
 7cBSr4dGRZY|Baanali Badalaago|Simple Agi Ondh Love Story|2013|Sonu Nigam|melody||ಬಾನಲಿ ಬದಲಾಗೋ
 WOuUEZVFqG8|Karagida Banalli|Simple Agi Ondh Love Story|2013|BJ Bharat|dard||ಕರಗಿದ ಬಾನಲ್ಲಿ
-
 JU8ueDc9Y34|Premada Oorali Title Song|Premada Oorali|2026||melody||ಪ್ರೇಮದ ಊರಲಿ ಹೃದಯದ ತೇರಲಿ
 4IGo_zmRccQ|Eru Peru Hrudaya|Premada Oorali|2026||melody||ಏರು ಪೇರು ಹೃದಯ
 lWPP1hIJ1_0|Baanali Jaarida|Premada Oorali|2026||melody||ಬಾನಲಿ ಜಾರಿದ
@@ -1056,3 +1055,83 @@ iZSeO8rI_Ig|Ale Ale Aleyo|Savaari|2009||melody||ಅಲೆ ಅಲೆ ಅಲೆಯ
 YrWz-dmn7k0|Bisilu Thaagi|Savaari|2009||melody||ಬಿಸಿಲು ತಾಗಿ
 fUHhoCLM6K0|Rhythm Ide|Savaari|2009||mass||ರಿದಮ್ ಇದೆ
 owcMOh7z9js|Poli Putta|Savaari|2009||mass||ಪೋಲಿ ಪುಟ್ಟ
+Qdib4LG_Wv0|Deepavali Deepavali|Muddina Maava|1993|S. P. Balasubrahmanyam|folk,melody||ದೀಪಾವಳಿ ದೀಪಾವಳಿ
+pfQKb6fc-jw|Sneha Deepavali|Aunty Preetse|2001|K. S. Chithra|melody||ಸ್ನೇಹ ದೀಪಾವಳಿ
+pKiUIFAF71c|Deepawali Banditu|Bhai|||folk||ದೀಪಾವಳಿ ಬಂದಿತು
+7Q-qPOv8tas|Deepavali Habbakka|Preethiya Parivala|||folk||ದೀಪಾವಳಿ ಹಬ್ಬಕ್ಕ
+SKr7Xoa9ptg|Deepadinda Deepa Hacche Deepavali|Yaarige Salutthe Sambala|2000||folk,melody||ದೀಪದಿಂದ ದೀಪ ಹಚ್ಚೆ ದೀಪಾವಳಿ
+gtHDOKxvyxY|Deepa Deepa|Shri|||melody||ದೀಪ ದೀಪ
+Eys55Gufs-M|Deepa Deepa|Guru Brahma|1992||melody||ದೀಪ ದೀಪ
+bdiXLKKmpvQ|Deepa Deepa|Geetha Chittaara||Upasana Mohan|melody,classic||ದೀಪ ದೀಪ
+IWtKyRdHo2o|Baaramma Badavara Manege|Lakshmi Mahalakshmi|||classic,melody||ಬಾರಮ್ಮ ಬಡವರ ಮನೆಗೆ
+bVYmbY3p_7c|Kamalada Mogadole|||S. Janaki|classic||ಕಮಲದ ಮೊಗದೊಳೆ
+QJvITDF3JnA|Bhagyada Lakshmi Baramma (Bhimsen Joshi)|||Bhimsen Joshi|classic||ಭಾಗ್ಯದ ಲಕ್ಷ್ಮೀ ಬಾರಮ್ಮ
+fhemMr_85HM|Mahalakshmi Manege Baaramma|Lakshmi Kataksha|||classic||ಮಹಾಲಕ್ಷ್ಮೀ ಮನೆಗೆ ಬಾರಮ್ಮ
+axh_692EGOs|Bantu Bantu Suggi|||B. K. Sumithra|folk||ಬಂತು ಬಂತು ಸುಗ್ಗಿ
+Ost4tjtGVZg|Suggi Maadona Baravva|||C. Ashwath|folk,classic||ಸುಗ್ಗಿ ಮಾಡೋಣ ಬಾರವ್ವ
+Iq7ZoUK9Fgk|Sankranthi Navarathri|Neenello Naanalle|||folk||ಸಂಕ್ರಾಂತಿ ನವರಾತ್ರಿ
+n1vKqE71hR8|Sankranti Suggi|||Savithakka|folk||ಸಂಕ್ರಾಂತಿ ಸುಗ್ಗಿ
+nZ4rvEf22ck|Suggi Banda Haage|Deva|1989||folk||ಸುಗ್ಗಿ ಬಂದ ಹಾಗೆ
+mggYbRgMwk0|Raitha Raitha|Dore|1995||folk||ರೈತ ರೈತ
+6MM5VJz5uXI|Halli Haadu Thandana|Dore|1995|S. P. Balasubrahmanyam, K. S. Chithra|folk||ಹಳ್ಳಿ ಹಾಡು ತಂದನ
+vNmnJyRaoLg|Raitha Bhoomiya|Vamshodharaka|||folk||ರೈತ ಭೂಮಿಯ
+t7921Sjn1L0|Yuga Yugadi Kaledaru|Kulavadhu|1963|S. Janaki|classic,folk||ಯುಗ ಯುಗಾದಿ ಕಳೆದರೂ
+CbBNJq8LYOw|Yellellu Habba|Rishi|2005|Sonu Nigam|folk,melody||ಎಲ್ಲೆಲ್ಲೂ ಹಬ್ಬ
+oTkCzQcMHEQ|Habba Habba|Habba|1999||folk||ಹಬ್ಬ ಹಬ್ಬ
+iz6BuJ67uM8|Yaale Yaale|Habba|1999||folk||ಯಾಲೆ ಯಾಲೆ
+pKn5sz6OJ5U|Jenina Goodu Naavella|Habba|1999||melody||ಜೇನಿನ ಗೂಡು ನಾವೆಲ್ಲ
+BPxXzEJ4yAM|Channappa Channegowda|Habba|1999||folk||ಚನ್ನಪ್ಪ ಚನ್ನೇಗೌಡ
+lB9_jz4lIno|Hosa Varsha Bandaga|||Archana Udupa, M. D. Pallavi, B. V. Srinivas|melody,classic||ಹೊಸ ವರ್ಷ ಬಂದಾಗ
+I-yO9UOm7fg|Hosa Varusha Bandanthe|||C. Ashwath|classic||ಹೊಸ ವರುಷ ಬಂದಂತೆ
+vlrMiAeYeu8|Bevu Bella Ondada Haage|Lakshmi Kataksha|||folk||ಬೇವು ಬೆಲ್ಲ ಒಂದಾದ ಹಾಗೆ
+fws6mUFzxcI|Yuga Yugagale Sagali|Jeevanadi|1996||melody||ಯುಗ ಯುಗಗಳೇ ಸಾಗಲಿ
+FDevWql4TzU|Sankastha Ganapathi|||Rajesh Krishnan|classic||ಸಂಕಷ್ಟ ಗಣಪತಿ
+w__JqwwXmP0|Kadubige Thuppa|||Latha Hamsalekha|folk||ಕಡುಬಿಗೆ ತುಪ್ಪ
+XVAgs9SbS-I|Ninna Naamava Nitya|||S. P. Balasubrahmanyam|classic||ನಿನ್ನ ನಾಮವ ನಿತ್ಯ
+FYWQUGB6sSI|Ekadantha|Naguva Namma Yajamana|||folk||ಏಕದಂತ
+7yoH9LtVgzQ|Maha Ganapathi|Asura|2001|Rajesh Krishnan|folk||ಮಹಾ ಗಣಪತಿ
+Lh1CpyD8t7Q|Gajamukhane Ganapathiye|||Nanditha|classic||ಗಜಮುಖನೆ ಗಣಪತಿಯೇ
+uyI_aKulc_Y|Haalalladaru Haaku|Devatha Manushya|1988|Dr. Rajkumar|classic||ಹಾಲಲ್ಲಾದರು ಹಾಕು
+Bsfnsyhd3U4|Guruvara Banthamma|Bhagyavantha|1981|Dr. Rajkumar|classic||ಗುರುವಾರ ಬಂತಮ್ಮ
+B23KyiWxdok|Omme Ninna Veeneyannu|||Dr. Rajkumar|classic||ಒಮ್ಮೆ ನಿನ್ನ ವೀಣೆಯನ್ನು
+RvBjhBSuHGA|Baale Bangaravayithu|||Dr. Rajkumar|classic||ಬಾಳೆ ಬಂಗಾರವಾಯಿತು
+Q4oZR4DOoO8|Kanna Neerali Ninna Padava|||Dr. Rajkumar|classic||ಕಣ್ಣ ನೀರಲಿ ನಿನ್ನ ಪಾದವ
+oLXQaL6u4Uc|Ondu Baari Bandu Nodi|||S. P. Balasubrahmanyam|classic||ಒಂದು ಬಾರಿ ಬಂದು ನೋಡಿ
+Vrb1yfD_ch8|Poojyaya Raghavendraya|Ambareesha|2014||classic||ಪೂಜ್ಯಾಯ ರಾಘವೇಂದ್ರಾಯ
+x0QI2LI3Mpk|Bidenu Ninna Paada|Naa Ninna Bidalare|1979|S. Janaki|classic||ಬಿಡೆನು ನಿನ್ನ ಪಾದ
+2K-6JUfoh7Q|Hubballiya Hooballi Sri Siddaroodha|||Dr. Rajkumar|classic||ಹುಬ್ಬಳ್ಳಿಯ ಹೂಬಳ್ಳಿ ಶ್ರೀ ಸಿದ್ಧಾರೂಢ
+_9EeO0DCh8o|Yelli Mareyade Vittala|Bhakta Kumbara|1974|P. B. Sreenivas|classic||ಎಲ್ಲಿ ಮರೆಯಾದೆ ವಿಠಲ
+QIcdc-9TN4c|Baagilanu Theredu|Bhaktha Kanakadasa|1960|Dr. Rajkumar|classic||ಬಾಗಿಲನು ತೆರೆದು
+ZUlrrWplMdA|Esha Ninna Charana|Bhaktha Kanakadasa|1960||classic||ಈಶ ನಿನ್ನ ಚರಣ
+T22GVksHsYk|Ninnanthagabeku Kanaka|||C. Ashwath|classic||ನಿನ್ನಂತಾಗಬೇಕು ಕನಕ
+_H9EGB6cApE|Thirupathi Girivasa|Sri Krishnadevaraya|1970||classic||ತಿರುಪತಿ ಗಿರಿವಾಸ
+pPSzi9QpEAU|Sheshadrivasa Sri Tirumalesha|Jeevanadi|1996||classic||ಶೇಷಾದ್ರಿವಾಸ ಶ್ರೀ ತಿರುಮಲೇಶ
+Im_qwjh5Df0|Shrikarane Shrinivasane|||K. S. Chithra|classic||ಶ್ರೀಕರನೆ ಶ್ರೀನಿವಾಸನೆ
+thnTNtm2Ikg|Needu Shiva|Gaana Yogi Panchakshara Gawai|1995|K. S. Chithra|classic||ನೀಡು ಶಿವ
+uMGJWDC2wPU|Shiva Shiva Endare Bhayavilla|Bhaktha Siriyala||S. P. Balasubrahmanyam|classic||ಶಿವ ಶಿವ ಎಂದರೆ ಭಯವಿಲ್ಲ
+yq-4Syih5q0|Shiva Shiva|Veeram|2023|Ananya Bhat|folk||ಶಿವ ಶಿವ
+9u9beaDpqNk|Belli Bettavanalone|||Mangli|folk||ಬೆಳ್ಳಿ ಬೆಟ್ಟವನಾಳೋನೆ
+eqyZ-xz4Mqs|Bam Bam Bhole|||Mangli|folk,mass||ಬಮ್ ಬಮ್ ಭೋಲೆ
+0IEuZ9XMQXE|Danguru Danguru|||Mangli|folk||ಡಂಗುರು ಡಂಗುರು
+oQ1lCD-EUNU|Shankara Shashidhara|Shabarimale Swamy Ayyappa|||classic||ಶಂಕರ ಶಶಿಧರ
+AbYPMdvpEbs|Devare Neenu Nijavappa|Shabarimale Swamy Ayyappa||B. R. Chaya|classic||ದೇವರೇ ನೀನು ನಿಜವಪ್ಪ
+3gqhhdszTqQ|Harivarasanam|||K. J. Yesudas|classic||ಹರಿವರಾಸನಂ
+lblAfMcIGU4|Neeli Maleya Jeevadodaya|||Dr. Rajkumar|classic||ನೀಲಿ ಮಲೆಯ ಜೀವದೊಡೆಯ
+U82aJ1z7kjY|Kotigobba Sharana Madeshwara|||S. P. Balasubrahmanyam|folk||ಕೋಟಿಗೊಬ್ಬ ಶರಣ ಮಾದೇಶ್ವರ
+gwjRRb_1yaw|Nara Janma Sakayya Madeshwara|||S. P. Balasubrahmanyam|folk||ನರ ಜನ್ಮ ಸಾಕಯ್ಯ ಮಾದೇಶ್ವರ
+Llro4_wft7g|Maleya Madayya|Belli|2014||folk||ಮಲೆಯ ಮಾದಯ್ಯ
+J52TTXUqbmQ|Eshtu Sahasavantha|||Vidyabhushana|classic||ಎಷ್ಟು ಸಾಹಸವಂತ
+y8WcwrhYN5g|Enne Paaliso Karunakara|||Vidyabhushana|classic||ಎನ್ನ ಪಾಲಿಸೋ ಕರುಣಾಕರ
+9p00FcdtL4U|Acharavillada Nalige|||Vidyabhushana|classic||ಆಚಾರವಿಲ್ಲದ ನಾಲಿಗೆ
+x9dcrLEAVPw|Madhukara Vrutti Ennadu|||Vidyabhushana|classic||ಮಧುಕರ ವೃತ್ತಿ ಎನ್ನದು
+4ikBnS2oDuw|Baro Krishnayya|||Spoorthi Rao|classic||ಬಾರೋ ಕೃಷ್ಣಯ್ಯ
+-1rBP7jUqkg|Jai Hanumantha|Prema Baraha|2018||mass||ಜೈ ಹನುಮಂತ
+S-noDdyi_Do|Jai Bajarangi|Bhajarangi|2013|Shankar Mahadevan|mass||ಜೈ ಭಜರಂಗಿ
+Fd7iszO9VwU|Ganga Jatadhara|Bhagwan Sri Saibaba|||classic||ಗಂಗಾ ಜಟಾಧರ
+K060Ga7bkJk|Sharanam Sharanam|Bhagwan Sri Saibaba|||classic||ಶರಣಂ ಶರಣಂ
+FMv4GqqW4pc|Suvva Laali|Sri Kalikamba|||classic||ಸುವ್ವ ಲಾಲಿ
+71RlLha6sLY|Thandeyu Neene Thaayiyu Neene|||Nandini Rao|classic||ತಂದೆಯು ನೀನೆ ತಾಯಿಯು ನೀನೆ
+PC9jLV7NktY|Eddelu Manjunatha|||Madhu Balakrishna|classic||ಎದ್ದೇಳು ಮಂಜುನಾಥ
+b5nBPJa5QNQ|Toogire Rayara|||Vidyabhushana|classic||ತೂಗಿರೆ ರಾಯರ
+k7QJbycs_nE|Yeke Mukanadyo Guruve|||Bhimsen Joshi|classic||ಯಾಕೆ ಮೂಕನಾದ್ಯೋ ಗುರುವೇ
+0q6c2igt3Z0|Madeva Baareya||||folk||ಮಾದೇವ ಬಾರೇಯ
