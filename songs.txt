@@ -244,7 +244,7 @@ IVYrwwUvzik|Nee Sanihake Bandare|Nee Sanihake|2021|Vasuki Vaibhav|melody||ನೀ
 LLeNxfu2PFo|Bad Boys|Bheema|||melody||ಬ್ಯಾಡ್ ಬಾಯ್ಸ್
 tgM0_HFN74w|Kabzaa Title Track|Kabzaa|2023|Ravi Basrur|mass||ಕಬ್ಜ ಶೀರ್ಷಿಕೆ ಗೀತೆ
 CkSkNY6snjY|Jilka Jilkare|Pushpaka Vimana|||mass||ಜಿಲ್ಕ ಜಿಲ್ಕರೆ
-XkfzCgQKmbY|Maadeva|Maadeva|2023|Sanjith Hegde|folk||ಮಾದೇವ
+XkfzCgQKmbY|Maadeva|Popcorn Monkey Tiger|2020|Sanjith Hegde|folk||ಮಾದೇವ
 JrrV4cwMb9Y|Pushpa Pushpa Kannada|Pushpa 2|2024|Nakash Aziz|mass||ಪುಷ್ಪ ಪುಷ್ಪ
 aTz3u9JvcwM|Ninna Poojege Bande Mahadeshwara|Psycho||Raghu Dixit, Haricharan|folk||ನಿನ್ನ ಪೂಜೆಗೆ ಬಂದೆ ಮಾದೇಶ್ವರ
 C3jlOlzSL8I|Hands Up|Avane Srimannarayana|2019|Vijay Prakash|mass||ಹ್ಯಾಂಡ್ಸ್ ಅಪ್
@@ -480,3 +480,125 @@ NKftOvmcebI|Yenu Helabeku|Maleyali Jotheyali|2009|Sonu Nigam, Shreya Ghoshal|mel
 y05iXLStiKA|Andavo Andavu Kannada Naadu|Mallige Hoove||K. J. Yesudas|folk||ಅಂದವೋ ಅಂದವು ಕನ್ನಡ ನಾಡು
 nszeqsxnK_g|Aadisidaatha Besara Moodi|Kasturi Nivasa|1971|P. B. Sreenivas|classic,dard||ಆಡಿಸಿದಾತ ಬೇಸರ ಮೂಡಿ
 ZhrHym9OWNQ|Bossu Nam Bossu|Bajarangi|2013||mass||ಬಾಸು ನಮ್ ಬಾಸು
+54VIJ2jomMc|Kareyole|RangiTaranga|2015||melody||ಕರೆಯೋಲೆ
+SC1MGJJ-QBM|Nee Kele Vadhuve|RangiTaranga|2015||melody||ನೀ ಕೇಳೆ ವಧುವೇ
+wL3Rf1vRTtk|Kanna Kajal|Endendigu|2015||melody||ಕಣ್ಣ ಕಾಜಲ್
+d8VV0Hl-8FU|Friendu Maduveli|Endendigu|2015||mass||ಫ್ರೆಂಡು ಮದುವೇಲಿ
+lEPnRgrXtr4|Iduvarege|Endendigu|2015||melody||ಇದುವರೆಗೆ
+6Lf27Xdu_yY|Krishna Calling|Krishna Leela|2015||mass||ಕೃಷ್ಣ ಕಾಲಿಂಗ್
+kKDIBWU4qdA|Muttlilla Murililla|Krishna Leela|2015||melody||ಮುಟ್ಲಿಲ್ಲ ಮುರಿಲಿಲ್ಲ
+hyG74MDuyK0|Kaadiruve Ninagagi|Krishna Leela|2015|Shreya Ghoshal|melody||ಕಾದಿರುವೆ ನಿನಗಾಗಿ
+WeSgDGwYiZQ|Pesal Man|Krishna Leela|2015|Puneeth Rajkumar|mass||ಪೆಸಲ್ ಮ್ಯಾನ್
+Mo-B5AxOftw|Nenape Nithya Mallige|Kendasampige|2015||melody||ನೆನಪೇ ನಿತ್ಯ ಮಲ್ಲಿಗೆ
+S6gEUPhYtuE|Kanasali Nadesu|Kendasampige|2015||melody||ಕನಸಲಿ ನಡೆಸು
+rPds_vgFFIw|Mareyade Kshamisu|Kendasampige|2015||dard||ಮರೆಯದೆ ಕ್ಷಮಿಸು
+9i52GMdSbSQ|Ilijaaru Haadhi Idu|Kendasampige|2015||melody||ಇಳಿಜಾರು ಹಾದಿ ಇದು
+ps3FPq0hlG8|Hey Who Are You|Kirik Party|2016||mass||ಹೇ ಹೂ ಆರ್ ಯೂ
+MXKl40g0zKI|Last Bench Party|Kirik Party|2016||mass||ಲಾಸ್ಟ್ ಬೆಂಚ್ ಪಾರ್ಟಿ
+jxbTybIAfx4|Thoogu Manchadalli Koothu|Kirik Party|2016||melody,classic||ತೂಗು ಮಂಚದಲ್ಲಿ ಕೂತು
+YZhUwHFsCO0|Sariyaagi Nenapide|Mungaru Male 2|2016|Armaan Malik|melody||ಸರಿಯಾಗಿ ನೆನಪಿದೆ
+nJ0HkQdIOGU|Neenu Irade|Mungaru Male 2|2016|Armaan Malik|dard||ನೀನು ಇರದೆ
+-nRvuPKh188|My Daddy|Mungaru Male 2|2016|Benny Dayal, Chandan Shetty|mass||ಮೈ ಡ್ಯಾಡಿ
+3P16dodI0tY|Onte|Mungaru Male 2|2016||melody||ಒಂಟೆ
+41qxViSQgZk|Ee Sanjege|Godhi Banna Sadharana Mykattu|2016||melody,dard||ಈ ಸಂಜೆಗೆ
+lec5CClxpxo|Ale Moodadhe|Godhi Banna Sadharana Mykattu|2016||melody||ಅಲೆ ಮೂಡದೆ
+baWmn0q_Y9I|Ayomaya|Godhi Banna Sadharana Mykattu|2016||melody||ಅಯೋಮಯ
+aACvYA-i7wc|Ranga Bhoomiya|Godhi Banna Sadharana Mykattu|2016||melody||ರಂಗ ಭೂಮಿಯ
+VhE9L8Vf-S8|Komala Henne|Godhi Banna Sadharana Mykattu|2016||melody||ಕೋಮಲ ಹೆಣ್ಣೆ
+MM2x5Z-jV2g|Mouna|Godhi Banna Sadharana Mykattu|2016||dard||ಮೌನ
+-t8mN5ZxiBY|Katheyondu Shuruvaagide|Godhi Banna Sadharana Mykattu|2016||melody||ಕಥೆಯೊಂದು ಶುರುವಾಗಿದೆ
+bDHqAMXa2_I|Jeeva Neenu|Ricky|2016|Rajesh Krishnan|melody||ಜೀವ ನೀನು
+e7wFu429efQ|Malage Malage|Ricky|2016||melody||ಮಲಗೆ ಮಲಗೆ
+edYuyet1EbY|Harusha Thaladhe|Ricky|2016|Vijay Prakash|melody||ಹರುಷ ತಾಳದೆ
+SzhxNVEq1Vs|Yele Mareyali|Ricky|2016||melody||ಎಲೆ ಮರೆಯಲಿ
+Sg8cO2lSDjw|Nee Nanna Olavu|Chamak|2017||melody||ನೀ ನನ್ನ ಒಲವು
+3OIdUmWTOHw|O Sanjeya Hoove|Chamak|2017||melody||ಓ ಸಂಜೆಯ ಹೂವೆ
+AtQJZ373fXg|Kush Kush|Chamak|2017||mass||ಕುಷ್ ಕುಷ್
+5Ha66MsrT-M|Avalakki Buwalakki|Chamak|2017||mass||ಅವಲಕ್ಕಿ ಬುವಲಕ್ಕಿ
+_qOaZxAFJVA|Mangalyam Tantunanena|Chamak|2017||melody||ಮಾಂಗಲ್ಯಂ ತಂತುನಾನೇನ
+ly3SJD-Dpuc|Kanna Muchche Kaade Goode|Chamak|2017||melody||ಕಣ್ಣ ಮುಚ್ಚೆ ಕಾಡೆ ಗೂಡೆ
+_lvCKHIq8P4|Tili Sanje|Operation Alamelamma|2017||melody||ತಿಳಿ ಸಂಜೆ
+3wqTzeF-WU0|Alaga Alaga|Operation Alamelamma|2017||melody||ಅಲಗ ಅಲಗ
+7uFWC5xNnYQ|Hodi Ombath|Mugulu Nage|2017|Vijay Prakash|mass||ಹೊಡಿ ಒಂಬತ್
+LeWQ1dyL658|Ninna Snehadinda|Mugulu Nage|2017|Shreya Ghoshal|melody||ನಿನ್ನ ಸ್ನೇಹದಿಂದ
+nigtZ81MhEc|Kere Yeri|Mugulu Nage|2017|Sonu Nigam|melody||ಕೆರೆ ಏರಿ
+sGSJ6LsZR_k|Amara Hale Nenapu|Mugulu Nage|2017|Vijay Prakash|dard||ಅಮರ ಹಳೆ ನೆನಪು
+aorAeMA06i0|Yethake|Bell Bottom|2019||melody||ಯೇತಕೆ
+xs5ynTDD_jI|Aadhi Jyothi Banyo|Bell Bottom|2019||folk||ಆದಿ ಜ್ಯೋತಿ ಬನ್ಯೋ
+7wJFPGn40kY|Manase Maya|Mundina Nildana|2019||melody||ಮನಸೇ ಮಾಯ
+RJ18ETLUNzQ|Naguva Kalisu|Mundina Nildana|2019||melody||ನಗುವ ಕಲಿಸು
+GTOdY0_0Tbw|Life is Beautiful|Mundina Nildana|2019|Sanjith Hegde|melody||ಲೈಫ್ ಈಸ್ ಬ್ಯೂಟಿಫುಲ್
+-qdGZetifBs|Party Zamana|Mundina Nildana|2019||mass||ಪಾರ್ಟಿ ಜಮಾನ
+PV2EHqJUNJ8|Life of Partha|Mundina Nildana|2019||melody||ಲೈಫ್ ಆಫ್ ಪಾರ್ಥ
+tMKna47gvYc|Hrudaya|Mundina Nildana|2019|Swarathma|melody||ಹೃದಯ
+K3nFy1wz6V0|Love You Chinna|Love Mocktail|2020|Raghu Dixit|melody||ಲವ್ ಯೂ ಚಿನ್ನ
+qM8xNZahjQQ|Janumagale Kaayuve|Love Mocktail|2020|Raghu Dixit|dard||ಜನುಮಗಳೇ ಕಾಯುವೆ
+7llPi3k-yQs|Kanna Haniyondhu|Love Mocktail|2020|Raghu Dixit|dard||ಕಣ್ಣ ಹನಿಯೊಂದು
+9b1DrKv3MXo|Neene Yendigu|Love Mocktail|2020|Raghu Dixit|melody||ನೀನೇ ಎಂದಿಗೂ
+qzlupdQOFLE|Oh Oh Love Aaghoithalla|Love Mocktail|2020|Raghu Dixit|mass||ಓಹ್ ಓಹ್ ಲವ್ ಆಗೋಯ್ತಲ್ಲ
+MOKIT_T3m2E|Psychedelic Maaye|Popcorn Monkey Tiger|2020|Sanjith Hegde|mass||ಸೈಕೆಡೆಲಿಕ್ ಮಾಯೆ
+MjZBup8ELR4|Demon in Me|Garuda Gamana Vrishabha Vahana|2021||mass||ಡೀಮನ್ ಇನ್ ಮೀ
+JmbMRhO4bFU|Baananchige Oduva Baara|Hero|2021|Vasuki Vaibhav|melody||ಬಾನಂಚಿಗೆ ಓಡುವ ಬಾರ
+IPbiONoke-M|Edeyinda Dooravaagi|Hero|2021||dard||ಎದೆಯಿಂದ ದೂರವಾಗಿ
+Xav5go50_f8|Sakhiye|Love 360|2022|Sanjith Hegde|melody||ಸಖಿಯೇ
+zIbPOgx2KUg|Neenu Bagehariyada|Gaalipata 2|2022||melody||ನೀನು ಬಗೆಹರಿಯದ
+fVzrPxAP2-k|Exam Song|Gaalipata 2|2022||mass||ಎಕ್ಸಾಮ್ ಸಾಂಗ್
+mIOedsvjgEo|Naanaadadaa|Gaalipata 2|2022||melody||ನಾನಾಡದಾ
+lJ-RCGVpY7Y|Devle Devle|Gaalipata 2|2022||mass||ದೇವ್ಲೆ ದೇವ್ಲೆ
+xfu7LXl2Nas|Gaalipata 2 Title Track|Gaalipata 2|2022||melody||ಗಾಳಿಪಟ 2 ಶೀರ್ಷಿಕೆ ಗೀತೆ
+MzAtSG7xh64|Thatherike|Gaalipata 2|2022||melody||ತತ್ತರಿಕೆ
+5A6g2nY0XZU|Maayagange|Banaras|2022|Armaan Malik|melody||ಮಾಯಾಗಂಗೆ
+Q5VKUXxfh5k|Hennu Hadeyalu Beda|Banaras|2022||dard||ಹೆಣ್ಣು ಹಡೆಯಲು ಬೇಡ
+gDwMqVA_Lh0|Troll Song|Banaras|2022||mass||ಟ್ರೋಲ್ ಸಾಂಗ್
+tyUvf8omb7s|Edebaditha Joragide|Ek Love Ya|2022||melody||ಎದೆಬಡಿತ ಜೋರಾಗಿದೆ
+ebXEH2SIB3o|Meet Madana|Ek Love Ya|2022||mass||ಮೀಟ್ ಮದನ
+g1lknPikSxo|Yennegu Hennigu|Ek Love Ya|2022|Mangli|folk,mass||ಎಣ್ಣೆಗೂ ಹೆಣ್ಣಿಗೂ
+wX6ws30ZWnI|Ondu Oorali|Ek Love Ya|2022|Shankar Mahadevan|folk||ಒಂದು ಊರಲಿ
+_JiTXYb9_nk|Helu Yaake|Ek Love Ya|2022||dard||ಹೇಳು ಯಾಕೆ
+h00OUTPM22A|Mummy Please Mummy|Trivikrama|2022||mass||ಮಮ್ಮಿ ಪ್ಲೀಸ್ ಮಮ್ಮಿ
+4ICoB5TdlrI|Shakuntala Shake Your Body Please|Trivikrama|2022||mass||ಶಕುಂತಲಾ ಶೇಕ್ ಯುವರ್ ಬಾಡಿ ಪ್ಲೀಸ್
+bULTWUrm2ow|Honey Bunny Feel My Love|Trivikrama|2022||melody||ಹನಿ ಬನ್ನಿ ಫೀಲ್ ಮೈ ಲವ್
+4roeajly408|Hey Hrudayave|Trivikrama|2022||melody||ಹೇ ಹೃದಯವೇ
+yHW0IcvsnRA|Hey Sajjana|Trivikrama|2022||mass||ಹೇ ಸಜ್ಜನ
+gdecvBWxYD8|Sapta Sagaradaache Ello Side B Title Track|Sapta Sagaradaache Ello Side B|2023||melody,dard||ಸಪ್ತ ಸಾಗರದಾಚೆ ಎಲ್ಲೋ ಸೈಡ್ ಬಿ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+j9jeuZ3nNcY|Dhare Neenididaasare|Sapta Sagaradaache Ello Side B|2023||dard||ಧರೆ ನೀನಿಡಿದಾಸರೆ
+hIBhNrJQgQ4|Kanmareya Kaade|Sapta Sagaradaache Ello|2023||dard||ಕಣ್ಮರೆಯ ಕಾಡೆ
+Mb6rCWslTw4|Gaju Koodide|Sapta Sagaradaache Ello Side B|2023||melody||ಗಾಜು ಕೂಡಿದೆ
+P689pDpKOkI|Shivani|Kousalya Supraja Rama|2023||melody||ಶಿವಾನಿ
+j8ZOvBSl6hE|90 Haaku|Kousalya Supraja Rama|2023||mass||90 ಹಾಕು
+Hk5y_ielIa4|Kousalya Supraja Rama Title Track|Kousalya Supraja Rama|2023||melody||ಕೌಸಲ್ಯ ಸುಪ್ರಜಾ ರಾಮ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+PKSXrdqBZnY|Marali Baa Nannamma|Kousalya Supraja Rama|2023||dard||ಮರಳಿ ಬಾ ನನ್ನಮ್ಮ
+w63LsxU3Hj8|Gold Fish|Baanadariyalli|2023|Aishwarya Rangarajan|melody||ಗೋಲ್ಡ್ ಫಿಶ್
+64Me5mGxFg8|Ninnanu Nodida|Baanadariyalli|2023|Sonu Nigam|melody||ನಿನ್ನನು ನೋಡಿದ
+svpt5VgqqUE|Maathella Haage Ide|Baanadariyalli|2023|Armaan Malik|melody||ಮಾತೆಲ್ಲ ಹಾಗೇ ಇದೆ
+ZEAxGbyQo6I|Hode Yelli|Baanadariyalli|2023|Rajesh Krishnan|dard||ಹೋದೆ ಎಲ್ಲಿ
+dGwq6KxR7So|Tagaru Palya Title Track|Tagaru Palya|2023|Vasuki Vaibhav|folk||ಟಗರು ಪಲ್ಯ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+8aJoC-1LAbc|Suryakanthi Naanu|Tagaru Palya|2023||melody||ಸೂರ್ಯಕಾಂತಿ ನಾನು
+BWgTR5ofZGA|Hey Gagana|Krishnam Pranaya Sakhi|2024|Sonu Nigam, Chinmayi|melody||ಹೇ ಗಗನ
+fmuLpnkw1Gc|Ninna Hegalu|Krishnam Pranaya Sakhi|2024|K. S. Chithra|melody||ನಿನ್ನ ಹೆಗಲು
+luDte9j_vAU|My Marriage is Fixed|Krishnam Pranaya Sakhi|2024||mass||ಮೈ ಮ್ಯಾರೇಜ್ ಈಸ್ ಫಿಕ್ಸ್ಡ್
+hDIyIsoJsjI|Kaadadeye Hegirali|Krishnam Pranaya Sakhi|2024|Prithwi Bhat|dard||ಕಾಡದೆಯೇ ಹೇಗಿರಲಿ
+0sBUxpyMZhE|Sri Krishnam|Krishnam Pranaya Sakhi|2024|Rakshita Suresh|melody||ಶ್ರೀ ಕೃಷ್ಣಂ
+vXMl1Y_-cJ4|Hattiri Nandu Super Scooter|Upadhyaksha|2024||mass||ಹತ್ತಿರಿ ನಂದು ಸೂಪರ್ ಸ್ಕೂಟರ್
+k0P1Sy8UVuU|Upadhyaksha Title Track|Upadhyaksha|2024||mass||ಉಪಾಧ್ಯಕ್ಷ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+NCfEfqLyuLc|Radhe|Ibbani Tabbida Ileyali|2024||melody||ರಾಧೆ
+CxX1mzjTOsY|Oh Anahita|Ibbani Tabbida Ileyali|2024||melody||ಓ ಅನಾಹಿತಾ
+K2RobRVp3Zg|Helu Gelathi|Ibbani Tabbida Ileyali|2024||melody||ಹೇಳು ಗೆಳತಿ
+WfiUKdXDz0A|Sadaa Neene|Ibbani Tabbida Ileyali|2024||melody||ಸದಾ ನೀನೇ
+V2LOcXF6bV8|Taare Nihaare|Ibbani Tabbida Ileyali|2024|Armaan Malik|melody||ತಾರೆ ನಿಹಾರೆ
+yuXhXwq-uus|Preeti Idda Mele|Ibbani Tabbida Ileyali|2024||dard||ಪ್ರೀತಿ ಇದ್ದ ಮೇಲೆ
+dqIiF5SounI|Kelalenu|Ibbani Tabbida Ileyali|2024||melody||ಕೇಳಲೇನು
+MHaX0tBqfcE|Gangi Gangi|Brat|2025||folk,mass||ಗಂಗಿ ಗಂಗಿ
+4NziKbArOF4|Brat Theory|Brat|2025|Rahul Dit-O|mass||ಬ್ರ್ಯಾಟ್ ಥಿಯರಿ
+9-6ppq5eQqY|Bratism|Brat|2025||mass||ಬ್ರ್ಯಾಟಿಸಂ
+CQSzGF9VAak|Ekka Maar|Ekka|2025||mass||ಎಕ್ಕ ಮಾರ್
+lm1iZJa1nas|Mouna|Ekka|2025|Sanjith Hegde|melody||ಮೌನ
+D5UqLOruYD4|Rowdy Rhymes|Ekka|2025||mass||ರೌಡಿ ರೈಮ್ಸ್
+RV5DxBkFAYU|Dooradalli Yaaro Ninthu|Ekka|2025||melody||ದೂರದಲ್ಲಿ ಯಾರೋ ನಿಂತು
+3xsnQi8bdxw|Bidu Gaadi Yene Barali|Ekka|2025||folk||ಬಿಡು ಗಾಡಿ ಏನೇ ಬರಲಿ
+XtNOneYYr8U|Troll Song|UI|2024||mass||ಟ್ರೋಲ್ ಸಾಂಗ್
+1mTNBQtoL-E|Cheap Song|UI|2024||mass||ಚೀಪ್ ಸಾಂಗ್
+qbQPaROt4u8|Fan India Song|UI|2024||mass||ಫ್ಯಾನ್ ಇಂಡಿಯಾ ಸಾಂಗ್
+WV5IMXXYr1w|Phonu Illa|Adhyaksha|2014|Vijay Prakash|mass||ಫೋನು ಇಲ್ಲ
+kow0BIg7YIg|Kannigu Kannigu|Adhyaksha|2014||melody||ಕಣ್ಣಿಗೂ ಕಣ್ಣಿಗೂ
+QrjQTzfYwSc|Adhyaksha Adhyaksha|Adhyaksha|2014|Puneeth Rajkumar|mass||ಅಧ್ಯಕ್ಷ ಅಧ್ಯಕ್ಷ

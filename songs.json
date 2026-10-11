@@ -4679,8 +4679,8 @@
   "no": 257,
   "id": "XkfzCgQKmbY",
   "title": "Maadeva",
-  "film": "Maadeva",
-  "year": 2023,
+  "film": "Popcorn Monkey Tiger",
+  "year": 2020,
   "singers": "Sanjith Hegde",
   "tags": [
    "folk"
@@ -4689,7 +4689,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಮಾದೇವ",
-  "knf": "ಮಾದೇವ",
+  "knf": "ಪಾಪ್‌ಕಾರ್ನ್ ಮಂಕಿ ಟೈಗರ್",
   "kns": "ಸಂಜಿತ್ ಹೆಗ್ಡೆ",
   "tv": true,
   "fv": true
@@ -7034,6 +7034,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಕನ್ನಡ ನಾಡಿನ ವೀರ ರಮಣಿಯ",
+  "knf": "ನಾಗರಹಾವು",
   "kns": "ಪಿ.ಬಿ. ಶ್ರೀನಿವಾಸ್",
   "tv": true,
   "fv": true
@@ -7053,6 +7054,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಕರುನಾಡ ತಾಯಿ ಸದಾ ಚಿನ್ಮಯಿ",
+  "knf": "ನಾನು ನನ್ನ ಹೆಂಡ್ತಿ",
   "kns": "ಎಸ್.ಪಿ. ಬಾಲಸುಬ್ರಹ್ಮಣ್ಯಂ",
   "tv": true,
   "fv": false
@@ -7071,6 +7073,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಅ ಆ ಇ ಈ ಕನ್ನಡದ ಅಕ್ಷರಮಾಲೆ",
+  "knf": "ಕರುಳಿನ ಕರೆ",
   "kns": "ಎಸ್. ಜಾನಕಿ",
   "tv": true,
   "fv": true
@@ -7090,6 +7093,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಮೈಸೂರು ದಸರಾ ಎಷ್ಟೊಂದು ಸುಂದರ",
+  "knf": "ಕರುಳಿನ ಕರೆ",
   "kns": "ಪಿ.ಬಿ. ಶ್ರೀನಿವಾಸ್",
   "tv": true,
   "fv": true
@@ -7108,6 +7112,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ದಸರಾ ಬಂತಮ್ಮ",
+  "knf": "ವಿಜಯದಶಮಿ",
   "tv": true,
   "fv": true
  },
@@ -7162,6 +7167,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಶ್ರೀ ಚಾಮುಂಡೇಶ್ವರಿ",
+  "knf": "ಶ್ರೀ ಕೃಷ್ಣದೇವರಾಯ",
   "tv": true,
   "fv": true
  },
@@ -7198,6 +7204,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಬ್ಯಾಂಗಲ್ ಬಂಗಾರಿ",
+  "knf": "ಎಕ್ಕ",
   "tv": true,
   "fv": true
  },
@@ -7270,6 +7277,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನಾನೇ ನೀನಂತೆ",
+  "knf": "ಬ್ರ್ಯಾಟ್",
   "kns": "ಸಿದ್ ಶ್ರೀರಾಮ್",
   "tv": true,
   "fv": true
@@ -7288,6 +7296,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನನಗೆ ನೀನು",
+  "knf": "ಉಪಾಧ್ಯಕ್ಷ",
   "tv": true,
   "fv": true
  },
@@ -7305,6 +7314,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಮಸ್ತ್ ಮಲೈಕಾ",
+  "knf": "ಮಾರ್ಕ್",
   "tv": true,
   "fv": true
  },
@@ -7341,6 +7351,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಶಿವ ಶಿವ",
+  "knf": "ಕೆಡಿ",
   "tv": true,
   "fv": true
  },
@@ -7358,6 +7369,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಮತ್ತೆ ನೋಡಬೇಡ",
+  "knf": "ಏಕ್ ಲವ್ ಯಾ",
   "tv": true,
   "fv": true
  },
@@ -7393,6 +7405,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನಾನು ಹೋಗೋಕು ಮೊದ್ಲು",
+  "knf": "ಧಮಾಕ",
   "tv": true,
   "fv": true
  },
@@ -7410,6 +7423,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಬ್ರಹ್ಮಕಲಶ",
+  "knf": "ಕಾಂತಾರ ಅಧ್ಯಾಯ 1",
   "tv": true,
   "fv": true
  },
@@ -7482,6 +7496,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೆನ್ನೆ ತನಕ",
+  "knf": "ತ್ರಿವಿಕ್ರಮ",
   "kns": "ಸಂಜಿತ್ ಹೆಗ್ಡೆ",
   "tv": true,
   "fv": true
@@ -7500,6 +7515,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಜಗವೇ ನೀನು",
+  "knf": "ಲವ್ 360",
   "kns": "ಸಿದ್ ಶ್ರೀರಾಮ್",
   "tv": true,
   "fv": true
@@ -7518,6 +7534,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಬೆಳಕಿನ ಕವಿತೆ",
+  "knf": "ಬನಾರಸ್",
   "tv": true,
   "fv": true
  },
@@ -7571,6 +7588,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ರಾಜ ನಿನ್ನನೇ",
+  "knf": "ಇಂದ್ರ",
   "tv": true,
   "fv": true
  },
@@ -7625,6 +7643,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಪ್ರಥಮ",
+  "knf": "ಮೊದಲಸಲ",
   "tv": true,
   "fv": true
  },
@@ -7660,6 +7679,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಒಂದೇ ಉಸಿರಂತೆ",
+  "knf": "ಸ್ನೇಹಲೋಕ",
   "kns": "ರಾಜೇಶ್ ಕೃಷ್ಣನ್",
   "tv": true,
   "fv": true
@@ -7678,6 +7698,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಜೀವ ನೀನೇ",
+  "knf": "ಮಾರ್ಟಿನ್",
   "kns": "ಸೋನು ನಿಗಮ್",
   "tv": true,
   "fv": true
@@ -7696,6 +7717,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಮೋಸ ಮಾಡಲೆಂದು ನೀನು",
+  "knf": "ಕೃಷ್ಣನ್ ಲವ್ ಸ್ಟೋರಿ",
   "tv": true,
   "fv": true
  },
@@ -7713,6 +7735,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಕಣ್ ಕಣ್ಣ ಸಲಿಗೆ",
+  "knf": "ನವಗ್ರಹ",
   "kns": "ಸೋನು ನಿಗಮ್",
   "tv": true,
   "fv": true
@@ -7749,6 +7772,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಸೆರೆಯಾದನು ಸೆರೆಯಾದನು",
+  "knf": "ಸತ್ಯ ಇನ್ ಲವ್",
   "tv": true,
   "fv": true
  },
@@ -7766,6 +7790,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಸೈಕೋ ಸೈತಾನ್",
+  "knf": "ಮಾರ್ಕ್",
   "tv": true,
   "fv": true
  },
@@ -7801,6 +7826,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಗುಂಟೂರು ಗುಂಟೂರು",
+  "knf": "ಅರ್ಜುನ್",
   "tv": true,
   "fv": true
  },
@@ -7836,6 +7862,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಮಾರಿ ಕಣ್ಣು",
+  "knf": "ಎ",
   "tv": true,
   "fv": true
  },
@@ -7889,6 +7916,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೀರಲ್ಲಿ ಸಣ್ಣ",
+  "knf": "ಹುಡುಗರು",
   "tv": true,
   "fv": true
  },
@@ -7924,6 +7952,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಚಿತ್ತಾರ ಮೂಡೋ",
+  "knf": "ಉಗ್ರಂ",
   "tv": true,
   "fv": true
  },
@@ -7941,6 +7970,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೋ ಪ್ರಾಬ್ಲಮ್",
+  "knf": "ವಜ್ರಕಾಯ",
   "tv": true,
   "fv": true
  },
@@ -7976,6 +8006,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಈ ಪ್ರೀತಿಗೆ ಕಣ್ಣು ಇಲ್ಲ",
+  "knf": "ಓ ನನ್ನ ನಲ್ಲೆ",
   "tv": true,
   "fv": true
  },
@@ -7993,6 +8024,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಇನ್ನೂನು ಬೇಕಾಗಿದೆ",
+  "knf": "ಮುಂದಿನ ನಿಲ್ದಾಣ",
   "kns": "ವಾಸುಕಿ ವೈಭವ್",
   "tv": true,
   "fv": true
@@ -8011,6 +8043,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಅಂಬಾರಿ ಊರಿನಲ್ಲಿ",
+  "knf": "ನವಗ್ರಹ",
   "kns": "ಶಂಕರ್ ಮಹಾದೇವನ್",
   "tv": true,
   "fv": true
@@ -8029,6 +8062,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಲಾಲಿ ಸುವ್ವಾಲಿ",
+  "knf": "ಜೋಡಿ ಹಕ್ಕಿ",
   "tv": true,
   "fv": true
  },
@@ -8064,6 +8098,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಬಸಂತಿ",
+  "knf": "ಪ್ರೇಮ್ ಅಡ್ಡ",
   "tv": true,
   "fv": true
  },
@@ -8082,6 +8117,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೂರೊಂದು ನೆನಪು",
+  "knf": "ಬಂಧನ",
   "kns": "ಎಸ್.ಪಿ. ಬಾಲಸುಬ್ರಹ್ಮಣ್ಯಂ",
   "tv": true,
   "fv": true
@@ -8173,6 +8209,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನಿನ್ನಲ್ಲೇ",
+  "knf": "ಎಂದೆಂದಿಗೂ",
   "tv": true,
   "fv": true
  },
@@ -8190,6 +8227,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ತುಂಟ ತುಂಟ",
+  "knf": "ಸಾಹುಕಾರ",
   "tv": true,
   "fv": true
  },
@@ -8207,6 +8245,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಸೆಟ್ಟಾಗಲ್ಲ",
+  "knf": "ಕೆಡಿ",
   "tv": true,
   "fv": true
  },
@@ -8224,6 +8263,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಕನಸುಗಾರನ",
+  "knf": "ಓ ನನ್ನ ನಲ್ಲೆ",
   "tv": true,
   "fv": true
  },
@@ -8241,6 +8281,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಹೇ ಜಲೀಲ",
+  "knf": "ಅಂಬಿ ನಿಂಗ್ ವಯಸ್ಸಾಯ್ತೋ",
   "tv": true,
   "fv": true
  },
@@ -8258,6 +8299,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೀನು ಇರುವಾಗ",
+  "knf": "ನಿನ್ನಿಂದಲೇ",
   "tv": true,
   "fv": true
  },
@@ -8331,6 +8373,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಓ ಬೇಬಿ",
+  "knf": "ರಿಕ್ಕಿ",
   "tv": true,
   "fv": true
  },
@@ -8366,6 +8409,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಅಗೋ ಬಂದನು",
+  "knf": "ದೊರೆ",
   "kns": "ಕೆ.ಜೆ. ಯೇಸುದಾಸ್, ಕೆ.ಎಸ್. ಚಿತ್ರಾ",
   "tv": true,
   "fv": true
@@ -8384,6 +8428,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೆನಪಿನ ಹುಡುಗಿಯೇ",
+  "knf": "ಹೀರೋ",
   "kns": "ವಿಜಯ್ ಪ್ರಕಾಶ್",
   "tv": true,
   "fv": true
@@ -8402,6 +8447,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಕೆಣಕುತಿದೆ ನಿನ್ನ ಕಣ್ಣೋಟ",
+  "knf": "ಆಸೆಗೊಬ್ಬ ಮೀಸೆಗೊಬ್ಬ",
   "tv": true,
   "fv": true
  },
@@ -8419,6 +8465,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಭರ್ಜರಿ ಸೌಂಡು",
+  "knf": "ಭರ್ಜರಿ",
   "tv": true,
   "fv": true
  },
@@ -8436,6 +8483,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಅಪರಂಜಿ ಚಿನ್ನವೋ",
+  "knf": "ಮನೆದೇವ್ರು",
   "tv": true,
   "fv": true
  },
@@ -8491,6 +8539,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಸುಬ್ಬಲಕ್ಷ್ಮಿ",
+  "knf": "ಬಹದ್ದೂರ್",
   "tv": true,
   "fv": true
  },
@@ -8509,6 +8558,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಯಕ್ಕ ನಿನ್ ಮಗಳ್",
+  "knf": "ವಿಕ್ಟರಿ",
   "tv": true,
   "fv": true
  },
@@ -8526,6 +8576,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಪುಟ್ಟಗೌರಿ",
+  "knf": "ಭರ್ಜರಿ",
   "tv": true,
   "fv": true
  },
@@ -8543,6 +8594,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಹೂವಿನ ಸಂತೆಗೆ",
+  "knf": "ಲಕ್ಕಿ",
   "tv": true,
   "fv": true
  },
@@ -8579,6 +8631,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ತಂದೆ ಕೊಡಿಸೋ ಸೀರೆ",
+  "knf": "ಮಿಡಿದ ಹೃದಯಗಳು",
   "tv": true,
   "fv": true
  },
@@ -8596,6 +8649,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಅಂಬರ ಚುಂಬಿತ ಪ್ರೇಮ",
+  "knf": "ಶೃಂಗಾರ ಕಾವ್ಯ",
   "tv": true,
   "fv": true
  },
@@ -8613,6 +8667,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಏನೋ ಒಂಥರಾ ಚಂದ",
+  "knf": "ದಿ ಡೆವಿಲ್",
   "tv": true,
   "fv": true
  },
@@ -8630,6 +8685,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೆರಳನು ಕಾಣದ ಲತೆಯಂತೆ",
+  "knf": "ಅವಳ ಹೆಜ್ಜೆ",
   "tv": true,
   "fv": true
  },
@@ -8647,6 +8703,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಜೀವ ಹೂವಾಗಿದೆ",
+  "knf": "ನೀ ನನ್ನ ಗೆಲ್ಲಲಾರೆ",
   "kns": "ಡಾ. ರಾಜ್‌ಕುಮಾರ್",
   "tv": true,
   "fv": true
@@ -8665,6 +8722,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನನ್ನ ಪ್ರೀತಿಯ ದೇವತೆಯು",
+  "knf": "ನಿನ್ನೇ ಪ್ರೀತಿಸುವೆ",
   "tv": true,
   "fv": true
  },
@@ -8720,6 +8778,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನೀ ಸಿಗೋವರೆಗೂ",
+  "knf": "ಭಜರಂಗಿ 2",
   "kns": "ಸಿದ್ ಶ್ರೀರಾಮ್",
   "tv": true,
   "fv": true
@@ -8738,6 +8797,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ರಾಗದಿಂದ ತಂದನ",
+  "knf": "ಮಾಂಗಲ್ಯಂ ತಂತುನಾನೇನ",
   "tv": true,
   "fv": true
  },
@@ -8755,6 +8815,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನವಿಲೆ",
+  "knf": "ಕಲಾವಿದ",
   "kns": "ಎಸ್.ಪಿ. ಬಾಲಸುಬ್ರಹ್ಮಣ್ಯಂ",
   "tv": true,
   "fv": true
@@ -8773,6 +8834,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಹೃದಯವೇ ಬಯಸಿದೆ",
+  "knf": "ಕೃಷ್ಣನ್ ಲವ್ ಸ್ಟೋರಿ",
   "tv": true,
   "fv": true
  },
@@ -8790,6 +8852,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಮಧ್ಯ ರಾತ್ರಿಲಿ ಹೈವೇ",
+  "knf": "ಶಾಂತಿ ಕ್ರಾಂತಿ",
   "tv": true,
   "fv": true
  },
@@ -8807,6 +8870,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನಿನಾನೇ ನಿನಾನೇ",
+  "knf": "ಸುಂಟರಗಾಳಿ",
   "kns": "ಕುನಾಲ್ ಗಾಂಜಾವಾಲಾ",
   "tv": true,
   "fv": true
@@ -8825,6 +8889,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನಿಮ್ ಕಡೆ ಸಾಂಬಾರ್ ಅಂದ್ರೆ",
+  "knf": "ಸಾಮ್ರಾಟ್",
   "tv": true,
   "fv": true
  },
@@ -8842,6 +8907,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ನಗು ನಗುತಾ ನೀ ಬರುವೆ",
+  "knf": "ಗಿರಿಕನ್ಯೆ",
   "tv": true,
   "fv": true
  },
@@ -8878,6 +8944,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಟೆಲಿಫೋನ್ ಗೆಳತಿ",
+  "knf": "ಕುಶಲವೇ ಕ್ಷೇಮವೇ",
   "tv": true,
   "fv": true
  },
@@ -8914,6 +8981,7 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಅಂದವೋ ಅಂದವು ಕನ್ನಡ ನಾಡು",
+  "knf": "ಮಲ್ಲಿಗೆ ಹೂವೆ",
   "kns": "ಕೆ.ಜೆ. ಯೇಸುದಾಸ್",
   "tv": true,
   "fv": true
@@ -8952,6 +9020,2239 @@
   "by": "Praveen BABA",
   "hot": true,
   "kn": "ಬಾಸು ನಮ್ ಬಾಸು",
+  "knf": "ಭಜರಂಗಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 503,
+  "id": "54VIJ2jomMc",
+  "title": "Kareyole",
+  "film": "RangiTaranga",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕರೆಯೋಲೆ",
+  "knf": "ರಂಗಿತರಂಗ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 504,
+  "id": "SC1MGJJ-QBM",
+  "title": "Nee Kele Vadhuve",
+  "film": "RangiTaranga",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನೀ ಕೇಳೆ ವಧುವೇ",
+  "knf": "ರಂಗಿತರಂಗ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 505,
+  "id": "wL3Rf1vRTtk",
+  "title": "Kanna Kajal",
+  "film": "Endendigu",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಣ್ಣ ಕಾಜಲ್",
+  "knf": "ಎಂದೆಂದಿಗೂ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 506,
+  "id": "d8VV0Hl-8FU",
+  "title": "Friendu Maduveli",
+  "film": "Endendigu",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಫ್ರೆಂಡು ಮದುವೇಲಿ",
+  "knf": "ಎಂದೆಂದಿಗೂ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 507,
+  "id": "lEPnRgrXtr4",
+  "title": "Iduvarege",
+  "film": "Endendigu",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಇದುವರೆಗೆ",
+  "knf": "ಎಂದೆಂದಿಗೂ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 508,
+  "id": "6Lf27Xdu_yY",
+  "title": "Krishna Calling",
+  "film": "Krishna Leela",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕೃಷ್ಣ ಕಾಲಿಂಗ್",
+  "knf": "ಕೃಷ್ಣಲೀಲಾ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 509,
+  "id": "kKDIBWU4qdA",
+  "title": "Muttlilla Murililla",
+  "film": "Krishna Leela",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮುಟ್ಲಿಲ್ಲ ಮುರಿಲಿಲ್ಲ",
+  "knf": "ಕೃಷ್ಣಲೀಲಾ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 510,
+  "id": "hyG74MDuyK0",
+  "title": "Kaadiruve Ninagagi",
+  "film": "Krishna Leela",
+  "year": 2015,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಾದಿರುವೆ ನಿನಗಾಗಿ",
+  "knf": "ಕೃಷ್ಣಲೀಲಾ",
+  "kns": "ಶ್ರೇಯಾ ಘೋಷಾಲ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 511,
+  "id": "WeSgDGwYiZQ",
+  "title": "Pesal Man",
+  "film": "Krishna Leela",
+  "year": 2015,
+  "singers": "Puneeth Rajkumar",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಪೆಸಲ್ ಮ್ಯಾನ್",
+  "knf": "ಕೃಷ್ಣಲೀಲಾ",
+  "kns": "ಪುನೀತ್ ರಾಜ್‌ಕುಮಾರ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 512,
+  "id": "Mo-B5AxOftw",
+  "title": "Nenape Nithya Mallige",
+  "film": "Kendasampige",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನೆನಪೇ ನಿತ್ಯ ಮಲ್ಲಿಗೆ",
+  "knf": "ಕೆಂಡಸಂಪಿಗೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 513,
+  "id": "S6gEUPhYtuE",
+  "title": "Kanasali Nadesu",
+  "film": "Kendasampige",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕನಸಲಿ ನಡೆಸು",
+  "knf": "ಕೆಂಡಸಂಪಿಗೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 514,
+  "id": "rPds_vgFFIw",
+  "title": "Mareyade Kshamisu",
+  "film": "Kendasampige",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮರೆಯದೆ ಕ್ಷಮಿಸು",
+  "knf": "ಕೆಂಡಸಂಪಿಗೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 515,
+  "id": "9i52GMdSbSQ",
+  "title": "Ilijaaru Haadhi Idu",
+  "film": "Kendasampige",
+  "year": 2015,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಇಳಿಜಾರು ಹಾದಿ ಇದು",
+  "knf": "ಕೆಂಡಸಂಪಿಗೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 516,
+  "id": "ps3FPq0hlG8",
+  "title": "Hey Who Are You",
+  "film": "Kirik Party",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೇ ಹೂ ಆರ್ ಯೂ",
+  "knf": "ಕಿರಿಕ್ ಪಾರ್ಟಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 517,
+  "id": "MXKl40g0zKI",
+  "title": "Last Bench Party",
+  "film": "Kirik Party",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಲಾಸ್ಟ್ ಬೆಂಚ್ ಪಾರ್ಟಿ",
+  "knf": "ಕಿರಿಕ್ ಪಾರ್ಟಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 518,
+  "id": "jxbTybIAfx4",
+  "title": "Thoogu Manchadalli Koothu",
+  "film": "Kirik Party",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody",
+   "classic"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ತೂಗು ಮಂಚದಲ್ಲಿ ಕೂತು",
+  "knf": "ಕಿರಿಕ್ ಪಾರ್ಟಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 519,
+  "id": "YZhUwHFsCO0",
+  "title": "Sariyaagi Nenapide",
+  "film": "Mungaru Male 2",
+  "year": 2016,
+  "singers": "Armaan Malik",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಸರಿಯಾಗಿ ನೆನಪಿದೆ",
+  "knf": "ಮುಂಗಾರು ಮಳೆ 2",
+  "kns": "ಅರ್ಮಾನ್ ಮಲಿಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 520,
+  "id": "nJ0HkQdIOGU",
+  "title": "Neenu Irade",
+  "film": "Mungaru Male 2",
+  "year": 2016,
+  "singers": "Armaan Malik",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನೀನು ಇರದೆ",
+  "knf": "ಮುಂಗಾರು ಮಳೆ 2",
+  "kns": "ಅರ್ಮಾನ್ ಮಲಿಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 521,
+  "id": "-nRvuPKh188",
+  "title": "My Daddy",
+  "film": "Mungaru Male 2",
+  "year": 2016,
+  "singers": "Benny Dayal, Chandan Shetty",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮೈ ಡ್ಯಾಡಿ",
+  "knf": "ಮುಂಗಾರು ಮಳೆ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 522,
+  "id": "3P16dodI0tY",
+  "title": "Onte",
+  "film": "Mungaru Male 2",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಒಂಟೆ",
+  "knf": "ಮುಂಗಾರು ಮಳೆ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 523,
+  "id": "41qxViSQgZk",
+  "title": "Ee Sanjege",
+  "film": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody",
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಈ ಸಂಜೆಗೆ",
+  "knf": "ಗೋಧಿ ಬಣ್ಣ ಸಾಧಾರಣ ಮೈಕಟ್ಟು",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 524,
+  "id": "lec5CClxpxo",
+  "title": "Ale Moodadhe",
+  "film": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಅಲೆ ಮೂಡದೆ",
+  "knf": "ಗೋಧಿ ಬಣ್ಣ ಸಾಧಾರಣ ಮೈಕಟ್ಟು",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 525,
+  "id": "baWmn0q_Y9I",
+  "title": "Ayomaya",
+  "film": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಅಯೋಮಯ",
+  "knf": "ಗೋಧಿ ಬಣ್ಣ ಸಾಧಾರಣ ಮೈಕಟ್ಟು",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 526,
+  "id": "aACvYA-i7wc",
+  "title": "Ranga Bhoomiya",
+  "film": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ರಂಗ ಭೂಮಿಯ",
+  "knf": "ಗೋಧಿ ಬಣ್ಣ ಸಾಧಾರಣ ಮೈಕಟ್ಟು",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 527,
+  "id": "VhE9L8Vf-S8",
+  "title": "Komala Henne",
+  "film": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕೋಮಲ ಹೆಣ್ಣೆ",
+  "knf": "ಗೋಧಿ ಬಣ್ಣ ಸಾಧಾರಣ ಮೈಕಟ್ಟು",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 528,
+  "id": "MM2x5Z-jV2g",
+  "title": "Mouna",
+  "film": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮೌನ",
+  "knf": "ಗೋಧಿ ಬಣ್ಣ ಸಾಧಾರಣ ಮೈಕಟ್ಟು",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 529,
+  "id": "-t8mN5ZxiBY",
+  "title": "Katheyondu Shuruvaagide",
+  "film": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಥೆಯೊಂದು ಶುರುವಾಗಿದೆ",
+  "knf": "ಗೋಧಿ ಬಣ್ಣ ಸಾಧಾರಣ ಮೈಕಟ್ಟು",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 530,
+  "id": "bDHqAMXa2_I",
+  "title": "Jeeva Neenu",
+  "film": "Ricky",
+  "year": 2016,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಜೀವ ನೀನು",
+  "knf": "ರಿಕ್ಕಿ",
+  "kns": "ರಾಜೇಶ್ ಕೃಷ್ಣನ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 531,
+  "id": "e7wFu429efQ",
+  "title": "Malage Malage",
+  "film": "Ricky",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮಲಗೆ ಮಲಗೆ",
+  "knf": "ರಿಕ್ಕಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 532,
+  "id": "edYuyet1EbY",
+  "title": "Harusha Thaladhe",
+  "film": "Ricky",
+  "year": 2016,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹರುಷ ತಾಳದೆ",
+  "knf": "ರಿಕ್ಕಿ",
+  "kns": "ವಿಜಯ್ ಪ್ರಕಾಶ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 533,
+  "id": "SzhxNVEq1Vs",
+  "title": "Yele Mareyali",
+  "film": "Ricky",
+  "year": 2016,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಎಲೆ ಮರೆಯಲಿ",
+  "knf": "ರಿಕ್ಕಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 534,
+  "id": "Sg8cO2lSDjw",
+  "title": "Nee Nanna Olavu",
+  "film": "Chamak",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನೀ ನನ್ನ ಒಲವು",
+  "knf": "ಚಮಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 535,
+  "id": "3OIdUmWTOHw",
+  "title": "O Sanjeya Hoove",
+  "film": "Chamak",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಓ ಸಂಜೆಯ ಹೂವೆ",
+  "knf": "ಚಮಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 536,
+  "id": "AtQJZ373fXg",
+  "title": "Kush Kush",
+  "film": "Chamak",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕುಷ್ ಕುಷ್",
+  "knf": "ಚಮಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 537,
+  "id": "5Ha66MsrT-M",
+  "title": "Avalakki Buwalakki",
+  "film": "Chamak",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಅವಲಕ್ಕಿ ಬುವಲಕ್ಕಿ",
+  "knf": "ಚಮಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 538,
+  "id": "_qOaZxAFJVA",
+  "title": "Mangalyam Tantunanena",
+  "film": "Chamak",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮಾಂಗಲ್ಯಂ ತಂತುನಾನೇನ",
+  "knf": "ಚಮಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 539,
+  "id": "ly3SJD-Dpuc",
+  "title": "Kanna Muchche Kaade Goode",
+  "film": "Chamak",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಣ್ಣ ಮುಚ್ಚೆ ಕಾಡೆ ಗೂಡೆ",
+  "knf": "ಚಮಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 540,
+  "id": "_lvCKHIq8P4",
+  "title": "Tili Sanje",
+  "film": "Operation Alamelamma",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ತಿಳಿ ಸಂಜೆ",
+  "knf": "ಆಪರೇಷನ್ ಅಲಮೇಲಮ್ಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 541,
+  "id": "3wqTzeF-WU0",
+  "title": "Alaga Alaga",
+  "film": "Operation Alamelamma",
+  "year": 2017,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಅಲಗ ಅಲಗ",
+  "knf": "ಆಪರೇಷನ್ ಅಲಮೇಲಮ್ಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 542,
+  "id": "7uFWC5xNnYQ",
+  "title": "Hodi Ombath",
+  "film": "Mugulu Nage",
+  "year": 2017,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೊಡಿ ಒಂಬತ್",
+  "knf": "ಮುಗುಳು ನಗೆ",
+  "kns": "ವಿಜಯ್ ಪ್ರಕಾಶ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 543,
+  "id": "LeWQ1dyL658",
+  "title": "Ninna Snehadinda",
+  "film": "Mugulu Nage",
+  "year": 2017,
+  "singers": "Shreya Ghoshal",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನಿನ್ನ ಸ್ನೇಹದಿಂದ",
+  "knf": "ಮುಗುಳು ನಗೆ",
+  "kns": "ಶ್ರೇಯಾ ಘೋಷಾಲ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 544,
+  "id": "nigtZ81MhEc",
+  "title": "Kere Yeri",
+  "film": "Mugulu Nage",
+  "year": 2017,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕೆರೆ ಏರಿ",
+  "knf": "ಮುಗುಳು ನಗೆ",
+  "kns": "ಸೋನು ನಿಗಮ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 545,
+  "id": "sGSJ6LsZR_k",
+  "title": "Amara Hale Nenapu",
+  "film": "Mugulu Nage",
+  "year": 2017,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಅಮರ ಹಳೆ ನೆನಪು",
+  "knf": "ಮುಗುಳು ನಗೆ",
+  "kns": "ವಿಜಯ್ ಪ್ರಕಾಶ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 546,
+  "id": "aorAeMA06i0",
+  "title": "Yethake",
+  "film": "Bell Bottom",
+  "year": 2019,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಯೇತಕೆ",
+  "knf": "ಬೆಲ್ ಬಾಟಮ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 547,
+  "id": "xs5ynTDD_jI",
+  "title": "Aadhi Jyothi Banyo",
+  "film": "Bell Bottom",
+  "year": 2019,
+  "singers": "",
+  "tags": [
+   "folk"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಆದಿ ಜ್ಯೋತಿ ಬನ್ಯೋ",
+  "knf": "ಬೆಲ್ ಬಾಟಮ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 548,
+  "id": "7wJFPGn40kY",
+  "title": "Manase Maya",
+  "film": "Mundina Nildana",
+  "year": 2019,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮನಸೇ ಮಾಯ",
+  "knf": "ಮುಂದಿನ ನಿಲ್ದಾಣ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 549,
+  "id": "RJ18ETLUNzQ",
+  "title": "Naguva Kalisu",
+  "film": "Mundina Nildana",
+  "year": 2019,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನಗುವ ಕಲಿಸು",
+  "knf": "ಮುಂದಿನ ನಿಲ್ದಾಣ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 550,
+  "id": "GTOdY0_0Tbw",
+  "title": "Life is Beautiful",
+  "film": "Mundina Nildana",
+  "year": 2019,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಲೈಫ್ ಈಸ್ ಬ್ಯೂಟಿಫುಲ್",
+  "knf": "ಮುಂದಿನ ನಿಲ್ದಾಣ",
+  "kns": "ಸಂಜಿತ್ ಹೆಗ್ಡೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 551,
+  "id": "-qdGZetifBs",
+  "title": "Party Zamana",
+  "film": "Mundina Nildana",
+  "year": 2019,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಪಾರ್ಟಿ ಜಮಾನ",
+  "knf": "ಮುಂದಿನ ನಿಲ್ದಾಣ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 552,
+  "id": "PV2EHqJUNJ8",
+  "title": "Life of Partha",
+  "film": "Mundina Nildana",
+  "year": 2019,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಲೈಫ್ ಆಫ್ ಪಾರ್ಥ",
+  "knf": "ಮುಂದಿನ ನಿಲ್ದಾಣ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 553,
+  "id": "tMKna47gvYc",
+  "title": "Hrudaya",
+  "film": "Mundina Nildana",
+  "year": 2019,
+  "singers": "Swarathma",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೃದಯ",
+  "knf": "ಮುಂದಿನ ನಿಲ್ದಾಣ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 554,
+  "id": "K3nFy1wz6V0",
+  "title": "Love You Chinna",
+  "film": "Love Mocktail",
+  "year": 2020,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಲವ್ ಯೂ ಚಿನ್ನ",
+  "knf": "ಲವ್ ಮಾಕ್ಟೇಲ್",
+  "kns": "ರಘು ದೀಕ್ಷಿತ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 555,
+  "id": "qM8xNZahjQQ",
+  "title": "Janumagale Kaayuve",
+  "film": "Love Mocktail",
+  "year": 2020,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಜನುಮಗಳೇ ಕಾಯುವೆ",
+  "knf": "ಲವ್ ಮಾಕ್ಟೇಲ್",
+  "kns": "ರಘು ದೀಕ್ಷಿತ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 556,
+  "id": "7llPi3k-yQs",
+  "title": "Kanna Haniyondhu",
+  "film": "Love Mocktail",
+  "year": 2020,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಣ್ಣ ಹನಿಯೊಂದು",
+  "knf": "ಲವ್ ಮಾಕ್ಟೇಲ್",
+  "kns": "ರಘು ದೀಕ್ಷಿತ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 557,
+  "id": "9b1DrKv3MXo",
+  "title": "Neene Yendigu",
+  "film": "Love Mocktail",
+  "year": 2020,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನೀನೇ ಎಂದಿಗೂ",
+  "knf": "ಲವ್ ಮಾಕ್ಟೇಲ್",
+  "kns": "ರಘು ದೀಕ್ಷಿತ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 558,
+  "id": "qzlupdQOFLE",
+  "title": "Oh Oh Love Aaghoithalla",
+  "film": "Love Mocktail",
+  "year": 2020,
+  "singers": "Raghu Dixit",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಓಹ್ ಓಹ್ ಲವ್ ಆಗೋಯ್ತಲ್ಲ",
+  "knf": "ಲವ್ ಮಾಕ್ಟೇಲ್",
+  "kns": "ರಘು ದೀಕ್ಷಿತ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 559,
+  "id": "MOKIT_T3m2E",
+  "title": "Psychedelic Maaye",
+  "film": "Popcorn Monkey Tiger",
+  "year": 2020,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಸೈಕೆಡೆಲಿಕ್ ಮಾಯೆ",
+  "knf": "ಪಾಪ್‌ಕಾರ್ನ್ ಮಂಕಿ ಟೈಗರ್",
+  "kns": "ಸಂಜಿತ್ ಹೆಗ್ಡೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 560,
+  "id": "MjZBup8ELR4",
+  "title": "Demon in Me",
+  "film": "Garuda Gamana Vrishabha Vahana",
+  "year": 2021,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಡೀಮನ್ ಇನ್ ಮೀ",
+  "knf": "ಗರುಡ ಗಮನ ವೃಷಭ ವಾಹನ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 561,
+  "id": "JmbMRhO4bFU",
+  "title": "Baananchige Oduva Baara",
+  "film": "Hero",
+  "year": 2021,
+  "singers": "Vasuki Vaibhav",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಬಾನಂಚಿಗೆ ಓಡುವ ಬಾರ",
+  "knf": "ಹೀರೋ",
+  "kns": "ವಾಸುಕಿ ವೈಭವ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 562,
+  "id": "IPbiONoke-M",
+  "title": "Edeyinda Dooravaagi",
+  "film": "Hero",
+  "year": 2021,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಎದೆಯಿಂದ ದೂರವಾಗಿ",
+  "knf": "ಹೀರೋ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 563,
+  "id": "Xav5go50_f8",
+  "title": "Sakhiye",
+  "film": "Love 360",
+  "year": 2022,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಸಖಿಯೇ",
+  "knf": "ಲವ್ 360",
+  "kns": "ಸಂಜಿತ್ ಹೆಗ್ಡೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 564,
+  "id": "zIbPOgx2KUg",
+  "title": "Neenu Bagehariyada",
+  "film": "Gaalipata 2",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನೀನು ಬಗೆಹರಿಯದ",
+  "knf": "ಗಾಳಿಪಟ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 565,
+  "id": "fVzrPxAP2-k",
+  "title": "Exam Song",
+  "film": "Gaalipata 2",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಎಕ್ಸಾಮ್ ಸಾಂಗ್",
+  "knf": "ಗಾಳಿಪಟ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 566,
+  "id": "mIOedsvjgEo",
+  "title": "Naanaadadaa",
+  "film": "Gaalipata 2",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನಾನಾಡದಾ",
+  "knf": "ಗಾಳಿಪಟ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 567,
+  "id": "lJ-RCGVpY7Y",
+  "title": "Devle Devle",
+  "film": "Gaalipata 2",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ದೇವ್ಲೆ ದೇವ್ಲೆ",
+  "knf": "ಗಾಳಿಪಟ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 568,
+  "id": "xfu7LXl2Nas",
+  "title": "Gaalipata 2 Title Track",
+  "film": "Gaalipata 2",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಗಾಳಿಪಟ 2 ಶೀರ್ಷಿಕೆ ಗೀತೆ",
+  "knf": "ಗಾಳಿಪಟ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 569,
+  "id": "MzAtSG7xh64",
+  "title": "Thatherike",
+  "film": "Gaalipata 2",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ತತ್ತರಿಕೆ",
+  "knf": "ಗಾಳಿಪಟ 2",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 570,
+  "id": "5A6g2nY0XZU",
+  "title": "Maayagange",
+  "film": "Banaras",
+  "year": 2022,
+  "singers": "Armaan Malik",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮಾಯಾಗಂಗೆ",
+  "knf": "ಬನಾರಸ್",
+  "kns": "ಅರ್ಮಾನ್ ಮಲಿಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 571,
+  "id": "Q5VKUXxfh5k",
+  "title": "Hennu Hadeyalu Beda",
+  "film": "Banaras",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೆಣ್ಣು ಹಡೆಯಲು ಬೇಡ",
+  "knf": "ಬನಾರಸ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 572,
+  "id": "gDwMqVA_Lh0",
+  "title": "Troll Song",
+  "film": "Banaras",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಟ್ರೋಲ್ ಸಾಂಗ್",
+  "knf": "ಬನಾರಸ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 573,
+  "id": "tyUvf8omb7s",
+  "title": "Edebaditha Joragide",
+  "film": "Ek Love Ya",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಎದೆಬಡಿತ ಜೋರಾಗಿದೆ",
+  "knf": "ಏಕ್ ಲವ್ ಯಾ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 574,
+  "id": "ebXEH2SIB3o",
+  "title": "Meet Madana",
+  "film": "Ek Love Ya",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮೀಟ್ ಮದನ",
+  "knf": "ಏಕ್ ಲವ್ ಯಾ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 575,
+  "id": "g1lknPikSxo",
+  "title": "Yennegu Hennigu",
+  "film": "Ek Love Ya",
+  "year": 2022,
+  "singers": "Mangli",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಎಣ್ಣೆಗೂ ಹೆಣ್ಣಿಗೂ",
+  "knf": "ಏಕ್ ಲವ್ ಯಾ",
+  "kns": "ಮಂಗ್ಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 576,
+  "id": "wX6ws30ZWnI",
+  "title": "Ondu Oorali",
+  "film": "Ek Love Ya",
+  "year": 2022,
+  "singers": "Shankar Mahadevan",
+  "tags": [
+   "folk"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಒಂದು ಊರಲಿ",
+  "knf": "ಏಕ್ ಲವ್ ಯಾ",
+  "kns": "ಶಂಕರ್ ಮಹಾದೇವನ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 577,
+  "id": "_JiTXYb9_nk",
+  "title": "Helu Yaake",
+  "film": "Ek Love Ya",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೇಳು ಯಾಕೆ",
+  "knf": "ಏಕ್ ಲವ್ ಯಾ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 578,
+  "id": "h00OUTPM22A",
+  "title": "Mummy Please Mummy",
+  "film": "Trivikrama",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮಮ್ಮಿ ಪ್ಲೀಸ್ ಮಮ್ಮಿ",
+  "knf": "ತ್ರಿವಿಕ್ರಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 579,
+  "id": "4ICoB5TdlrI",
+  "title": "Shakuntala Shake Your Body Please",
+  "film": "Trivikrama",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಶಕುಂತಲಾ ಶೇಕ್ ಯುವರ್ ಬಾಡಿ ಪ್ಲೀಸ್",
+  "knf": "ತ್ರಿವಿಕ್ರಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 580,
+  "id": "bULTWUrm2ow",
+  "title": "Honey Bunny Feel My Love",
+  "film": "Trivikrama",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹನಿ ಬನ್ನಿ ಫೀಲ್ ಮೈ ಲವ್",
+  "knf": "ತ್ರಿವಿಕ್ರಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 581,
+  "id": "4roeajly408",
+  "title": "Hey Hrudayave",
+  "film": "Trivikrama",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೇ ಹೃದಯವೇ",
+  "knf": "ತ್ರಿವಿಕ್ರಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 582,
+  "id": "yHW0IcvsnRA",
+  "title": "Hey Sajjana",
+  "film": "Trivikrama",
+  "year": 2022,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೇ ಸಜ್ಜನ",
+  "knf": "ತ್ರಿವಿಕ್ರಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 583,
+  "id": "gdecvBWxYD8",
+  "title": "Sapta Sagaradaache Ello Side B Title Track",
+  "film": "Sapta Sagaradaache Ello Side B",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "melody",
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಸಪ್ತ ಸಾಗರದಾಚೆ ಎಲ್ಲೋ ಸೈಡ್ ಬಿ ಶೀರ್ಷಿಕೆ ಗೀತೆ",
+  "knf": "ಸಪ್ತ ಸಾಗರದಾಚೆ ಎಲ್ಲೋ ಸೈಡ್ ಬಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 584,
+  "id": "j9jeuZ3nNcY",
+  "title": "Dhare Neenididaasare",
+  "film": "Sapta Sagaradaache Ello Side B",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಧರೆ ನೀನಿಡಿದಾಸರೆ",
+  "knf": "ಸಪ್ತ ಸಾಗರದಾಚೆ ಎಲ್ಲೋ ಸೈಡ್ ಬಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 585,
+  "id": "hIBhNrJQgQ4",
+  "title": "Kanmareya Kaade",
+  "film": "Sapta Sagaradaache Ello",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಣ್ಮರೆಯ ಕಾಡೆ",
+  "knf": "ಸಪ್ತ ಸಾಗರದಾಚೆ ಎಲ್ಲೋ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 586,
+  "id": "Mb6rCWslTw4",
+  "title": "Gaju Koodide",
+  "film": "Sapta Sagaradaache Ello Side B",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಗಾಜು ಕೂಡಿದೆ",
+  "knf": "ಸಪ್ತ ಸಾಗರದಾಚೆ ಎಲ್ಲೋ ಸೈಡ್ ಬಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 587,
+  "id": "P689pDpKOkI",
+  "title": "Shivani",
+  "film": "Kousalya Supraja Rama",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಶಿವಾನಿ",
+  "knf": "ಕೌಸಲ್ಯ ಸುಪ್ರಜಾ ರಾಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 588,
+  "id": "j8ZOvBSl6hE",
+  "title": "90 Haaku",
+  "film": "Kousalya Supraja Rama",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "90 ಹಾಕು",
+  "knf": "ಕೌಸಲ್ಯ ಸುಪ್ರಜಾ ರಾಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 589,
+  "id": "Hk5y_ielIa4",
+  "title": "Kousalya Supraja Rama Title Track",
+  "film": "Kousalya Supraja Rama",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕೌಸಲ್ಯ ಸುಪ್ರಜಾ ರಾಮ ಶೀರ್ಷಿಕೆ ಗೀತೆ",
+  "knf": "ಕೌಸಲ್ಯ ಸುಪ್ರಜಾ ರಾಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 590,
+  "id": "PKSXrdqBZnY",
+  "title": "Marali Baa Nannamma",
+  "film": "Kousalya Supraja Rama",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮರಳಿ ಬಾ ನನ್ನಮ್ಮ",
+  "knf": "ಕೌಸಲ್ಯ ಸುಪ್ರಜಾ ರಾಮ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 591,
+  "id": "w63LsxU3Hj8",
+  "title": "Gold Fish",
+  "film": "Baanadariyalli",
+  "year": 2023,
+  "singers": "Aishwarya Rangarajan",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಗೋಲ್ಡ್ ಫಿಶ್",
+  "knf": "ಬಾನದಾರಿಯಲ್ಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 592,
+  "id": "64Me5mGxFg8",
+  "title": "Ninnanu Nodida",
+  "film": "Baanadariyalli",
+  "year": 2023,
+  "singers": "Sonu Nigam",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನಿನ್ನನು ನೋಡಿದ",
+  "knf": "ಬಾನದಾರಿಯಲ್ಲಿ",
+  "kns": "ಸೋನು ನಿಗಮ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 593,
+  "id": "svpt5VgqqUE",
+  "title": "Maathella Haage Ide",
+  "film": "Baanadariyalli",
+  "year": 2023,
+  "singers": "Armaan Malik",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮಾತೆಲ್ಲ ಹಾಗೇ ಇದೆ",
+  "knf": "ಬಾನದಾರಿಯಲ್ಲಿ",
+  "kns": "ಅರ್ಮಾನ್ ಮಲಿಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 594,
+  "id": "ZEAxGbyQo6I",
+  "title": "Hode Yelli",
+  "film": "Baanadariyalli",
+  "year": 2023,
+  "singers": "Rajesh Krishnan",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೋದೆ ಎಲ್ಲಿ",
+  "knf": "ಬಾನದಾರಿಯಲ್ಲಿ",
+  "kns": "ರಾಜೇಶ್ ಕೃಷ್ಣನ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 595,
+  "id": "dGwq6KxR7So",
+  "title": "Tagaru Palya Title Track",
+  "film": "Tagaru Palya",
+  "year": 2023,
+  "singers": "Vasuki Vaibhav",
+  "tags": [
+   "folk"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಟಗರು ಪಲ್ಯ ಶೀರ್ಷಿಕೆ ಗೀತೆ",
+  "knf": "ಟಗರು ಪಲ್ಯ",
+  "kns": "ವಾಸುಕಿ ವೈಭವ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 596,
+  "id": "8aJoC-1LAbc",
+  "title": "Suryakanthi Naanu",
+  "film": "Tagaru Palya",
+  "year": 2023,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಸೂರ್ಯಕಾಂತಿ ನಾನು",
+  "knf": "ಟಗರು ಪಲ್ಯ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 597,
+  "id": "BWgTR5ofZGA",
+  "title": "Hey Gagana",
+  "film": "Krishnam Pranaya Sakhi",
+  "year": 2024,
+  "singers": "Sonu Nigam, Chinmayi",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೇ ಗಗನ",
+  "knf": "ಕೃಷ್ಣಂ ಪ್ರಣಯ ಸಖಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 598,
+  "id": "fmuLpnkw1Gc",
+  "title": "Ninna Hegalu",
+  "film": "Krishnam Pranaya Sakhi",
+  "year": 2024,
+  "singers": "K. S. Chithra",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ನಿನ್ನ ಹೆಗಲು",
+  "knf": "ಕೃಷ್ಣಂ ಪ್ರಣಯ ಸಖಿ",
+  "kns": "ಕೆ.ಎಸ್. ಚಿತ್ರಾ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 599,
+  "id": "luDte9j_vAU",
+  "title": "My Marriage is Fixed",
+  "film": "Krishnam Pranaya Sakhi",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮೈ ಮ್ಯಾರೇಜ್ ಈಸ್ ಫಿಕ್ಸ್ಡ್",
+  "knf": "ಕೃಷ್ಣಂ ಪ್ರಣಯ ಸಖಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 600,
+  "id": "hDIyIsoJsjI",
+  "title": "Kaadadeye Hegirali",
+  "film": "Krishnam Pranaya Sakhi",
+  "year": 2024,
+  "singers": "Prithwi Bhat",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಾಡದೆಯೇ ಹೇಗಿರಲಿ",
+  "knf": "ಕೃಷ್ಣಂ ಪ್ರಣಯ ಸಖಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 601,
+  "id": "0sBUxpyMZhE",
+  "title": "Sri Krishnam",
+  "film": "Krishnam Pranaya Sakhi",
+  "year": 2024,
+  "singers": "Rakshita Suresh",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಶ್ರೀ ಕೃಷ್ಣಂ",
+  "knf": "ಕೃಷ್ಣಂ ಪ್ರಣಯ ಸಖಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 602,
+  "id": "vXMl1Y_-cJ4",
+  "title": "Hattiri Nandu Super Scooter",
+  "film": "Upadhyaksha",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹತ್ತಿರಿ ನಂದು ಸೂಪರ್ ಸ್ಕೂಟರ್",
+  "knf": "ಉಪಾಧ್ಯಕ್ಷ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 603,
+  "id": "k0P1Sy8UVuU",
+  "title": "Upadhyaksha Title Track",
+  "film": "Upadhyaksha",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಉಪಾಧ್ಯಕ್ಷ ಶೀರ್ಷಿಕೆ ಗೀತೆ",
+  "knf": "ಉಪಾಧ್ಯಕ್ಷ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 604,
+  "id": "NCfEfqLyuLc",
+  "title": "Radhe",
+  "film": "Ibbani Tabbida Ileyali",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ರಾಧೆ",
+  "knf": "ಇಬ್ಬನಿ ತಬ್ಬಿದ ಇಳೆಯಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 605,
+  "id": "CxX1mzjTOsY",
+  "title": "Oh Anahita",
+  "film": "Ibbani Tabbida Ileyali",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಓ ಅನಾಹಿತಾ",
+  "knf": "ಇಬ್ಬನಿ ತಬ್ಬಿದ ಇಳೆಯಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 606,
+  "id": "K2RobRVp3Zg",
+  "title": "Helu Gelathi",
+  "film": "Ibbani Tabbida Ileyali",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಹೇಳು ಗೆಳತಿ",
+  "knf": "ಇಬ್ಬನಿ ತಬ್ಬಿದ ಇಳೆಯಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 607,
+  "id": "WfiUKdXDz0A",
+  "title": "Sadaa Neene",
+  "film": "Ibbani Tabbida Ileyali",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಸದಾ ನೀನೇ",
+  "knf": "ಇಬ್ಬನಿ ತಬ್ಬಿದ ಇಳೆಯಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 608,
+  "id": "V2LOcXF6bV8",
+  "title": "Taare Nihaare",
+  "film": "Ibbani Tabbida Ileyali",
+  "year": 2024,
+  "singers": "Armaan Malik",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ತಾರೆ ನಿಹಾರೆ",
+  "knf": "ಇಬ್ಬನಿ ತಬ್ಬಿದ ಇಳೆಯಲಿ",
+  "kns": "ಅರ್ಮಾನ್ ಮಲಿಕ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 609,
+  "id": "yuXhXwq-uus",
+  "title": "Preeti Idda Mele",
+  "film": "Ibbani Tabbida Ileyali",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "dard"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಪ್ರೀತಿ ಇದ್ದ ಮೇಲೆ",
+  "knf": "ಇಬ್ಬನಿ ತಬ್ಬಿದ ಇಳೆಯಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 610,
+  "id": "dqIiF5SounI",
+  "title": "Kelalenu",
+  "film": "Ibbani Tabbida Ileyali",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕೇಳಲೇನು",
+  "knf": "ಇಬ್ಬನಿ ತಬ್ಬಿದ ಇಳೆಯಲಿ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 611,
+  "id": "MHaX0tBqfcE",
+  "title": "Gangi Gangi",
+  "film": "Brat",
+  "year": 2025,
+  "singers": "",
+  "tags": [
+   "folk",
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಗಂಗಿ ಗಂಗಿ",
+  "knf": "ಬ್ರ್ಯಾಟ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 612,
+  "id": "4NziKbArOF4",
+  "title": "Brat Theory",
+  "film": "Brat",
+  "year": 2025,
+  "singers": "Rahul Dit-O",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಬ್ರ್ಯಾಟ್ ಥಿಯರಿ",
+  "knf": "ಬ್ರ್ಯಾಟ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 613,
+  "id": "9-6ppq5eQqY",
+  "title": "Bratism",
+  "film": "Brat",
+  "year": 2025,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಬ್ರ್ಯಾಟಿಸಂ",
+  "knf": "ಬ್ರ್ಯಾಟ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 614,
+  "id": "CQSzGF9VAak",
+  "title": "Ekka Maar",
+  "film": "Ekka",
+  "year": 2025,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಎಕ್ಕ ಮಾರ್",
+  "knf": "ಎಕ್ಕ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 615,
+  "id": "lm1iZJa1nas",
+  "title": "Mouna",
+  "film": "Ekka",
+  "year": 2025,
+  "singers": "Sanjith Hegde",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಮೌನ",
+  "knf": "ಎಕ್ಕ",
+  "kns": "ಸಂಜಿತ್ ಹೆಗ್ಡೆ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 616,
+  "id": "D5UqLOruYD4",
+  "title": "Rowdy Rhymes",
+  "film": "Ekka",
+  "year": 2025,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ರೌಡಿ ರೈಮ್ಸ್",
+  "knf": "ಎಕ್ಕ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 617,
+  "id": "RV5DxBkFAYU",
+  "title": "Dooradalli Yaaro Ninthu",
+  "film": "Ekka",
+  "year": 2025,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ದೂರದಲ್ಲಿ ಯಾರೋ ನಿಂತು",
+  "knf": "ಎಕ್ಕ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 618,
+  "id": "3xsnQi8bdxw",
+  "title": "Bidu Gaadi Yene Barali",
+  "film": "Ekka",
+  "year": 2025,
+  "singers": "",
+  "tags": [
+   "folk"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಬಿಡು ಗಾಡಿ ಏನೇ ಬರಲಿ",
+  "knf": "ಎಕ್ಕ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 619,
+  "id": "XtNOneYYr8U",
+  "title": "Troll Song",
+  "film": "UI",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಟ್ರೋಲ್ ಸಾಂಗ್",
+  "knf": "ಯುಐ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 620,
+  "id": "1mTNBQtoL-E",
+  "title": "Cheap Song",
+  "film": "UI",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಚೀಪ್ ಸಾಂಗ್",
+  "knf": "ಯುಐ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 621,
+  "id": "qbQPaROt4u8",
+  "title": "Fan India Song",
+  "film": "UI",
+  "year": 2024,
+  "singers": "",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಫ್ಯಾನ್ ಇಂಡಿಯಾ ಸಾಂಗ್",
+  "knf": "ಯುಐ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 622,
+  "id": "WV5IMXXYr1w",
+  "title": "Phonu Illa",
+  "film": "Adhyaksha",
+  "year": 2014,
+  "singers": "Vijay Prakash",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಫೋನು ಇಲ್ಲ",
+  "knf": "ಅಧ್ಯಕ್ಷ",
+  "kns": "ವಿಜಯ್ ಪ್ರಕಾಶ್",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 623,
+  "id": "kow0BIg7YIg",
+  "title": "Kannigu Kannigu",
+  "film": "Adhyaksha",
+  "year": 2014,
+  "singers": "",
+  "tags": [
+   "melody"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಕಣ್ಣಿಗೂ ಕಣ್ಣಿಗೂ",
+  "knf": "ಅಧ್ಯಕ್ಷ",
+  "tv": true,
+  "fv": true
+ },
+ {
+  "no": 624,
+  "id": "QrjQTzfYwSc",
+  "title": "Adhyaksha Adhyaksha",
+  "film": "Adhyaksha",
+  "year": 2014,
+  "singers": "Puneeth Rajkumar",
+  "tags": [
+   "mass"
+  ],
+  "karaoke": false,
+  "by": "Praveen BABA",
+  "hot": true,
+  "kn": "ಅಧ್ಯಕ್ಷ ಅಧ್ಯಕ್ಷ",
+  "knf": "ಅಧ್ಯಕ್ಷ",
+  "kns": "ಪುನೀತ್ ರಾಜ್‌ಕುಮಾರ್",
   "tv": true,
   "fv": true
  }
