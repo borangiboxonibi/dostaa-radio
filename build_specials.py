@@ -47,7 +47,7 @@ RAJYOTSAVA = [
     "7iLvW-UYmsg", "izMVVAc9KKE", "lnYptjdQbyo", "48T3gr4AFJo", "C5yYfF_pNSY", "BqHtPNjmwD0",
     "fXPnnroHEOE", "R3ogWZ_VBx0", "ziNXOdlPLLE", "K5plr3yThCo", "EgoJz1UxUXU", "Y2u5WAntdu4",
     "hHGDq9nVHhA", "kn9Sv7uaUDE", "EpwtGYuUzno", "9qafenBpqYs", "d2X87-HU5bU", "IY1ScTWqCx8",
-    "WD2MlG0Q4bI",
+    "WD2MlG0Q4bI", "y05iXLStiKA",
 ]
 DASARA = [
     "mYKpAg6azx4", "mlkJKMYTfMw", "rbZMsUdg3ig", "pHXay38W28E", "fRYPwNnGYHc", "gRB9S-pqKk8",
