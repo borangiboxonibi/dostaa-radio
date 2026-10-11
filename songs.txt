@@ -602,3 +602,457 @@ qbQPaROt4u8|Fan India Song|UI|2024||mass||ಫ್ಯಾನ್ ಇಂಡಿಯಾ 
 WV5IMXXYr1w|Phonu Illa|Adhyaksha|2014|Vijay Prakash|mass||ಫೋನು ಇಲ್ಲ
 kow0BIg7YIg|Kannigu Kannigu|Adhyaksha|2014||melody||ಕಣ್ಣಿಗೂ ಕಣ್ಣಿಗೂ
 QrjQTzfYwSc|Adhyaksha Adhyaksha|Adhyaksha|2014|Puneeth Rajkumar|mass||ಅಧ್ಯಕ್ಷ ಅಧ್ಯಕ್ಷ
+ntte23oU56A|Cheluve Ondu Kelthini|Premaloka|1987||melody||ಚೆಲುವೆ ಒಂದು ಕೇಳ್ತೀನಿ
+sfcMnZG_mYg|Premalokadinda Banda Premada Sandesha|Premaloka|1987||melody||ಪ್ರೇಮಲೋಕದಿಂದ ಬಂದ ಪ್ರೇಮದ ಸಂದೇಶ
+ZJJu7bwEHgA|Ee Nimbe Hanninantha|Premaloka|1987||melody||ಈ ನಿಂಬೆ ಹಣ್ಣಿನಂಥ
+jGBCHtdqp5s|Hey Gangu Ee Biku Kalisikodu|Premaloka|1987||mass||ಹೇ ಗಂಗು ಈ ಬಿಕು ಕಲಿಸಿಕೊಡು
+rlobFIPziKA|Geleyare Nanna Gelathiyare|Premaloka|1987||melody||ಗೆಳೆಯರೇ ನನ್ನ ಗೆಳತಿಯರೇ
+t3SiJtezpNM|Yaarivanu Ee Manmathanu|Premaloka|1987||melody||ಯಾರಿವನು ಈ ಮನ್ಮಥನು
+37kyIFXk59M|Preethi Maadabaaradu|Ranadheera|1988||dard||ಪ್ರೀತಿ ಮಾಡಬಾರದು
+te7dvNHPMUs|Ondaanondu Kaaladalli|Ranadheera|1988||melody||ಒಂದಾನೊಂದು ಕಾಲದಲ್ಲಿ
+-w8nZyuY820|Naavindu Haado Haadige|Ranadheera|1988||melody||ನಾವಿಂದು ಹಾಡೋ ಹಾಡಿಗೆ
+y7bfErIRqg0|Lokave Helida Maathidu|Ranadheera|1988||melody||ಲೋಕವೇ ಹೇಳಿದ ಮಾತಿದು
+Xp1JtsKNY9E|Yaare Neenu Sundara Cheluve|Ranadheera|1988||melody||ಯಾರೇ ನೀನು ಸುಂದರ ಚೆಲುವೆ
+rRqxFzwY_Dw|Baa Baaro Bit|Ranadheera|1988||mass||ಬಾ ಬಾರೋ ಬಿಟ್
+X8Zbxn3VkFE|Baaramma Pranave Kelu|Ranadheera|1988||melody||ಬಾರಮ್ಮ ಪ್ರಾಣವೇ ಕೇಳು
+xTjnioJvMps|En Hudgiro|Ranadheera|1988||mass||ಏನ್ ಹುಡ್ಗೀರೋ
+LG8c4eJvo6A|Meenakshi Ninna Kanna Mele|Ranadheera|1988||melody||ಮೀನಾಕ್ಷಿ ನಿನ್ನ ಕಣ್ಣ ಮೇಲೆ
+VvNH43zxC_Y|Aakaradalli Gulabi Rangide|Anjada Gandu|1988||melody||ಆಕಾರದಲ್ಲಿ ಗುಲಾಬಿ ರಂಗಿದೆ
+Q1r3qDQZeq8|Mooru Kasina Kudure|Anjada Gandu|1988||mass||ಮೂರು ಕಾಸಿನ ಕುದುರೆ
+90HXJs7Ofn4|Dum Dum Dhol|Anjada Gandu|1988||mass||ಡಮ್ ಡಮ್ ಢೋಲ್
+fzt8I2fDPHE|Eke Heegaytho Naanu Kanenu|Anjada Gandu|1988||melody||ಏಕೆ ಹೀಗಾಯ್ತೋ ನಾನು ಕಾಣೆನು
+zy5Al2wvwjM|Tripura Sundari Baare Nee Hasemanege|Anjada Gandu|1988||melody||ತ್ರಿಪುರ ಸುಂದರಿ ಬಾರೆ ನೀ ಹಸೆಮಣೆಗೆ
+0aLyhegTWDg|Modalobaari Hitthalinalli|Anjada Gandu|1988||melody||ಮೊದಲೊಬಾರಿ ಹಿತ್ತಲಿನಲ್ಲಿ
+_77kPLNFI6E|Sole Illa Ninna Haadu|Yuddha Kaanda|1989||dard||ಸೋಲೇ ಇಲ್ಲ ನಿನ್ನ ಹಾಡು
+BfFX2qDWkeU|Kudiyode Nanna Weaknessu|Yuddha Kaanda|1989||mass||ಕುಡಿಯೋದೆ ನನ್ನ ವೀಕ್ನೆಸ್ಸು
+gTyiN9GkIWQ|Muddina Gini|Yuddha Kaanda|1989||melody||ಮುದ್ದಿನ ಗಿಣಿ
+8nMmjd45wOQ|Kempu Thotadalli|Yuddha Kaanda|1989||melody||ಕೆಂಪು ತೋಟದಲ್ಲಿ
+g3wYUF-TFl0|Sa Ri Ga Ma|Yuddha Kaanda|1989||melody||ಸ ರಿ ಗ ಮ
+Mj58iiCXpDI|Nooraroorugalalli|Yuddha Kaanda|1989||melody||ನೂರಾರೂರುಗಳಲ್ಲಿ
+1bm_QerXWnk|Bholore Shanthi|Yuddha Kaanda|1989||mass||ಭೋಲೋರೆ ಶಾಂತಿ
+8sYIuNsjwN4|One Two Three|Shanthi Kranthi|1991||mass||ಒನ್ ಟೂ ತ್ರೀ
+qq6PXQOYoZg|Huttodyake Sayodyake|Shanthi Kranthi|1991||dard||ಹುಟ್ಟೋದ್ಯಾಕೆ ಸಾಯೋದ್ಯಾಕೆ
+eqmd_djiSeM|Aane Mele|Shanthi Kranthi|1991||mass||ಆನೆ ಮೇಲೆ
+Trjk_w67XvA|Swathantra Baaninali|Shanthi Kranthi|1991||melody||ಸ್ವತಂತ್ರ ಬಾನಿನಲಿ
+VVzqvg1YMXQ|Gaaliyo Gaaliyo|Shanthi Kranthi|1991||melody||ಗಾಳಿಯೋ ಗಾಳಿಯೋ
+pOQBrDj9-4o|Iddare Iddare|Shanthi Kranthi|1991||melody||ಇದ್ದರೆ ಇದ್ದರೆ
+dPwS7j_rtRQ|Nammoora Yuvarani Kalyanavathe|Ramachari|1991||folk||ನಮ್ಮೂರ ಯುವರಾಣಿ ಕಲ್ಯಾಣವಂತೆ
+FGx_INQPAto|Haaduva Laali Haadu|Ramachari|1991||melody||ಹಾಡುವ ಲಾಲಿ ಹಾಡು
+W-TSA0XYspI|Kaadiruve Ninagagi|Ramachari|1991||melody||ಕಾದಿರುವೆ ನಿನಗಾಗಿ
+rpA2HBK8SWo|Preethi Madu Thappenilla|Halli Meshtru|1992||melody||ಪ್ರೀತಿ ಮಾಡು ತಪ್ಪೇನಿಲ್ಲ
+JB9f-OnShqY|Akka Ninna Ganda Hengirabeku|Halli Meshtru|1992||folk||ಅಕ್ಕ ನಿನ್ನ ಗಂಡ ಹೆಂಗಿರಬೇಕು
+Pu9LvEg7LDg|Sankranthi Banthu|Halli Meshtru|1992||folk||ಸಂಕ್ರಾಂತಿ ಬಂತು
+NNWydm9cRkU|Kayi Kayi Nuggekayi|Halli Meshtru|1992||folk||ಕಾಯಿ ಕಾಯಿ ನುಗ್ಗೆಕಾಯಿ
+QmNPJx55Sh0|Ilkal Seere|Halli Meshtru|1992||folk||ಇಳಕಲ್ ಸೀರೆ
+qkC6i_Zahcc|Premada Hoogara|Chikkejamanru|1992||melody||ಪ್ರೇಮದ ಹೂಗಾರ
+rDqYQkdSKIQ|Nammura Nyaya Devaru|Chikkejamanru|1992||folk||ನಮ್ಮೂರ ನ್ಯಾಯ ದೇವರು
+FqQJIlri8gU|Rama Rama Rama|Chikkejamanru|1992||dard||ರಾಮ ರಾಮ ರಾಮ
+Q4j5fRwW5HM|Buguri Buguri|Chikkejamanru|1992||folk||ಬುಗುರಿ ಬುಗುರಿ
+6f2Q46Jh7mI|Sobane Yennire|Chikkejamanru|1992||folk||ಸೋಬಾನೆ ಎನ್ನಿರೆ
+kIpNjSalOUo|Balinalli Ondondu Dinakondu|Gopi Krishna|1992||melody||ಬಾಳಿನಲ್ಲಿ ಒಂದೊಂದು ದಿನಕೊಂದು
+V6QFD4yhMXk|En Uduge Idu|Gopi Krishna|1992||mass||ಏನ್ ಉಡುಗೆ ಇದು
+6M3-uHHH6Fw|Oho Vasantha|Gopi Krishna|1992||melody||ಓಹೋ ವಸಂತ
+kNIyRjpwX44|Sharadammanavare|Gopi Krishna|1992||mass||ಶಾರದಮ್ಮನವರೇ
+hFO5scgaOXc|Nayakara O Nayaka|Gopi Krishna|1992||mass||ನಾಯಕರ ಓ ನಾಯಕ
+yUmxzxP7XM0|Jagavella Jagavella|Gopi Krishna|1992||melody||ಜಗವೆಲ್ಲ ಜಗವೆಲ್ಲ
+Wx6avrQ0DaE|Chori Chori|Gopi Krishna|1992||mass||ಚೋರಿ ಚೋರಿ
+9HRiJMCmzO4|Hakkiya Hadige|Mysore Mallige|1992||classic,melody||ಹಕ್ಕಿಯ ಹಾಡಿಗೆ
+nZnNBu5IhyA|Ondirulu Kanasinali|Mysore Mallige|1992||classic,melody||ಒಂದಿರುಳು ಕನಸಿನಲಿ
+c6ntQTDby7g|Deepavu Ninnade|Mysore Mallige|1992||classic,melody||ದೀಪವು ನಿನ್ನದೇ
+Dy-poQV6YOo|Ninna Premada Pariya|Mysore Mallige|1992||classic,melody||ನಿನ್ನ ಪ್ರೇಮದ ಪರಿಯ
+mKKUEuEI5rg|Balegaara Chennaya|Mysore Mallige|1992||classic,folk||ಬಳೆಗಾರ ಚೆನ್ನಯ
+90WkvZ2piro|Sirigereya Neeralli|Mysore Mallige|1992||classic,melody||ಸಿರಿಗೆರೆಯ ನೀರಳ್ಳಿ
+wmlvDnOAaQk|Hrudayave Ninna Hesarige|Belli Modagalu|1992||melody||ಹೃದಯವೇ ನಿನ್ನ ಹೆಸರಿಗೆ
+jb_pBbVoiFE|Bhoomiyali Chandirana|Belli Modagalu|1992||melody||ಭೂಮಿಯಲಿ ಚಂದಿರನ
+d_nny8dpnsQ|Mavinali Hosa Thorana|Belli Modagalu|1992||folk||ಮಾವಿನಲಿ ಹೊಸ ತೋರಣ
+iXflpaj650w|Raama Baana Ede Seeli|Belli Modagalu|1992||melody||ರಾಮ ಬಾಣ ಎದೆ ಸೀಳಿ
+98DAb2yRY74|Lokavane Thoogiruva|Belli Modagalu|1992||melody||ಲೋಕವನೇ ತೂಗಿರುವ
+gpenYBalGrQ|Manavanagi Huttida Mele|Jeevana Chaitra|1992||classic||ಮಾನವನಾಗಿ ಹುಟ್ಟಿದ ಮೇಲೆ
+BCyP0bbpCqk|Aralida Thanuvidu|Jeevana Chaitra|1992||classic||ಅರಳಿದ ತನುವಿದು
+zw4zgG9qWuo|Ninna Cheluva Vadana|Jeevana Chaitra|1992||classic,melody||ನಿನ್ನ ಚೆಲುವ ವದನ
+NrrxZiErRRs|Nannavalu Nannedeya|Jeevana Chaitra|1992||classic,melody||ನನ್ನವಳು ನನ್ನೆದೆಯ
+vsUwtcvNXVQ|Lakshmi Baramma|Jeevana Chaitra|1992||classic,folk||ಲಕ್ಷ್ಮೀ ಬಾರಮ್ಮ
+7SfiZqRK_KY|Baaluvantha Hoove|Aakasmika|1993||classic,melody||ಬಾಳುವಂಥ ಹೂವೇ
+A7aTt5CXUT8|Aagumbeya Prema Sanjeya|Aakasmika|1993||classic,melody||ಆಗುಂಬೆಯ ಪ್ರೇಮ ಸಂಜೆಯ
+zwSOgpeGzsg|Ee Kannigoo Hennigoo|Aakasmika|1993||classic||ಈ ಕಣ್ಣಿಗೂ ಹೆಣ್ಣಿಗೂ
+796q7cdZZi0|Anuragada Bhoga|Aakasmika|1993||classic||ಅನುರಾಗದ ಭೋಗ
+XAZ-rH-qpaE|Tappu Madodu Sahaja Kano|Manedevru|1993||melody||ತಪ್ಪು ಮಾಡೋದು ಸಹಜ ಕಣೋ
+7-7exv27xuU|Arambha Premada Arambha|Manedevru|1993||melody||ಆರಂಭ ಪ್ರೇಮದ ಆರಂಭ
+T21FxGJrDHM|Appa Appa Nange Neenu Bekappa|Manedevru|1993||dard||ಅಪ್ಪ ಅಪ್ಪ ನಂಗೆ ನೀನು ಬೇಕಪ್ಪ
+VTeCQi5d6rg|O Meghave Meghave|Shrungara Kavya|1993||melody||ಓ ಮೇಘವೇ ಮೇಘವೇ
+tTz81f9ZnaI|Jeevanavellavu Naa Haaduve|Shrungara Kavya|1993||melody||ಜೀವನವೆಲ್ಲವೂ ನಾ ಹಾಡುವೆ
+9RkUUerDYVI|Baredanu|Shrungara Kavya|1993||melody||ಬರೆದನು
+dp262jxJ0Pc|Gangeyali|Shrungara Kavya|1993||melody||ಗಂಗೆಯಲಿ
+HyjIWzpisWY|Yaru Nodaru Yaru Kelaru|Shrungara Kavya|1993||dard||ಯಾರು ನೋಡರು ಯಾರು ಕೇಳರು
+KQ4PRzL3iro|Chandana Chandanadinda|Midida Hrudayagalu|1993||melody||ಚಂದನ ಚಂದನದಿಂದ
+o_7WvFotvVo|Devaloka Premaloka|Midida Hrudayagalu|1993||melody||ದೇವಲೋಕ ಪ್ರೇಮಲೋಕ
+QvI9g5i1RE4|Hosa Suggi Bandide|Midida Hrudayagalu|1993||folk||ಹೊಸ ಸುಗ್ಗಿ ಬಂದಿದೆ
+LAauUrqxVXE|Nanji O Nanji|Midida Hrudayagalu|1993||folk||ನಂಜಿ ಓ ನಂಜಿ
+4DVcgdaGZWU|Janakana Maatha|Odahuttidavaru|1994||classic||ಜನಕನ ಮಾತ
+pM21W4YrHZ0|Sole Geluvendu Baalali Arithaada Mele|Odahuttidavaru|1994||classic,dard||ಸೋಲು ಗೆಲುವೆಂದು ಬಾಳಲಿ ಅರಿತಾದ ಮೇಲೆ
+NYb9_8InmU0|Nambi Kettavarillavo|Odahuttidavaru|1994||classic||ನಂಬಿ ಕೆಟ್ಟವರಿಲ್ಲವೋ
+xwA4qqB6Tys|Madhura Ee Kshana|Odahuttidavaru|1994||classic,melody||ಮಧುರ ಈ ಕ್ಷಣ
+InxC-_UTlwM|Barede Ninna Hesarannu|Mandyada Gandu|1994||melody||ಬರೆದೆ ನಿನ್ನ ಹೆಸರನ್ನು
+2yQvmzwIb0U|Hero Bandanu Katheyali|Mandyada Gandu|1994||mass||ಹೀರೋ ಬಂದನು ಕಥೆಯಲಿ
+57i63Ww0ktM|Apparalli Thipparalli Ella|Mandyada Gandu|1994||folk||ಅಪ್ಪರಳ್ಳಿ ತಿಪ್ಪರಳ್ಳಿ ಎಲ್ಲ
+DuxglnfWC-s|Thaayine Illadantha|Halunda Tavaru|1994||dard||ತಾಯಿನೇ ಇಲ್ಲದಂಥ
+7fd-Il6YHg8|Elu Shiva Elu Shiva|Halunda Tavaru|1994||classic||ಏಳು ಶಿವ ಏಳು ಶಿವ
+DuoKDd5uSIk|Halunda Thavarannu|Halunda Tavaru|1994||dard||ಹಾಲುಂಡ ತವರನ್ನು
+r_4xxDyDiCE|Ele Hombisile|Halunda Tavaru|1994||melody||ಎಲೆ ಹೊಂಬಿಸಿಲೆ
+o-zQ82Ywzts|Ee Dharege Rathri|Halunda Tavaru|1994||melody||ಈ ಧರೆಗೆ ರಾತ್ರಿ
+jbaESOmKIS8|Olavina Runava|Halunda Tavaru|1994||melody||ಒಲವಿನ ಋಣವ
+NQZGM2sbNqo|Ee Baalina Cycle|Halunda Tavaru|1994||melody||ಈ ಬಾಳಿನ ಸೈಕಲ್
+IKIzBGM4_VE|Mehabooba Mehabooba|Om|1995||melody||ಮೆಹಬೂಬಾ ಮೆಹಬೂಬಾ
+UWepqLWv04M|College Kumar Kissige Damar|Om|1995||mass||ಕಾಲೇಜ್ ಕುಮಾರ್ ಕಿಸ್ಸಿಗೆ ಡಮಾರ್
+3YPXUecmMpI|Nammamma Nammamma|Putnanja|1995||folk||ನಮ್ಮಮ್ಮ ನಮ್ಮಮ್ಮ
+gk45tH-CG9g|Naanu Putnanja|Putnanja|1995||folk,mass||ನಾನು ಪುಟ್ನಂಜ
+i4UZTVfSrf8|Haadiro Haadiro|Putnanja|1995||folk||ಹಾಡಿರೋ ಹಾಡಿರೋ
+6NRftlI0kTE|Yaaramma Ivalu|Mojugara Sogasugara|1995||melody||ಯಾರಮ್ಮ ಇವಳು
+k3yH908Cczo|Mojugaara Sogasugara|Mojugara Sogasugara|1995||mass||ಮೋಜುಗಾರ ಸೊಗಸುಗಾರ
+u72FHdqJlOY|Hoovamma Hoovamma|Mojugara Sogasugara|1995||melody||ಹೂವಮ್ಮ ಹೂವಮ್ಮ
+7TQc8XxO3vI|Dehavendare O Manuja|Janumada Jodi|1996||folk,dard||ದೇಹವೆಂದರೆ ಓ ಮನುಜ
+JipujFXghpc|Januma Jodi Aadaru|Janumada Jodi|1996||folk,melody||ಜನುಮ ಜೋಡಿ ಆದರು
+algWvoWkXa8|Cheluveye Ninne Nodalu|Janumada Jodi|1996||melody||ಚೆಲುವೆಯೇ ನಿನ್ನೆ ನೋಡಲು
+7HOJKKGi5HM|Oora Dyavre|Janumada Jodi|1996||folk||ಊರ ದ್ಯಾವ್ರೆ
+UULroSctNNo|Melu Keelu|Janumada Jodi|1996||folk||ಮೇಲು ಕೀಳು
+ySRGK6PVz3Q|Aalemane|Nammoora Mandara Hoove|1996||melody||ಆಲೆಮನೆ
+Ifjjvumk4Xs|Hele Kogile|Nammoora Mandara Hoove|1996||melody||ಹೇಳೆ ಕೋಗಿಲೆ
+nWzfR3ZYU7k|Mutthu Mutthu Neera Haniya|Nammoora Mandara Hoove|1996||melody||ಮುತ್ತು ಮುತ್ತು ನೀರ ಹನಿಯ
+SMHWrxpXA7I|Omkaaradi|Nammoora Mandara Hoove|1996||melody,classic||ಓಂಕಾರದಿ
+966jgxWaRvI|Halli Lavaniyalli Laali|Nammoora Mandara Hoove|1996||folk||ಹಳ್ಳಿ ಲಾವಣಿಯಲ್ಲಿ ಲಾಲಿ
+UCFj0YBz86E|Manadaase Hakkiyaagi|Nammoora Mandara Hoove|1996||melody||ಮನದಾಸೆ ಹಕ್ಕಿಯಾಗಿ
+W-P1JOd9XrQ|Dhim Thakita|Nammoora Mandara Hoove|1996||melody||ಧಿಂ ತಕಿಟ
+m0s99hsPK00|Baanalli Odo Megha|America America|1997||melody||ಬಾನಲ್ಲಿ ಓಡೋ ಮೇಘ
+ztsevVG2W70|Hegide Nam Desha|America America|1997||mass||ಹೇಗಿದೆ ನಮ್ ದೇಶ
+7TXXI7v7icw|America America|America America|1997||melody||ಅಮೆರಿಕ ಅಮೆರಿಕ
+XYoK1GMdmek|Ghaali Ghaali|Amrutha Varshini|1997||melody||ಗಾಳಿ ಗಾಳಿ
+EaSOcBUhHcE|Hara Hara Gange|Jodi Hakki|1997||folk||ಹರ ಹರ ಗಂಗೆ
+AFhSlKQEDOA|Kudure Eri Surya Bandano|Jodi Hakki|1997||folk||ಕುದುರೆ ಏರಿ ಸೂರ್ಯ ಬಂದನೋ
+zm0H54yChF8|Namana Namana Siridevige|Jodi Hakki|1997||melody||ನಮನ ನಮನ ಸಿರಿದೇವಿಗೆ
+jLqhqXr1okg|O Chandamama|Jodi Hakki|1997||melody||ಓ ಚಂದಮಾಮ
+XXY_xDMRiCk|Haadu Keli Haadu|Jodi Hakki|1997||melody||ಹಾಡು ಕೇಳಿ ಹಾಡು
+wM3lbwQmHrk|Neela Neela Neelambari|Jodi Hakki|1997||melody||ನೀಲ ನೀಲ ನೀಲಾಂಬರಿ
+PZl7Ugmngew|Jolly Jolly Holiday|Jodi Hakki|1997||mass||ಜಾಲಿ ಜಾಲಿ ಹಾಲಿಡೇ
+xJRhuxdVWQ0|Oye Oye|Cheluva|1997||mass||ಓಯೇ ಓಯೇ
+gtzOZE2ovqk|Hanga Nodabeda Henne|Cheluva|1997||melody||ಹಾಂಗ್ ನೋಡಬ್ಯಾಡ ಹೆಣ್ಣೇ
+kYokUE-AIcU|O Pranasakhi Pranasakhi Baare|Cheluva|1997||melody||ಓ ಪ್ರಾಣಸಖಿ ಪ್ರಾಣಸಖಿ ಬಾರೆ
+qKH1v80yLx4|Cheluvayya Cheluvayya|Cheluva|1997||melody||ಚೆಲುವಯ್ಯ ಚೆಲುವಯ್ಯ
+iGhBXLaPcgs|Parapancha Ee Parapancha|Cheluva|1997||dard||ಪರಪಂಚ ಈ ಪರಪಂಚ
+bAqpT40_U9A|Danthada Gombe|Cheluva|1997||melody||ದಂತದ ಗೊಂಬೆ
+p35T7j2_Ddo|Thattharo Thattha|Cheluva|1997||mass||ತತ್ತರೋ ತತ್ತ
+1PXL2a_qZvM|Hoova Roja Hoova|Kalavida|1997||melody||ಹೂವ ರೋಜಾ ಹೂವ
+TQzyz7IZbNM|Andagara Alimayya|Kalavida|1997||mass||ಅಂದಗಾರ ಅಳಿಮಯ್ಯ
+ImNmQHVf4M0|O Tuntiye|Kalavida|1997||melody||ಓ ತುಂಟಿಯೇ
+rYcxH-Pbg7w|Saavirakke Obba Kalavida|Kalavida|1997||melody||ಸಾವಿರಕ್ಕೆ ಒಬ್ಬ ಕಲಾವಿದ
+Wy7CML6v5ww|Ondu Bechane|Kalavida|1997||melody||ಒಂದು ಬೆಚ್ಚನೆ
+QE0vnjl31FA|Iniya Iniya|Kalavida|1997||melody||ಇನಿಯ ಇನಿಯ
+ewju0a77e8g|Priya Please Love Me|Yaare Neenu Cheluve|1998||melody||ಪ್ರಿಯಾ ಪ್ಲೀಸ್ ಲವ್ ಮೀ
+4kHKtkkJPSo|Kushalave Kshemave|Yaare Neenu Cheluve|1998||melody||ಕುಶಲವೇ ಕ್ಷೇಮವೇ
+8eJRep58LPQ|Chakotha Chakotha|Yaare Neenu Cheluve|1998||mass||ಚಕೋತ ಚಕೋತ
+q4CG2IFgXXM|Chinte Yaake Maaduthiyo|Yaare Neenu Cheluve|1998||melody||ಚಿಂತೆ ಯಾಕೆ ಮಾಡುತಿಯೋ
+cSCjU2K-f1I|Dayaanaa Dayaanaa|Yaare Neenu Cheluve|1998||mass||ದಯಾನಾ ದಯಾನಾ
+eULNklmPW6M|Bhulbulki Gilgilki|Yaare Neenu Cheluve|1998||mass||ಭುಲ್‌ಬುಲ್ಕಿ ಗಿಲ್‌ಗಿಲ್ಕಿ
+SgpdVrHZ4p4|Idhu One Day Matchu Kano|A|1998||mass||ಇದು ಒನ್ ಡೇ ಮ್ಯಾಚು ಕಣೋ
+IO71dPIVuwk|Sum Sumne Nagthale|A|1998||melody||ಸುಮ್ ಸುಮ್ನೆ ನಗ್ತಾಳೆ
+UXp53Y3ZWPk|Chandini|A|1998||melody||ಚಾಂದಿನಿ
+ZVFR1JJJWX0|Helkolakondooru|A|1998||mass||ಹೇಳ್ಕೊಳಕೊಂದೂರು
+-KZ77Zb9sSU|Karyeshu Dasi|Mangalyam Thanthunanena|1998||melody||ಕಾರ್ಯೇಷು ದಾಸಿ
+l5zJO2kGZ4Q|Dhir Dhir Tillana|Mangalyam Thanthunanena|1998||mass||ಧಿರ್ ಧಿರ್ ತಿಲ್ಲಾನ
+MnL4sN6XXsY|Pada Pada Seri|Mangalyam Thanthunanena|1998||melody||ಪದ ಪದ ಸೇರಿ
+HpfTv7G1A5s|Sumathi Sumathi Srimathi|Mangalyam Thanthunanena|1998||melody||ಸುಮತಿ ಸುಮತಿ ಶ್ರೀಮತಿ
+Bpv7rg31MVs|Daddy Daddy|Mangalyam Thanthunanena|1998||mass||ಡ್ಯಾಡಿ ಡ್ಯಾಡಿ
+nCJhm7ia7GE|Yarivanu Dream Boy|Mangalyam Thanthunanena|1998||melody||ಯಾರಿವನು ಡ್ರೀಮ್ ಬಾಯ್
+-yQo__F3Ifw|ABCD Kaliva|Mangalyam Thanthunanena|1998||mass||ಎಬಿಸಿಡಿ ಕಲಿವ
+LCm9C4ffck4|2000 AD Ladiye|Upendra|1999||mass||2000 ಎಡಿ ಲೇಡಿಯೇ
+P-7lDw4T39I|Titanic Heroine|Snehaloka|1999||mass||ಟೈಟಾನಿಕ್ ಹೀರೋಯಿನ್
+tlrFAoi-ncE|Yaarige Yaaru Illri|Snehaloka|1999||dard||ಯಾರಿಗೆ ಯಾರು ಇಲ್ರಿ
+_GSkr1Jq5y4|Ooty Ooty|Snehaloka|1999||mass||ಊಟಿ ಊಟಿ
+Im7lkSHG9gw|Loka Snehaloka|Snehaloka|1999||melody||ಲೋಕ ಸ್ನೇಹಲೋಕ
+nbw3gwHlftQ|Thamtha Takita|Snehaloka|1999||mass||ತಂತ ತಕಿಟ
+TT57f6dIXdA|Manase O Manase Entha Manase|Chandramukhi Pranasakhi|1999||melody||ಮನಸೇ ಓ ಮನಸೇ ಎಂಥ ಮನಸೇ
+CIRElkdofzs|Aralo Hunnime|Chandramukhi Pranasakhi|1999||melody||ಅರಳೋ ಹುಣ್ಣಿಮೆ
+L4H4CpAh_ig|Ondu Prema Pallakkiya Mele|Chandramukhi Pranasakhi|1999||melody||ಒಂದು ಪ್ರೇಮ ಪಲ್ಲಕ್ಕಿಯ ಮೇಲೆ
+ErKD3XAuGCw|Chiguru Bombeye|Chandramukhi Pranasakhi|1999||melody||ಚಿಗುರು ಬೊಂಬೆಯೇ
+QH2DGrzrbI4|El El Mallige|Chandramukhi Pranasakhi|1999||melody||ಎಲ್ ಎಲ್ ಮಲ್ಲಿಗೆ
+KNGf950KD0k|Oh My Son|AK 47|1999||dard||ಓ ಮೈ ಸನ್
+lJYjkzOHork|Naanu Kannadada Kanda|AK 47|1999||mass||ನಾನು ಕನ್ನಡದ ಕಂದ
+P7L-7O0Y9KI|Yaari Anjuburuki|AK 47|1999||mass||ಯಾರಿ ಅಂಜುಬುರುಕಿ
+bJMmhHoggf8|Hey Ram|AK 47|1999||mass||ಹೇ ರಾಮ್
+GoZtpmme-G0|Nannolave Nannolave|Kushalave Kshemave|1999||melody||ನನ್ನೊಲವೇ ನನ್ನೊಲವೇ
+Tk6VMczPcTk|Kamakshi Meenakshi|Kushalave Kshemave|1999||mass||ಕಾಮಾಕ್ಷಿ ಮೀನಾಕ್ಷಿ
+cTDWl0wYtnA|Aa Devara Sundara|Kushalave Kshemave|1999||melody||ಆ ದೇವರ ಸುಂದರ
+4-6PaHBFLvw|Bhagavantha|Kushalave Kshemave|1999||dard||ಭಗವಂತ
+3x4mmkMURng|Yaaravva Ivalu Cheluve|O Premave|1999||melody||ಯಾರವ್ವ ಇವಳು ಚೆಲುವೆ
+IoNcnbVb5lo|O Premave|O Premave|1999||melody||ಓ ಪ್ರೇಮವೇ
+W4B0k8oeuxg|Cheluvi Noora Chendagati|O Premave|1999||melody||ಚೆಲುವಿ ನೂರ ಚೆಂದಗಾತಿ
+4NxpCFIukds|O Jambada Koli|O Premave|1999||folk||ಓ ಜಂಬದ ಕೋಳಿ
+Aq14HvT4BNw|Nee Yaarele|Preethsu Thappenilla|2000||melody||ನೀ ಯಾರೇಲೆ
+oPfRUz8jhF8|O Nannavalu Green Signal|Preethsu Thappenilla|2000||melody||ಓ ನನ್ನವಳು ಗ್ರೀನ್ ಸಿಗ್ನಲ್
+k0FscBs5caw|Ee Lovvu Feelingu|Preethsu Thappenilla|2000||mass||ಈ ಲವ್ವು ಫೀಲಿಂಗು
+CNY1HoR5h6s|He He Oho Enaitho|Preethsu Thappenilla|2000||melody||ಹೇ ಹೇ ಓಹೋ ಏನಾಯ್ತೋ
+CXCaV9auvzc|Oho Thirupathi Thimmappa|Preethsu Thappenilla|2000||folk||ಓಹೋ ತಿರುಪತಿ ತಿಮ್ಮಪ್ಪ
+vFMCm3mP2CM|O Maina O Maina|Yajamana|2000||melody||ಓ ಮೈನಾ ಓ ಮೈನಾ
+gurThwLNrhE|Shree Gandhada Gombe|Yajamana|2000||melody||ಶ್ರೀಗಂಧದ ಗೊಂಬೆ
+J3ntVhGhV5c|Yaru Kaanada Sapthasagara|Soorappa|2000||melody||ಯಾರು ಕಾಣದ ಸಪ್ತಸಾಗರ
+58WPPUiFOXU|Suryanobbane Chandranobbane|Soorappa|2000||melody||ಸೂರ್ಯನೊಬ್ಬನೇ ಚಂದ್ರನೊಬ್ಬನೇ
+ob15PrhPxwE|Badavan Mane Uta Ruchiyammi|Soorappa|2000||folk||ಬಡವನ್ ಮನೆ ಊಟ ರುಚಿಯಮ್ಮಿ
+rnfR2ZIeEIw|Ee Mannige Na Chiraruni|Soorappa|2000||melody||ಈ ಮಣ್ಣಿಗೆ ನಾ ಚಿರಋಣಿ
+XeL3HuBwsa4|Saagariye Saagariye|Galate Aliyandru|2000||melody||ಸಾಗರಿಯೇ ಸಾಗರಿಯೇ
+gqoUECgUNCA|Thillana Thillana|Galate Aliyandru|2000||mass||ತಿಲ್ಲಾನ ತಿಲ್ಲಾನ
+KC1u2SQQlVk|Kundapurada Meenamma|Galate Aliyandru|2000||folk||ಕುಂದಾಪುರದ ಮೀನಮ್ಮ
+Or9SEroC7LE|Laila Laila|Galate Aliyandru|2000||mass||ಲೈಲಾ ಲೈಲಾ
+lpqRp2oloPg|Saiyare Ho Sayya|Galate Aliyandru|2000||mass||ಸೈಯಾರೆ ಹೋ ಸಯ್ಯಾ
+dRA4duNWpiU|Yaare Nee Abhimani Title Track|Yaare Nee Abhimani|2000||melody||ಯಾರೇ ನೀ ಅಭಿಮಾನಿ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+0JMlpFMtN4k|Mysore Seeme|Yaare Nee Abhimani|2000||folk||ಮೈಸೂರ್ ಸೀಮೆ
+hX6SftH281Y|Shrungarada Kavyavo|Yaare Nee Abhimani|2000||melody||ಶೃಂಗಾರದ ಕಾವ್ಯವೋ
+CNIx1ubN-RA|Vasa Vasa Srinivasa|Yaare Nee Abhimani|2000||folk||ವಾಸ ವಾಸ ಶ್ರೀನಿವಾಸ
+MKBfKUXWLQY|Hello Usire|Yaare Nee Abhimani|2000||melody||ಹಲೋ ಉಸಿರೇ
+JlP1HM979N4|Ramya Krishna|Yaare Nee Abhimani|2000||melody||ರಮ್ಯ ಕೃಷ್ಣ
+CFAcs1PfTLA|Ee Jeeva Yakamma|O Nanna Nalle|2000||dard||ಈ ಜೀವ ಯಾಕಮ್ಮ
+CaTEZ4_jqvg|Kanasugarana Ondu Kanasu Kelamma|O Nanna Nalle|2000||melody||ಕನಸುಗಾರನ ಒಂದು ಕನಸು ಕೇಳಮ್ಮ
+vzBECXF5qIg|Rangu Rangena Halli|O Nanna Nalle|2000||folk||ರಂಗು ರಂಗೇನ ಹಳ್ಳಿ
+JCwi2AyQWzc|O Nanna Nalle Title Song|O Nanna Nalle|2000||melody||ಓ ನನ್ನ ನಲ್ಲೆ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+y_zNN6PGbQY|Dudde Doddappa|O Nanna Nalle|2000||mass||ದುಡ್ಡೇ ದೊಡ್ಡಪ್ಪ
+KyWoSP0a_bU|Tingala Belakina Angaladalli|Kotigobba|2001||melody||ತಿಂಗಳ ಬೆಳಕಿನ ಅಂಗಳದಲ್ಲಿ
+K9-4sUXu6F8|Kaverige Kalungura Thodisi|Kotigobba|2001||folk||ಕಾವೇರಿಗೆ ಕಾಲುಂಗುರ ತೊಡಿಸಿ
+5cPKSo2C_8Q|Annayya Tammayya Nanjundeshwara|Kotigobba|2001||folk||ಅಣ್ಣಯ್ಯ ತಮ್ಮಯ್ಯ ನಂಜುಂಡೇಶ್ವರ
+n-rCHZRdD4I|Vardhana Vishnuvardhana|Kotigobba|2001||mass||ವರ್ಧನ ವಿಷ್ಣುವರ್ಧನ
+S92pqt9kK7I|Are Thai Thai Thandana|Kotigobba|2001||folk||ಅರೆ ತಾಯಿ ತಾಯಿ ತಂದನ
+22p7KkzWFI4|Nanjunda Ivan Paadu Nodu|Kotigobba|2001||folk||ನಂಜುಂಡ ಇವನ್ ಪಾಡು ನೋಡು
+34os5F8NydA|Missamma Kissamma|Yuvaraja|2001||mass||ಮಿಸ್ಸಮ್ಮ ಕಿಸ್ಸಮ್ಮ
+qZC6bZTMcQI|Look At My Face In The Mirror|Yuvaraja|2001||mass||ಲುಕ್ ಅಟ್ ಮೈ ಫೇಸ್ ಇನ್ ದ ಮಿರರ್
+9kFOCNzlGdQ|Naajooku Naari|Yuvaraja|2001||melody||ನಾಜೂಕು ನಾರಿ
+s0qO_UC5kds|Chandana Siri Chandana|Yuvaraja|2001||melody||ಚಂದನ ಸಿರಿ ಚಂದನ
+qfhNZpI0fWo|Bangalore Students|Yuvaraja|2001||mass||ಬೆಂಗಳೂರ್ ಸ್ಟೂಡೆಂಟ್ಸ್
+7-0PeaBuNK4|Monalisa Monalisa|Yuvaraja|2001||melody||ಮೊನಾಲಿಸಾ ಮೊನಾಲಿಸಾ
+6KnB6dyhBbk|Obbane Obbane|Sri Manjunatha|2001||classic||ಒಬ್ಬನೇ ಒಬ್ಬನೇ
+yN1O5LPSTPA|Thanuvina Manege|Sri Manjunatha|2001||classic||ತನುವಿನ ಮನೆಗೆ
+aeUgd9Qhb60|Ee Paadhe Puje|Sri Manjunatha|2001||classic||ಈ ಪಾದವೇ ಪೂಜೆ
+tAx-G7VOETk|Aanandha Paramaanandha|Sri Manjunatha|2001||classic||ಆನಂದ ಪರಮಾನಂದ
+YDVqLTtF2Sc|Brahma Murari|Sri Manjunatha|2001||classic||ಬ್ರಹ್ಮ ಮುರಾರಿ
+FALVryNxbVc|Yavon Kanda Ninna|Sri Manjunatha|2001||folk||ಯಾವೋನ್ ಕಂಡ ನಿನ್ನ
+vXsTBSA1zvY|Jogappa Jangamma|Sri Manjunatha|2001||folk||ಜೋಗಪ್ಪ ಜಂಗಮ್ಮ
+BxcEm4QCLE8|Naane Naane Rajadhi Raja|Majestic|2002||mass||ನಾನೇ ನಾನೇ ರಾಜಾಧಿ ರಾಜ
+0j7YXcADQwY|Majestic Title Track|Majestic|2002||mass||ಮೆಜೆಸ್ಟಿಕ್ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+37u9gucPEq8|Thangali Mele Preethiya Ole|Majestic|2002||melody||ತಂಗಾಳಿ ಮೇಲೆ ಪ್ರೀತಿಯ ಓಲೆ
+9pLTDM4bqlE|Dove Hodiyoke|Majestic|2002||mass||ದೋವೆ ಹೊಡಿಯೋಕೆ
+T5nW_2cmbqg|Aa Devara Haadidu|Appu|2002||melody||ಆ ದೇವರ ಹಾಡಿದು
+Iy3LJ38DlNA|Ellinda Aarabhavo|Appu|2002||melody||ಎಲ್ಲಿಂದ ಆರಂಭವೋ
+Fm_z1ucBUSA|Panavidu Panavidu|Appu|2002||mass||ಪಣವಿದು ಪಣವಿದು
+K4NqyUUO2YU|Jolly Go Jolly Go|Appu|2002||mass||ಜಾಲಿ ಗೋ ಜಾಲಿ ಗೋ
+qH6Q5N7CIZ0|Hoove Hoove|H2O|2002||melody||ಹೂವೇ ಹೂವೇ
+vBZDPDsgSTM|Khandavideko|H2O|2002||melody||ಖಂಡವಿದೆಕೋ
+92lvzybEf3w|Bidabeda Bidabeda|H2O|2002||melody||ಬಿಡಬೇಡ ಬಿಡಬೇಡ
+NsyrfJaJqRo|One Two Three Four Ok|H2O|2002||mass||ಒನ್ ಟೂ ತ್ರೀ ಫೋರ್ ಓಕೆ
+6jFEVwHbYPA|Nande Soundaryavella Nande|H2O|2002||melody||ನಂದೇ ಸೌಂದರ್ಯವೆಲ್ಲ ನಂದೇ
+r1h8lchb2Wc|Thagole|Super Star|2002||mass||ತಗೋಳೆ
+Aex_2RvEBCw|Antu Antu|Super Star|2002||melody||ಅಂಟು ಅಂಟು
+T2193oRHKW4|Rajkumar Rajkumar|Super Star|2002||mass||ರಾಜ್‌ಕುಮಾರ್ ರಾಜ್‌ಕುಮಾರ್
+_bs7PiFY5BY|Bakra|Super Star|2002||mass||ಬಕ್ರ
+sUjhfU6RtfA|Problem|Super Star|2002||mass||ಪ್ರಾಬ್ಲಮ್
+0hxLF1ej9WE|Savaligu Kavaligu|Dhumm|2002||mass||ಸವಾಲಿಗೂ ಕವಾಲಿಗೂ
+fIf3HU8YFB8|Ee Touchali Eno Ide|Dhumm|2002||melody||ಈ ಟಚ್ಚಲಿ ಏನೋ ಇದೆ
+majnHOs_9MU|Amishge Tenshanu|Dhumm|2002||mass||ಅಮಿಶ್ಗೆ ಟೆನ್ಶನು
+iU8KvJdFnEc|Mathadu Mathadu|Dhumm|2002||melody||ಮಾತಾಡು ಮಾತಾಡು
+YIyt5gImBLI|Kogile Haadu|Ninne Preethisuve|2002||melody||ಕೋಗಿಲೆ ಹಾಡು
+c-JN1D4PZvQ|Ninna Preethiya|Ninne Preethisuve|2002||melody||ನಿನ್ನ ಪ್ರೀತಿಯ
+UC7IuSsfMz4|Olave Nanna Olave|Ninne Preethisuve|2002||melody||ಒಲವೇ ನನ್ನ ಒಲವೇ
+pgu0-iuNjgM|Prema Patra|Ninne Preethisuve|2002||melody||ಪ್ರೇಮ ಪತ್ರ
+RlOj6CWdSdQ|Gudi Ganteyu|Ninne Preethisuve|2002||melody||ಗುಡಿ ಗಂಟೆಯು
+ylouvSrFdUs|Devaru Varavanu Kotre|Friends|2002||melody||ದೇವರು ವರವನು ಕೊಟ್ರೆ
+ZKUNvDD4XCA|Takadhimi Takadhimi|Friends|2002||mass||ತಕಧಿಮಿ ತಕಧಿಮಿ
+xczzIqw7xfY|Saavira Kanasina|Friends|2002||melody||ಸಾವಿರ ಕನಸಿನ
+KOfxdZSK2BI|Tirupathi Tirumale|Friends|2002||folk||ತಿರುಪತಿ ತಿರುಮಲೆ
+RAG815QmlhM|Styla Model|Friends|2002||mass||ಸ್ಟೈಲಾ ಮಾಡೆಲ್
+yk1RJxqfJbs|Sixteen Years Urvasi|Friends|2002||mass||ಸಿಕ್ಸ್‌ಟೀನ್ ಇಯರ್ಸ್ ಊರ್ವಶಿ
+-tgFV0TBvfo|Kencha lo Macha lo|Kariya|2003||mass||ಕೆಂಚ ಲೋ ಮಚ್ಚ ಲೋ
+1kxeJ56lTsA|Nannali Nanilla|Kariya|2003||melody||ನನ್ನಲಿ ನಾನಿಲ್ಲ
+IqS3AAvIB9I|Hrudayada Olage|Kariya|2003||melody||ಹೃದಯದ ಒಳಗೆ
+T2L4gFxaREI|El Ellinda|Kariya|2003||melody||ಎಲ್ ಎಲ್ಲಿಂದ
+GZWoJxTqnfo|Mathadu Saku Mouna Bisaku|Kariya|2003||melody||ಮಾತಾಡು ಸಾಕು ಮೌನ ಬಿಸಾಕು
+_OaRGARbADQ|E Nanna Kannane|Abhi|2003||melody||ಈ ನನ್ನ ಕಣ್ಣಾಣೆ
+6H1M8XbSRaE|Mama Mama Maja Madu|Abhi|2003||mass||ಮಾಮ ಮಾಮ ಮಜಾ ಮಾಡು
+GEr9K_YewJY|Bittaku Guru|Abhi|2003||mass||ಬಿಟ್ಟಾಕು ಗುರು
+vzF_k0F53VA|Preethige Janma Needida Brahma|Excuse Me|2003||melody||ಪ್ರೀತಿಗೆ ಜನ್ಮ ನೀಡಿದ ಬ್ರಹ್ಮ
+klZyF45XGgQ|Brahma Vishnu Shiva Ede Halu Kudidaro|Excuse Me|2003||dard||ಬ್ರಹ್ಮ ವಿಷ್ಣು ಶಿವ ಎದೆ ಹಾಲು ಕುಡಿದರೋ
+C4_MjV0qHI4|Preethse Antha Prana Tinno|Excuse Me|2003||melody||ಪ್ರೀತ್ಸೆ ಅಂತ ಪ್ರಾಣ ತಿನ್ನೋ
+DGHUZjpJOms|Preethi Eke Bhoomi Melide|Excuse Me|2003||melody||ಪ್ರೀತಿ ಏಕೆ ಭೂಮಿ ಮೇಲಿದೆ
+9xBq5Jp0aPk|Excuse Me Excuse Me|Excuse Me|2003||mass||ಎಕ್ಸ್‌ಕ್ಯೂಸ್ ಮೀ ಎಕ್ಸ್‌ಕ್ಯೂಸ್ ಮೀ
+7pXUTprsdXc|Sorry Sorry|Excuse Me|2003||mass||ಸಾರಿ ಸಾರಿ
+kknUisfk5j8|O Priyathama|Excuse Me|2003||melody||ಓ ಪ್ರಿಯತಮ
+Dq90yVvPATw|Laali Laali Sri Chakradharige|Swathi Muthu|2003||melody,classic||ಲಾಲಿ ಲಾಲಿ ಶ್ರೀ ಚಕ್ರಧಾರಿಗೆ
+iNq2QKALqTc|Manasu Bareda|Swathi Muthu|2003||melody||ಮನಸು ಬರೆದ
+Pm7sWFzcPes|Danger Danger|Raktha Kanneeru|2003||mass||ಡೇಂಜರ್ ಡೇಂಜರ್
+GNjr9sT8rhM|Kanniridu Raktha Kanniridu|Raktha Kanneeru|2003||dard||ಕಣ್ಣೀರಿದು ರಕ್ತ ಕಣ್ಣೀರಿದು
+PnUeabWvmlA|Rasika Ba Baro Rasika|Raktha Kanneeru|2003||melody||ರಸಿಕ ಬಾ ಬಾರೋ ರಸಿಕ
+Y8bZzkpkxRE|Navile Navile|Raktha Kanneeru|2003||melody||ನವಿಲೇ ನವಿಲೇ
+142fLhKJB0o|Jaana O Jaana|Raktha Kanneeru|2003||melody||ಜಾನ ಓ ಜಾನ
+PeZTCte8zSU|Ee Deshadall Karanadu|Raktha Kanneeru|2003||mass||ಈ ದೇಶದಲ್ ಕರುನಾಡು
+oDgST3TNMT0|Ee Preethi Onthara Kachaguli|Partha|2003||melody||ಈ ಪ್ರೀತಿ ಒಂಥರಾ ಕಚಗುಳಿ
+4DFx-s3Vk_A|Sankranthi Banthu|Partha|2003||folk||ಸಂಕ್ರಾಂತಿ ಬಂತು
+tLqJ8bzIDXE|Pyar De Pyar De|Partha|2003||mass||ಪ್ಯಾರ್ ದೇ ಪ್ಯಾರ್ ದೇ
+uuf7vqVqW80|O Nalle Neenelle|Partha|2003||melody||ಓ ನಲ್ಲೆ ನೀನೆಲ್ಲೆ
+MakkOKeXPYc|Sona Sona Preethisona|Partha|2003||melody||ಸೋನಾ ಸೋನಾ ಪ್ರೀತಿಸೋಣ
+mrPKMFZ-qEY|Jinu Jinugo Jena Hani|Kanti|2004||melody||ಜಿನು ಜಿನುಗೋ ಜೇನ ಹನಿ
+-jDh0gYD8yU|Brahmachari|Kanti|2004||mass||ಬ್ರಹ್ಮಚಾರಿ
+x4OauqZc22w|Eddelu Hey Rambha|Kanti|2004||mass||ಎದ್ದೇಳು ಹೇ ರಂಭ
+CEMcti8rMlM|Amma Amma I Love You|Maurya|2004||melody||ಅಮ್ಮ ಅಮ್ಮ ಐ ಲವ್ ಯೂ
+-7LmZ7ya54I|Pilla Pilla|Maurya|2004||mass||ಪಿಲ್ಲಾ ಪಿಲ್ಲಾ
+Tae810kqnL4|Haadali Karunaadali|Maurya|2004||melody||ಹಾಡಲಿ ಕರುನಾಡಲಿ
+P0L5QDItFvU|Machchalli Kochchodilla|Maurya|2004||mass||ಮಚ್ಚಲ್ಲಿ ಕೊಚ್ಚೋದಿಲ್ಲ
+-FmA7xFFXVs|O Kencha O Kencha|Kalasipalya|2004||mass||ಓ ಕೆಂಚ ಓ ಕೆಂಚ
+ITGAyEqyVkA|Pete Pete Ryap|Kalasipalya|2004||mass||ಪೇಟೆ ಪೇಟೆ ರ್ಯಾಪ್
+9PBomUweHNg|Theete Subba|Kalasipalya|2004||mass||ತೀಟೆ ಸುಬ್ಬ
+UpMxwWrAin0|Monalisa Monalisa|Monalisa|2004||melody||ಮೊನಾಲಿಸಾ ಮೊನಾಲಿಸಾ
+Vs8snaa6Q0U|Chori Chori|Monalisa|2004||mass||ಚೋರಿ ಚೋರಿ
+wwhFgOuw-aI|O Priyathame Idu Nyayana|Monalisa|2004||dard||ಓ ಪ್ರಿಯತಮೆ ಇದು ನ್ಯಾಯನಾ
+eWqCM6Sl4o8|Ee Manasella Neene|Monalisa|2004||melody||ಈ ಮನಸೆಲ್ಲ ನೀನೇ
+8KRfbIPcpeQ|Car Car Huduga|Monalisa|2004||mass||ಕಾರ್ ಕಾರ್ ಹುಡುಗ
+74QdJUSgXvQ|Nannusiru Neene|Monalisa|2004||melody||ನನ್ನುಸಿರು ನೀನೇ
+PS1b4vygoUM|Maleyaliya Pada|Saahukara|2004||melody||ಮಲೆಯಾಳಿಯ ಪದ
+fYamQTvr7L4|Yaarilli Ee Tharaha|Saahukara|2004||melody||ಯಾರಿಲ್ಲಿ ಈ ತರಹ
+geyy3l1yd8M|Obbane Obbana Yajamana|Saahukara|2004||mass||ಒಬ್ಬನೇ ಒಬ್ಬನ ಯಜಮಾನ
+kqgDpDuM20c|Kokkare Koli Chendu|Saahukara|2004||folk||ಕೊಕ್ಕರೆ ಕೋಳಿ ಚೆಂಡು
+5C6rrHPzlqw|Aaha Entha Aa Kshana|Aakash|2005||melody||ಆಹಾ ಎಂಥ ಆ ಕ್ಷಣ
+w_qkEgLjTPg|Yenidu E Dina|Aakash|2005||melody||ಏನಿದು ಈ ದಿನ
+DW833_zZM6Q|O Mariya|Aakash|2005||melody||ಓ ಮರಿಯ
+dotpQMyKMp0|Hodi Hodi|Aakash|2005||mass||ಹೊಡಿ ಹೊಡಿ
+K7mcqqXFFjI|Habba Habba|Aakash|2005||folk||ಹಬ್ಬ ಹಬ್ಬ
+rsHqDnXxgag|Beduvanu Varavannu|Jogi|2005||dard||ಬೇಡುವೆನು ವರವನ್ನು
+UK1A-3Y9ubg|Elu Male Myaleri|Jogi|2005||folk||ಏಳು ಮಲೆ ಮ್ಯಾಲೇರಿ
+K0zwPUr-Hyc|Bin Laden|Jogi|2005||mass||ಬಿನ್ ಲಾಡೆನ್
+QbbMySjKK80|Hodi Maga Hodi Maga|Jogi|2005||mass||ಹೊಡಿ ಮಗ ಹೊಡಿ ಮಗ
+onLnGiVwqE0|Chuku Buku Railu|Jogi|2005||mass||ಚುಕು ಬುಕು ರೈಲು
+cQ8p_aaIvAY|Myna Kooge|Namma Basava|2005||melody||ಮೈನಾ ಕೂಗೆ
+vAsXS-bVlqY|Allolla Kallolla|Namma Basava|2005||mass||ಅಲ್ಲೋಲ ಕಲ್ಲೋಲ
+1g1db4IeloA|Andondithu Kaala|Namma Basava|2005||melody||ಅಂದೊಂದಿತ್ತು ಕಾಲ
+X7jyHwsouls|Mina Mina|Namma Basava|2005||melody||ಮಿನ ಮಿನ
+r38YL2lYHK8|Suprabatha|Amrithadhare|2005||melody||ಸುಪ್ರಭಾತ
+QdgOzDO4Tas|Gelati Gelati|Amrithadhare|2005||melody||ಗೆಳತಿ ಗೆಳತಿ
+lUliLpKB25s|Mane Katti Nodu|Amrithadhare|2005||melody||ಮನೆ ಕಟ್ಟಿ ನೋಡು
+p1yVgbpjBos|Giliyu Panjaradolilla|Amrithadhare|2005||dard||ಗಿಳಿಯು ಪಂಜರದೊಳಿಲ್ಲ
+SRMI2cv_JKg|Indu Baanigella Habba|Nenapirali|2005||melody||ಇಂದು ಬಾನಿಗೆಲ್ಲ ಹಬ್ಬ
+AuG0OSd6z50|Olavu Ontiyalla|Nenapirali|2005||melody||ಒಲವು ಒಂಟಿಯಲ್ಲ
+vVCigSAbbkI|Kurakku Kalli Kere|Nenapirali|2005||folk||ಕುರುಕ್ಕು ಕಳ್ಳಿ ಕೆರೆ
+OZNBa4BfSnk|Ajantha Ellora|Nenapirali|2005||melody||ಅಜಂತ ಎಲ್ಲೋರ
+CmXc-feCwaw|Draupadi Draupadi|Nenapirali|2005||mass||ದ್ರೌಪದಿ ದ್ರೌಪದಿ
+e_N5BtrQgu4|Nenapirali Nenapirali|Nenapirali|2005||melody||ನೆನಪಿರಲಿ ನೆನಪಿರಲಿ
+6zb7Qcnaw-s|Hey Beladingale|Nenapirali|2005||melody||ಹೇ ಬೆಳದಿಂಗಳೆ
+hvPo014vj4Y|Hattiradalli Nintare|Nenapirali|2005||melody||ಹತ್ತಿರದಲ್ಲಿ ನಿಂತರೆ
+ABjDbPxtjug|Suddige Ondu|Nenapirali|2005||melody||ಸುದ್ದಿಗೆ ಒಂದು
+2dmEEpGeqlo|Araluthiru|Mungaru Male|2006||melody||ಅರಳುತಿರು
+auchmnwpX_8|Januma Janumadallu|Mungaru Male|2006||melody||ಜನುಮ ಜನುಮದಲ್ಲೂ
+yscPvhg8CGc|Ivanu Geleyanalla|Mungaru Male|2006||melody||ಇವನು ಗೆಳೆಯನಲ್ಲ
+D15phieIlPA|Summane Summane|Jothe Jotheyali|2006||melody||ಸುಮ್ಮನೆ ಸುಮ್ಮನೆ
+TJ12cq1E1rA|Surya Kannu Hodda|Jothe Jotheyali|2006||melody||ಸೂರ್ಯ ಕಣ್ಣು ಹೊಡ್ದ
+rvQoMchtfBA|Sikthare Sikthare|Jothe Jotheyali|2006||mass||ಸಿಕ್ತಾರೆ ಸಿಕ್ತಾರೆ
+tY6YUPXX67I|Punyakane Punyakane|Jothe Jotheyali|2006||melody||ಪುಣ್ಯಕಣೆ ಪುಣ್ಯಕಣೆ
+evLNgZZGpsw|Koline Koogodilla|Jothe Jotheyali|2006||folk||ಕೋಳಿನೇ ಕೂಗೋದಿಲ್ಲ
+_jUswqdotJs|Yene Aagali|Ajay|2006||melody||ಏನೇ ಆಗಲಿ
+RYazFPIGLt4|Enayitu Nanageedina|Ajay|2006||melody||ಏನಾಯಿತು ನನಗೀದಿನ
+N8mYMoLjs70|Rama Antha Krishna|Ajay|2006||mass||ರಾಮ ಅಂಥ ಕೃಷ್ಣ
+QnmQqFmZqEo|En Chenda|Ajay|2006||melody||ಏನ್ ಚೆಂದ
+4GgtWCWHcb8|Saahasa|Ajay|2006||mass||ಸಾಹಸ
+thuG3pMC8R0|Ee Soundaryake Naa Tale Baguve|Datta|2006||melody||ಈ ಸೌಂದರ್ಯಕೆ ನಾ ತಲೆ ಬಾಗುವೆ
+NEuYlN-5rXY|Manasa Manasa|Datta|2006||melody||ಮನಸ ಮನಸ
+JBTXR4Yj89s|Escape Mamu|Datta|2006||mass||ಎಸ್ಕೇಪ್ ಮಾಮು
+LT8wiu6v0h4|Kode Kode Kobri Mitayi|Suntaragaali|2006||mass||ಕೊಡೆ ಕೊಡೆ ಕೊಬ್ರಿ ಮಿಠಾಯಿ
+jU8b54hV7Ak|Nee Nanna Attig Belakangidde Nanju|Suntaragaali|2006||melody||ನೀ ನನ್ನ ಅಟ್ಟಿಗ್ ಬೆಳಕಾಂಗಿದ್ದೆ ನಂಜು
+9jNiRa5u6u4|Ene Maadona Namge Havana|Suntaragaali|2006||mass||ಏನೇ ಮಾಡೋಣ ನಮ್ಗೆ ಹವನ
+kswYjvGbpSU|Shame Shame Puppy Shame|Suntaragaali|2006||mass||ಶೇಮ್ ಶೇಮ್ ಪಪ್ಪಿ ಶೇಮ್
+UST192Oop8M|Kariya I Love You|Duniya|2007||melody||ಕರಿಯ ಐ ಲವ್ ಯೂ
+3Ez92h2A-O0|Ee Paapi Janara|Duniya|2007||dard||ಈ ಪಾಪಿ ಜನರ
+sVsxtmDWY-Y|Nodayya Kwate Lingave|Duniya|2007||folk||ನೋಡಯ್ಯ ಕ್ವಾಟೆ ಲಿಂಗವೇ
+1h2WqwgdrhQ|Preethi Maaye Husharu|Duniya|2007||melody||ಪ್ರೀತಿ ಮಾಯೆ ಹುಷಾರು
+YIclnWy3dNc|Saala Maadiyadru Tuppa Tinnu|Duniya|2007||folk||ಸಾಲ ಮಾಡಿಯಾದ್ರು ತುಪ್ಪ ತಿನ್ನು
+Q9Sj8a_2GbE|Madarangi|Milana|2007||melody||ಮದರಂಗಿ
+V6heL74n_DE|Anthu Inthu|Milana|2007||melody||ಅಂತೂ ಇಂತೂ
+P5-vLnColQc|Male Ninthu Hoda Mele|Milana|2007||melody||ಮಳೆ ನಿಂತು ಹೋದ ಮೇಲೆ
+RYoyyencoJk|Kaddu Kaddu|Milana|2007||mass||ಕದ್ದು ಕದ್ದು
+2sxgEKmuKBs|Janumada Gelathi|Cheluvina Chittara|2007||melody||ಜನುಮದ ಗೆಳತಿ
+kqv-wHimeJo|Iralare Cheluve|Cheluvina Chittara|2007||dard||ಇರಲಾರೆ ಚೆಲುವೆ
+UTfd7R-xQTY|Kendowle Kane|Cheluvina Chittara|2007||mass||ಕೆಂಡೌಲೆ ಕಣೇ
+7LbYLrcVIV0|By Tu Coffee|Cheluvina Chittara|2007||melody||ಬೈ ಟು ಕಾಫಿ
+FyyBu8WyX3A|Krishna Nee Begane Baro|Krishna|2007||melody,classic||ಕೃಷ್ಣ ನೀ ಬೇಗನೆ ಬಾರೋ
+aMylEUPXAcI|Rock Body Baba Thaiyya Thaiyya|Krishna|2007||mass||ರಾಕ್ ಬಾಡಿ ಬಾಬಾ ತೈಯ್ಯ ತೈಯ್ಯ
+L3hD8iW7XAU|Gollara Golla|Krishna|2007||folk||ಗೊಲ್ಲರ ಗೊಲ್ಲ
+6Y0JueMLrv4|Hey Mouna|Krishna|2007||melody||ಹೇ ಮೌನ
+GNtMw54hh9s|Preethi Preethi|Arasu|2007||melody||ಪ್ರೀತಿ ಪ್ರೀತಿ
+6lvWweAjmtM|Yeko Yeno|Arasu|2007||melody||ಏಕೋ ಏನೋ
+enwXblJNB74|No Tension|Arasu|2007||mass||ನೋ ಟೆನ್ಶನ್
+sg3r9t9Al78|Kannu Kannugalu Seri|Arasu|2007||melody||ಕಣ್ಣು ಕಣ್ಣುಗಳು ಸೇರಿ
+-1TEJkzEgYc|Ee Sanje Yakaagide|Geleya|2007||melody||ಈ ಸಂಜೆ ಯಾಕಾಗಿದೆ
+kPFkPNDqyWg|Nanna Style Berene|Geleya|2007||mass||ನನ್ನ ಸ್ಟೈಲ್ ಬೇರೇನೇ
+Xz3DxCdG_7E|Hudugi Male Billu|Geleya|2007||melody||ಹುಡುಗಿ ಮಳೆ ಬಿಲ್ಲು
+Xz4B8Vw2WRo|Changubala|Geleya|2007||mass||ಚಂಗುಬಳ
+_kGByC4cfPk|Adey Bhoomi Adey Bhanu|Ee Bandhana|2007||melody||ಅದೇ ಭೂಮಿ ಅದೇ ಭಾನು
+t8BQlE_kWdo|Lets Dance Jothe Jothe|Ee Bandhana|2007||mass||ಲೆಟ್ಸ್ ಡ್ಯಾನ್ಸ್ ಜೊತೆ ಜೊತೆ
+ZW1B-BEHqpo|Chanda Nanna Chandramukhi|Ee Bandhana|2007||melody||ಚಂದ ನನ್ನ ಚಂದ್ರಮುಖಿ
+fZVLvYLhL5g|Ugadi Ugadi|Ee Bandhana|2007||folk||ಯುಗಾದಿ ಯುಗಾದಿ
+d_CoMZ-69yk|Onde Samane|Gaalipata|2008||melody||ಒಂದೇ ಸಮನೆ
+_YZ94c7B1Jo|Aha Bedaru Bombe|Gaalipata|2008||melody||ಆಹಾ ಬೆದರು ಬೊಂಬೆ
+sIdv27Yya7I|I Love You|Moggina Manasu|2008||melody||ಐ ಲವ್ ಯೂ
+bVRix461vgw|O Nanna Manave|Moggina Manasu|2008||melody||ಓ ನನ್ನ ಮನವೇ
+ullAvSZOmnc|Yakhing Hadtharo|Moggina Manasu|2008||mass||ಯಾಕ್ಹಿಂಗ್ ಹಾಡ್ತಾರೋ
+76dYmrQbXYQ|Teenage Teenage|Moggina Manasu|2008||mass||ಟೀನೇಜ್ ಟೀನೇಜ್
+fO5QaU9lluM|Om Namha Om|Moggina Manasu|2008||melody||ಓಂ ನಮಃ ಓಂ
+P-mG372K2vk|Nara Mansa Nara|Navagraha|2008||dard||ನರ ಮನ್ಸ ನರ
+NIO2hSX6Iuk|Smile Ore Smilu|Navagraha|2008||melody||ಸ್ಮೈಲ್ ಓರೆ ಸ್ಮೈಲು
+YHdR97GVTsM|Yaami Yaami|Navagraha|2008||mass||ಯಾಮಿ ಯಾಮಿ
+pq3khuj-Mhg|Mugiyada Kavithe Neenu|Inthi Ninna Preethiya|2008||melody||ಮುಗಿಯದ ಕವಿತೆ ನೀನು
+MY0kiOtannQ|Yaaro Yaaro Yaaro|Inthi Ninna Preethiya|2008||melody||ಯಾರೋ ಯಾರೋ ಯಾರೋ
+ylZZ8j9u3vw|Anuraga Aralo|Mussanje Maatu|2008||melody||ಅನುರಾಗ ಅರಳೋ
+ZdhtZ6FI81E|Akasha Bhoomi|Mussanje Maatu|2008||melody||ಆಕಾಶ ಭೂಮಿ
+PoWJbWEyAkA|Mussanje Mathali|Mussanje Maatu|2008||melody||ಮುಸ್ಸಂಜೆ ಮಾತಲಿ
+yLgQZGWqgsM|Oh Hrudaya|Mussanje Maatu|2008||dard||ಓ ಹೃದಯ
+BFDnm-7jOfg|Kaddu Kaddu Nanna Nodo|Gooli|2008||melody||ಕದ್ದು ಕದ್ದು ನನ್ನ ನೋಡೋ
+l_2VNI_k31I|Jeevana Hudukutha|Gooli|2008||dard||ಜೀವನ ಹುಡುಕುತ
+GhAdMvt44gY|Sum Sumne Yako|Gooli|2008||melody||ಸುಮ್ ಸುಮ್ನೆ ಯಾಕೋ
+GPFBNptdUHY|Dealige Dealu|Gooli|2008||mass||ಡೀಲಿಗೆ ಡೀಲು
+1kHzpsSBGN0|Haage Summane Title Track|Haage Summane|2008||melody||ಹಾಗೇ ಸುಮ್ಮನೆ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+9OXGqyBfd4Y|Hadonave|Haage Summane|2008||melody||ಹಾಡೋಣವೇ
+BmnBEIs-Tps|Na Yenu Nambodilla|Haage Summane|2008||melody||ನಾ ಏನು ನಂಬೋದಿಲ್ಲ
+InkEL8OOcRw|Odi Bandenu|Haage Summane|2008||melody||ಓಡಿ ಬಂದೆನು
+Mk_NU-94A0k|Oorella Koogi|Haage Summane|2008||melody||ಊರೆಲ್ಲ ಕೂಗಿ
+vr4d28rycmc|Kushiyagide|Taj Mahal|2008||melody||ಖುಷಿಯಾಗಿದೆ
+mKMyEz00Y2c|Kolluvudaadare|Taj Mahal|2008||dard||ಕೊಲ್ಲುವುದಾದರೆ
+woDnfFHo_1k|Rama Sri Rama|Sathya In Love|2008||melody,classic||ರಾಮ ಶ್ರೀ ರಾಮ
+sqZOoZ2A86o|Nodalavalu Lovely|Sathya In Love|2008||melody||ನೋಡಲವಳು ಲವ್ಲಿ
+DjZPFAT8G8c|Banda Kole Basava|Sathya In Love|2008||folk||ಬಂದ ಕೋಲೆ ಬಸವ
+bccZIXXCWf4|Gello Gello Thamma|Sathya In Love|2008||mass||ಗೆಲ್ಲೋ ಗೆಲ್ಲೋ ತಮ್ಮ
+9ibafw6jO-8|Omme Helalaareya|Sathya In Love|2008||melody||ಒಮ್ಮೆ ಹೇಳಲಾರೆಯಾ
+YCxCAKgtaiU|Banda Bandaa|Sathya In Love|2008||mass||ಬಂದ ಬಂದಾ
+rpVfuCx7Eb4|Romaanchana|Sathya In Love|2008||melody||ರೋಮಾಂಚನ
+wgGWH-jIECc|Tara Tara Onthara|Bindaas|2008||melody||ತರ ತರ ಒಂಥರಾ
+M2MvZ9hQv8o|Nalle Nalle|Bindaas|2008||melody||ನಲ್ಲೆ ನಲ್ಲೆ
+u5NjPbwgE_I|Bengaluru Mangaluru|Bindaas|2008||mass||ಬೆಂಗಳೂರು ಮಂಗಳೂರು
+HfDQhLcmXBQ|Kallu Mama|Bindaas|2008||mass||ಕಳ್ಳು ಮಾಮ
+z0-2EzuTAA0|Bhuvanam Gaganam|Vamshi|2008||melody||ಭುವನಂ ಗಗನಂ
+5LHooDB-P4w|Yenaitho Idenaytho|Vamshi|2008||melody||ಏನಾಯ್ತೋ ಇದೇನಾಯ್ತೋ
+hdBCzQC2Pps|Jothe Jotheyali|Vamshi|2008||melody||ಜೊತೆ ಜೊತೆಯಲಿ
+ArDAYyXQu2Q|Amalu Amalu|Vamshi|2008||mass||ಅಮಲು ಅಮಲು
+XqUJrywa_Kk|Mayagathi Ningavva|Vamshi|2008||folk||ಮಾಯಗಾತಿ ನಿಂಗವ್ವ
+gMPxZm_H8NU|Neenendare Nannage|Raam|2009||melody||ನೀನೆಂದರೆ ನನಗೆ
+Zef7E7xyi4g|Dum Dholu Bajare|Raam|2009||mass||ಡಮ್ ಢೋಲು ಬಜಾರೆ
+eVXpuMtSohk|Hosa Gaana Bajaana|Raam|2009||mass||ಹೊಸ ಗಾನ ಬಜಾನ
+YUDXUvHW-xg|Nanna Tuttiyalli|Raam|2009||melody||ನನ್ನ ತುಟ್ಟಿಯಲ್ಲಿ
+9oVJZBlfHdE|Le Le Ammana Magale|Raam|2009||mass||ಲೇ ಲೇ ಅಮ್ಮನ ಮಗಳೇ
+FJhwmzHJq-0|Ready Ready|Raam|2009||mass||ರೆಡಿ ರೆಡಿ
+IOjVYwd-EII|Maleyali Jotheyali Title Song|Maleyali Jotheyali|2009||melody||ಮಳೆಯಲಿ ಜೊತೆಯಲಿ ಶೀರ್ಷಿಕೆ ಗೀತೆ
+PDw0n7Ltz-g|Yaare Ninna Mummy|Maleyali Jotheyali|2009||mass||ಯಾರೇ ನಿನ್ನ ಮಮ್ಮಿ
+VooWOPCDTS4|Halad Heartalli|Maleyali Jotheyali|2009||melody||ಹಳದ್ ಹಾರ್ಟಲ್ಲಿ
+8nsxHEiW7Lg|Hoovina Baanadante|Birugaali|2009||melody||ಹೂವಿನ ಬಾಣದಂತೆ
+nsVTVikFCOA|Madhura Pisumatige|Birugaali|2009||melody||ಮಧುರ ಪಿಸುಮಾತಿಗೆ
+YxvLjnwKoso|Helbide Helbide|Birugaali|2009||melody||ಹೇಳ್ಬಿಡೆ ಹೇಳ್ಬಿಡೆ
+zUmDdCyp-6U|Idu Nanna Kathe|Birugaali|2009||dard||ಇದು ನನ್ನ ಕಥೆ
+KqOrRwsFrkU|Amma Amma|Birugaali|2009||dard||ಅಮ್ಮ ಅಮ್ಮ
+qSEj997Xmv4|Jo Jo Laali|Birugaali|2009||melody||ಜೋ ಜೋ ಲಾಲಿ
+mbFBE3Esfk8|Macchi Sacchi|Birugaali|2009||mass||ಮಚ್ಚಿ ಸಚ್ಚಿ
+dntbpLQ9Fx0|Yaako Kaane Kalla|Ambari|2009||melody||ಯಾಕೋ ಕಾಣೆ ಕಳ್ಳ
+vmXedILQqv8|Ele Kenchi Thaare|Ambari|2009||melody||ಎಲೆ ಕೆಂಚಿ ತಾರೆ
+rSJvO2x6h84|Nee Sokalu|Ambari|2009||melody||ನೀ ಸೋಕಲು
+uTOwN3UQzXs|Marali Mareyagi|Savaari|2009||melody||ಮರಳಿ ಮರೆಯಾಗಿ
+iZSeO8rI_Ig|Ale Ale Aleyo|Savaari|2009||melody||ಅಲೆ ಅಲೆ ಅಲೆಯೋ
+YrWz-dmn7k0|Bisilu Thaagi|Savaari|2009||melody||ಬಿಸಿಲು ತಾಗಿ
+fUHhoCLM6K0|Rhythm Ide|Savaari|2009||mass||ರಿದಮ್ ಇದೆ
+owcMOh7z9js|Poli Putta|Savaari|2009||mass||ಪೋಲಿ ಪುಟ್ಟ
